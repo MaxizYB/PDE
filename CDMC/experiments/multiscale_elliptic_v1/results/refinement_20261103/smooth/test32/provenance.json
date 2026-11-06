@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "stage": "evaluate",
+    "data": "baselines/data/multiscale_elliptic_v1/generated/suite129_smooth_20261103",
+    "no_dir": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/smooth/fno_h1",
+    "out": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/smooth/test32",
+    "initialize": null,
+    "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/smooth/dictionary64/model.pt",
+    "reference": null,
+    "rank": 64,
+    "width": 16,
+    "linear": false,
+    "pre": 64,
+    "post": 8,
+    "cycles": 2,
+    "epochs": 30,
+    "lr": 0.0003,
+    "train_count": 48,
+    "val_count": 12,
+    "split": "test",
+    "count": 32,
+    "repeats": 3,
+    "seed": 20261103,
+    "device": "cuda"
+  },
+  "script_sha256": "5206d6e7c5e1ef3b29b1884c6bf545601d4d7aaf0ea157936fcc6d8b4f921c7c"
+}

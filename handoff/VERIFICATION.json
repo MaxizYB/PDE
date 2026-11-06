@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-06",
+  "passed": true,
+  "copied_files_checked": 904,
+  "copied_bytes": 67087008,
+  "source_hashes_checked": true,
+  "credential_values_checked": true,
+  "redacted_files": [
+    "AGENTS.md"
+  ],
+  "python_files_syntax_checked": 100,
+  "local_checkpoints": [
+    "CDMC/experiments/multiscale_elliptic_v1/results/extension_20261103/loss_rms4/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/extension_20261103/matched_linear/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/extension_20261103/matched_nonlinear/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/balanced128_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/direct128_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/direct64_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/rough/dictionary64/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/smooth/dictionary64/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/symmetric64_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/rough/frame_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/rough/normal_balanced/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/rough/normal_fast/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/rough/normal_full/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/rough/normal_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/rough/static_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/frame_smoke/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/frame_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/normal_balanced/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/normal_fast/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/normal_full/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/normal_train/model.pt",
+    "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/static_train/model.pt"
+  ],
+  "key_assets": [
+    {
+      "name": "smooth FNO",
+      "path": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/smooth/fno_h1/no.pt",
+      "included": false,
+      "use_server_original_if_missing": true
+    },
+    {
+      "name": "rough FNO",
+      "path": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/rough/fno_h1/no.pt",
+      "included": false,
+      "use_server_original_if_missing": true
+    },
+    {
+      "name": "smooth HINTS/TB",
+      "path": "CDMC/experiments/multiscale_elliptic_v1/results/hints_20261104/smooth/model.pt",
+      "included": false,
+      "use_server_original_if_missing": true
+    },
+    {
+      "name": "rough HINTS/TB",
+      "path": "CDMC/experiments/multiscale_elliptic_v1/results/hints_20261104/rough/model.pt",
+      "included": false,
+      "use_server_original_if_missing": true
+    },
+    {
+      "name": "CDMC128",
+      "path": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/balanced128_train/model.pt",
+      "included": true,
+      "use_server_original_if_missing": true
+    },
+    {
+      "name": "smooth frame",
+      "path": "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/normal_full/model.pt",
+      "included": true,
+      "use_server_original_if_missing": true
+    },
+    {
+      "name": "rough frame",
+      "path": "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/rough/normal_full/model.pt",
+      "included": true,
+      "use_server_original_if_missing": true
+    }
+  ],
+  "errors": [],
+  "scope": "Integrity and syntax only; not a GPU training or performance verification"
+}

@@ -1,0 +1,15 @@
+/data1/caohuilin/Graph/CDMC/experiments/v2/solver/numerics.py:16: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(
+{"epoch": 1, "train_relative_fluctuation": 0.9185211136937141, "val_relative_fluctuation": 0.8402026891708374, "elapsed_s": 0.9957201471552253}
+{"epoch": 10, "train_relative_fluctuation": 0.2105663064867258, "val_relative_fluctuation": 0.20449835062026978, "elapsed_s": 2.835326411295682}
+{"epoch": 20, "train_relative_fluctuation": 0.09385863272473216, "val_relative_fluctuation": 0.1178438663482666, "elapsed_s": 4.787740622181445}
+{"epoch": 30, "train_relative_fluctuation": 0.05876589682884514, "val_relative_fluctuation": 0.09627393633127213, "elapsed_s": 7.040918482001871}
+{"epoch": 40, "train_relative_fluctuation": 0.047514636535197496, "val_relative_fluctuation": 0.09060531854629517, "elapsed_s": 8.971071070060134}
+{"epoch": 50, "train_relative_fluctuation": 0.04444714984856546, "val_relative_fluctuation": 0.0853094607591629, "elapsed_s": 10.171329652890563}
+{"epoch": 60, "train_relative_fluctuation": 0.03469499642960727, "val_relative_fluctuation": 0.08122291415929794, "elapsed_s": 12.355053798295557}
+{"epoch": 70, "train_relative_fluctuation": 0.028000781312584877, "val_relative_fluctuation": 0.07937861979007721, "elapsed_s": 14.538406583014876}
+{"epoch": 80, "train_relative_fluctuation": 0.026444330578669906, "val_relative_fluctuation": 0.0780373141169548, "elapsed_s": 16.740650489926338}
+{"epoch": 90, "train_relative_fluctuation": 0.024005779880099, "val_relative_fluctuation": 0.07677362114191055, "elapsed_s": 18.973976080305874}
+{"epoch": 100, "train_relative_fluctuation": 0.02292021329049021, "val_relative_fluctuation": 0.07634308934211731, "elapsed_s": 21.120782954152673}
+{"epoch": 110, "train_relative_fluctuation": 0.022357885260134935, "val_relative_fluctuation": 0.0762479305267334, "elapsed_s": 23.358564149122685}
+{"epoch": 120, "train_relative_fluctuation": 0.022214046446606517, "val_relative_fluctuation": 0.07619740068912506, "elapsed_s": 25.713742307852954}

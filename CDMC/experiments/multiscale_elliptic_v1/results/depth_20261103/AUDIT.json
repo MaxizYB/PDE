@@ -1,0 +1,18 @@
+{
+  "main_samples": 32,
+  "control_samples": 32,
+  "mechanism_samples": 8,
+  "transfer_cases": 72,
+  "max_reference_residual": 1.9921999689049762e-11,
+  "finite_metrics": true,
+  "matched_test_indices": true,
+  "interpretation": "Exploratory single-seed research; repeated timing is not repeated training. All raw comparisons remain available.",
+  "cold_mesh_plan_ms": 11231.426960788667,
+  "cold_assembly_positions_ms": 1503.737912978977,
+  "metadata_correction": "In test32 and controls_test32, mesh_plan_ms_once originally records only attachment to a shared plan. Use cold_plan_audit for the true cold mesh plan. E2E online timings are unaffected. The source now records the original base plan and attachment separately.",
+  "matched_spectral_materials": 4,
+  "matched_actual_energy_capture": {
+    "learned": 0.7770309061024918,
+    "fixed_sine": 0.0855605860992146
+  }
+}

@@ -1,0 +1,18 @@
+/data1/caohuilin/Graph/CDMC/experiments/v2/solver/numerics.py:16: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(
+{"index": 0, "values": {"DCNO": 2.700085, "filter_only_K2": 0.392467, "dictionary_K1": 0.060146, "dictionary_K2": 0.001857, "dictionary_K4": 0.000383, "dictionary_D2_K2": 0.001555, "dictionary_D4_K2": 0.001467}}
+{"index": 1, "values": {"DCNO": 1.23244, "filter_only_K2": 0.312076, "dictionary_K1": 0.06964, "dictionary_K2": 0.003913, "dictionary_K4": 0.001084, "dictionary_D2_K2": 0.003535, "dictionary_D4_K2": 0.003251}}
+{"index": 2, "values": {"DCNO": 3.86483, "filter_only_K2": 1.44074, "dictionary_K1": 0.127674, "dictionary_K2": 0.004676, "dictionary_K4": 0.001729, "dictionary_D2_K2": 0.00402, "dictionary_D4_K2": 0.003801}}
+{"index": 3, "values": {"DCNO": 3.216843, "filter_only_K2": 1.056303, "dictionary_K1": 0.176635, "dictionary_K2": 0.010129, "dictionary_K4": 0.000924, "dictionary_D2_K2": 0.009352, "dictionary_D4_K2": 0.008916}}
+{"index": 4, "values": {"DCNO": 4.336882, "filter_only_K2": 1.955439, "dictionary_K1": 0.174396, "dictionary_K2": 0.007348, "dictionary_K4": 0.001515, "dictionary_D2_K2": 0.005928, "dictionary_D4_K2": 0.005211}}
+{"index": 5, "values": {"DCNO": 1.867534, "filter_only_K2": 1.032386, "dictionary_K1": 0.04738, "dictionary_K2": 0.002677, "dictionary_K4": 0.001045, "dictionary_D2_K2": 0.002362, "dictionary_D4_K2": 0.002119}}
+{"index": 6, "values": {"DCNO": 1.194962, "filter_only_K2": 0.249501, "dictionary_K1": 0.06333, "dictionary_K2": 0.007133, "dictionary_K4": 0.000452, "dictionary_D2_K2": 0.005533, "dictionary_D4_K2": 0.00454}}
+{"index": 7, "values": {"DCNO": 2.300805, "filter_only_K2": 0.562153, "dictionary_K1": 0.058084, "dictionary_K2": 0.002351, "dictionary_K4": 0.001021, "dictionary_D2_K2": 0.002212, "dictionary_D4_K2": 0.002029}}
+{"index": 8, "values": {"DCNO": 2.373268, "filter_only_K2": 0.56979, "dictionary_K1": 0.193814, "dictionary_K2": 0.013655, "dictionary_K4": 0.000492, "dictionary_D2_K2": 0.012343, "dictionary_D4_K2": 0.011544}}
+{"index": 9, "values": {"DCNO": 1.437801, "filter_only_K2": 0.305552, "dictionary_K1": 0.050491, "dictionary_K2": 0.002724, "dictionary_K4": 0.000448, "dictionary_D2_K2": 0.00254, "dictionary_D4_K2": 0.002323}}
+{"index": 10, "values": {"DCNO": 5.463772, "filter_only_K2": 3.206489, "dictionary_K1": 0.285456, "dictionary_K2": 0.028314, "dictionary_K4": 0.001689, "dictionary_D2_K2": 0.022728, "dictionary_D4_K2": 0.019222}}
+{"index": 11, "values": {"DCNO": 2.030676, "filter_only_K2": 0.638735, "dictionary_K1": 0.085394, "dictionary_K2": 0.006636, "dictionary_K4": 0.001591, "dictionary_D2_K2": 0.005904, "dictionary_D4_K2": 0.00545}}
+{"index": 12, "values": {"DCNO": 1.338724, "filter_only_K2": 0.266969, "dictionary_K1": 0.078563, "dictionary_K2": 0.00997, "dictionary_K4": 0.00057, "dictionary_D2_K2": 0.008035, "dictionary_D4_K2": 0.006642}}
+{"index": 13, "values": {"DCNO": 1.450997, "filter_only_K2": 0.092005, "dictionary_K1": 0.014406, "dictionary_K2": 0.000595, "dictionary_K4": 0.000253, "dictionary_D2_K2": 0.000501, "dictionary_D4_K2": 0.000478}}
+{"index": 14, "values": {"DCNO": 1.837182, "filter_only_K2": 0.278629, "dictionary_K1": 0.020104, "dictionary_K2": 0.000962, "dictionary_K4": 0.000192, "dictionary_D2_K2": 0.000839, "dictionary_D4_K2": 0.000784}}
+{"index": 15, "values": {"DCNO": 4.36068, "filter_only_K2": 1.975749, "dictionary_K1": 0.552357, "dictionary_K2": 0.027893, "dictionary_K4": 0.000549, "dictionary_D2_K2": 0.024991, "dictionary_D4_K2": 0.02298}}

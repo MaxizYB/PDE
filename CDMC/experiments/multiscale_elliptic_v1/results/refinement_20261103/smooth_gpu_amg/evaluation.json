@@ -1,0 +1,796 @@
+{
+  "summary": {
+    "NO_GPU_AMG_K1": {
+      "L2_percent": {
+        "mean": 0.23323884769762254,
+        "p95": 0.4296139116874228,
+        "median": 0.20354245491850143
+      },
+      "gradient_percent": {
+        "mean": 0.9016918444459092,
+        "p95": 1.4995097593997513,
+        "median": 0.7987945581929625
+      },
+      "energy_percent": {
+        "mean": 0.9527889935620364,
+        "p95": 1.541091374503037,
+        "median": 0.8474596784922128
+      },
+      "flux_L2_percent": {
+        "mean": 0.9849749448486306,
+        "p95": 1.6053730715415018,
+        "median": 0.8922843929392678
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 85.94935421511589,
+        "p95": 93.62975947825441,
+        "median": 88.83079043052457
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 13.331428483387711,
+        "p95": 26.273671385075932,
+        "median": 10.573297250164684
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.7192173014963996,
+        "p95": 1.7083905693754655,
+        "median": 0.5206522757426647
+      },
+      "total_ms": {
+        "mean": 20.783957123057917,
+        "p95": 23.954717558808625,
+        "median": 20.5150474794209
+      }
+    },
+    "NO_GPU_AMG_K2": {
+      "L2_percent": {
+        "mean": 0.06135185032263103,
+        "p95": 0.12218115358669261,
+        "median": 0.05365085830911274
+      },
+      "gradient_percent": {
+        "mean": 0.19281442152328232,
+        "p95": 0.36419735718429297,
+        "median": 0.18655849877796393
+      },
+      "energy_percent": {
+        "mean": 0.19002558032529904,
+        "p95": 0.34269128060685616,
+        "median": 0.1826295568959691
+      },
+      "flux_L2_percent": {
+        "mean": 0.18412858584446756,
+        "p95": 0.31635211530735396,
+        "median": 0.17694316417485056
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 89.16026662011706,
+        "p95": 95.81253608282546,
+        "median": 90.53759927033883
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 10.67352342871478,
+        "p95": 21.14699334389008,
+        "median": 9.303446146138983
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.16620995116816467,
+        "p95": 0.3782690036070688,
+        "median": 0.1239755018291758
+      },
+      "total_ms": {
+        "mean": 22.094542102422565,
+        "p95": 24.657116155140102,
+        "median": 21.81356493383646
+      },
+      "cached_apply_ms": {
+        "mean": 2.6537709054537117,
+        "p95": 2.749738865531981,
+        "median": 2.627359936013818
+      },
+      "setup_ms_once": {
+        "mean": 16.295331763103604,
+        "p95": 18.577098613604903,
+        "median": 15.94966184347868
+      }
+    },
+    "NO_GPU_AMG_K4": {
+      "L2_percent": {
+        "mean": 0.006878837211477965,
+        "p95": 0.01592020286591475,
+        "median": 0.004550372569994609
+      },
+      "gradient_percent": {
+        "mean": 0.018950801463969803,
+        "p95": 0.03912514256822429,
+        "median": 0.018535044686444888
+      },
+      "energy_percent": {
+        "mean": 0.01780233463454587,
+        "p95": 0.03460453251222535,
+        "median": 0.017012985287384874
+      },
+      "flux_L2_percent": {
+        "mean": 0.016231851071649213,
+        "p95": 0.031152260218755466,
+        "median": 0.015357571282858105
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 91.0358326357673,
+        "p95": 96.9614911409605,
+        "median": 93.67521709251804
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 8.906238850637077,
+        "p95": 19.925410452601774,
+        "median": 6.285117724436671
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.05792851359561542,
+        "p95": 0.12634191214952248,
+        "median": 0.04501660505849123
+      },
+      "total_ms": {
+        "mean": 24.872675858205184,
+        "p95": 28.434531530365348,
+        "median": 24.55477206967771
+      },
+      "cached_apply_ms": {
+        "mean": 5.164718808373436,
+        "p95": 5.302495905198157,
+        "median": 5.17589901573956
+      },
+      "setup_ms_once": {
+        "mean": 16.295331763103604,
+        "p95": 18.577098613604903,
+        "median": 15.94966184347868
+      }
+    }
+  },
+  "samples": [
+    {
+      "index": 0,
+      "operator_complexity": 1.8594678654738177,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.36860404342934766,
+          "gradient_percent": 1.5440190126353195,
+          "energy_percent": 1.6457103124717127,
+          "flux_L2_percent": 1.727373792672094,
+          "error_sine_low_fraction_percent": 86.67308598528305,
+          "error_sine_mid_fraction_percent": 12.957420738891607,
+          "error_sine_high_fraction_percent": 0.36949327582536884,
+          "total_ms": 23.62305298447609
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.1071560394867575,
+          "gradient_percent": 0.3757536509772381,
+          "energy_percent": 0.37872053562704583,
+          "flux_L2_percent": 0.37433350101705065,
+          "error_sine_low_fraction_percent": 90.45089802977085,
+          "error_sine_mid_fraction_percent": 9.44139341065461,
+          "error_sine_high_fraction_percent": 0.10770855957451934,
+          "total_ms": 21.682357881218195,
+          "cached_apply_ms": 2.710036002099514,
+          "setup_ms_once": 17.682054080069065
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.010153756455789345,
+          "gradient_percent": 0.03152422170553965,
+          "energy_percent": 0.03113792320998519,
+          "flux_L2_percent": 0.030007152537786557,
+          "error_sine_low_fraction_percent": 92.58804616684412,
+          "error_sine_mid_fraction_percent": 7.350359463573022,
+          "error_sine_high_fraction_percent": 0.06159436958282012,
+          "total_ms": 24.31441191583872,
+          "cached_apply_ms": 5.247429944574833,
+          "setup_ms_once": 17.682054080069065
+        }
+      }
+    },
+    {
+      "index": 1,
+      "operator_complexity": 1.8572603204962062,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.10084731376272535,
+          "gradient_percent": 0.6396126951396569,
+          "energy_percent": 0.6733611928239854,
+          "flux_L2_percent": 0.6803787607320083,
+          "error_sine_low_fraction_percent": 72.2403435591363,
+          "error_sine_mid_fraction_percent": 26.070162223296347,
+          "error_sine_high_fraction_percent": 1.6894942175673433,
+          "total_ms": 20.65015397965908
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.022844035836691697,
+          "gradient_percent": 0.10594848842405466,
+          "energy_percent": 0.10134415326734214,
+          "flux_L2_percent": 0.09495747232955037,
+          "error_sine_low_fraction_percent": 80.5456294998707,
+          "error_sine_mid_fraction_percent": 19.104029061885743,
+          "error_sine_high_fraction_percent": 0.35034143824354386,
+          "total_ms": 29.16190680116415,
+          "cached_apply_ms": 2.6026437990367413,
+          "setup_ms_once": 21.262232214212418
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.0018384505093775804,
+          "gradient_percent": 0.007334780726185354,
+          "energy_percent": 0.0064566163364322545,
+          "flux_L2_percent": 0.005536822591809469,
+          "error_sine_low_fraction_percent": 83.95972603459978,
+          "error_sine_mid_fraction_percent": 15.945527055962517,
+          "error_sine_high_fraction_percent": 0.09474690943769776,
+          "total_ms": 32.65457320958376,
+          "cached_apply_ms": 5.0469269044697285,
+          "setup_ms_once": 21.262232214212418
+        }
+      }
+    },
+    {
+      "index": 2,
+      "operator_complexity": 1.8598611123524207,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.20958883602174125,
+          "gradient_percent": 0.804043592508618,
+          "energy_percent": 0.8177917349745051,
+          "flux_L2_percent": 0.8155324479765717,
+          "error_sine_low_fraction_percent": 88.1063833703173,
+          "error_sine_mid_fraction_percent": 11.429841700769192,
+          "error_sine_high_fraction_percent": 0.46377492891348604,
+          "total_ms": 24.94971128180623
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.07908866981152905,
+          "gradient_percent": 0.23416477926889975,
+          "energy_percent": 0.21238913669805992,
+          "flux_L2_percent": 0.17988026655393033,
+          "error_sine_low_fraction_percent": 93.09414059537607,
+          "error_sine_mid_fraction_percent": 6.831348203199446,
+          "error_sine_high_fraction_percent": 0.07451120142447289,
+          "total_ms": 23.098616860806942,
+          "cached_apply_ms": 2.6208749040961266,
+          "setup_ms_once": 15.234752092510462
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.015644252104251966,
+          "gradient_percent": 0.03847249714093372,
+          "energy_percent": 0.03346014031583889,
+          "flux_L2_percent": 0.025951169999374073,
+          "error_sine_low_fraction_percent": 96.65072051095981,
+          "error_sine_mid_fraction_percent": 3.3274330455698236,
+          "error_sine_high_fraction_percent": 0.021846443470358242,
+          "total_ms": 22.950385231524706,
+          "cached_apply_ms": 5.124678369611502,
+          "setup_ms_once": 15.234752092510462
+        }
+      }
+    },
+    {
+      "index": 3,
+      "operator_complexity": 1.8605492943899757,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.3091194173588223,
+          "gradient_percent": 1.0544634774981325,
+          "energy_percent": 1.0481683606419283,
+          "flux_L2_percent": 1.0293034918632293,
+          "error_sine_low_fraction_percent": 89.04807107399883,
+          "error_sine_mid_fraction_percent": 10.598811385476097,
+          "error_sine_high_fraction_percent": 0.35311754052506994,
+          "total_ms": 19.929645117372274
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.05969925722651779,
+          "gradient_percent": 0.20503523132649626,
+          "energy_percent": 0.18788087357596547,
+          "flux_L2_percent": 0.1740060617957708,
+          "error_sine_low_fraction_percent": 86.85591930310066,
+          "error_sine_mid_fraction_percent": 12.992864039500478,
+          "error_sine_high_fraction_percent": 0.1512166573988561,
+          "total_ms": 20.77618520706892,
+          "cached_apply_ms": 2.5987839326262474,
+          "setup_ms_once": 15.64121711999178
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.004037502451111174,
+          "gradient_percent": 0.016485533545316115,
+          "energy_percent": 0.01425377907117274,
+          "flux_L2_percent": 0.01246363918961367,
+          "error_sine_low_fraction_percent": 81.64787730676738,
+          "error_sine_mid_fraction_percent": 18.189668930194507,
+          "error_sine_high_fraction_percent": 0.16245376303809048,
+          "total_ms": 25.584138929843903,
+          "cached_apply_ms": 5.122177768498659,
+          "setup_ms_once": 15.64121711999178
+        }
+      }
+    },
+    {
+      "index": 4,
+      "operator_complexity": 1.8582434376927133,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.2620889143971589,
+          "gradient_percent": 0.793545523877307,
+          "energy_percent": 0.8479848161540509,
+          "flux_L2_percent": 0.89773331818892,
+          "error_sine_low_fraction_percent": 95.24250057825493,
+          "error_sine_mid_fraction_percent": 4.4710176657665714,
+          "error_sine_high_fraction_percent": 0.2864817559785029,
+          "total_ms": 19.387947861105204
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.0769423962864911,
+          "gradient_percent": 0.19625612378910323,
+          "energy_percent": 0.19823474630866833,
+          "flux_L2_percent": 0.19763237196788264,
+          "error_sine_low_fraction_percent": 96.6981523512162,
+          "error_sine_mid_fraction_percent": 3.2513848219557455,
+          "error_sine_high_fraction_percent": 0.050462826828054856,
+          "total_ms": 20.535381976515055,
+          "cached_apply_ms": 2.6428550481796265,
+          "setup_ms_once": 16.06626296415925
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.009273468517028094,
+          "gradient_percent": 0.02247292609014403,
+          "energy_percent": 0.02245985324145901,
+          "flux_L2_percent": 0.02201529206332958,
+          "error_sine_low_fraction_percent": 97.64963013577464,
+          "error_sine_mid_fraction_percent": 2.3288536245093914,
+          "error_sine_high_fraction_percent": 0.021516239715936355,
+          "total_ms": 23.14958767965436,
+          "cached_apply_ms": 5.1047480665147305,
+          "setup_ms_once": 16.06626296415925
+        }
+      }
+    },
+    {
+      "index": 5,
+      "operator_complexity": 1.859825362636184,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.17589789759161686,
+          "gradient_percent": 0.8973392948389407,
+          "energy_percent": 0.9930702399038439,
+          "flux_L2_percent": 1.0795792421229407,
+          "error_sine_low_fraction_percent": 72.48905270789963,
+          "error_sine_mid_fraction_percent": 26.884198870414686,
+          "error_sine_high_fraction_percent": 0.6267484216856998,
+          "total_ms": 19.732031971216202
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.033953845703819104,
+          "gradient_percent": 0.1640597792104623,
+          "energy_percent": 0.17521122081990906,
+          "flux_L2_percent": 0.1851606819261804,
+          "error_sine_low_fraction_percent": 72.48929620028346,
+          "error_sine_mid_fraction_percent": 27.27588618990309,
+          "error_sine_high_fraction_percent": 0.2348176098134634,
+          "total_ms": 20.30620025470853,
+          "cached_apply_ms": 2.5923452340066433,
+          "setup_ms_once": 15.24010207504034
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.0019309412733898102,
+          "gradient_percent": 0.00810373451510495,
+          "energy_percent": 0.008613528038154612,
+          "flux_L2_percent": 0.009083229258544927,
+          "error_sine_low_fraction_percent": 79.94183087076463,
+          "error_sine_mid_fraction_percent": 19.97537152831573,
+          "error_sine_high_fraction_percent": 0.08279760091965274,
+          "total_ms": 23.07699667289853,
+          "cached_apply_ms": 5.064117722213268,
+          "setup_ms_once": 15.24010207504034
+        }
+      }
+    },
+    {
+      "index": 6,
+      "operator_complexity": 1.8584847482773106,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.16792204383001366,
+          "gradient_percent": 0.6109198171086269,
+          "energy_percent": 0.6944120927259665,
+          "flux_L2_percent": 0.7489082645437806,
+          "error_sine_low_fraction_percent": 90.72543200769762,
+          "error_sine_mid_fraction_percent": 8.670377411975632,
+          "error_sine_high_fraction_percent": 0.6041905803267303,
+          "total_ms": 18.905100878328085
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.039184276425433893,
+          "gradient_percent": 0.11263893493751331,
+          "energy_percent": 0.1286396195639666,
+          "flux_L2_percent": 0.13941003208282174,
+          "error_sine_low_fraction_percent": 93.6993415140598,
+          "error_sine_mid_fraction_percent": 6.184273405343184,
+          "error_sine_high_fraction_percent": 0.11638508059700399,
+          "total_ms": 20.363271236419678,
+          "cached_apply_ms": 2.6184041053056717,
+          "setup_ms_once": 14.89710807800293
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.003476164718078002,
+          "gradient_percent": 0.00931577333617892,
+          "energy_percent": 0.010872785214695637,
+          "flux_L2_percent": 0.01192605708420264,
+          "error_sine_low_fraction_percent": 94.76238801819197,
+          "error_sine_mid_fraction_percent": 5.2198759853003205,
+          "error_sine_high_fraction_percent": 0.017735996507727662,
+          "total_ms": 22.604479920119047,
+          "cached_apply_ms": 5.212209187448025,
+          "setup_ms_once": 14.89710807800293
+        }
+      }
+    },
+    {
+      "index": 7,
+      "operator_complexity": 1.8557856447014451,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.2770475196793682,
+          "gradient_percent": 0.8945133001256633,
+          "energy_percent": 1.0118877402582138,
+          "flux_L2_percent": 1.0977431661165626,
+          "error_sine_low_fraction_percent": 93.09217911158757,
+          "error_sine_mid_fraction_percent": 6.603532581713188,
+          "error_sine_high_fraction_percent": 0.30428830669925044,
+          "total_ms": 20.37994097918272
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.08340746456637733,
+          "gradient_percent": 0.21443175541243845,
+          "energy_percent": 0.22269098357236955,
+          "flux_L2_percent": 0.22602733491363364,
+          "error_sine_low_fraction_percent": 95.51733066002855,
+          "error_sine_mid_fraction_percent": 4.436685763841785,
+          "error_sine_high_fraction_percent": 0.04598357612966852,
+          "total_ms": 21.499386057257652,
+          "cached_apply_ms": 2.633844967931509,
+          "setup_ms_once": 15.821321401745081
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.01113490354980598,
+          "gradient_percent": 0.027353053161480543,
+          "energy_percent": 0.025483541263817976,
+          "flux_L2_percent": 0.02285488393990238,
+          "error_sine_low_fraction_percent": 96.73211147602245,
+          "error_sine_mid_fraction_percent": 3.244658052681126,
+          "error_sine_high_fraction_percent": 0.02323047129638714,
+          "total_ms": 24.109970778226852,
+          "cached_apply_ms": 5.177458748221397,
+          "setup_ms_once": 15.821321401745081
+        }
+      }
+    },
+    {
+      "index": 8,
+      "operator_complexity": 1.8610051032719928,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.24481574522906374,
+          "gradient_percent": 0.8964692208747997,
+          "energy_percent": 0.9261413864184073,
+          "flux_L2_percent": 0.9322045812402572,
+          "error_sine_low_fraction_percent": 89.77183077175182,
+          "error_sine_mid_fraction_percent": 9.791035689877365,
+          "error_sine_high_fraction_percent": 0.43713353837083707,
+          "total_ms": 20.651944912970066
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.0752921056480845,
+          "gradient_percent": 0.21894788966471268,
+          "energy_percent": 0.20244970226151368,
+          "flux_L2_percent": 0.1855102839300419,
+          "error_sine_low_fraction_percent": 92.73492357518425,
+          "error_sine_mid_fraction_percent": 7.201708260747495,
+          "error_sine_high_fraction_percent": 0.06336816406824516,
+          "total_ms": 22.811712697148323,
+          "cached_apply_ms": 2.7260971255600452,
+          "setup_ms_once": 15.833060722798109
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.009855825634506588,
+          "gradient_percent": 0.025313134691641766,
+          "energy_percent": 0.02185814500563378,
+          "flux_L2_percent": 0.01844773686088817,
+          "error_sine_low_fraction_percent": 94.79422547094129,
+          "error_sine_mid_fraction_percent": 5.169168982878111,
+          "error_sine_high_fraction_percent": 0.03660554618060821,
+          "total_ms": 25.512779597193003,
+          "cached_apply_ms": 5.296480841934681,
+          "setup_ms_once": 15.833060722798109
+        }
+      }
+    },
+    {
+      "index": 9,
+      "operator_complexity": 1.863632707415385,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.19399500370504147,
+          "gradient_percent": 0.78099152283602,
+          "energy_percent": 0.8469345408303747,
+          "flux_L2_percent": 0.8868354676896155,
+          "error_sine_low_fraction_percent": 88.7808218829357,
+          "error_sine_mid_fraction_percent": 10.54778311485327,
+          "error_sine_high_fraction_percent": 0.6713950022110067,
+          "total_ms": 20.694654900580645
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.04760245939170769,
+          "gradient_percent": 0.17686087376682463,
+          "energy_percent": 0.17737824021597273,
+          "flux_L2_percent": 0.1724912009538008,
+          "error_sine_low_fraction_percent": 86.69074370077496,
+          "error_sine_mid_fraction_percent": 13.177690376163687,
+          "error_sine_high_fraction_percent": 0.13156592306134762,
+          "total_ms": 21.944771986454725,
+          "cached_apply_ms": 2.744026016443968,
+          "setup_ms_once": 16.813473775982857
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.004841963584668022,
+          "gradient_percent": 0.020584555827573663,
+          "energy_percent": 0.01977219150359701,
+          "flux_L2_percent": 0.01825150337610254,
+          "error_sine_low_fraction_percent": 80.01058550602941,
+          "error_sine_mid_fraction_percent": 19.90875676069712,
+          "error_sine_high_fraction_percent": 0.08065773327346994,
+          "total_ms": 25.016753003001213,
+          "cached_apply_ms": 5.135268904268742,
+          "setup_ms_once": 16.813473775982857
+        }
+      }
+    },
+    {
+      "index": 10,
+      "operator_complexity": 1.8586456220003753,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.47599834868296564,
+          "gradient_percent": 1.427408382115771,
+          "energy_percent": 1.506218395180145,
+          "flux_L2_percent": 1.564706164497971,
+          "error_sine_low_fraction_percent": 92.86490545707501,
+          "error_sine_mid_fraction_percent": 6.907386279504882,
+          "error_sine_high_fraction_percent": 0.2277082634200905,
+          "total_ms": 21.63104759529233
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.1205304843705159,
+          "gradient_percent": 0.30445317230452623,
+          "energy_percent": 0.3019927703842947,
+          "flux_L2_percent": 0.29623315120130345,
+          "error_sine_low_fraction_percent": 95.05478377784597,
+          "error_sine_mid_fraction_percent": 4.889888605974641,
+          "error_sine_high_fraction_percent": 0.055327616179365845,
+          "total_ms": 23.155519273132086,
+          "cached_apply_ms": 2.697025891393423,
+          "setup_ms_once": 16.246956773102283
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.011524450530446859,
+          "gradient_percent": 0.026055021419319105,
+          "energy_percent": 0.02523700546462874,
+          "flux_L2_percent": 0.023966668014213734,
+          "error_sine_low_fraction_percent": 96.26896125476134,
+          "error_sine_mid_fraction_percent": 3.704506384670782,
+          "error_sine_high_fraction_percent": 0.026532360567908767,
+          "total_ms": 24.953032843768597,
+          "cached_apply_ms": 5.179329309612513,
+          "setup_ms_once": 16.246956773102283
+        }
+      }
+    },
+    {
+      "index": 11,
+      "operator_complexity": 1.8571173216312595,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.4141524326889085,
+          "gradient_percent": 1.4846733416545619,
+          "energy_percent": 1.411017089192683,
+          "flux_L2_percent": 1.3171938040209827,
+          "error_sine_low_fraction_percent": 89.97460479734589,
+          "error_sine_mid_fraction_percent": 9.709590238020569,
+          "error_sine_high_fraction_percent": 0.31580496463353175,
+          "total_ms": 21.141582168638706
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.12713316123522275,
+          "gradient_percent": 0.36034525925331123,
+          "energy_percent": 0.3306815289334596,
+          "flux_L2_percent": 0.2970249867374551,
+          "error_sine_low_fraction_percent": 93.95315185695564,
+          "error_sine_mid_fraction_percent": 5.957226709219048,
+          "error_sine_high_fraction_percent": 0.08962143382529951,
+          "total_ms": 22.008433006703854,
+          "cached_apply_ms": 2.612255048006773,
+          "setup_ms_once": 16.752683091908693
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.016748055150903114,
+          "gradient_percent": 0.041083078850096016,
+          "energy_percent": 0.03803770910138473,
+          "flux_L2_percent": 0.03458758326166219,
+          "error_sine_low_fraction_percent": 96.1791746310227,
+          "error_sine_mid_fraction_percent": 3.7840244115221005,
+          "error_sine_high_fraction_percent": 0.03680095745520563,
+          "total_ms": 25.05998406559229,
+          "cached_apply_ms": 5.044407211244106,
+          "setup_ms_once": 16.752683091908693
+        }
+      }
+    },
+    {
+      "index": 12,
+      "operator_complexity": 1.8591461180276883,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.1080930728054307,
+          "gradient_percent": 0.6240731804355872,
+          "energy_percent": 0.6646612222884745,
+          "flux_L2_percent": 0.6802544829333134,
+          "error_sine_low_fraction_percent": 78.83271586318513,
+          "error_sine_mid_fraction_percent": 19.402204512015018,
+          "error_sine_high_fraction_percent": 1.7650796247998326,
+          "total_ms": 21.2178030051291
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.02105147031680295,
+          "gradient_percent": 0.09521215311694169,
+          "energy_percent": 0.09477755053459383,
+          "flux_L2_percent": 0.0924786331696274,
+          "error_sine_low_fraction_percent": 81.7334221786048,
+          "error_sine_mid_fraction_percent": 17.804526121697567,
+          "error_sine_high_fraction_percent": 0.4620516996976435,
+          "total_ms": 21.953292191028595,
+          "cached_apply_ms": 2.697485964745283,
+          "setup_ms_once": 16.456658951938152
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.0013967011900764598,
+          "gradient_percent": 0.005345567962146248,
+          "energy_percent": 0.005014620141344092,
+          "flux_L2_percent": 0.004653220285882838,
+          "error_sine_low_fraction_percent": 87.21786455097038,
+          "error_sine_mid_fraction_percent": 12.667830820509604,
+          "error_sine_high_fraction_percent": 0.11430462851999983,
+          "total_ms": 24.35152418911457,
+          "cached_apply_ms": 5.3205410949885845,
+          "setup_ms_once": 16.456658951938152
+        }
+      }
+    },
+    {
+      "index": 13,
+      "operator_complexity": 1.859083556024274,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.13612904667684925,
+          "gradient_percent": 0.6621604628554807,
+          "energy_percent": 0.7268138410839884,
+          "flux_L2_percent": 0.786777357665926,
+          "error_sine_low_fraction_percent": 83.86888435956674,
+          "error_sine_mid_fraction_percent": 14.867317803404811,
+          "error_sine_high_fraction_percent": 1.2637978370284535,
+          "total_ms": 20.09809808805585
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.027629749019054413,
+          "gradient_percent": 0.10500857614511448,
+          "energy_percent": 0.10711649215168145,
+          "flux_L2_percent": 0.10832117685938743,
+          "error_sine_low_fraction_percent": 88.22813716098183,
+          "error_sine_mid_fraction_percent": 11.436854453848529,
+          "error_sine_high_fraction_percent": 0.3350083851696412,
+          "total_ms": 22.166746202856302,
+          "cached_apply_ms": 2.7668774127960205,
+          "setup_ms_once": 16.206515952944756
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.0022880465102584698,
+          "gradient_percent": 0.007175619108467103,
+          "energy_percent": 0.00659309793366669,
+          "flux_L2_percent": 0.005742283151250094,
+          "error_sine_low_fraction_percent": 91.87267677956467,
+          "error_sine_mid_fraction_percent": 8.051803092925423,
+          "error_sine_high_fraction_percent": 0.07552012750989921,
+          "total_ms": 27.027850970625877,
+          "cached_apply_ms": 5.207928828895092,
+          "setup_ms_once": 16.206515952944756
+        }
+      }
+    },
+    {
+      "index": 14,
+      "operator_complexity": 1.8595214900481727,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.09002585348764514,
+          "gradient_percent": 0.5279926639491801,
+          "energy_percent": 0.5890438296184553,
+          "flux_L2_percent": 0.6488807667486569,
+          "error_sine_low_fraction_percent": 74.59809693770521,
+          "error_sine_mid_fraction_percent": 23.850464118909425,
+          "error_sine_high_fraction_percent": 1.5514389433853475,
+          "total_ms": 20.31556097790599
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.02819357163351998,
+          "gradient_percent": 0.10438342529816304,
+          "energy_percent": 0.10668356743101148,
+          "flux_L2_percent": 0.10796577417678567,
+          "error_sine_low_fraction_percent": 88.19409500691226,
+          "error_sine_mid_fraction_percent": 11.625116553878094,
+          "error_sine_high_fraction_percent": 0.18078843920965784,
+          "total_ms": 21.633299067616463,
+          "cached_apply_ms": 2.604774199426174,
+          "setup_ms_once": 15.00519085675478
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.004258781555321197,
+          "gradient_percent": 0.011242143519521882,
+          "energy_percent": 0.010511830702914596,
+          "flux_L2_percent": 0.009384225779096877,
+          "error_sine_low_fraction_percent": 94.87129938177976,
+          "error_sine_mid_fraction_percent": 5.11141980082791,
+          "error_sine_high_fraction_percent": 0.01728081739230781,
+          "total_ms": 24.75801995024085,
+          "cached_apply_ms": 5.174948833882809,
+          "setup_ms_once": 15.00519085675478
+        }
+      }
+    },
+    {
+      "index": 15,
+      "operator_complexity": 1.8593874286122853,
+      "methods": {
+        "NO_GPU_AMG_K1": {
+          "L2_percent": 0.19749607381526163,
+          "gradient_percent": 0.7848440226808836,
+          "energy_percent": 0.8414071024258486,
+          "flux_L2_percent": 0.8661940085652594,
+          "error_sine_low_fraction_percent": 88.88075897811345,
+          "error_sine_mid_fraction_percent": 10.541711399314703,
+          "error_sine_high_fraction_percent": 0.5775296225718434,
+          "total_ms": 19.2350372672081
+        },
+        "NO_GPU_AMG_K2": {
+          "L2_percent": 0.031920618203570825,
+          "gradient_percent": 0.11153065147671724,
+          "energy_percent": 0.11421816385893031,
+          "flux_L2_percent": 0.11462444389625857,
+          "error_sine_low_fraction_percent": 90.62430051090679,
+          "error_sine_mid_fraction_percent": 9.165498881623355,
+          "error_sine_high_fraction_percent": 0.21020060746985098,
+          "total_ms": 20.415592938661575,
+          "cached_apply_ms": 2.5920048356056213,
+          "setup_ms_once": 15.565718058496714
+        },
+        "NO_GPU_AMG_K4": {
+          "L2_percent": 0.001658131648634771,
+          "gradient_percent": 0.005351181823867799,
+          "energy_percent": 0.005074587608007949,
+          "flux_L2_percent": 0.004838149752727683,
+          "error_sine_low_fraction_percent": 91.42620407728246,
+          "error_sine_mid_fraction_percent": 8.520563670055749,
+          "error_sine_high_fraction_percent": 0.053232252661776815,
+          "total_ms": 22.838324774056673,
+          "cached_apply_ms": 5.176849197596312,
+          "setup_ms_once": 15.565718058496714
+        }
+      }
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 4090",
+  "pyamg": "5.3.0",
+  "mesh_plan_ms_once": 1301.3167819008231,
+  "protocol": "Classical RS interpolation/Galerkin; explicit GPU matrices; 2/2 weighted Jacobi; terminal FP64 Cholesky. Fresh NO+fine assembly+CPU hierarchy+transfers+factor+GPU cycles per timing call. Cached application also reported."
+}

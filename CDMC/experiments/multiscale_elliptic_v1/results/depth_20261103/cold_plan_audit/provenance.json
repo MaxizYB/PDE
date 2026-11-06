@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "stage": "evaluate",
+    "data": "baselines/data/multiscale_elliptic_v1/generated/n257_s20261023",
+    "no_dir": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/fno_l2",
+    "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/cycle2_train/model.pt",
+    "out": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/cold_plan_audit",
+    "original": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/regional_response_train_20261027/model.pt",
+    "material_checkpoint": null,
+    "methods": [
+      "FNO"
+    ],
+    "conditioning": "all",
+    "candidate_name": "cycle_trained",
+    "cycles": 2,
+    "epochs": 20,
+    "train_count": 48,
+    "val_count": 12,
+    "count": 1,
+    "split": "test",
+    "repeats": 1,
+    "seed": 20261103,
+    "lr": 0.0003,
+    "device": "cuda"
+  },
+  "script_sha256": "8f6657998257049754525e21953223a161a74439ec03dcb3d227eb138654684f"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "family": "smooth",
+    "method": "FNO",
+    "relative_L2_percent": {
+      "train": 0.6227766522261613,
+      "val": 1.4285192634275454,
+      "test": 1.5693647295618527
+    }
+  },
+  {
+    "family": "smooth",
+    "method": "MgNO",
+    "relative_L2_percent": {
+      "train": 0.8347030262595704,
+      "val": 1.740200887222946,
+      "test": 1.9279773910765365
+    }
+  },
+  {
+    "family": "smooth",
+    "method": "DCNO",
+    "relative_L2_percent": {
+      "train": 0.2714903303925993,
+      "val": 1.2408000667788435,
+      "test": 1.222048424955063
+    }
+  },
+  {
+    "family": "smooth",
+    "method": "M2NO",
+    "relative_L2_percent": {
+      "train": 0.30596376176151285,
+      "val": 2.3898426703501268,
+      "test": 3.114893768868259
+    }
+  },
+  {
+    "family": "rough",
+    "method": "FNO",
+    "relative_L2_percent": {
+      "train": 0.8498110469239335,
+      "val": 2.8122743666919705,
+      "test": 2.7953447269822576
+    }
+  },
+  {
+    "family": "rough",
+    "method": "MgNO",
+    "relative_L2_percent": {
+      "train": 0.9244593825296415,
+      "val": 2.9437029777833637,
+      "test": 3.2296426606210895
+    }
+  },
+  {
+    "family": "rough",
+    "method": "DCNO",
+    "relative_L2_percent": {
+      "train": 0.3506601169010745,
+      "val": 2.4380447104783523,
+      "test": 2.548576509473187
+    }
+  },
+  {
+    "family": "rough",
+    "method": "M2NO",
+    "relative_L2_percent": {
+      "train": 0.36337709231771653,
+      "val": 4.5767067195513444,
+      "test": 5.444251714318781
+    }
+  }
+]

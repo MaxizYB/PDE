@@ -1,0 +1,82 @@
+{
+  "samples": [
+    {
+      "index": 0,
+      "sample_index": 576,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.69054020009275,
+          "gradient_percent": 48.052519428164416,
+          "energy_percent": 59.03960026199625,
+          "flux_L2_percent": 88.73243578188669,
+          "error_sine_low_fraction_percent": 31.04802750532253,
+          "error_sine_mid_fraction_percent": 13.200269561326008,
+          "error_sine_high_fraction_percent": 55.75170293335146,
+          "total_ms": 1.592407003045082
+        }
+      }
+    }
+  ],
+  "summary": {
+    "FNO": {
+      "L2_percent": {
+        "mean": 1.69054020009275,
+        "p95": 1.69054020009275,
+        "median": 1.69054020009275
+      },
+      "gradient_percent": {
+        "mean": 48.052519428164416,
+        "p95": 48.052519428164416,
+        "median": 48.052519428164416
+      },
+      "energy_percent": {
+        "mean": 59.03960026199625,
+        "p95": 59.03960026199625,
+        "median": 59.03960026199625
+      },
+      "flux_L2_percent": {
+        "mean": 88.73243578188669,
+        "p95": 88.73243578188669,
+        "median": 88.73243578188669
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 31.04802750532253,
+        "p95": 31.04802750532253,
+        "median": 31.04802750532253
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 13.200269561326008,
+        "p95": 13.200269561326008,
+        "median": 13.200269561326008
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 55.75170293335146,
+        "p95": 55.75170293335146,
+        "median": 55.75170293335146
+      },
+      "total_ms": {
+        "mean": 1.592407003045082,
+        "p95": 1.592407003045082,
+        "median": 1.592407003045082
+      }
+    }
+  },
+  "split": "test",
+  "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/cycle2_train/model.pt",
+  "original": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/regional_response_train_20261027/model.pt",
+  "device": "NVIDIA GeForce RTX 4090",
+  "seed": 20261103,
+  "timing": "Batch1; fresh frozen FNO (omitted for MG_zero), material fine matrix, space and factor per call; one warmup then synchronized wall-clock median; mesh plan separate.",
+  "repeats": 1,
+  "mesh_plan_ms_once": 11231.426960788667,
+  "shared_plan_attachment_ms": 0.016881152987480164,
+  "assembly_plan_ms_once": 1503.737912978977,
+  "options": {
+    "pre": 64,
+    "post": 8,
+    "lower": 0.001,
+    "post_lower": 0.05,
+    "harmonic_steps": 2,
+    "partition_grid": 3
+  }
+}

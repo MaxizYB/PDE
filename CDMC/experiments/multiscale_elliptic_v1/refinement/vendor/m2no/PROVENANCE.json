@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/lizhihao2022/M2NO",
+  "commit": "70b946520395856d3c40ff53def783a6bbb6b12a",
+  "files": [
+    "models/m2no/m2no2d.py",
+    "models/m2no/utils.py",
+    "models/m2no/grid_operator.py"
+  ],
+  "modifications": "None; source files copied verbatim.",
+  "adapter": "Zero padding to a multiple of 32, crop output. Official Darcy settings k4,c2,5 layers,[3,3,2,2,1] smoothing,norm=True."
+}

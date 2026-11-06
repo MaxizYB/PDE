@@ -1,0 +1,3142 @@
+{
+  "summary": {
+    "FNO": {
+      "L2_percent": {
+        "mean": 1.9711024207991015,
+        "p95": 3.385073841967264,
+        "median": 1.844551008838669
+      },
+      "gradient_percent": {
+        "mean": 44.325628878690054,
+        "p95": 47.7004716133452,
+        "median": 44.03193909119838
+      },
+      "energy_percent": {
+        "mean": 53.75018319890349,
+        "p95": 57.0669577465079,
+        "median": 53.662828551833485
+      },
+      "flux_L2_percent": {
+        "mean": 76.5044274631234,
+        "p95": 82.35539005389244,
+        "median": 76.44049736396518
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 46.48946953257676,
+        "p95": 86.25915999541274,
+        "median": 43.893319104306606
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 11.963056089281466,
+        "p95": 19.5777057871532,
+        "median": 12.225379830127848
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 41.54747437814177,
+        "p95": 64.38694941599748,
+        "median": 43.6078222669798
+      },
+      "total_ms": {
+        "mean": 1.5119549789233133,
+        "p95": 1.643654122017324,
+        "median": 1.495493110269308
+      }
+    },
+    "filter_only_K2": {
+      "L2_percent": {
+        "mean": 1.0376373665869612,
+        "p95": 2.622069872551243,
+        "median": 0.8891130628505047
+      },
+      "gradient_percent": {
+        "mean": 1.2394109336844519,
+        "p95": 2.755492029348026,
+        "median": 1.0721557724376622
+      },
+      "energy_percent": {
+        "mean": 1.2485877540206904,
+        "p95": 2.6633657097007117,
+        "median": 1.110641765795655
+      },
+      "flux_L2_percent": {
+        "mean": 1.2728254636789949,
+        "p95": 2.7045354948752904,
+        "median": 1.1487245023743171
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 99.27250820960148,
+        "p95": 99.72191217258273,
+        "median": 99.54484457957119
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.6749069347104921,
+        "p95": 1.7312672030713274,
+        "median": 0.432852327020244
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.05258485568801679,
+        "p95": 0.13669914524193377,
+        "median": 0.03269279058267378
+      },
+      "total_ms": {
+        "mean": 10.250729566905648,
+        "p95": 10.693301889114082,
+        "median": 10.158802848309278
+      }
+    },
+    "dictionary_K1": {
+      "L2_percent": {
+        "mean": 0.12804823762931758,
+        "p95": 0.20173329151643357,
+        "median": 0.11714499424561281
+      },
+      "gradient_percent": {
+        "mean": 0.5467349548407705,
+        "p95": 0.696267039200256,
+        "median": 0.5489877214671213
+      },
+      "energy_percent": {
+        "mean": 0.581756647158416,
+        "p95": 0.7170278121982883,
+        "median": 0.5767947642183305
+      },
+      "flux_L2_percent": {
+        "mean": 0.614521119329695,
+        "p95": 0.7268907706659453,
+        "median": 0.598204517943717
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 83.05878528709817,
+        "p95": 92.16987130135,
+        "median": 83.40113616146394
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 16.188343503597316,
+        "p95": 25.78232463961466,
+        "median": 15.807446741365787
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.7528712093045149,
+        "p95": 1.2432240320854984,
+        "median": 0.7467999074200027
+      },
+      "total_ms": {
+        "mean": 13.220414577517658,
+        "p95": 13.69139482267201,
+        "median": 13.158396119251847
+      }
+    },
+    "dictionary_K2": {
+      "L2_percent": {
+        "mean": 0.0218844966251664,
+        "p95": 0.039054203590159736,
+        "median": 0.019584290752591875
+      },
+      "gradient_percent": {
+        "mean": 0.07174035601110915,
+        "p95": 0.11384446594807254,
+        "median": 0.06803164866781276
+      },
+      "energy_percent": {
+        "mean": 0.07128684385342461,
+        "p95": 0.10924382938954619,
+        "median": 0.06727798367023205
+      },
+      "flux_L2_percent": {
+        "mean": 0.06893800727011914,
+        "p95": 0.10136799349865298,
+        "median": 0.0636710041726562
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 89.7825781487071,
+        "p95": 94.36336318201154,
+        "median": 90.02760516624474
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 9.846557910007867,
+        "p95": 14.29674364782158,
+        "median": 9.580781773901123
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.37086394128503075,
+        "p95": 0.6168949233021165,
+        "median": 0.3625657146014538
+      },
+      "total_ms": {
+        "mean": 17.51835826144088,
+        "p95": 18.378534354269505,
+        "median": 17.336275661364198
+      }
+    },
+    "dictionary_K4": {
+      "L2_percent": {
+        "mean": 0.0018321019140002648,
+        "p95": 0.0033535039956856232,
+        "median": 0.0018649809889383275
+      },
+      "gradient_percent": {
+        "mean": 0.004403145521104885,
+        "p95": 0.008282051463480154,
+        "median": 0.0040006874560775995
+      },
+      "energy_percent": {
+        "mean": 0.004897376029972533,
+        "p95": 0.008177148190894839,
+        "median": 0.004486838917647123
+      },
+      "flux_L2_percent": {
+        "mean": 0.006374216987769632,
+        "p95": 0.00852766924886111,
+        "median": 0.00600002083789228
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 95.63013698072771,
+        "p95": 98.64502705950811,
+        "median": 95.32982388532581
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 4.191585341194614,
+        "p95": 6.859266082676139,
+        "median": 4.482577068488962
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.1782776780776736,
+        "p95": 0.3303582367811283,
+        "median": 0.16040810099060082
+      },
+      "total_ms": {
+        "mean": 25.91546403709799,
+        "p95": 26.742788311094046,
+        "median": 25.747772306203842
+      }
+    },
+    "old_learned72_K2": {
+      "L2_percent": {
+        "mean": 0.03949762947202781,
+        "p95": 0.06792621809478522,
+        "median": 0.03952639085865152
+      },
+      "gradient_percent": {
+        "mean": 0.12215875691192529,
+        "p95": 0.19765207185017994,
+        "median": 0.12344432755796225
+      },
+      "energy_percent": {
+        "mean": 0.12136592754190252,
+        "p95": 0.18770381292375823,
+        "median": 0.1218518731709611
+      },
+      "flux_L2_percent": {
+        "mean": 0.11935686982220933,
+        "p95": 0.17679350212143086,
+        "median": 0.11987066679852953
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 92.79532088592528,
+        "p95": 95.54415714326213,
+        "median": 93.22292487390908
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 6.925353827505823,
+        "p95": 11.286956138202816,
+        "median": 6.456879339651091
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.2793252865688908,
+        "p95": 0.4727725285442982,
+        "median": 0.24705577037111648
+      },
+      "total_ms": {
+        "mean": 16.048347810283303,
+        "p95": 16.188895655795932,
+        "median": 16.040652757510543
+      }
+    },
+    "old_union144_K2": {
+      "L2_percent": {
+        "mean": 0.016465678413562074,
+        "p95": 0.035963734416032116,
+        "median": 0.015093421186566598
+      },
+      "gradient_percent": {
+        "mean": 0.05482438718173019,
+        "p95": 0.09725616485931964,
+        "median": 0.05082779879850144
+      },
+      "energy_percent": {
+        "mean": 0.05208649692663993,
+        "p95": 0.09327203585611794,
+        "median": 0.05175309204937249
+      },
+      "flux_L2_percent": {
+        "mean": 0.04919383918662361,
+        "p95": 0.08266881864013763,
+        "median": 0.04681867691816914
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 88.72124651276309,
+        "p95": 93.94798756549099,
+        "median": 89.11235358091753
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 10.847646278569417,
+        "p95": 17.237225295573793,
+        "median": 10.410484103730688
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.4311072086675031,
+        "p95": 0.6547466303944397,
+        "median": 0.4056141596726387
+      },
+      "total_ms": {
+        "mean": 20.102020978811197,
+        "p95": 20.321522443555295,
+        "median": 20.080230897292495
+      }
+    },
+    "old_union144_K4": {
+      "L2_percent": {
+        "mean": 0.0015817705610605768,
+        "p95": 0.0024919873441888525,
+        "median": 0.0013736794857043865
+      },
+      "gradient_percent": {
+        "mean": 0.0030991201807572186,
+        "p95": 0.004286032276956981,
+        "median": 0.0027306267891585613
+      },
+      "energy_percent": {
+        "mean": 0.003693933776096209,
+        "p95": 0.004570443558793306,
+        "median": 0.0036579175390326997
+      },
+      "flux_L2_percent": {
+        "mean": 0.005501005515169844,
+        "p95": 0.0063964156062920295,
+        "median": 0.005505741322749152
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 97.4418611070008,
+        "p95": 99.3970736251723,
+        "median": 97.96996348647428
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 2.430234771020843,
+        "p95": 5.091795747013786,
+        "median": 1.890649215911823
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.12790412197835888,
+        "p95": 0.25332609838553344,
+        "median": 0.10800828468016986
+      },
+      "total_ms": {
+        "mean": 28.59385534247849,
+        "p95": 29.07890824135393,
+        "median": 28.49781303666532
+      }
+    }
+  },
+  "samples": [
+    {
+      "index": 0,
+      "sample_index": 576,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.69054020009275,
+          "gradient_percent": 48.052519428164416,
+          "energy_percent": 59.03960026199625,
+          "flux_L2_percent": 88.73243578188669,
+          "error_sine_low_fraction_percent": 31.04802750532253,
+          "error_sine_mid_fraction_percent": 13.200269561326008,
+          "error_sine_high_fraction_percent": 55.75170293335146,
+          "total_ms": 1.5438580885529518
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.5273117136275648,
+          "gradient_percent": 0.909935713726424,
+          "energy_percent": 0.92336353398025,
+          "flux_L2_percent": 0.9525287726193731,
+          "error_sine_low_fraction_percent": 99.19102183061145,
+          "error_sine_mid_fraction_percent": 0.7235803920780756,
+          "error_sine_high_fraction_percent": 0.0853977773104834,
+          "total_ms": 11.110688094049692
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.11415218232084141,
+          "gradient_percent": 0.6182688689053104,
+          "energy_percent": 0.6583985837526586,
+          "flux_L2_percent": 0.7135308587679041,
+          "error_sine_low_fraction_percent": 78.03329808327558,
+          "error_sine_mid_fraction_percent": 20.823037476740975,
+          "error_sine_high_fraction_percent": 1.143664439983449,
+          "total_ms": 13.720327988266945
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.015764759742732108,
+          "gradient_percent": 0.065441068392084,
+          "energy_percent": 0.06307184472013336,
+          "flux_L2_percent": 0.06086722474394693,
+          "error_sine_low_fraction_percent": 85.91057430131376,
+          "error_sine_mid_fraction_percent": 13.38953754842218,
+          "error_sine_high_fraction_percent": 0.6998881502640525,
+          "total_ms": 17.71897543221712
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0009298294663565016,
+          "gradient_percent": 0.0030001940438650963,
+          "energy_percent": 0.00344316951006679,
+          "flux_L2_percent": 0.005443122492177729,
+          "error_sine_low_fraction_percent": 93.38245214289132,
+          "error_sine_mid_fraction_percent": 6.303738619688798,
+          "error_sine_high_fraction_percent": 0.3138092374198928,
+          "total_ms": 26.126451324671507
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.03202009001789492,
+          "gradient_percent": 0.11357623508320273,
+          "energy_percent": 0.10640250147701885,
+          "flux_L2_percent": 0.10426395872856291,
+          "error_sine_low_fraction_percent": 91.99557782621905,
+          "error_sine_mid_fraction_percent": 7.56588276265722,
+          "error_sine_high_fraction_percent": 0.4385394111237614,
+          "total_ms": 16.020515002310276
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.015219231128383795,
+          "gradient_percent": 0.058981727744548844,
+          "energy_percent": 0.05566374603726795,
+          "flux_L2_percent": 0.05531285776216925,
+          "error_sine_low_fraction_percent": 88.05853673523706,
+          "error_sine_mid_fraction_percent": 11.278935440794523,
+          "error_sine_high_fraction_percent": 0.6625278239683852,
+          "total_ms": 20.084280986338854
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0017463607136668114,
+          "gradient_percent": 0.003402174479123756,
+          "energy_percent": 0.003859206744573074,
+          "flux_L2_percent": 0.006099195465561024,
+          "error_sine_low_fraction_percent": 98.2705276181137,
+          "error_sine_mid_fraction_percent": 1.606992234075864,
+          "error_sine_high_fraction_percent": 0.12248014781047123,
+          "total_ms": 28.370607178658247
+        }
+      }
+    },
+    {
+      "index": 1,
+      "sample_index": 577,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.72916905660884,
+          "gradient_percent": 42.78913886351108,
+          "energy_percent": 51.10875726464249,
+          "flux_L2_percent": 70.10010881828177,
+          "error_sine_low_fraction_percent": 32.861705226911255,
+          "error_sine_mid_fraction_percent": 17.37759377434851,
+          "error_sine_high_fraction_percent": 49.76070099874022,
+          "total_ms": 1.4876867644488811
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.6983070379144174,
+          "gradient_percent": 0.9228139698952755,
+          "energy_percent": 0.8886078500967547,
+          "flux_L2_percent": 0.846838771709982,
+          "error_sine_low_fraction_percent": 99.32586917032177,
+          "error_sine_mid_fraction_percent": 0.6077755176561261,
+          "error_sine_high_fraction_percent": 0.06635531202214227,
+          "total_ms": 10.16441686078906
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.13595379213375205,
+          "gradient_percent": 0.5486174879850045,
+          "energy_percent": 0.6206379307598769,
+          "flux_L2_percent": 0.6496382706782772,
+          "error_sine_low_fraction_percent": 83.57106595247683,
+          "error_sine_mid_fraction_percent": 15.744311374302423,
+          "error_sine_high_fraction_percent": 0.684622673220719,
+          "total_ms": 13.129392173141241
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.03151957426754971,
+          "gradient_percent": 0.0925301680851647,
+          "energy_percent": 0.09130797814283173,
+          "flux_L2_percent": 0.08307466630397684,
+          "error_sine_low_fraction_percent": 91.33898242101291,
+          "error_sine_mid_fraction_percent": 8.309258095845614,
+          "error_sine_high_fraction_percent": 0.3517594831414736,
+          "total_ms": 17.31311995536089
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0033204875716406736,
+          "gradient_percent": 0.009122022194849404,
+          "energy_percent": 0.009228837438988889,
+          "flux_L2_percent": 0.009182304097982234,
+          "error_sine_low_fraction_percent": 93.24802386546045,
+          "error_sine_mid_fraction_percent": 6.443089357375246,
+          "error_sine_high_fraction_percent": 0.30888677716432594,
+          "total_ms": 25.765547063201666
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.04578276879094008,
+          "gradient_percent": 0.13409484341172104,
+          "energy_percent": 0.13979566755531395,
+          "flux_L2_percent": 0.13856308565952602,
+          "error_sine_low_fraction_percent": 92.6384356083211,
+          "error_sine_mid_fraction_percent": 7.060304949360932,
+          "error_sine_high_fraction_percent": 0.3012594423179637,
+          "total_ms": 15.952843707054853
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.017542545364067595,
+          "gradient_percent": 0.05536354913764895,
+          "energy_percent": 0.052742764296088596,
+          "flux_L2_percent": 0.04539601605799911,
+          "error_sine_low_fraction_percent": 89.37110506863941,
+          "error_sine_mid_fraction_percent": 10.23009386230028,
+          "error_sine_high_fraction_percent": 0.39880106906032875,
+          "total_ms": 20.036120899021626
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0017651218456299325,
+          "gradient_percent": 0.003163792908916439,
+          "energy_percent": 0.0038358827257198745,
+          "flux_L2_percent": 0.005584776094586346,
+          "error_sine_low_fraction_percent": 97.80874778138025,
+          "error_sine_mid_fraction_percent": 2.0935717205935833,
+          "error_sine_high_fraction_percent": 0.09768049802618596,
+          "total_ms": 28.35533721372485
+        }
+      }
+    },
+    {
+      "index": 2,
+      "sample_index": 578,
+      "methods": {
+        "FNO": {
+          "L2_percent": 2.0039022907624315,
+          "gradient_percent": 43.04769605492531,
+          "energy_percent": 54.05961510759805,
+          "flux_L2_percent": 78.6264698588149,
+          "error_sine_low_fraction_percent": 51.84444188890176,
+          "error_sine_mid_fraction_percent": 17.109795080698095,
+          "error_sine_high_fraction_percent": 31.045763030400135,
+          "total_ms": 1.4855568297207355
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.0156935635656763,
+          "gradient_percent": 1.1363778024508304,
+          "energy_percent": 1.210687786576001,
+          "flux_L2_percent": 1.2298793044842684,
+          "error_sine_low_fraction_percent": 99.69353724959758,
+          "error_sine_mid_fraction_percent": 0.2734795687361415,
+          "error_sine_high_fraction_percent": 0.032983181666275105,
+          "total_ms": 10.127035900950432
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.12244237736723336,
+          "gradient_percent": 0.6159537156697993,
+          "energy_percent": 0.6664796577982403,
+          "flux_L2_percent": 0.6890670713294893,
+          "error_sine_low_fraction_percent": 81.68938802749706,
+          "error_sine_mid_fraction_percent": 17.39318012270499,
+          "error_sine_high_fraction_percent": 0.9174318497979532,
+          "total_ms": 13.147111982107162
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.01992980406446571,
+          "gradient_percent": 0.07353980732028877,
+          "energy_percent": 0.07542412264835434,
+          "flux_L2_percent": 0.07410886917637394,
+          "error_sine_low_fraction_percent": 89.7544550610436,
+          "error_sine_mid_fraction_percent": 9.88337332402825,
+          "error_sine_high_fraction_percent": 0.3621716149281252,
+          "total_ms": 17.33403978869319
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0016128919799247114,
+          "gradient_percent": 0.003609163011179814,
+          "energy_percent": 0.004077154394824424,
+          "flux_L2_percent": 0.005547470142063544,
+          "error_sine_low_fraction_percent": 98.0352222316134,
+          "error_sine_mid_fraction_percent": 1.8396427174066776,
+          "error_sine_high_fraction_percent": 0.12513505097993521,
+          "total_ms": 25.764447171241045
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.030602967993605644,
+          "gradient_percent": 0.10145793543478462,
+          "energy_percent": 0.11019132276744416,
+          "flux_L2_percent": 0.11459217249299737,
+          "error_sine_low_fraction_percent": 94.08660465640055,
+          "error_sine_mid_fraction_percent": 5.643331732444768,
+          "error_sine_high_fraction_percent": 0.2700636111546767,
+          "total_ms": 15.954773873090744
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.010668774860651788,
+          "gradient_percent": 0.04385179527140794,
+          "energy_percent": 0.04451415832764798,
+          "flux_L2_percent": 0.042766560353102306,
+          "error_sine_low_fraction_percent": 84.62851374661822,
+          "error_sine_mid_fraction_percent": 14.856922999400657,
+          "error_sine_high_fraction_percent": 0.5145632539811207,
+          "total_ms": 20.05797205492854
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.00097506616418556,
+          "gradient_percent": 0.0019699646624155155,
+          "energy_percent": 0.0028277227401273483,
+          "flux_L2_percent": 0.004533116427540866,
+          "error_sine_low_fraction_percent": 98.40065452888719,
+          "error_sine_mid_fraction_percent": 1.502720985917345,
+          "error_sine_high_fraction_percent": 0.09662448519546178,
+          "total_ms": 28.41544896364212
+        }
+      }
+    },
+    {
+      "index": 3,
+      "sample_index": 579,
+      "methods": {
+        "FNO": {
+          "L2_percent": 3.9797099383149197,
+          "gradient_percent": 42.075961959699384,
+          "energy_percent": 53.40218675646572,
+          "flux_L2_percent": 82.18466286522565,
+          "error_sine_low_fraction_percent": 88.40942476687593,
+          "error_sine_mid_fraction_percent": 3.514225612125916,
+          "error_sine_high_fraction_percent": 8.076349620998174,
+          "total_ms": 1.4912281185388565
+        },
+        "filter_only_K2": {
+          "L2_percent": 3.2835352327057836,
+          "gradient_percent": 3.425316777267526,
+          "energy_percent": 3.3135208397901175,
+          "flux_L2_percent": 3.2822008897855137,
+          "error_sine_low_fraction_percent": 99.4401447307116,
+          "error_sine_mid_fraction_percent": 0.5238622749249364,
+          "error_sine_high_fraction_percent": 0.03599299436350687,
+          "total_ms": 10.06041606888175
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.1970644802333013,
+          "gradient_percent": 0.5868547063082561,
+          "energy_percent": 0.6486082429304999,
+          "flux_L2_percent": 0.6560573329391169,
+          "error_sine_low_fraction_percent": 92.5862981589526,
+          "error_sine_mid_fraction_percent": 7.0360978457327565,
+          "error_sine_high_fraction_percent": 0.3776039953146335,
+          "total_ms": 13.144072145223618
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.02484371093755288,
+          "gradient_percent": 0.0819634492306277,
+          "energy_percent": 0.08593741670799586,
+          "flux_L2_percent": 0.07722081992861879,
+          "error_sine_low_fraction_percent": 89.82762696734632,
+          "error_sine_mid_fraction_percent": 9.783893946776027,
+          "error_sine_high_fraction_percent": 0.38847908587766855,
+          "total_ms": 17.35147088766098
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.001931809532022182,
+          "gradient_percent": 0.005018173116453366,
+          "energy_percent": 0.005994436720926368,
+          "flux_L2_percent": 0.007268274907971317,
+          "error_sine_low_fraction_percent": 94.33935189497483,
+          "error_sine_mid_fraction_percent": 5.446595484137048,
+          "error_sine_high_fraction_percent": 0.21405262088811208,
+          "total_ms": 25.627275928854942
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.055201629923255044,
+          "gradient_percent": 0.1771659465427834,
+          "energy_percent": 0.1783532152722403,
+          "flux_L2_percent": 0.16804792164735116,
+          "error_sine_low_fraction_percent": 93.17354019938794,
+          "error_sine_mid_fraction_percent": 6.484308399572442,
+          "error_sine_high_fraction_percent": 0.3421514010395907,
+          "total_ms": 15.944174025207758
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.015996667259882122,
+          "gradient_percent": 0.05497135100726732,
+          "energy_percent": 0.05453282943403345,
+          "flux_L2_percent": 0.04940147260766704,
+          "error_sine_low_fraction_percent": 89.18664783951799,
+          "error_sine_mid_fraction_percent": 10.328817277614641,
+          "error_sine_high_fraction_percent": 0.4845348828673705,
+          "total_ms": 20.104742143303156
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0010055186020976657,
+          "gradient_percent": 0.0023765859516561866,
+          "energy_percent": 0.0036986614205949354,
+          "flux_L2_percent": 0.005997615193221225,
+          "error_sine_low_fraction_percent": 96.80498207167768,
+          "error_sine_mid_fraction_percent": 3.0321481776558477,
+          "error_sine_high_fraction_percent": 0.1628697506664922,
+          "total_ms": 28.46228890120983
+        }
+      }
+    },
+    {
+      "index": 4,
+      "sample_index": 580,
+      "methods": {
+        "FNO": {
+          "L2_percent": 3.0099379376827757,
+          "gradient_percent": 44.928302675653526,
+          "energy_percent": 54.22052964798086,
+          "flux_L2_percent": 74.49209884744769,
+          "error_sine_low_fraction_percent": 78.01605006063323,
+          "error_sine_mid_fraction_percent": 5.4012158419605525,
+          "error_sine_high_fraction_percent": 16.58273409740622,
+          "total_ms": 1.499527134001255
+        },
+        "filter_only_K2": {
+          "L2_percent": 2.221768434230301,
+          "gradient_percent": 2.574315278572141,
+          "energy_percent": 2.3714798834573787,
+          "flux_L2_percent": 2.2885380764826166,
+          "error_sine_low_fraction_percent": 99.3758598674498,
+          "error_sine_mid_fraction_percent": 0.58693640537523,
+          "error_sine_high_fraction_percent": 0.03720372717493674,
+          "total_ms": 10.149667039513588
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.18630219811833817,
+          "gradient_percent": 0.5735477895490751,
+          "energy_percent": 0.6205997565666772,
+          "flux_L2_percent": 0.637102612977694,
+          "error_sine_low_fraction_percent": 91.82915841785696,
+          "error_sine_mid_fraction_percent": 7.883101181138582,
+          "error_sine_high_fraction_percent": 0.2877404010044544,
+          "total_ms": 13.105342164635658
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.02752408632814687,
+          "gradient_percent": 0.07116766879703158,
+          "energy_percent": 0.07179781853986245,
+          "flux_L2_percent": 0.06889321149411579,
+          "error_sine_low_fraction_percent": 94.06383877935642,
+          "error_sine_mid_fraction_percent": 5.757608098468478,
+          "error_sine_high_fraction_percent": 0.17855312217512578,
+          "total_ms": 17.326781060546637
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0016299861966689246,
+          "gradient_percent": 0.0034802403599784016,
+          "energy_percent": 0.004188052209502989,
+          "flux_L2_percent": 0.006031638211928253,
+          "error_sine_low_fraction_percent": 96.69048987092769,
+          "error_sine_mid_fraction_percent": 3.1986059081682754,
+          "error_sine_high_fraction_percent": 0.11090422090406248,
+          "total_ms": 25.67829703912139
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.05258103178404892,
+          "gradient_percent": 0.1477586071216595,
+          "energy_percent": 0.14789237859819546,
+          "flux_L2_percent": 0.1439646251171378,
+          "error_sine_low_fraction_percent": 94.21928260215297,
+          "error_sine_mid_fraction_percent": 5.54867966452206,
+          "error_sine_high_fraction_percent": 0.2320377333249349,
+          "total_ms": 16.041665337979794
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.022655010026411324,
+          "gradient_percent": 0.06003683533472356,
+          "energy_percent": 0.05705081626107552,
+          "flux_L2_percent": 0.05326069531813283,
+          "error_sine_low_fraction_percent": 92.98323936251212,
+          "error_sine_mid_fraction_percent": 6.812888267767869,
+          "error_sine_high_fraction_percent": 0.2038723697200249,
+          "total_ms": 20.042861811816692
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0011056054402156113,
+          "gradient_percent": 0.0023632885604772708,
+          "energy_percent": 0.0032845757758560986,
+          "flux_L2_percent": 0.005701792773591932,
+          "error_sine_low_fraction_percent": 97.37315517664386,
+          "error_sine_mid_fraction_percent": 2.522628825789484,
+          "error_sine_high_fraction_percent": 0.1042159975666669,
+          "total_ms": 28.48110068589449
+        }
+      }
+    },
+    {
+      "index": 5,
+      "sample_index": 581,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.584503812597741,
+          "gradient_percent": 46.19978874869016,
+          "energy_percent": 54.17478144339564,
+          "flux_L2_percent": 73.49028837593187,
+          "error_sine_low_fraction_percent": 38.77195417100694,
+          "error_sine_mid_fraction_percent": 12.761965792996083,
+          "error_sine_high_fraction_percent": 48.46608003599697,
+          "total_ms": 1.4889882877469063
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.7233312426399142,
+          "gradient_percent": 0.781444066654674,
+          "energy_percent": 0.8259246505391847,
+          "flux_L2_percent": 0.8515912009731116,
+          "error_sine_low_fraction_percent": 99.74815920455922,
+          "error_sine_mid_fraction_percent": 0.2219700666173127,
+          "error_sine_high_fraction_percent": 0.029870728823493328,
+          "total_ms": 10.127626825124025
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.08972411934328657,
+          "gradient_percent": 0.4537671364229694,
+          "energy_percent": 0.4991247638573891,
+          "flux_L2_percent": 0.5297510098940109,
+          "error_sine_low_fraction_percent": 83.15975600149223,
+          "error_sine_mid_fraction_percent": 15.853383215618635,
+          "error_sine_high_fraction_percent": 0.9868607828891046,
+          "total_ms": 13.141483068466187
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.010545803663122993,
+          "gradient_percent": 0.04589010001546482,
+          "energy_percent": 0.047302347755278536,
+          "flux_L2_percent": 0.04919157876709868,
+          "error_sine_low_fraction_percent": 85.42395125139068,
+          "error_sine_mid_fraction_percent": 13.95746334924958,
+          "error_sine_high_fraction_percent": 0.6185853993597307,
+          "total_ms": 17.31095090508461
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.000921275233483632,
+          "gradient_percent": 0.0026358847848415557,
+          "energy_percent": 0.003361961952827148,
+          "flux_L2_percent": 0.005062456706175655,
+          "error_sine_low_fraction_percent": 96.76450184167471,
+          "error_sine_mid_fraction_percent": 3.029348257757644,
+          "error_sine_high_fraction_percent": 0.20614990056764346,
+          "total_ms": 25.656748097389936
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.014731042774984531,
+          "gradient_percent": 0.05684429058837417,
+          "energy_percent": 0.05852887380540478,
+          "flux_L2_percent": 0.06283944810139494,
+          "error_sine_low_fraction_percent": 88.17386656087812,
+          "error_sine_mid_fraction_percent": 11.346801083055118,
+          "error_sine_high_fraction_percent": 0.479332356066754,
+          "total_ms": 15.99080627784133
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.008827859223177165,
+          "gradient_percent": 0.032694063915501614,
+          "energy_percent": 0.033054026457632925,
+          "flux_L2_percent": 0.034642027713373644,
+          "error_sine_low_fraction_percent": 89.11821849794782,
+          "error_sine_mid_fraction_percent": 10.336805461539328,
+          "error_sine_high_fraction_percent": 0.5449760405128331,
+          "total_ms": 19.989632070064545
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0010758816869362495,
+          "gradient_percent": 0.002669914317434156,
+          "energy_percent": 0.003406872950545422,
+          "flux_L2_percent": 0.005234232617003456,
+          "error_sine_low_fraction_percent": 98.02816112644565,
+          "error_sine_mid_fraction_percent": 1.8048648501202047,
+          "error_sine_high_fraction_percent": 0.16697402343417028,
+          "total_ms": 28.440180234611034
+        }
+      }
+    },
+    {
+      "index": 6,
+      "sample_index": 582,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.811466104359519,
+          "gradient_percent": 47.93045006621948,
+          "energy_percent": 55.78158919614935,
+          "flux_L2_percent": 78.43713117964889,
+          "error_sine_low_fraction_percent": 25.174166912455814,
+          "error_sine_mid_fraction_percent": 20.634717190114404,
+          "error_sine_high_fraction_percent": 54.19111589742976,
+          "total_ms": 1.481667160987854
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.37514169808057357,
+          "gradient_percent": 0.6867741176832062,
+          "energy_percent": 0.7473974060235912,
+          "flux_L2_percent": 0.7958734447819421,
+          "error_sine_low_fraction_percent": 99.02582008846608,
+          "error_sine_mid_fraction_percent": 0.8817387201229618,
+          "error_sine_high_fraction_percent": 0.0924411914109541,
+          "total_ms": 10.202119126915932
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.14159152057578087,
+          "gradient_percent": 0.6861887961712083,
+          "energy_percent": 0.7168030146879824,
+          "flux_L2_percent": 0.7341270845522803,
+          "error_sine_low_fraction_percent": 76.46590712652736,
+          "error_sine_mid_fraction_percent": 22.690468707428245,
+          "error_sine_high_fraction_percent": 0.8436241660443983,
+          "total_ms": 13.095072004944086
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.02856405506328759,
+          "gradient_percent": 0.09218984004648045,
+          "energy_percent": 0.09583357652721174,
+          "flux_L2_percent": 0.0933136894473014,
+          "error_sine_low_fraction_percent": 91.1527259001649,
+          "error_sine_mid_fraction_percent": 8.510930506801895,
+          "error_sine_high_fraction_percent": 0.3363435930332009,
+          "total_ms": 17.35108206048608
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.002296072051530513,
+          "gradient_percent": 0.0055342576399918545,
+          "energy_percent": 0.006277241532800964,
+          "flux_L2_percent": 0.0074558969664913375,
+          "error_sine_low_fraction_percent": 96.32751096361369,
+          "error_sine_mid_fraction_percent": 3.5043220319664523,
+          "error_sine_high_fraction_percent": 0.16816700441986202,
+          "total_ms": 25.74697881937027
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.03954576320344932,
+          "gradient_percent": 0.12885890839444886,
+          "energy_percent": 0.14221578793803796,
+          "flux_L2_percent": 0.14502840510659792,
+          "error_sine_low_fraction_percent": 93.27230954843023,
+          "error_sine_mid_fraction_percent": 6.42945027972974,
+          "error_sine_high_fraction_percent": 0.29824017183999785,
+          "total_ms": 15.997136011719704
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.018672632004616767,
+          "gradient_percent": 0.06305519442515393,
+          "energy_percent": 0.06684825152420754,
+          "flux_L2_percent": 0.0656191131456967,
+          "error_sine_low_fraction_percent": 90.46821925114959,
+          "error_sine_mid_fraction_percent": 9.129901019695836,
+          "error_sine_high_fraction_percent": 0.4018797291545291,
+          "total_ms": 20.101703237742186
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0025509511766902584,
+          "gradient_percent": 0.0037634349823987643,
+          "energy_percent": 0.0044455625754673345,
+          "flux_L2_percent": 0.006249356526614097,
+          "error_sine_low_fraction_percent": 98.98127920849322,
+          "error_sine_mid_fraction_percent": 0.9561932305671007,
+          "error_sine_high_fraction_percent": 0.0625275609397351,
+          "total_ms": 28.4591899253428
+        }
+      }
+    },
+    {
+      "index": 7,
+      "sample_index": 583,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.2307860647009268,
+          "gradient_percent": 43.90137434370479,
+          "energy_percent": 53.26136841646068,
+          "flux_L2_percent": 76.1527706273934,
+          "error_sine_low_fraction_percent": 17.024111128651278,
+          "error_sine_mid_fraction_percent": 18.71287827563949,
+          "error_sine_high_fraction_percent": 64.26301059570922,
+          "total_ms": 1.5064170584082603
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.1763430938189285,
+          "gradient_percent": 0.5108686987081906,
+          "energy_percent": 0.4889870072519391,
+          "flux_L2_percent": 0.4947351636787662,
+          "error_sine_low_fraction_percent": 98.03398142882867,
+          "error_sine_mid_fraction_percent": 1.789198558323655,
+          "error_sine_high_fraction_percent": 0.17682001284767745,
+          "total_ms": 10.138228069990873
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.08553073178074874,
+          "gradient_percent": 0.5308745561525094,
+          "energy_percent": 0.5464353039247902,
+          "flux_L2_percent": 0.6020952444716972,
+          "error_sine_low_fraction_percent": 73.64502075591926,
+          "error_sine_mid_fraction_percent": 25.041997154891476,
+          "error_sine_high_fraction_percent": 1.3129820891892539,
+          "total_ms": 13.145172968506813
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.014769896973961782,
+          "gradient_percent": 0.06317530881193038,
+          "energy_percent": 0.06525240626723845,
+          "flux_L2_percent": 0.0692888248399842,
+          "error_sine_low_fraction_percent": 86.90158396860858,
+          "error_sine_mid_fraction_percent": 12.663451653899468,
+          "error_sine_high_fraction_percent": 0.434964377491944,
+          "total_ms": 17.297941725701094
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.002329408935310985,
+          "gradient_percent": 0.003983683838789323,
+          "energy_percent": 0.00452614092753864,
+          "flux_L2_percent": 0.005943145137627659,
+          "error_sine_low_fraction_percent": 98.83733840156742,
+          "error_sine_mid_fraction_percent": 1.1092772616140734,
+          "error_sine_high_fraction_percent": 0.05338433681844213,
+          "total_ms": 25.679809041321278
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.043890499750414876,
+          "gradient_percent": 0.1465810468991029,
+          "energy_percent": 0.13737237079515435,
+          "flux_L2_percent": 0.1272959186244997,
+          "error_sine_low_fraction_percent": 95.90378977407563,
+          "error_sine_mid_fraction_percent": 3.889355532981459,
+          "error_sine_high_fraction_percent": 0.20685469294290929,
+          "total_ms": 16.089207958430052
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.01019038190181278,
+          "gradient_percent": 0.043089100154491286,
+          "energy_percent": 0.04071895819967143,
+          "flux_L2_percent": 0.04064378322771359,
+          "error_sine_low_fraction_percent": 88.14267686141511,
+          "error_sine_mid_fraction_percent": 11.285015401606886,
+          "error_sine_high_fraction_percent": 0.5723077369780643,
+          "total_ms": 20.07211372256279
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0006407588504094584,
+          "gradient_percent": 0.0021988844356925327,
+          "energy_percent": 0.002950155852684361,
+          "flux_L2_percent": 0.0053990920937826824,
+          "error_sine_low_fraction_percent": 95.85005086324726,
+          "error_sine_mid_fraction_percent": 3.9070884033756643,
+          "error_sine_high_fraction_percent": 0.2428607333770565,
+          "total_ms": 28.957427013665438
+        }
+      }
+    },
+    {
+      "index": 8,
+      "sample_index": 584,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.4321810191197164,
+          "gradient_percent": 42.238876801851205,
+          "energy_percent": 52.62695891872104,
+          "flux_L2_percent": 75.5566395490718,
+          "error_sine_low_fraction_percent": 16.04727115442903,
+          "error_sine_mid_fraction_percent": 21.839541741706057,
+          "error_sine_high_fraction_percent": 62.1131871038649,
+          "total_ms": 1.6380292363464832
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.16792533929522155,
+          "gradient_percent": 0.5157393051845731,
+          "energy_percent": 0.5728378403405229,
+          "flux_L2_percent": 0.5979900247984098,
+          "error_sine_low_fraction_percent": 95.78605349132665,
+          "error_sine_mid_fraction_percent": 3.9863910453918683,
+          "error_sine_high_fraction_percent": 0.2275554632814744,
+          "total_ms": 10.073487181216478
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.10595418994534243,
+          "gradient_percent": 0.552795604788619,
+          "energy_percent": 0.611945263551242,
+          "flux_L2_percent": 0.6543254947511333,
+          "error_sine_low_fraction_percent": 81.16145998155916,
+          "error_sine_mid_fraction_percent": 17.984998606494944,
+          "error_sine_high_fraction_percent": 0.8535414119459196,
+          "total_ms": 13.089071959257126
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.01923877744071804,
+          "gradient_percent": 0.08317760822180822,
+          "energy_percent": 0.08983703649282479,
+          "flux_L2_percent": 0.09427159246008376,
+          "error_sine_low_fraction_percent": 86.26126362613688,
+          "error_sine_mid_fraction_percent": 13.28372346358728,
+          "error_sine_high_fraction_percent": 0.4550129102758556,
+          "total_ms": 17.375522758811712
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0013784796514272376,
+          "gradient_percent": 0.004347107691734899,
+          "energy_percent": 0.004985582204717421,
+          "flux_L2_percent": 0.006505015006858542,
+          "error_sine_low_fraction_percent": 94.61056802095192,
+          "error_sine_mid_fraction_percent": 5.161180904201184,
+          "error_sine_high_fraction_percent": 0.2282510748468949,
+          "total_ms": 25.633139070123434
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.034996780315237674,
+          "gradient_percent": 0.12653023482092554,
+          "energy_percent": 0.1372788256234285,
+          "flux_L2_percent": 0.1403747102607275,
+          "error_sine_low_fraction_percent": 92.57550518322512,
+          "error_sine_mid_fraction_percent": 7.1084083338171995,
+          "error_sine_high_fraction_percent": 0.3160864829576525,
+          "total_ms": 16.048026736825705
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.010361242257994617,
+          "gradient_percent": 0.045111365938091584,
+          "energy_percent": 0.04470979878655547,
+          "flux_L2_percent": 0.04268578914755719,
+          "error_sine_low_fraction_percent": 82.79472006407042,
+          "error_sine_mid_fraction_percent": 16.658961008931517,
+          "error_sine_high_fraction_percent": 0.546318926998054,
+          "total_ms": 20.07573377341032
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0009834806867997613,
+          "gradient_percent": 0.002245691513357997,
+          "energy_percent": 0.0030076117347345075,
+          "flux_L2_percent": 0.005120180842255264,
+          "error_sine_low_fraction_percent": 97.2998188847999,
+          "error_sine_mid_fraction_percent": 2.5790490844760505,
+          "error_sine_high_fraction_percent": 0.12113203072400884,
+          "total_ms": 28.482411988079548
+        }
+      }
+    },
+    {
+      "index": 9,
+      "sample_index": 585,
+      "methods": {
+        "FNO": {
+          "L2_percent": 2.0256720514651176,
+          "gradient_percent": 44.349282185776204,
+          "energy_percent": 52.188980277579,
+          "flux_L2_percent": 73.1524275746502,
+          "error_sine_low_fraction_percent": 61.798854748060734,
+          "error_sine_mid_fraction_percent": 7.251387141404516,
+          "error_sine_high_fraction_percent": 30.949758110534745,
+          "total_ms": 1.4866180717945099
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.2937435745770502,
+          "gradient_percent": 1.4320028176624655,
+          "energy_percent": 1.4480438681656242,
+          "flux_L2_percent": 1.4725294579569788,
+          "error_sine_low_fraction_percent": 99.63993205808661,
+          "error_sine_mid_fraction_percent": 0.3306106325769528,
+          "error_sine_high_fraction_percent": 0.02945730933637541,
+          "total_ms": 10.145808104425669
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.10470700220830925,
+          "gradient_percent": 0.4503521131435399,
+          "energy_percent": 0.5019525498363332,
+          "flux_L2_percent": 0.5534059375357291,
+          "error_sine_low_fraction_percent": 87.29056395399643,
+          "error_sine_mid_fraction_percent": 11.962641044874205,
+          "error_sine_high_fraction_percent": 0.7467950011293472,
+          "total_ms": 13.186273165047169
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.01590568452515601,
+          "gradient_percent": 0.05174900992296471,
+          "energy_percent": 0.052946267132845566,
+          "flux_L2_percent": 0.053982904510528194,
+          "error_sine_low_fraction_percent": 91.61132529434514,
+          "error_sine_mid_fraction_percent": 8.018712959131612,
+          "error_sine_high_fraction_percent": 0.3699617465232208,
+          "total_ms": 17.337932717055082
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0007575420249229297,
+          "gradient_percent": 0.002353317664243336,
+          "energy_percent": 0.0031771195660836755,
+          "flux_L2_percent": 0.005504619673921394,
+          "error_sine_low_fraction_percent": 94.15262719020444,
+          "error_sine_mid_fraction_percent": 5.556620521884412,
+          "error_sine_high_fraction_percent": 0.29075228791113,
+          "total_ms": 25.613279081881046
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.04171480945412565,
+          "gradient_percent": 0.12093150038034756,
+          "energy_percent": 0.12554066546049478,
+          "flux_L2_percent": 0.1296149098822011,
+          "error_sine_low_fraction_percent": 94.8971936470162,
+          "error_sine_mid_fraction_percent": 4.8717089767570085,
+          "error_sine_high_fraction_percent": 0.2310973762268298,
+          "total_ms": 16.01243717595935
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.015310276337592108,
+          "gradient_percent": 0.04763891163103694,
+          "energy_percent": 0.04663659572777775,
+          "flux_L2_percent": 0.046412770599868,
+          "error_sine_low_fraction_percent": 91.75241021751496,
+          "error_sine_mid_fraction_percent": 7.906887997137281,
+          "error_sine_high_fraction_percent": 0.3407017853477538,
+          "total_ms": 20.023683551698923
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0013749235079829226,
+          "gradient_percent": 0.0023471899517190594,
+          "energy_percent": 0.003032327240475468,
+          "flux_L2_percent": 0.004480306562094408,
+          "error_sine_low_fraction_percent": 98.56754558354467,
+          "error_sine_mid_fraction_percent": 1.3558367559961415,
+          "error_sine_high_fraction_percent": 0.07661766045921155,
+          "total_ms": 28.43764191493392
+        }
+      }
+    },
+    {
+      "index": 10,
+      "sample_index": 586,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.609465680256313,
+          "gradient_percent": 43.1307384364942,
+          "energy_percent": 53.30643894454566,
+          "flux_L2_percent": 79.55814923733652,
+          "error_sine_low_fraction_percent": 34.15436700290032,
+          "error_sine_mid_fraction_percent": 13.996810169730884,
+          "error_sine_high_fraction_percent": 51.84882282736879,
+          "total_ms": 1.487386878579855
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.697136138633329,
+          "gradient_percent": 0.8474641863904157,
+          "energy_percent": 0.9351196590158589,
+          "flux_L2_percent": 0.9716860585952849,
+          "error_sine_low_fraction_percent": 99.58130337101507,
+          "error_sine_mid_fraction_percent": 0.39571965217419935,
+          "error_sine_high_fraction_percent": 0.022976976810665527,
+          "total_ms": 10.125779081135988
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.11499969253342497,
+          "gradient_percent": 0.5233480425134557,
+          "energy_percent": 0.5603483543228154,
+          "flux_L2_percent": 0.5943137914157369,
+          "error_sine_low_fraction_percent": 80.69675010041611,
+          "error_sine_mid_fraction_percent": 18.603940082564964,
+          "error_sine_high_fraction_percent": 0.6993098170189371,
+          "total_ms": 13.126032892614603
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.01805600334196177,
+          "gradient_percent": 0.06426614117725515,
+          "energy_percent": 0.06342028535079894,
+          "flux_L2_percent": 0.06044913120858773,
+          "error_sine_low_fraction_percent": 86.66894030984008,
+          "error_sine_mid_fraction_percent": 13.054550771749415,
+          "error_sine_high_fraction_percent": 0.2765089184104988,
+          "total_ms": 17.301161773502827
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0012249451449952006,
+          "gradient_percent": 0.0032191536963589954,
+          "energy_percent": 0.004001888929510587,
+          "flux_L2_percent": 0.005927893580140557,
+          "error_sine_low_fraction_percent": 94.88687688833441,
+          "error_sine_mid_fraction_percent": 4.977148673499613,
+          "error_sine_high_fraction_percent": 0.13597443816596472,
+          "total_ms": 25.68254992365837
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.05381548203449172,
+          "gradient_percent": 0.17624973604997785,
+          "energy_percent": 0.16960522657782748,
+          "flux_L2_percent": 0.16712470267989654,
+          "error_sine_low_fraction_percent": 93.74427207989659,
+          "error_sine_mid_fraction_percent": 6.051755269968313,
+          "error_sine_high_fraction_percent": 0.2039726501351127,
+          "total_ms": 16.21602987870574
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.0149676112447494,
+          "gradient_percent": 0.05830505015917058,
+          "energy_percent": 0.0525798215270045,
+          "flux_L2_percent": 0.04722458323647029,
+          "error_sine_low_fraction_percent": 85.16153037447687,
+          "error_sine_mid_fraction_percent": 14.48865942470876,
+          "error_sine_high_fraction_percent": 0.34981020081436115,
+          "total_ms": 19.98316403478384
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0009393522129367972,
+          "gradient_percent": 0.002463339876722918,
+          "energy_percent": 0.0032052594078622863,
+          "flux_L2_percent": 0.005330003226408144,
+          "error_sine_low_fraction_percent": 95.67014501630358,
+          "error_sine_mid_fraction_percent": 4.2012267438823345,
+          "error_sine_high_fraction_percent": 0.12862823981407245,
+          "total_ms": 28.338182251900434
+        }
+      }
+    },
+    {
+      "index": 11,
+      "sample_index": 587,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.6374019037312992,
+          "gradient_percent": 45.078964246112236,
+          "energy_percent": 53.92347034720126,
+          "flux_L2_percent": 74.6701640163843,
+          "error_sine_low_fraction_percent": 32.88982721108827,
+          "error_sine_mid_fraction_percent": 12.21872769652097,
+          "error_sine_high_fraction_percent": 54.89144509239076,
+          "total_ms": 1.6505289822816849
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.6201144462618798,
+          "gradient_percent": 0.7592614197219111,
+          "energy_percent": 0.8268855167489769,
+          "flux_L2_percent": 0.8641588091585553,
+          "error_sine_low_fraction_percent": 99.55739004889439,
+          "error_sine_mid_fraction_percent": 0.4135564528200862,
+          "error_sine_high_fraction_percent": 0.029053498285486458,
+          "total_ms": 10.090138297528028
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.12166948212126659,
+          "gradient_percent": 0.5614149462952779,
+          "energy_percent": 0.5932411741138457,
+          "flux_L2_percent": 0.5908264131414169,
+          "error_sine_low_fraction_percent": 83.49168491917636,
+          "error_sine_mid_fraction_percent": 15.76151026711294,
+          "error_sine_high_fraction_percent": 0.7468048137106583,
+          "total_ms": 13.101272750645876
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.021573990811470965,
+          "gradient_percent": 0.07629425296569206,
+          "energy_percent": 0.07727155313337587,
+          "flux_L2_percent": 0.0734387288890896,
+          "error_sine_low_fraction_percent": 88.75205562086703,
+          "error_sine_mid_fraction_percent": 10.852480238072294,
+          "error_sine_high_fraction_percent": 0.39546414106067296,
+          "total_ms": 17.299592960625887
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0034731092065185785,
+          "gradient_percent": 0.004906077154025625,
+          "energy_percent": 0.0052737351226054205,
+          "flux_L2_percent": 0.006606312726199409,
+          "error_sine_low_fraction_percent": 98.96110992814629,
+          "error_sine_mid_fraction_percent": 0.9881440287047191,
+          "error_sine_high_fraction_percent": 0.05074604314902257,
+          "total_ms": 25.567298755049706
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.032691139287624495,
+          "gradient_percent": 0.10768756868255282,
+          "energy_percent": 0.11781489117619422,
+          "flux_L2_percent": 0.11646488670006197,
+          "error_sine_low_fraction_percent": 91.02141566112557,
+          "error_sine_mid_fraction_percent": 8.676426863975474,
+          "error_sine_high_fraction_percent": 0.30215747489897143,
+          "total_ms": 16.078507993370295
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.013221603313929835,
+          "gradient_percent": 0.0487107781523593,
+          "energy_percent": 0.05118495680611338,
+          "flux_L2_percent": 0.04993127320425236,
+          "error_sine_low_fraction_percent": 87.51036366554716,
+          "error_sine_mid_fraction_percent": 12.039823934388497,
+          "error_sine_high_fraction_percent": 0.4498124000643756,
+          "total_ms": 20.339488051831722
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0008838292095286714,
+          "gradient_percent": 0.0021448024154404194,
+          "energy_percent": 0.0029884979804564974,
+          "flux_L2_percent": 0.0047730943225912145,
+          "error_sine_low_fraction_percent": 96.42403574426534,
+          "error_sine_mid_fraction_percent": 3.4245820470901664,
+          "error_sine_high_fraction_percent": 0.15138220864447932,
+          "total_ms": 29.60687829181552
+        }
+      }
+    },
+    {
+      "index": 12,
+      "sample_index": 588,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.6693521470937167,
+          "gradient_percent": 42.15348842811724,
+          "energy_percent": 54.97012554532583,
+          "flux_L2_percent": 76.72822410053696,
+          "error_sine_low_fraction_percent": 37.01488101588171,
+          "error_sine_mid_fraction_percent": 13.928973042031929,
+          "error_sine_high_fraction_percent": 49.05614594208636,
+          "total_ms": 1.4713970012962818
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.5138998222252986,
+          "gradient_percent": 0.7837412688149408,
+          "energy_percent": 0.8650686720386725,
+          "flux_L2_percent": 0.8920232766452669,
+          "error_sine_low_fraction_percent": 98.99016688165653,
+          "error_sine_mid_fraction_percent": 0.9330968954263754,
+          "error_sine_high_fraction_percent": 0.07673622291709153,
+          "total_ms": 10.153188835829496
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.0835925701941919,
+          "gradient_percent": 0.4407308154510971,
+          "energy_percent": 0.5063136597034026,
+          "flux_L2_percent": 0.5294265367690095,
+          "error_sine_low_fraction_percent": 75.4203623261812,
+          "error_sine_mid_fraction_percent": 23.46008231236946,
+          "error_sine_high_fraction_percent": 1.1195553614493563,
+          "total_ms": 13.146733865141869
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.011861751711171634,
+          "gradient_percent": 0.04465658392847286,
+          "energy_percent": 0.04682403507194459,
+          "flux_L2_percent": 0.04573014773765528,
+          "error_sine_low_fraction_percent": 87.0107805885949,
+          "error_sine_mid_fraction_percent": 12.413620631086037,
+          "error_sine_high_fraction_percent": 0.575598780319071,
+          "total_ms": 17.28967297822237
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0009171618436562041,
+          "gradient_percent": 0.0028858784256590854,
+          "energy_percent": 0.003640032606281892,
+          "flux_L2_percent": 0.005103276557744029,
+          "error_sine_low_fraction_percent": 93.5542350215565,
+          "error_sine_mid_fraction_percent": 6.146799646662771,
+          "error_sine_high_fraction_percent": 0.2989653317807585,
+          "total_ms": 25.626680813729763
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.04543121510916846,
+          "gradient_percent": 0.14076160259258408,
+          "energy_percent": 0.1462493755132118,
+          "flux_L2_percent": 0.13745733678904262,
+          "error_sine_low_fraction_percent": 95.13282627288882,
+          "error_sine_mid_fraction_percent": 4.559773688363546,
+          "error_sine_high_fraction_percent": 0.30740003874760213,
+          "total_ms": 16.030977945774794
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.010895701197983726,
+          "gradient_percent": 0.03968884201607382,
+          "energy_percent": 0.038785899368958925,
+          "flux_L2_percent": 0.034750305287405685,
+          "error_sine_low_fraction_percent": 88.25221607098537,
+          "error_sine_mid_fraction_percent": 11.136208340318184,
+          "error_sine_high_fraction_percent": 0.6115755886964396,
+          "total_ms": 19.97678494080901
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0018996904453118587,
+          "gradient_percent": 0.002686299572411549,
+          "energy_percent": 0.003547990533841354,
+          "flux_L2_percent": 0.005274390266425977,
+          "error_sine_low_fraction_percent": 99.04045549273857,
+          "error_sine_mid_fraction_percent": 0.8947022396951002,
+          "error_sine_high_fraction_percent": 0.0648422675663382,
+          "total_ms": 28.422042727470398
+        }
+      }
+    },
+    {
+      "index": 13,
+      "sample_index": 589,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.9985630846748763,
+          "gradient_percent": 44.44329749044139,
+          "energy_percent": 55.74915756085811,
+          "flux_L2_percent": 82.17702652615257,
+          "error_sine_low_fraction_percent": 44.184184819617435,
+          "error_sine_mid_fraction_percent": 13.992104419844576,
+          "error_sine_high_fraction_percent": 41.82371076053799,
+          "total_ms": 1.4842269010841846
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.9948592354754913,
+          "gradient_percent": 1.0469892340886622,
+          "energy_percent": 1.186976761676893,
+          "flux_L2_percent": 1.3244872340840705,
+          "error_sine_low_fraction_percent": 99.70498833066956,
+          "error_sine_mid_fraction_percent": 0.2722174203924678,
+          "error_sine_high_fraction_percent": 0.022794248937946206,
+          "total_ms": 10.105199180543423
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.08871748636486032,
+          "gradient_percent": 0.5040448720600754,
+          "energy_percent": 0.5296070827163871,
+          "flux_L2_percent": 0.5720134585372901,
+          "error_sine_low_fraction_percent": 69.94879839995248,
+          "error_sine_mid_fraction_percent": 28.646907904386197,
+          "error_sine_high_fraction_percent": 1.4042936956613197,
+          "total_ms": 13.1033337675035
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.011334780425485965,
+          "gradient_percent": 0.04620822354105405,
+          "energy_percent": 0.04798295707787168,
+          "flux_L2_percent": 0.04953433682698933,
+          "error_sine_low_fraction_percent": 84.69800673169873,
+          "error_sine_mid_fraction_percent": 14.711419568298473,
+          "error_sine_high_fraction_percent": 0.5905737000028007,
+          "total_ms": 17.29531306773424
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0007337043588183335,
+          "gradient_percent": 0.0021459005072598496,
+          "energy_percent": 0.002985212953326561,
+          "flux_L2_percent": 0.005093218068550716,
+          "error_sine_low_fraction_percent": 95.23470715012512,
+          "error_sine_mid_fraction_percent": 4.525582339046872,
+          "error_sine_high_fraction_percent": 0.23971051082800898,
+          "total_ms": 25.61871102079749
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.016989101801716856,
+          "gradient_percent": 0.0668255352066948,
+          "energy_percent": 0.06712318484212723,
+          "flux_L2_percent": 0.06912422044861476,
+          "error_sine_low_fraction_percent": 87.81250559347544,
+          "error_sine_mid_fraction_percent": 11.681702127654749,
+          "error_sine_high_fraction_percent": 0.5057922788698069,
+          "total_ms": 16.00224757567048
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.00772675463621559,
+          "gradient_percent": 0.03692948082652886,
+          "energy_percent": 0.036316125687710615,
+          "flux_L2_percent": 0.036767489187632986,
+          "error_sine_low_fraction_percent": 78.51528610732424,
+          "error_sine_mid_fraction_percent": 20.536686521254673,
+          "error_sine_high_fraction_percent": 0.9480273714210903,
+          "total_ms": 19.982194993644953
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0009548049785160293,
+          "gradient_percent": 0.002285272262752584,
+          "energy_percent": 0.0033555252947240024,
+          "flux_L2_percent": 0.0053134621199098795,
+          "error_sine_low_fraction_percent": 98.11759861709076,
+          "error_sine_mid_fraction_percent": 1.7273240236304184,
+          "error_sine_high_fraction_percent": 0.155077359278819,
+          "total_ms": 28.47532508894801
+        }
+      }
+    },
+    {
+      "index": 14,
+      "sample_index": 590,
+      "methods": {
+        "FNO": {
+          "L2_percent": 3.803282971927111,
+          "gradient_percent": 46.285322450185824,
+          "energy_percent": 54.477987730767005,
+          "flux_L2_percent": 81.22079692718832,
+          "error_sine_low_fraction_percent": 87.15976604345484,
+          "error_sine_mid_fraction_percent": 2.1095334624921125,
+          "error_sine_high_fraction_percent": 10.730700494053037,
+          "total_ms": 1.484476961195469
+        },
+        "filter_only_K2": {
+          "L2_percent": 2.978972232561584,
+          "gradient_percent": 2.976930280296331,
+          "energy_percent": 2.9972417474115107,
+          "flux_L2_percent": 3.060390109020291,
+          "error_sine_low_fraction_percent": 99.68853849210109,
+          "error_sine_mid_fraction_percent": 0.2857492601155535,
+          "error_sine_high_fraction_percent": 0.025712247783336223,
+          "total_ms": 10.088548064231873
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.1747601590631425,
+          "gradient_percent": 0.5903734335193603,
+          "energy_percent": 0.6215917860731172,
+          "flux_L2_percent": 0.6613401958561537,
+          "error_sine_low_fraction_percent": 88.33101073976005,
+          "error_sine_mid_fraction_percent": 11.246636903903003,
+          "error_sine_high_fraction_percent": 0.4223523563369335,
+          "total_ms": 13.09335371479392
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.02320700666969651,
+          "gradient_percent": 0.0650050961377951,
+          "energy_percent": 0.06589144290455791,
+          "flux_L2_percent": 0.06446483298338351,
+          "error_sine_low_fraction_percent": 93.88101355805948,
+          "error_sine_mid_fraction_percent": 5.8410325904924285,
+          "error_sine_high_fraction_percent": 0.277953851448094,
+          "total_ms": 17.264913767576218
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.002078912420728635,
+          "gradient_percent": 0.0038736033960489642,
+          "energy_percent": 0.004331306619089925,
+          "flux_L2_percent": 0.0059684034638563055,
+          "error_sine_low_fraction_percent": 98.23193426211556,
+          "error_sine_mid_fraction_percent": 1.665299446199316,
+          "error_sine_high_fraction_percent": 0.10276629168508093,
+          "total_ms": 25.618551298975945
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.0357828800011516,
+          "gradient_percent": 0.10538368474085794,
+          "energy_percent": 0.10810367010943617,
+          "flux_L2_percent": 0.11303247391695362,
+          "error_sine_low_fraction_percent": 92.55451342044844,
+          "error_sine_mid_fraction_percent": 7.191963965589905,
+          "error_sine_high_fraction_percent": 0.25352261396165027,
+          "total_ms": 15.956047922372818
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.020118658839043544,
+          "gradient_percent": 0.05294481944464357,
+          "energy_percent": 0.052785492795164576,
+          "flux_L2_percent": 0.051659177696764015,
+          "error_sine_low_fraction_percent": 93.46618992556023,
+          "error_sine_mid_fraction_percent": 6.273733927766309,
+          "error_sine_high_fraction_percent": 0.26007614667350204,
+          "total_ms": 19.984376151114702
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0013724354634258502,
+          "gradient_percent": 0.0026460104820453397,
+          "energy_percent": 0.003457535793691552,
+          "flux_L2_percent": 0.005451229523004755,
+          "error_sine_low_fraction_percent": 97.799710704265,
+          "error_sine_mid_fraction_percent": 2.0803784323829544,
+          "error_sine_high_fraction_percent": 0.11991086335204425,
+          "total_ms": 29.22738529741764
+        }
+      }
+    },
+    {
+      "index": 15,
+      "sample_index": 591,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.3609501569986313,
+          "gradient_percent": 42.08190665238508,
+          "energy_percent": 52.30869758176987,
+          "flux_L2_percent": 73.3331211278568,
+          "error_sine_low_fraction_percent": 17.8531111546754,
+          "error_sine_mid_fraction_percent": 17.608458648974818,
+          "error_sine_high_fraction_percent": 64.5384301963498,
+          "total_ms": 1.522767823189497
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.4272456759021902,
+          "gradient_percent": 0.564346964012267,
+          "energy_percent": 0.5398775248790485,
+          "flux_L2_percent": 0.5459425562511497,
+          "error_sine_low_fraction_percent": 99.39746266465364,
+          "error_sine_mid_fraction_percent": 0.556486110495949,
+          "error_sine_high_fraction_percent": 0.046051224850423685,
+          "total_ms": 10.12321887537837
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.07257426971870513,
+          "gradient_percent": 0.4134239269262336,
+          "energy_percent": 0.4591142954403318,
+          "flux_L2_percent": 0.5003838078051863,
+          "error_sine_low_fraction_percent": 77.61679876534045,
+          "error_sine_mid_fraction_percent": 21.19705197656805,
+          "error_sine_high_fraction_percent": 1.186149258091517,
+          "total_ms": 13.177505228668451
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.011589178732711314,
+          "gradient_percent": 0.03979009043423327,
+          "energy_percent": 0.042255136820538886,
+          "flux_L2_percent": 0.044192778097159005,
+          "error_sine_low_fraction_percent": 89.05585149067528,
+          "error_sine_mid_fraction_percent": 10.58118869504994,
+          "error_sine_high_fraction_percent": 0.36295981427478247,
+          "total_ms": 17.25066266953945
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0008590743404984516,
+          "gradient_percent": 0.002244453846122027,
+          "energy_percent": 0.003070430120963049,
+          "flux_L2_percent": 0.005098520077398391,
+          "error_sine_low_fraction_percent": 95.53717072393022,
+          "error_sine_mid_fraction_percent": 4.305173304199711,
+          "error_sine_high_fraction_percent": 0.15765597187005806,
+          "total_ms": 25.586030911654234
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.019757398297644238,
+          "gradient_percent": 0.06585600031496153,
+          "energy_percent": 0.06059938600644195,
+          "flux_L2_percent": 0.059285149578628134,
+          "error_sine_low_fraction_percent": 90.12604076730096,
+          "error_sine_mid_fraction_percent": 9.540829738487478,
+          "error_sine_high_fraction_percent": 0.3331294942115537,
+          "total_ms": 15.950317960232496
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.011001739860101565,
+          "gradient_percent": 0.03770818797416609,
+          "energy_percent": 0.03329492359112441,
+          "flux_L2_percent": 0.03076970763569473,
+          "error_sine_low_fraction_percent": 89.10648866388722,
+          "error_sine_mid_fraction_percent": 10.484162745922047,
+          "error_sine_high_fraction_percent": 0.4093485901907483,
+          "total_ms": 20.074697211384773
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0021714109139734797,
+          "gradient_percent": 0.0033826129688647954,
+          "energy_percent": 0.003665877478241907,
+          "flux_L2_percent": 0.00560462628576165,
+          "error_sine_low_fraction_percent": 98.64357632794291,
+          "error_sine_mid_fraction_percent": 1.2922105060630071,
+          "error_sine_high_fraction_percent": 0.06421316599406733,
+          "total_ms": 28.316983953118324
+        }
+      }
+    },
+    {
+      "index": 16,
+      "sample_index": 592,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.978683716662999,
+          "gradient_percent": 46.98207953686982,
+          "energy_percent": 57.46969571052736,
+          "flux_L2_percent": 81.13418490904247,
+          "error_sine_low_fraction_percent": 49.150022226871386,
+          "error_sine_mid_fraction_percent": 9.12279288860202,
+          "error_sine_high_fraction_percent": 41.72718488452659,
+          "total_ms": 1.654100138694048
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.1415247894462337,
+          "gradient_percent": 1.188016584787528,
+          "energy_percent": 1.2392887764952798,
+          "flux_L2_percent": 1.2436860618296381,
+          "error_sine_low_fraction_percent": 99.64158894898898,
+          "error_sine_mid_fraction_percent": 0.33029827967480135,
+          "error_sine_high_fraction_percent": 0.028112771336210273,
+          "total_ms": 10.10119915008545
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.11858107496366029,
+          "gradient_percent": 0.5680880546023438,
+          "energy_percent": 0.6192701017361613,
+          "flux_L2_percent": 0.6585987818949971,
+          "error_sine_low_fraction_percent": 81.16893799421223,
+          "error_sine_mid_fraction_percent": 18.095749238117175,
+          "error_sine_high_fraction_percent": 0.7353127676705612,
+          "total_ms": 13.099144212901592
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.020040854595244694,
+          "gradient_percent": 0.08369370550848618,
+          "energy_percent": 0.09138091724858038,
+          "flux_L2_percent": 0.08904002062696978,
+          "error_sine_low_fraction_percent": 84.0764020992948,
+          "error_sine_mid_fraction_percent": 15.458021553411434,
+          "error_sine_high_fraction_percent": 0.4655763472937907,
+          "total_ms": 17.262293957173824
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0018291129465366454,
+          "gradient_percent": 0.004861159417284107,
+          "energy_percent": 0.005655662426657957,
+          "flux_L2_percent": 0.006844526879695544,
+          "error_sine_low_fraction_percent": 94.42944153400113,
+          "error_sine_mid_fraction_percent": 5.404931089381803,
+          "error_sine_high_fraction_percent": 0.16562737661702645,
+          "total_ms": 25.706092827022076
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.030711012252178885,
+          "gradient_percent": 0.11111262513745802,
+          "energy_percent": 0.11796204682681867,
+          "flux_L2_percent": 0.11840237606189484,
+          "error_sine_low_fraction_percent": 89.44664397558088,
+          "error_sine_mid_fraction_percent": 10.234680308365594,
+          "error_sine_high_fraction_percent": 0.31867571605353234,
+          "total_ms": 16.014819033443928
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.010914548941406216,
+          "gradient_percent": 0.04495195793320962,
+          "energy_percent": 0.04233454042044442,
+          "flux_L2_percent": 0.03911871662320587,
+          "error_sine_low_fraction_percent": 82.91252997367476,
+          "error_sine_mid_fraction_percent": 16.57039505776546,
+          "error_sine_high_fraction_percent": 0.5170749685597741,
+          "total_ms": 20.06281679496169
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0013705834323546353,
+          "gradient_percent": 0.002422200033816061,
+          "energy_percent": 0.0032300433691393867,
+          "flux_L2_percent": 0.005114619871083288,
+          "error_sine_low_fraction_percent": 98.51259926747129,
+          "error_sine_mid_fraction_percent": 1.4114339160250509,
+          "error_sine_high_fraction_percent": 0.07596681650363392,
+          "total_ms": 28.622538316994905
+        }
+      }
+    },
+    {
+      "index": 17,
+      "sample_index": 593,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.892347143551198,
+          "gradient_percent": 43.123413819769176,
+          "energy_percent": 54.21905219585068,
+          "flux_L2_percent": 81.88611357923911,
+          "error_sine_low_fraction_percent": 45.662312723341145,
+          "error_sine_mid_fraction_percent": 11.395632343436352,
+          "error_sine_high_fraction_percent": 42.942054933222515,
+          "total_ms": 1.4813472516834736
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.8232799632153392,
+          "gradient_percent": 1.3497651276821,
+          "energy_percent": 1.3626289172283166,
+          "flux_L2_percent": 1.3999926584415363,
+          "error_sine_low_fraction_percent": 99.23146346857412,
+          "error_sine_mid_fraction_percent": 0.6708789483149982,
+          "error_sine_high_fraction_percent": 0.09765758311086632,
+          "total_ms": 10.07885904982686
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.2074396164180397,
+          "gradient_percent": 0.6624321274288035,
+          "energy_percent": 0.7018493112538757,
+          "flux_L2_percent": 0.7039904483690548,
+          "error_sine_low_fraction_percent": 91.58168235539215,
+          "error_sine_mid_fraction_percent": 8.035819116455128,
+          "error_sine_high_fraction_percent": 0.38249852815277335,
+          "total_ms": 13.157865963876247
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.04187219400425458,
+          "gradient_percent": 0.10841275898435677,
+          "energy_percent": 0.11129774004416178,
+          "flux_L2_percent": 0.1038301685969821,
+          "error_sine_low_fraction_percent": 94.72944856303447,
+          "error_sine_mid_fraction_percent": 5.0580761401039025,
+          "error_sine_high_fraction_percent": 0.21247529686162817,
+          "total_ms": 17.254203092306852
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0030369449305989874,
+          "gradient_percent": 0.006618470552208637,
+          "energy_percent": 0.007212269914673514,
+          "flux_L2_percent": 0.007992058917762012,
+          "error_sine_low_fraction_percent": 96.33281104019451,
+          "error_sine_mid_fraction_percent": 3.5447985028337987,
+          "error_sine_high_fraction_percent": 0.12239045697169305,
+          "total_ms": 26.949248742312193
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.06452999819020891,
+          "gradient_percent": 0.16407809996875405,
+          "energy_percent": 0.16421658482149165,
+          "flux_L2_percent": 0.14998040038090238,
+          "error_sine_low_fraction_percent": 95.09573195118195,
+          "error_sine_mid_fraction_percent": 4.700539617144045,
+          "error_sine_high_fraction_percent": 0.20372843167402996,
+          "total_ms": 15.940949320793152
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.03504373243775763,
+          "gradient_percent": 0.09341366405700573,
+          "energy_percent": 0.09045517416190882,
+          "flux_L2_percent": 0.08088848478451993,
+          "error_sine_low_fraction_percent": 93.91055866807652,
+          "error_sine_mid_fraction_percent": 5.825372347624979,
+          "error_sine_high_fraction_percent": 0.26406898429849107,
+          "total_ms": 19.970846828073263
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.001750205809291925,
+          "gradient_percent": 0.0042237517979962814,
+          "energy_percent": 0.0045109930266267655,
+          "flux_L2_percent": 0.005563372011217942,
+          "error_sine_low_fraction_percent": 95.64586849225283,
+          "error_sine_mid_fraction_percent": 4.142803423634222,
+          "error_sine_high_fraction_percent": 0.2113280841129788,
+          "total_ms": 28.36113516241312
+        }
+      }
+    },
+    {
+      "index": 18,
+      "sample_index": 594,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.8776359133178187,
+          "gradient_percent": 44.00176482480545,
+          "energy_percent": 52.18488454839563,
+          "flux_L2_percent": 70.37319603273642,
+          "error_sine_low_fraction_percent": 51.31063605218369,
+          "error_sine_mid_fraction_percent": 10.273788342289537,
+          "error_sine_high_fraction_percent": 38.41557560552675,
+          "total_ms": 1.4815768226981163
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.0330321579233128,
+          "gradient_percent": 1.157896593929008,
+          "energy_percent": 1.1483097193457241,
+          "flux_L2_percent": 1.164111204757684,
+          "error_sine_low_fraction_percent": 99.53229911024798,
+          "error_sine_mid_fraction_percent": 0.4451343613814489,
+          "error_sine_high_fraction_percent": 0.022566528370567294,
+          "total_ms": 11.603327933698893
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.10646268793608459,
+          "gradient_percent": 0.455969359406999,
+          "energy_percent": 0.4783753229734465,
+          "flux_L2_percent": 0.5225154549831811,
+          "error_sine_low_fraction_percent": 85.4293930674235,
+          "error_sine_mid_fraction_percent": 13.993141268651758,
+          "error_sine_high_fraction_percent": 0.5774656639247511,
+          "total_ms": 13.66772223263979
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.015973857684707958,
+          "gradient_percent": 0.05376257580935066,
+          "energy_percent": 0.05199918517809813,
+          "flux_L2_percent": 0.05239705567902508,
+          "error_sine_low_fraction_percent": 90.33034493416639,
+          "error_sine_mid_fraction_percent": 9.37799608349684,
+          "error_sine_high_fraction_percent": 0.2916589823367536,
+          "total_ms": 20.044567063450813
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0019048445100038134,
+          "gradient_percent": 0.0035016853641762634,
+          "energy_percent": 0.003913868357076394,
+          "flux_L2_percent": 0.005319600299504645,
+          "error_sine_low_fraction_percent": 98.08796135081897,
+          "error_sine_mid_fraction_percent": 1.8422211272422777,
+          "error_sine_high_fraction_percent": 0.06981752193875149,
+          "total_ms": 29.18220590800047
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.025879550360927612,
+          "gradient_percent": 0.08131185808960209,
+          "energy_percent": 0.08072345366526029,
+          "flux_L2_percent": 0.08864522996555928,
+          "error_sine_low_fraction_percent": 91.5280873782762,
+          "error_sine_mid_fraction_percent": 8.269995987762634,
+          "error_sine_high_fraction_percent": 0.20191663396115947,
+          "total_ms": 16.039640177041292
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.010567830544953527,
+          "gradient_percent": 0.03897581787521028,
+          "energy_percent": 0.03862742804025979,
+          "flux_L2_percent": 0.038851851847801926,
+          "error_sine_low_fraction_percent": 85.4463954834637,
+          "error_sine_mid_fraction_percent": 14.229341024235108,
+          "error_sine_high_fraction_percent": 0.3242634923011811,
+          "total_ms": 20.08781721815467
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0011760077157879692,
+          "gradient_percent": 0.0021917964223495305,
+          "energy_percent": 0.0029066956067860324,
+          "flux_L2_percent": 0.004520515807320579,
+          "error_sine_low_fraction_percent": 98.15835555155927,
+          "error_sine_mid_fraction_percent": 1.7679148193967023,
+          "error_sine_high_fraction_percent": 0.07372962904407288,
+          "total_ms": 28.59587874263525
+        }
+      }
+    },
+    {
+      "index": 19,
+      "sample_index": 595,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.8914933422031635,
+          "gradient_percent": 44.390503881591606,
+          "energy_percent": 52.28288123148735,
+          "flux_L2_percent": 72.32736348671648,
+          "error_sine_low_fraction_percent": 45.99378641963352,
+          "error_sine_mid_fraction_percent": 15.819818106857568,
+          "error_sine_high_fraction_percent": 38.186395473508924,
+          "total_ms": 1.493537798523903
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.8906322567639411,
+          "gradient_percent": 1.0318059238278803,
+          "energy_percent": 1.0729738122455863,
+          "flux_L2_percent": 1.1333377999909502,
+          "error_sine_low_fraction_percent": 99.56214990124472,
+          "error_sine_mid_fraction_percent": 0.4205702926590391,
+          "error_sine_high_fraction_percent": 0.017279806096217844,
+          "total_ms": 10.26355242356658
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.14406936120271038,
+          "gradient_percent": 0.5511464771761316,
+          "energy_percent": 0.6212319534075282,
+          "flux_L2_percent": 0.7068798384213706,
+          "error_sine_low_fraction_percent": 85.75861674586353,
+          "error_sine_mid_fraction_percent": 13.803114485046725,
+          "error_sine_high_fraction_percent": 0.43826876908972573,
+          "total_ms": 13.269037939608097
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.03624297323143722,
+          "gradient_percent": 0.08987506898779687,
+          "energy_percent": 0.1008456870456785,
+          "flux_L2_percent": 0.1053282995853119,
+          "error_sine_low_fraction_percent": 93.4960410581017,
+          "error_sine_mid_fraction_percent": 6.387536156503588,
+          "error_sine_high_fraction_percent": 0.1164227853947462,
+          "total_ms": 17.26943487301469
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0033938574028516727,
+          "gradient_percent": 0.007723094377742493,
+          "energy_percent": 0.00912785145734772,
+          "flux_L2_percent": 0.010560352852965475,
+          "error_sine_low_fraction_percent": 94.88676419034529,
+          "error_sine_mid_fraction_percent": 5.023352499464996,
+          "error_sine_high_fraction_percent": 0.08988331018969531,
+          "total_ms": 25.944087654352188
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.041575610262091486,
+          "gradient_percent": 0.10901213553999724,
+          "energy_percent": 0.12516867252944033,
+          "flux_L2_percent": 0.1333139570480703,
+          "error_sine_low_fraction_percent": 93.77917512896015,
+          "error_sine_mid_fraction_percent": 6.09262921561816,
+          "error_sine_high_fraction_percent": 0.12819565542171715,
+          "total_ms": 16.02187007665634
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.019747880072890335,
+          "gradient_percent": 0.05415185111361624,
+          "energy_percent": 0.06164094937435856,
+          "flux_L2_percent": 0.067015295979579,
+          "error_sine_low_fraction_percent": 92.26226205199777,
+          "error_sine_mid_fraction_percent": 7.566187313061336,
+          "error_sine_high_fraction_percent": 0.1715506349409232,
+          "total_ms": 20.124468952417374
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0011372849380098264,
+          "gradient_percent": 0.0027749540059055734,
+          "energy_percent": 0.0036637871788157265,
+          "flux_L2_percent": 0.00560927546624012,
+          "error_sine_low_fraction_percent": 95.50531501644298,
+          "error_sine_mid_fraction_percent": 4.36533171463791,
+          "error_sine_high_fraction_percent": 0.129353268919135,
+          "total_ms": 28.897302225232124
+        }
+      }
+    },
+    {
+      "index": 20,
+      "sample_index": 596,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.8890414458407074,
+          "gradient_percent": 40.96775980199136,
+          "energy_percent": 51.23661703198056,
+          "flux_L2_percent": 69.45917982780479,
+          "error_sine_low_fraction_percent": 62.600249086505094,
+          "error_sine_mid_fraction_percent": 9.162140593447614,
+          "error_sine_high_fraction_percent": 28.237610320047256,
+          "total_ms": 1.5133176930248737
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.1878046257548616,
+          "gradient_percent": 1.3284046678394896,
+          "energy_percent": 1.365650615632045,
+          "flux_L2_percent": 1.439463771885648,
+          "error_sine_low_fraction_percent": 99.58497016126499,
+          "error_sine_mid_fraction_percent": 0.3900522752071728,
+          "error_sine_high_fraction_percent": 0.024977563527808746,
+          "total_ms": 10.238142218440771
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.10442343365604465,
+          "gradient_percent": 0.4753848659428679,
+          "energy_percent": 0.5136585405924826,
+          "flux_L2_percent": 0.5649856633709944,
+          "error_sine_low_fraction_percent": 83.27204545873451,
+          "error_sine_mid_fraction_percent": 15.979714865441016,
+          "error_sine_high_fraction_percent": 0.7482396758244997,
+          "total_ms": 13.158926274627447
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.01171677043109684,
+          "gradient_percent": 0.0432294574148332,
+          "energy_percent": 0.04616443590733308,
+          "flux_L2_percent": 0.04823976384818422,
+          "error_sine_low_fraction_percent": 87.2405608660955,
+          "error_sine_mid_fraction_percent": 12.27378741019584,
+          "error_sine_high_fraction_percent": 0.4856517237086562,
+          "total_ms": 17.367295920848846
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0009333307694576571,
+          "gradient_percent": 0.0019008247637758706,
+          "energy_percent": 0.0028641575380479773,
+          "flux_L2_percent": 0.004875909659778231,
+          "error_sine_low_fraction_percent": 97.75451193986137,
+          "error_sine_mid_fraction_percent": 2.1518358263349433,
+          "error_sine_high_fraction_percent": 0.09365223380372673,
+          "total_ms": 25.748565793037415
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.02072384185998257,
+          "gradient_percent": 0.059575293527141526,
+          "energy_percent": 0.06576935586414066,
+          "flux_L2_percent": 0.07079053488177454,
+          "error_sine_low_fraction_percent": 95.05498171368673,
+          "error_sine_mid_fraction_percent": 4.704429359532643,
+          "error_sine_high_fraction_percent": 0.24058892678058272,
+          "total_ms": 15.988280065357685
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.009142129764518388,
+          "gradient_percent": 0.030464184429551743,
+          "energy_percent": 0.033852836612293206,
+          "flux_L2_percent": 0.036137398491760536,
+          "error_sine_low_fraction_percent": 90.82553865002367,
+          "error_sine_mid_fraction_percent": 8.691954153840364,
+          "error_sine_high_fraction_percent": 0.4825071961359774,
+          "total_ms": 20.208099856972694
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0031012482578700565,
+          "gradient_percent": 0.0035829547244303536,
+          "energy_percent": 0.004102356923070017,
+          "flux_L2_percent": 0.005440649130587845,
+          "error_sine_low_fraction_percent": 99.50006161159293,
+          "error_sine_mid_fraction_percent": 0.47282020753271436,
+          "error_sine_high_fraction_percent": 0.027118180874350008,
+          "total_ms": 28.718911111354828
+        }
+      }
+    },
+    {
+      "index": 21,
+      "sample_index": 597,
+      "methods": {
+        "FNO": {
+          "L2_percent": 2.0234088866003095,
+          "gradient_percent": 44.961039150116896,
+          "energy_percent": 51.98223043923043,
+          "flux_L2_percent": 70.82268896377295,
+          "error_sine_low_fraction_percent": 64.39580965654037,
+          "error_sine_mid_fraction_percent": 5.834481913049394,
+          "error_sine_high_fraction_percent": 29.769708430410237,
+          "total_ms": 1.5036878176033497
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.3417396932850418,
+          "gradient_percent": 1.539078478303429,
+          "energy_percent": 1.4943599348169947,
+          "flux_L2_percent": 1.4822679178118308,
+          "error_sine_low_fraction_percent": 99.5957272517384,
+          "error_sine_mid_fraction_percent": 0.3759459476614288,
+          "error_sine_high_fraction_percent": 0.028326800600188978,
+          "total_ms": 10.237451177090406
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.15944274573483339,
+          "gradient_percent": 0.5129303565142518,
+          "energy_percent": 0.5274021916054601,
+          "flux_L2_percent": 0.5349849971537335,
+          "error_sine_low_fraction_percent": 92.66679299970419,
+          "error_sine_mid_fraction_percent": 6.963854360110422,
+          "error_sine_high_fraction_percent": 0.36935264018537695,
+          "total_ms": 13.44953989610076
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.027692372491406117,
+          "gradient_percent": 0.07062222894354153,
+          "energy_percent": 0.06866452443590618,
+          "flux_L2_percent": 0.0628771753619289,
+          "error_sine_low_fraction_percent": 95.14927487900202,
+          "error_sine_mid_fraction_percent": 4.67728530621025,
+          "error_sine_high_fraction_percent": 0.17343981478775836,
+          "total_ms": 19.041786901652813
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0030020882669755757,
+          "gradient_percent": 0.005302672439534761,
+          "energy_percent": 0.0055891710985872586,
+          "flux_L2_percent": 0.006643175614417141,
+          "error_sine_low_fraction_percent": 98.26347679984477,
+          "error_sine_mid_fraction_percent": 1.6648337117999874,
+          "error_sine_high_fraction_percent": 0.0716894883552153,
+          "total_ms": 26.57386614009738
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.0479169767638087,
+          "gradient_percent": 0.12595715473557695,
+          "energy_percent": 0.12598064028794626,
+          "flux_L2_percent": 0.12325594292561753,
+          "error_sine_low_fraction_percent": 95.67665747561213,
+          "error_sine_mid_fraction_percent": 4.169810908886575,
+          "error_sine_high_fraction_percent": 0.15353161550127642,
+          "total_ms": 16.237592790275812
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.02180055993404698,
+          "gradient_percent": 0.05545871908828995,
+          "energy_percent": 0.05441520654991327,
+          "flux_L2_percent": 0.05226958457478193,
+          "error_sine_low_fraction_percent": 95.52495849984597,
+          "error_sine_mid_fraction_percent": 4.298381553523892,
+          "error_sine_high_fraction_percent": 0.1766599466301279,
+          "total_ms": 20.104529336094856
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.002416675897137813,
+          "gradient_percent": 0.004146095535489682,
+          "energy_percent": 0.004551428702135335,
+          "flux_L2_percent": 0.005928577291677885,
+          "error_sine_low_fraction_percent": 98.90045806196252,
+          "error_sine_mid_fraction_percent": 1.030397780352495,
+          "error_sine_high_fraction_percent": 0.069144157684978,
+          "total_ms": 28.514558915048838
+        }
+      }
+    },
+    {
+      "index": 22,
+      "sample_index": 598,
+      "methods": {
+        "FNO": {
+          "L2_percent": 2.157245261389047,
+          "gradient_percent": 43.67999442168671,
+          "energy_percent": 52.91454757842074,
+          "flux_L2_percent": 75.58402623734746,
+          "error_sine_low_fraction_percent": 62.35482005063481,
+          "error_sine_mid_fraction_percent": 9.087237190224487,
+          "error_sine_high_fraction_percent": 28.55794275914072,
+          "total_ms": 1.481947023421526
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.2942134372294525,
+          "gradient_percent": 1.4835086745953363,
+          "energy_percent": 1.489958886949434,
+          "flux_L2_percent": 1.5649067133710786,
+          "error_sine_low_fraction_percent": 99.46499648003116,
+          "error_sine_mid_fraction_percent": 0.5026011204697194,
+          "error_sine_high_fraction_percent": 0.03240239949907245,
+          "total_ms": 10.212131775915623
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.1583953937606432,
+          "gradient_percent": 0.5493579549492381,
+          "energy_percent": 0.6124173231733615,
+          "flux_L2_percent": 0.6574387266420861,
+          "error_sine_low_fraction_percent": 89.0157803578402,
+          "error_sine_mid_fraction_percent": 10.52700405731652,
+          "error_sine_high_fraction_percent": 0.45721558484327873,
+          "total_ms": 13.231897260993719
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.029284428566507835,
+          "gradient_percent": 0.07647703234300393,
+          "energy_percent": 0.07737339470303037,
+          "flux_L2_percent": 0.07744897277612127,
+          "error_sine_low_fraction_percent": 93.3397253956441,
+          "error_sine_mid_fraction_percent": 6.468035225441222,
+          "error_sine_high_fraction_percent": 0.19223937891469145,
+          "total_ms": 17.835873179137707
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0019150310722039134,
+          "gradient_percent": 0.004560392370144354,
+          "energy_percent": 0.0048756924216193705,
+          "flux_L2_percent": 0.00725039780220006,
+          "error_sine_low_fraction_percent": 94.53611825845614,
+          "error_sine_mid_fraction_percent": 5.298220767885135,
+          "error_sine_high_fraction_percent": 0.16566097365872995,
+          "total_ms": 25.7669766433537
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.04607755487042314,
+          "gradient_percent": 0.1286493119641426,
+          "energy_percent": 0.12412434244516146,
+          "flux_L2_percent": 0.12133895753516424,
+          "error_sine_low_fraction_percent": 93.89262466314187,
+          "error_sine_mid_fraction_percent": 5.897924744016972,
+          "error_sine_high_fraction_percent": 0.20945059284112627,
+          "total_ms": 16.07649214565754
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.021402291803150342,
+          "gradient_percent": 0.057602311241788086,
+          "energy_percent": 0.05591504397875684,
+          "flux_L2_percent": 0.053443453238422055,
+          "error_sine_low_fraction_percent": 93.08120515119855,
+          "error_sine_mid_fraction_percent": 6.696856649634466,
+          "error_sine_high_fraction_percent": 0.22193819916700425,
+          "total_ms": 20.18133131787181
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0018143762975873173,
+          "gradient_percent": 0.003151278346522484,
+          "energy_percent": 0.0036520478992496724,
+          "flux_L2_percent": 0.0057068162300384076,
+          "error_sine_low_fraction_percent": 97.82102966853142,
+          "error_sine_mid_fraction_percent": 2.095001445689033,
+          "error_sine_high_fraction_percent": 0.08396888577954248,
+          "total_ms": 28.616491239517927
+        }
+      }
+    },
+    {
+      "index": 23,
+      "sample_index": 599,
+      "methods": {
+        "FNO": {
+          "L2_percent": 3.042902735636481,
+          "gradient_percent": 43.63749204576596,
+          "energy_percent": 50.81081230856523,
+          "flux_L2_percent": 68.36622618046214,
+          "error_sine_low_fraction_percent": 85.52230050156012,
+          "error_sine_mid_fraction_percent": 3.2726053964406483,
+          "error_sine_high_fraction_percent": 11.205094101999224,
+          "total_ms": 1.5137181617319584
+        },
+        "filter_only_K2": {
+          "L2_percent": 2.330058850724601,
+          "gradient_percent": 2.3491560252077393,
+          "energy_percent": 2.3901944061191496,
+          "flux_L2_percent": 2.4133817196657454,
+          "error_sine_low_fraction_percent": 99.7425968682544,
+          "error_sine_mid_fraction_percent": 0.24173548344089044,
+          "error_sine_high_fraction_percent": 0.01566764830471147,
+          "total_ms": 10.245122015476227
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.1296026321085692,
+          "gradient_percent": 0.558244044613611,
+          "energy_percent": 0.5518991871726483,
+          "flux_L2_percent": 0.5721342060770994,
+          "error_sine_low_fraction_percent": 84.07309974168231,
+          "error_sine_mid_fraction_percent": 15.231356333390796,
+          "error_sine_high_fraction_percent": 0.6955439249268894,
+          "total_ms": 13.132815714925528
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.018082407318068754,
+          "gradient_percent": 0.05643722036687908,
+          "energy_percent": 0.05546123046458949,
+          "flux_L2_percent": 0.054564686712022976,
+          "error_sine_low_fraction_percent": 92.45969942773114,
+          "error_sine_mid_fraction_percent": 7.204069841994964,
+          "error_sine_high_fraction_percent": 0.3362307302739343,
+          "total_ms": 17.309037037193775
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0011394068406938708,
+          "gradient_percent": 0.0025214426505634087,
+          "energy_percent": 0.0032347686766635384,
+          "flux_L2_percent": 0.005081955780894275,
+          "error_sine_low_fraction_percent": 97.05318430874972,
+          "error_sine_mid_fraction_percent": 2.8191670993110027,
+          "error_sine_high_fraction_percent": 0.1276485919393196,
+          "total_ms": 25.717107113450766
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.03283572069236069,
+          "gradient_percent": 0.09334862885707511,
+          "energy_percent": 0.09123718520376702,
+          "flux_L2_percent": 0.08982850888517457,
+          "error_sine_low_fraction_percent": 94.56481803334124,
+          "error_sine_mid_fraction_percent": 5.20556953850015,
+          "error_sine_high_fraction_percent": 0.229612428158613,
+          "total_ms": 16.14935277029872
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.01871519234846222,
+          "gradient_percent": 0.05514125923236832,
+          "energy_percent": 0.0523212272926316,
+          "flux_L2_percent": 0.05080271082739762,
+          "error_sine_low_fraction_percent": 93.43559047081447,
+          "error_sine_mid_fraction_percent": 6.260860168719344,
+          "error_sine_high_fraction_percent": 0.3035493604661819,
+          "total_ms": 20.149449817836285
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0024437442085058843,
+          "gradient_percent": 0.0034494037268299436,
+          "energy_percent": 0.004040445762690479,
+          "flux_L2_percent": 0.005537313529779985,
+          "error_sine_low_fraction_percent": 99.32098017496192,
+          "error_sine_mid_fraction_percent": 0.6386952119776833,
+          "error_sine_high_fraction_percent": 0.04032461306040532,
+          "total_ms": 28.518331237137318
+        }
+      }
+    },
+    {
+      "index": 24,
+      "sample_index": 600,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.5866153219528372,
+          "gradient_percent": 47.2081823333613,
+          "energy_percent": 56.02294211383111,
+          "flux_L2_percent": 78.965952554374,
+          "error_sine_low_fraction_percent": 29.765487443647235,
+          "error_sine_mid_fraction_percent": 11.408460317770064,
+          "error_sine_high_fraction_percent": 58.82605223858271,
+          "total_ms": 1.4699776656925678
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.6360240333730985,
+          "gradient_percent": 0.8176210397246633,
+          "energy_percent": 0.840158305420235,
+          "flux_L2_percent": 0.890773037202974,
+          "error_sine_low_fraction_percent": 99.56011789292182,
+          "error_sine_mid_fraction_percent": 0.39495459891392143,
+          "error_sine_high_fraction_percent": 0.044927508164279484,
+          "total_ms": 10.21139184013009
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.11570891352756535,
+          "gradient_percent": 0.5236916726167897,
+          "energy_percent": 0.5367970534545403,
+          "flux_L2_percent": 0.5827668507878957,
+          "error_sine_low_fraction_percent": 84.06373525692027,
+          "error_sine_mid_fraction_percent": 15.094742978275033,
+          "error_sine_high_fraction_percent": 0.8415217648047291,
+          "total_ms": 13.16096680238843
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.02390811121125849,
+          "gradient_percent": 0.08094977948574135,
+          "energy_percent": 0.06997733274544327,
+          "flux_L2_percent": 0.060396062550577265,
+          "error_sine_low_fraction_percent": 91.54701083116449,
+          "error_sine_mid_fraction_percent": 8.042711673171565,
+          "error_sine_high_fraction_percent": 0.41027749566392746,
+          "total_ms": 17.34210690483451
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0019008490313400098,
+          "gradient_percent": 0.006060595431295599,
+          "energy_percent": 0.0055443359127592025,
+          "flux_L2_percent": 0.006407460947945957,
+          "error_sine_low_fraction_percent": 93.00384180814937,
+          "error_sine_mid_fraction_percent": 6.66370221401451,
+          "error_sine_high_fraction_percent": 0.3324559778361244,
+          "total_ms": 25.898549240082502
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.03950701851385372,
+          "gradient_percent": 0.132756592937102,
+          "energy_percent": 0.11812438368614202,
+          "flux_L2_percent": 0.11052890278093813,
+          "error_sine_low_fraction_percent": 93.60322290122687,
+          "error_sine_mid_fraction_percent": 6.04673803882078,
+          "error_sine_high_fraction_percent": 0.350039059952359,
+          "total_ms": 16.04624232277274
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.01741189782475328,
+          "gradient_percent": 0.06924524975463711,
+          "energy_percent": 0.057433349967319976,
+          "flux_L2_percent": 0.049249423887747945,
+          "error_sine_low_fraction_percent": 88.00372977723589,
+          "error_sine_mid_fraction_percent": 11.387209619528939,
+          "error_sine_high_fraction_percent": 0.6090606032351547,
+          "total_ms": 20.12884058058262
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0013434593140426018,
+          "gradient_percent": 0.0036628316146330403,
+          "energy_percent": 0.003887631929453083,
+          "flux_L2_percent": 0.005517162305701567,
+          "error_sine_low_fraction_percent": 95.72904073739272,
+          "error_sine_mid_fraction_percent": 4.053623177191335,
+          "error_sine_high_fraction_percent": 0.2173360854159542,
+          "total_ms": 28.410320170223713
+        }
+      }
+    },
+    {
+      "index": 25,
+      "sample_index": 601,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.475508288244504,
+          "gradient_percent": 47.328273574555375,
+          "energy_percent": 56.12237253990079,
+          "flux_L2_percent": 79.53016950690737,
+          "error_sine_low_fraction_percent": 12.379344709780185,
+          "error_sine_mid_fraction_percent": 17.30204247508064,
+          "error_sine_high_fraction_percent": 70.31861281513918,
+          "total_ms": 1.4965282753109932
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.25266723800877794,
+          "gradient_percent": 0.5544389586980454,
+          "energy_percent": 0.5319405086831362,
+          "flux_L2_percent": 0.5339705254947106,
+          "error_sine_low_fraction_percent": 98.21225819766151,
+          "error_sine_mid_fraction_percent": 1.6838688215012414,
+          "error_sine_high_fraction_percent": 0.10387298083723452,
+          "total_ms": 10.299003217369318
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.12213877476923,
+          "gradient_percent": 0.6163096987272478,
+          "energy_percent": 0.6137837593458835,
+          "flux_L2_percent": 0.6241364800908161,
+          "error_sine_low_fraction_percent": 76.39843832177041,
+          "error_sine_mid_fraction_percent": 22.765985942219075,
+          "error_sine_high_fraction_percent": 0.8355757360105309,
+          "total_ms": 13.73256416991353
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.02676713217014211,
+          "gradient_percent": 0.09904575604113217,
+          "energy_percent": 0.08669226570384259,
+          "flux_L2_percent": 0.07481233797612541,
+          "error_sine_low_fraction_percent": 85.85931674240629,
+          "error_sine_mid_fraction_percent": 13.842805610133704,
+          "error_sine_high_fraction_percent": 0.2978776474600264,
+          "total_ms": 17.64111127704382
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.002313313844243965,
+          "gradient_percent": 0.0058425838589419915,
+          "energy_percent": 0.005668664623683169,
+          "flux_L2_percent": 0.0064562170077904065,
+          "error_sine_low_fraction_percent": 94.17332523038728,
+          "error_sine_mid_fraction_percent": 5.6898398156057395,
+          "error_sine_high_fraction_percent": 0.1368349540070012,
+          "total_ms": 25.7529579102993
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.03970408956781548,
+          "gradient_percent": 0.1360947644250411,
+          "energy_percent": 0.11957940389676076,
+          "flux_L2_percent": 0.11063041670728116,
+          "error_sine_low_fraction_percent": 88.52257777220386,
+          "error_sine_mid_fraction_percent": 11.237992092414569,
+          "error_sine_high_fraction_percent": 0.23943013538160413,
+          "total_ms": 16.074491664767265
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.020274049625564533,
+          "gradient_percent": 0.07765797542254375,
+          "energy_percent": 0.0647548331369219,
+          "flux_L2_percent": 0.05441056787999547,
+          "error_sine_low_fraction_percent": 84.65492848622002,
+          "error_sine_mid_fraction_percent": 15.005667626578937,
+          "error_sine_high_fraction_percent": 0.33940388720105896,
+          "total_ms": 20.306823309510946
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0015616221498323767,
+          "gradient_percent": 0.004172279603426051,
+          "energy_percent": 0.004309392032250618,
+          "flux_L2_percent": 0.0056817818108725274,
+          "error_sine_low_fraction_percent": 94.42774908614984,
+          "error_sine_mid_fraction_percent": 5.412678580032251,
+          "error_sine_high_fraction_percent": 0.1595723338179334,
+          "total_ms": 28.454411309212446
+        }
+      }
+    },
+    {
+      "index": 26,
+      "sample_index": 602,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.6726697846463758,
+          "gradient_percent": 44.071356636382355,
+          "energy_percent": 51.77471819198859,
+          "flux_L2_percent": 71.83383893758291,
+          "error_sine_low_fraction_percent": 39.77088159266526,
+          "error_sine_mid_fraction_percent": 11.638988976318227,
+          "error_sine_high_fraction_percent": 48.59012943101652,
+          "total_ms": 1.4980081468820572
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.8400370644339983,
+          "gradient_percent": 0.8449368945398877,
+          "energy_percent": 0.9177055862046578,
+          "flux_L2_percent": 1.0001350902042123,
+          "error_sine_low_fraction_percent": 99.6122970308783,
+          "error_sine_mid_fraction_percent": 0.37125784511700977,
+          "error_sine_high_fraction_percent": 0.016445124004693897,
+          "total_ms": 10.148962028324604
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.1019332425102067,
+          "gradient_percent": 0.42797230514823503,
+          "energy_percent": 0.47659727321497736,
+          "flux_L2_percent": 0.5115027142640124,
+          "error_sine_low_fraction_percent": 87.8763809101897,
+          "error_sine_mid_fraction_percent": 11.36459606067683,
+          "error_sine_high_fraction_percent": 0.7590230291334676,
+          "total_ms": 13.186358381062746
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.016468702386718822,
+          "gradient_percent": 0.05654828984300789,
+          "energy_percent": 0.054996338530637685,
+          "flux_L2_percent": 0.051205874399458146,
+          "error_sine_low_fraction_percent": 90.45894199029729,
+          "error_sine_mid_fraction_percent": 9.150311552873314,
+          "error_sine_high_fraction_percent": 0.39074645682942477,
+          "total_ms": 17.41122780367732
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0023705037375367126,
+          "gradient_percent": 0.004082027884987801,
+          "energy_percent": 0.005023261241173923,
+          "flux_L2_percent": 0.006649819892587134,
+          "error_sine_low_fraction_percent": 98.48768141600505,
+          "error_sine_mid_fraction_percent": 1.4377632807768104,
+          "error_sine_high_fraction_percent": 0.07455530321812848,
+          "total_ms": 25.879249908030033
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.026946851190031686,
+          "gradient_percent": 0.08961293246206793,
+          "energy_percent": 0.08787803920052843,
+          "flux_L2_percent": 0.08251589994005676,
+          "error_sine_low_fraction_percent": 92.35792773801089,
+          "error_sine_mid_fraction_percent": 7.320733684361161,
+          "error_sine_high_fraction_percent": 0.3213385776279627,
+          "total_ms": 16.099602915346622
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.009188977877491556,
+          "gradient_percent": 0.03636236603540381,
+          "energy_percent": 0.03508896489000507,
+          "flux_L2_percent": 0.03278060518704837,
+          "error_sine_low_fraction_percent": 86.24036366378009,
+          "error_sine_mid_fraction_percent": 13.164931000187812,
+          "error_sine_high_fraction_percent": 0.5947053360320804,
+          "total_ms": 20.076180808246136
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.002399498211416678,
+          "gradient_percent": 0.002854505597870542,
+          "energy_percent": 0.003790078678273127,
+          "flux_L2_percent": 0.006576154481453948,
+          "error_sine_low_fraction_percent": 99.490076730985,
+          "error_sine_mid_fraction_percent": 0.4819740010484462,
+          "error_sine_high_fraction_percent": 0.02794926796660876,
+          "total_ms": 28.63173419609666
+        }
+      }
+    },
+    {
+      "index": 27,
+      "sample_index": 603,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.9796887315501235,
+          "gradient_percent": 42.18393720445101,
+          "energy_percent": 51.98356331163714,
+          "flux_L2_percent": 78.54502830383902,
+          "error_sine_low_fraction_percent": 71.27293406137149,
+          "error_sine_mid_fraction_percent": 7.026522700239089,
+          "error_sine_high_fraction_percent": 21.70054323838943,
+          "total_ms": 1.5032682567834854
+        },
+        "filter_only_K2": {
+          "L2_percent": 1.3506376280056598,
+          "gradient_percent": 1.4557095526571573,
+          "energy_percent": 1.446560715325059,
+          "flux_L2_percent": 1.4289229042835825,
+          "error_sine_low_fraction_percent": 99.67403133180011,
+          "error_sine_mid_fraction_percent": 0.3040148917228707,
+          "error_sine_high_fraction_percent": 0.021953776477020594,
+          "total_ms": 10.351804085075855
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.09829831040636047,
+          "gradient_percent": 0.4664912374811294,
+          "energy_percent": 0.5020441985173855,
+          "flux_L2_percent": 0.5672460829704723,
+          "error_sine_low_fraction_percent": 83.3105874037515,
+          "error_sine_mid_fraction_percent": 16.092435311676837,
+          "error_sine_high_fraction_percent": 0.5969772845716605,
+          "total_ms": 13.234498910605907
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.01639727789754329,
+          "gradient_percent": 0.05232880501181941,
+          "energy_percent": 0.051852261304886425,
+          "flux_L2_percent": 0.05308097146992746,
+          "error_sine_low_fraction_percent": 90.84432227959853,
+          "error_sine_mid_fraction_percent": 8.969584781906049,
+          "error_sine_high_fraction_percent": 0.1860929384954155,
+          "total_ms": 17.477110028266907
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.000857674206369076,
+          "gradient_percent": 0.002818684852215746,
+          "energy_percent": 0.0034777939157279256,
+          "flux_L2_percent": 0.005797448649994241,
+          "error_sine_low_fraction_percent": 92.44792297019154,
+          "error_sine_mid_fraction_percent": 7.365586736697881,
+          "error_sine_high_fraction_percent": 0.18649029311055088,
+          "total_ms": 25.71869781240821
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.026519323665275544,
+          "gradient_percent": 0.08595945097901248,
+          "energy_percent": 0.08156137632280602,
+          "flux_L2_percent": 0.0781847733853416,
+          "error_sine_low_fraction_percent": 91.91272040190401,
+          "error_sine_mid_fraction_percent": 7.908572833946001,
+          "error_sine_high_fraction_percent": 0.1787067641499908,
+          "total_ms": 16.166694927960634
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.013475078592608433,
+          "gradient_percent": 0.0459544726668272,
+          "energy_percent": 0.04275647687913438,
+          "flux_L2_percent": 0.0408826531082011,
+          "error_sine_low_fraction_percent": 88.50921423694442,
+          "error_sine_mid_fraction_percent": 11.248064980524816,
+          "error_sine_high_fraction_percent": 0.24272078253075646,
+          "total_ms": 20.346724893897772
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0024137445360657584,
+          "gradient_percent": 0.003328520600363557,
+          "energy_percent": 0.0038630618608018036,
+          "flux_L2_percent": 0.0054943203397967355,
+          "error_sine_low_fraction_percent": 99.08190263468272,
+          "error_sine_mid_fraction_percent": 0.8832957537454704,
+          "error_sine_high_fraction_percent": 0.0348016115718419,
+          "total_ms": 28.607032727450132
+        }
+      }
+    },
+    {
+      "index": 28,
+      "sample_index": 604,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.469242325113285,
+          "gradient_percent": 41.71101628213606,
+          "energy_percent": 48.797514436260094,
+          "flux_L2_percent": 67.98346974447622,
+          "error_sine_low_fraction_percent": 41.553776836477915,
+          "error_sine_mid_fraction_percent": 12.553426270248513,
+          "error_sine_high_fraction_percent": 45.89279689327356,
+          "total_ms": 1.494457945227623
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.6022915604685567,
+          "gradient_percent": 0.7038024745036083,
+          "energy_percent": 0.7146090390269896,
+          "flux_L2_percent": 0.7140176131659409,
+          "error_sine_low_fraction_percent": 99.60730207442934,
+          "error_sine_mid_fraction_percent": 0.3730460902449007,
+          "error_sine_high_fraction_percent": 0.019651835325728326,
+          "total_ms": 10.332903824746609
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.09678850077347555,
+          "gradient_percent": 0.5137978613656944,
+          "energy_percent": 0.5275543348708496,
+          "flux_L2_percent": 0.5796854339369818,
+          "error_sine_low_fraction_percent": 72.55444347285369,
+          "error_sine_mid_fraction_percent": 26.68716934316522,
+          "error_sine_high_fraction_percent": 0.7583871839810845,
+          "total_ms": 13.256439007818699
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.013665760543333955,
+          "gradient_percent": 0.052068477025249846,
+          "energy_percent": 0.0529791327632393,
+          "flux_L2_percent": 0.05501124622123698,
+          "error_sine_low_fraction_percent": 87.77822984665744,
+          "error_sine_mid_fraction_percent": 11.905625412189586,
+          "error_sine_high_fraction_percent": 0.31614474115298713,
+          "total_ms": 17.666952218860388
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0009073609050899245,
+          "gradient_percent": 0.0026478002746933016,
+          "energy_percent": 0.003367391933905597,
+          "flux_L2_percent": 0.005768459826278849,
+          "error_sine_low_fraction_percent": 95.4249406205265,
+          "error_sine_mid_fraction_percent": 4.439571797931052,
+          "error_sine_high_fraction_percent": 0.13548758154244947,
+          "total_ms": 25.8530811406672
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.02290311330374386,
+          "gradient_percent": 0.08086321172046819,
+          "energy_percent": 0.08538600066516726,
+          "flux_L2_percent": 0.09316160444057843,
+          "error_sine_low_fraction_percent": 88.92744439110689,
+          "error_sine_mid_fraction_percent": 10.836311340056275,
+          "error_sine_high_fraction_percent": 0.236244268836829,
+          "total_ms": 16.116284299641848
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.007297252102058969,
+          "gradient_percent": 0.03247747985450443,
+          "energy_percent": 0.03395800163086559,
+          "flux_L2_percent": 0.03655072927139846,
+          "error_sine_low_fraction_percent": 81.57712292006168,
+          "error_sine_mid_fraction_percent": 17.943992757025466,
+          "error_sine_high_fraction_percent": 0.47888432291284255,
+          "total_ms": 20.247493870556355
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0009147225303210593,
+          "gradient_percent": 0.00203175951582679,
+          "energy_percent": 0.002804274632320457,
+          "flux_L2_percent": 0.0045468178646282525,
+          "error_sine_low_fraction_percent": 98.18823662703022,
+          "error_sine_mid_fraction_percent": 1.7296159043126857,
+          "error_sine_high_fraction_percent": 0.08214746865710094,
+          "total_ms": 28.79496617242694
+        }
+      }
+    },
+    {
+      "index": 29,
+      "sample_index": 605,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.807972498272109,
+          "gradient_percent": 47.51230742462989,
+          "energy_percent": 56.737444866855625,
+          "flux_L2_percent": 82.56405661781851,
+          "error_sine_low_fraction_percent": 46.82031737210627,
+          "error_sine_mid_fraction_percent": 8.906093027156643,
+          "error_sine_high_fraction_percent": 44.27358960073709,
+          "total_ms": 1.5204777009785175
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.9041948736152603,
+          "gradient_percent": 1.4633779990263345,
+          "energy_percent": 1.3965091605364637,
+          "flux_L2_percent": 1.4121648374307176,
+          "error_sine_low_fraction_percent": 98.92664089155875,
+          "error_sine_mid_fraction_percent": 1.0050434748272516,
+          "error_sine_high_fraction_percent": 0.0683156336140069,
+          "total_ms": 10.225582867860794
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.2109012821592533,
+          "gradient_percent": 0.7085848917913145,
+          "energy_percent": 0.7173025647108845,
+          "flux_L2_percent": 0.7443336149977674,
+          "error_sine_low_fraction_percent": 91.36302907907567,
+          "error_sine_mid_fraction_percent": 8.173610843145264,
+          "error_sine_high_fraction_percent": 0.463360077779036,
+          "total_ms": 13.292029965668917
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.0416796663586541,
+          "gradient_percent": 0.12048321890372518,
+          "energy_percent": 0.1096641916206741,
+          "flux_L2_percent": 0.09935348660002007,
+          "error_sine_low_fraction_percent": 93.36499564248912,
+          "error_sine_mid_fraction_percent": 6.302595727932893,
+          "error_sine_high_fraction_percent": 0.332408629578018,
+          "total_ms": 17.334618605673313
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.002264851282229981,
+          "gradient_percent": 0.007117198758087202,
+          "energy_percent": 0.006752003659590158,
+          "flux_L2_percent": 0.007075904232745571,
+          "error_sine_low_fraction_percent": 92.57306950799115,
+          "error_sine_mid_fraction_percent": 7.0982885888181295,
+          "error_sine_high_fraction_percent": 0.328641903190677,
+          "total_ms": 25.954342912882566
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.08656856295878385,
+          "gradient_percent": 0.22269066944810914,
+          "energy_percent": 0.21038886415986904,
+          "flux_L2_percent": 0.19415919397089398,
+          "error_sine_low_fraction_percent": 95.4357477804303,
+          "error_sine_mid_fraction_percent": 4.358460746300004,
+          "error_sine_high_fraction_percent": 0.20579147326972677,
+          "total_ms": 16.113833989948034
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.038892000638885336,
+          "gradient_percent": 0.10195255472881441,
+          "energy_percent": 0.09671486681570689,
+          "flux_L2_percent": 0.09101917764702754,
+          "error_sine_low_fraction_percent": 93.99373399566424,
+          "error_sine_mid_fraction_percent": 5.66592052256139,
+          "error_sine_high_fraction_percent": 0.3403454817743866,
+          "total_ms": 20.021931268274784
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.00174983950271515,
+          "gradient_percent": 0.004362152862353393,
+          "energy_percent": 0.004593683939153049,
+          "flux_L2_percent": 0.005910998819391274,
+          "error_sine_low_fraction_percent": 94.90462765266602,
+          "error_sine_mid_fraction_percent": 4.829255247271407,
+          "error_sine_high_fraction_percent": 0.26611710006256084,
+          "total_ms": 28.859817888587713
+        }
+      }
+    },
+    {
+      "index": 30,
+      "sample_index": 606,
+      "methods": {
+        "FNO": {
+          "L2_percent": 2.021951639399088,
+          "gradient_percent": 43.91178099044601,
+          "energy_percent": 54.71197061628248,
+          "flux_L2_percent": 80.17723029772188,
+          "error_sine_low_fraction_percent": 43.60245338899578,
+          "error_sine_mid_fraction_percent": 16.123534900196418,
+          "error_sine_high_fraction_percent": 40.27401171080782,
+          "total_ms": 1.569349318742752
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.9733352080823513,
+          "gradient_percent": 1.4219866706637572,
+          "energy_percent": 1.380390129724831,
+          "flux_L2_percent": 1.4145310078376925,
+          "error_sine_low_fraction_percent": 99.17667318454977,
+          "error_sine_mid_fraction_percent": 0.7700767779290923,
+          "error_sine_high_fraction_percent": 0.05325003752111606,
+          "total_ms": 10.29940415173769
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.18757679293900614,
+          "gradient_percent": 0.7768776889757069,
+          "energy_percent": 0.7281301153727002,
+          "flux_L2_percent": 0.7209701502134895,
+          "error_sine_low_fraction_percent": 86.51526221094474,
+          "error_sine_mid_fraction_percent": 12.750796895904056,
+          "error_sine_high_fraction_percent": 0.7339408931512149,
+          "total_ms": 13.168008998036385
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.03690609768866436,
+          "gradient_percent": 0.13645325382757367,
+          "energy_percent": 0.10889989665498699,
+          "flux_L2_percent": 0.09617060912252828,
+          "error_sine_low_fraction_percent": 90.20889045405008,
+          "error_sine_mid_fraction_percent": 9.175597739422216,
+          "error_sine_high_fraction_percent": 0.6155118065277049,
+          "total_ms": 17.42694992572069
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0027770278604196843,
+          "gradient_percent": 0.008965221234937296,
+          "energy_percent": 0.00739930006379703,
+          "flux_L2_percent": 0.00760784706466122,
+          "error_sine_low_fraction_percent": 93.63369749156479,
+          "error_sine_mid_fraction_percent": 5.930724105839091,
+          "error_sine_high_fraction_percent": 0.435578402596128,
+          "total_ms": 25.800972245633602
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.07207715353371184,
+          "gradient_percent": 0.2430919615329406,
+          "energy_percent": 0.1991323211645024,
+          "flux_L2_percent": 0.18748254492308386,
+          "error_sine_low_fraction_percent": 92.98279767600131,
+          "error_sine_mid_fraction_percent": 6.549796927063651,
+          "error_sine_high_fraction_percent": 0.4674053969350162,
+          "total_ms": 16.082013957202435
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.037088181278367605,
+          "gradient_percent": 0.14119608706752793,
+          "energy_percent": 0.10454601706641378,
+          "flux_L2_percent": 0.08484478224144816,
+          "error_sine_low_fraction_percent": 90.09183539695631,
+          "error_sine_mid_fraction_percent": 9.259784403755198,
+          "error_sine_high_fraction_percent": 0.6483801992884843,
+          "total_ms": 20.20164392888546
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0022678795378276873,
+          "gradient_percent": 0.00809160724187315,
+          "energy_percent": 0.006368492637279387,
+          "flux_L2_percent": 0.007694518904939879,
+          "error_sine_low_fraction_percent": 91.96104351800169,
+          "error_sine_mid_fraction_percent": 7.494719646804864,
+          "error_sine_high_fraction_percent": 0.5442368351934347,
+          "total_ms": 28.513214085251093
+        }
+      }
+    },
+    {
+      "index": 31,
+      "sample_index": 607,
+      "methods": {
+        "FNO": {
+          "L2_percent": 1.731986010804511,
+          "gradient_percent": 44.06211335759131,
+          "energy_percent": 56.154370242241136,
+          "flux_L2_percent": 79.97643822629877,
+          "error_sine_low_fraction_percent": 41.25574810927585,
+          "error_sine_mid_fraction_percent": 12.232031963734725,
+          "error_sine_high_fraction_percent": 46.512219926989424,
+          "total_ms": 1.4968980103731155
+        },
+        "filter_only_K2": {
+          "L2_percent": 0.8875938689370684,
+          "gradient_percent": 1.097322310786662,
+          "energy_percent": 1.0215490669158678,
+          "flux_L2_percent": 1.0233588233283104,
+          "error_sine_low_fraction_percent": 99.41492100415341,
+          "error_sine_mid_fraction_percent": 0.5351737284420683,
+          "error_sine_high_fraction_percent": 0.049905267404545504,
+          "total_ms": 10.188942775130272
+        },
+        "dictionary_K1": {
+          "L2_percent": 0.09604458724995428,
+          "gradient_percent": 0.4776831463025027,
+          "energy_percent": 0.5266980576315374,
+          "flux_L2_percent": 0.5451012529541633,
+          "error_sine_low_fraction_percent": 77.89558210040268,
+          "error_sine_mid_fraction_percent": 21.13855483869039,
+          "error_sine_high_fraction_percent": 0.9658630609069433,
+          "total_ms": 13.203898910433054
+        },
+        "dictionary_K2": {
+          "L2_percent": 0.017376420727093805,
+          "gradient_percent": 0.0582593468306472,
+          "energy_percent": 0.06057424366483482,
+          "flux_L2_percent": 0.060236163702499596,
+          "error_sine_low_fraction_percent": 89.84631987843939,
+          "error_sine_mid_fraction_percent": 9.783567464305406,
+          "error_sine_high_fraction_percent": 0.3701126572552025,
+          "total_ms": 17.483761068433523
+        },
+        "dictionary_K4": {
+          "L2_percent": 0.0016863736829532852,
+          "gradient_percent": 0.004017691073365876,
+          "energy_percent": 0.004447536907755606,
+          "flux_L2_percent": 0.005902240362320389,
+          "error_sine_low_fraction_percent": 96.28151451811121,
+          "error_sine_mid_fraction_percent": 3.555325251777685,
+          "error_sine_high_fraction_percent": 0.16316023011114358,
+          "total_ms": 25.857051834464073
+        },
+        "old_learned72_K2": {
+          "L2_percent": 0.04391316457993788,
+          "gradient_percent": 0.12840185359214118,
+          "energy_percent": 0.13340966708310653,
+          "flux_L2_percent": 0.13012666474417292,
+          "error_sine_low_fraction_percent": 95.34142996770107,
+          "error_sine_mid_fraction_percent": 4.426453768459735,
+          "error_sine_high_fraction_percent": 0.23211626383921058,
+          "total_ms": 16.09325408935547
+        },
+        "old_union144_K2": {
+          "L2_percent": 0.012563415990457323,
+          "gradient_percent": 0.040293386181253284,
+          "energy_percent": 0.040533820007508596,
+          "flux_L2_percent": 0.038693796200119805,
+          "error_sine_low_fraction_percent": 90.09355853005674,
+          "error_sine_mid_fraction_percent": 9.52525810450656,
+          "error_sine_high_fraction_percent": 0.38118336543669307,
+          "total_ms": 20.116122905164957
+        },
+        "old_union144_K4": {
+          "L2_percent": 0.0013105737168648,
+          "gradient_percent": 0.002616494813115271,
+          "energy_percent": 0.0033622004074377334,
+          "flux_L2_percent": 0.005042812280351879,
+          "error_sine_low_fraction_percent": 97.9117658465029,
+          "error_sine_mid_fraction_percent": 1.976433581703441,
+          "error_sine_high_fraction_percent": 0.11180057179367282,
+          "total_ms": 28.638295829296112
+        }
+      }
+    }
+  ],
+  "stages": [
+    {
+      "index": 0,
+      "NO_ms": 2.3979973047971725,
+      "fine_assembly_ms": 0.7903897203505039,
+      "prefilter_ms": 3.7858132272958755,
+      "features_ms": 0.43021468445658684,
+      "graph_dictionary_ms": 3.1075063161551952,
+      "space_and_factor_ms": 3.4741898998618126,
+      "calibration_and_filters_ms": 4.9367668107151985
+    },
+    {
+      "index": 1,
+      "NO_ms": 2.1807150915265083,
+      "fine_assembly_ms": 0.7387390360236168,
+      "prefilter_ms": 3.737092949450016,
+      "features_ms": 0.4173051565885544,
+      "graph_dictionary_ms": 3.0294847674667835,
+      "space_and_factor_ms": 3.4607104025781155,
+      "calibration_and_filters_ms": 4.929256625473499
+    },
+    {
+      "index": 2,
+      "NO_ms": 2.4729189462959766,
+      "fine_assembly_ms": 0.8482490666210651,
+      "prefilter_ms": 4.046396818011999,
+      "features_ms": 0.4170648753643036,
+      "graph_dictionary_ms": 3.038344904780388,
+      "space_and_factor_ms": 3.461990039795637,
+      "calibration_and_filters_ms": 4.9370271153748035
+    },
+    {
+      "index": 3,
+      "NO_ms": 2.1683149971067905,
+      "fine_assembly_ms": 0.7541286759078503,
+      "prefilter_ms": 3.7207729183137417,
+      "features_ms": 0.4170052707195282,
+      "graph_dictionary_ms": 3.0637946911156178,
+      "space_and_factor_ms": 3.4684003330767155,
+      "calibration_and_filters_ms": 4.931956995278597
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 4090",
+  "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/direct128_train/model.pt",
+  "split": "test",
+  "predictor": "FNO",
+  "mesh_plan_ms_once": 5098.784206900746,
+  "timing": "Batch1; inputs on GPU; fresh NO, assembly, dictionary, factor and updates per call; one warmup; synchronized wall median. Mesh plan separate."
+}

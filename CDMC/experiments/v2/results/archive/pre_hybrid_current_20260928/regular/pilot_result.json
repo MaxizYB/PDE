@@ -1,0 +1,381 @@
+{
+  "status": "pilot; newly generated data, not an official-paper comparison",
+  "dataset": {
+    "version": 1,
+    "equation": "-div(a grad u)=1",
+    "discretization": "P1 FEM",
+    "boundary_type": "Dirichlet",
+    "kind": "regular",
+    "nodes": 1089,
+    "triangles": 2048,
+    "boundary_nodes": 128,
+    "splits": {
+      "train": 64,
+      "val": 16,
+      "test": 16
+    },
+    "seed": 20260927,
+    "coefficient_sampling": {
+      "parent_grid": 129,
+      "tau": 9.0,
+      "covariance": "proportional to (-Delta_N+tau I)^-2",
+      "threshold": 0.0,
+      "a_low": 3.0,
+      "a_high": 12.0
+    },
+    "boundary": "zero",
+    "resolution": 33,
+    "max_area": 0.00022,
+    "notch_width": 0.16,
+    "notch_depth": 0.68,
+    "refine_factor": 1,
+    "max_relative_discrete_residual": 5.5375027528367825e-14,
+    "primary_target": "solution; exactly matches saved mesh and P1-FEM operator",
+    "secondary_target": "fine_reference_on_mesh, only when refine-factor > 1"
+  },
+  "proposal": "Geo-FNO geometry Fourier transform + latent FFT",
+  "corrector": "shared stable Galerkin V-cycle for fixed MG and learned CDMC setup",
+  "coarse_size": 128,
+  "system_backend": "gpu_compiled",
+  "proposal_mode": "graph",
+  "proposal_graph_enabled": true,
+  "device": "cuda",
+  "evaluated_samples": 16,
+  "summary": {
+    "NO": {
+      "field_error_percent": {
+        "mean": 7.199047482572496,
+        "p95": 13.078995794057846,
+        "median": 6.107741221785545
+      },
+      "apply_ms_sample": {
+        "mean": 0.33480857382528484,
+        "p95": 0.35025819670408964,
+        "median": 0.33098296262323856
+      },
+      "end_to_end_ms_sample": {
+        "mean": 0.33480857382528484,
+        "p95": 0.35025819670408964,
+        "median": 0.33098296262323856
+      }
+    },
+    "MG_zero_K1": {
+      "field_error_percent": {
+        "mean": 1.3705669378396124,
+        "p95": 1.6157518606632948,
+        "median": 1.4262231532484293
+      },
+      "apply_ms_sample": {
+        "mean": 1.0300027206540108,
+        "p95": 1.0453274007886648,
+        "median": 1.0280734859406948
+      },
+      "end_to_end_ms_sample": {
+        "mean": 3.7413890822790563,
+        "p95": 3.830309840850532,
+        "median": 3.7232220638543367
+      }
+    },
+    "MG_zero_K2": {
+      "field_error_percent": {
+        "mean": 0.2709779088036157,
+        "p95": 0.32207361073233187,
+        "median": 0.27173636481165886
+      },
+      "apply_ms_sample": {
+        "mean": 1.7996745591517538,
+        "p95": 1.82027043774724,
+        "median": 1.798507058992982
+      },
+      "end_to_end_ms_sample": {
+        "mean": 4.511060920776799,
+        "p95": 4.606142523698509,
+        "median": 4.486504243686795
+      }
+    },
+    "MG_NO_K1": {
+      "field_error_percent": {
+        "mean": 0.3846281782898586,
+        "p95": 0.5954167805612087,
+        "median": 0.37491655675694346
+      },
+      "apply_ms_sample": {
+        "mean": 0.9928643994498998,
+        "p95": 1.0016656015068293,
+        "median": 0.9919081348925829
+      },
+      "end_to_end_ms_sample": {
+        "mean": 4.03905933490023,
+        "p95": 4.136324278078973,
+        "median": 4.014917649328709
+      }
+    },
+    "MG_NO_K2": {
+      "field_error_percent": {
+        "mean": 0.02043392819359724,
+        "p95": 0.03070980528718792,
+        "median": 0.02012868571910076
+      },
+      "apply_ms_sample": {
+        "mean": 1.778974721673876,
+        "p95": 1.7982644494622946,
+        "median": 1.7764961812645197
+      },
+      "end_to_end_ms_sample": {
+        "mean": 4.825169657124206,
+        "p95": 4.927420639432967,
+        "median": 4.802606767043471
+      }
+    },
+    "CDMC_NO_K1": {
+      "field_error_percent": {
+        "mean": 0.20715328500955366,
+        "p95": 0.2954000374302268,
+        "median": 0.2054454991593957
+      },
+      "apply_ms_sample": {
+        "mean": 1.4270383398979902,
+        "p95": 1.4502861304208636,
+        "median": 1.424453454092145
+      },
+      "end_to_end_ms_sample": {
+        "mean": 4.473233275348321,
+        "p95": 4.596474696882069,
+        "median": 4.440973978489637
+      }
+    },
+    "CDMC_NO_K2": {
+      "field_error_percent": {
+        "mean": 0.01019552594243578,
+        "p95": 0.016672893616487272,
+        "median": 0.009940890959114768
+      },
+      "apply_ms_sample": {
+        "mean": 2.2105147945694625,
+        "p95": 2.231789520010352,
+        "median": 2.2129223216325045
+      },
+      "end_to_end_ms_sample": {
+        "mean": 5.256709730019793,
+        "p95": 5.377100431360304,
+        "median": 5.231452640146017
+      }
+    },
+    "FEM_direct": {
+      "field_error_percent": {
+        "mean": 0.0,
+        "p95": 0.0,
+        "median": 0.0
+      },
+      "apply_ms_sample": {
+        "mean": 3.4767723991535604,
+        "p95": 3.7401749286800623,
+        "median": 3.408674383535981
+      },
+      "end_to_end_ms_sample": {
+        "mean": 3.4767723991535604,
+        "p95": 3.7401749286800623,
+        "median": 3.408674383535981
+      }
+    },
+    "assembly_hierarchy_ms_sample": {
+      "mean": 2.7113863616250455,
+      "p95": 2.800017944537103,
+      "median": 2.6869673747569323
+    },
+    "online_system_ms_sample": {
+      "mean": 2.7113863616250455,
+      "p95": 2.800017944537103,
+      "median": 2.6869673747569323
+    },
+    "mesh_plan_ms_once": 141.08683168888092,
+    "proposal_compile_ms_once": 332.29009434580803,
+    "proposal_warmup_ms_once": 0.536841806024313,
+    "proposal_startup_ms_once": 332.82693615183234,
+    "NO_resident_stage_ms_once": 0.19967462867498398,
+    "NO_gpu_resident_ms_sample": {
+      "mean": 0.20750777912326157,
+      "p95": 0.21416228264570236,
+      "median": 0.20602485164999962
+    }
+  },
+  "per_sample": [
+    {
+      "sample_index": 80,
+      "NO_error_percent": 4.951605573296547,
+      "MG_zero_K1_error_percent": 1.104812603443861,
+      "MG_zero_K2_error_percent": 0.22580574732273817,
+      "MG_NO_K1_error_percent": 0.3072367515414953,
+      "MG_NO_K2_error_percent": 0.026222746237181127,
+      "CDMC_NO_K1_error_percent": 0.19496495369821787,
+      "CDMC_NO_K2_error_percent": 0.010365726484451443,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 81,
+      "NO_error_percent": 3.969133645296097,
+      "MG_zero_K1_error_percent": 1.5779297798871994,
+      "MG_zero_K2_error_percent": 0.2978385193273425,
+      "MG_NO_K1_error_percent": 0.18191010458394885,
+      "MG_NO_K2_error_percent": 0.010335512342862785,
+      "CDMC_NO_K1_error_percent": 0.11660585878416896,
+      "CDMC_NO_K2_error_percent": 0.0047303961764555424,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 82,
+      "NO_error_percent": 6.485576182603836,
+      "MG_zero_K1_error_percent": 1.5071190893650055,
+      "MG_zero_K2_error_percent": 0.27860275004059076,
+      "MG_NO_K1_error_percent": 0.3837568452581763,
+      "MG_NO_K2_error_percent": 0.01691298675723374,
+      "CDMC_NO_K1_error_percent": 0.16058386536315084,
+      "CDMC_NO_K2_error_percent": 0.006019728243700229,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 83,
+      "NO_error_percent": 5.439122766256332,
+      "MG_zero_K1_error_percent": 1.533969771116972,
+      "MG_zero_K2_error_percent": 0.29371187556535006,
+      "MG_NO_K1_error_percent": 0.42394138872623444,
+      "MG_NO_K2_error_percent": 0.02114223752869293,
+      "CDMC_NO_K1_error_percent": 0.2752472413703799,
+      "CDMC_NO_K2_error_percent": 0.007605370774399489,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 84,
+      "NO_error_percent": 5.492343008518219,
+      "MG_zero_K1_error_percent": 1.257168035954237,
+      "MG_zero_K2_error_percent": 0.26363434735685587,
+      "MG_NO_K1_error_percent": 0.330323982052505,
+      "MG_NO_K2_error_percent": 0.019904851797036827,
+      "CDMC_NO_K1_error_percent": 0.2448963699862361,
+      "CDMC_NO_K2_error_percent": 0.012045900075463578,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 85,
+      "NO_error_percent": 6.474989652633667,
+      "MG_zero_K1_error_percent": 1.3698119670152664,
+      "MG_zero_K2_error_percent": 0.2831599675118923,
+      "MG_NO_K1_error_percent": 0.4773783963173628,
+      "MG_NO_K2_error_percent": 0.026567481108941138,
+      "CDMC_NO_K1_error_percent": 0.28034369461238384,
+      "CDMC_NO_K2_error_percent": 0.010609634045977145,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 86,
+      "NO_error_percent": 6.134591624140739,
+      "MG_zero_K1_error_percent": 1.326469425112009,
+      "MG_zero_K2_error_percent": 0.2628405811265111,
+      "MG_NO_K1_error_percent": 0.3732907585799694,
+      "MG_NO_K2_error_percent": 0.02371894079260528,
+      "CDMC_NO_K1_error_percent": 0.23224200122058392,
+      "CDMC_NO_K2_error_percent": 0.01097156637115404,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 87,
+      "NO_error_percent": 12.570197880268097,
+      "MG_zero_K1_error_percent": 1.6650361940264702,
+      "MG_zero_K2_error_percent": 0.3163913497701287,
+      "MG_NO_K1_error_percent": 0.6442810408771038,
+      "MG_NO_K2_error_percent": 0.034826810588128865,
+      "CDMC_NO_K1_error_percent": 0.32169518526643515,
+      "CDMC_NO_K2_error_percent": 0.01966490235645324,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 88,
+      "NO_error_percent": 6.080890819430351,
+      "MG_zero_K1_error_percent": 1.5643976628780365,
+      "MG_zero_K2_error_percent": 0.290459580719471,
+      "MG_NO_K1_error_percent": 0.4467320628464222,
+      "MG_NO_K2_error_percent": 0.02035251964116469,
+      "CDMC_NO_K1_error_percent": 0.21592604462057352,
+      "CDMC_NO_K2_error_percent": 0.009311265603173524,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 89,
+      "NO_error_percent": 14.605389535427094,
+      "MG_zero_K1_error_percent": 1.4885841868817806,
+      "MG_zero_K2_error_percent": 0.26486997958272696,
+      "MG_NO_K1_error_percent": 0.5768245086073875,
+      "MG_NO_K2_error_percent": 0.027249054983258247,
+      "CDMC_NO_K1_error_percent": 0.2866349881514907,
+      "CDMC_NO_K2_error_percent": 0.01567555736983195,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 90,
+      "NO_error_percent": 5.794868618249893,
+      "MG_zero_K1_error_percent": 1.4826343394815922,
+      "MG_zero_K2_error_percent": 0.2793721156194806,
+      "MG_NO_K1_error_percent": 0.22032242268323898,
+      "MG_NO_K2_error_percent": 0.012184556544525549,
+      "CDMC_NO_K1_error_percent": 0.13542886590585113,
+      "CDMC_NO_K2_error_percent": 0.007332019595196471,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 91,
+      "NO_error_percent": 5.814407765865326,
+      "MG_zero_K1_error_percent": 1.2158134952187538,
+      "MG_zero_K2_error_percent": 0.25720836129039526,
+      "MG_NO_K1_error_percent": 0.27655409649014473,
+      "MG_NO_K2_error_percent": 0.013956354814581573,
+      "CDMC_NO_K1_error_percent": 0.11386782862246037,
+      "CDMC_NO_K2_error_percent": 0.009989310638047755,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 92,
+      "NO_error_percent": 7.356042414903641,
+      "MG_zero_K1_error_percent": 1.1125845834612846,
+      "MG_zero_K2_error_percent": 0.23452644236385822,
+      "MG_NO_K1_error_percent": 0.3410392673686147,
+      "MG_NO_K2_error_percent": 0.016114272875711322,
+      "CDMC_NO_K1_error_percent": 0.1751221250742674,
+      "CDMC_NO_K2_error_percent": 0.009770788892637938,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 93,
+      "NO_error_percent": 9.130194783210754,
+      "MG_zero_K1_error_percent": 1.5993237495422363,
+      "MG_zero_K2_error_percent": 0.3391203936189413,
+      "MG_NO_K1_error_percent": 0.5791286937892437,
+      "MG_NO_K2_error_percent": 0.02933747018687427,
+      "CDMC_NO_K1_error_percent": 0.2577591221779585,
+      "CDMC_NO_K2_error_percent": 0.01219643818330951,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 94,
+      "NO_error_percent": 9.90542322397232,
+      "MG_zero_K1_error_percent": 1.1064677499234676,
+      "MG_zero_K2_error_percent": 0.21328451111912727,
+      "MG_NO_K1_error_percent": 0.3765423549339175,
+      "MG_NO_K2_error_percent": 0.014971831114962697,
+      "CDMC_NO_K1_error_percent": 0.17715214053168893,
+      "CDMC_NO_K2_error_percent": 0.00989247128018178,
+      "FEM_direct_error_percent": 0.0
+    },
+    {
+      "sample_index": 95,
+      "NO_error_percent": 4.979982227087021,
+      "MG_zero_K1_error_percent": 1.0169483721256256,
+      "MG_zero_K2_error_percent": 0.2348200185224414,
+      "MG_NO_K1_error_percent": 0.2147881779819727,
+      "MG_NO_K2_error_percent": 0.01314522378379479,
+      "CDMC_NO_K1_error_percent": 0.1259822747670114,
+      "CDMC_NO_K2_error_percent": 0.0069473389885388315,
+      "FEM_direct_error_percent": 0.0
+    }
+  ],
+  "timing_note": "Per-sample end-to-end is the repeated-query cost: online system assembly/transfer + relevant NO + correction. The one-time mesh_plan_ms_once and proposal_startup_ms_once are reported separately and must be added for a cold single query. NO_gpu_resident_ms_sample stages all dataset inputs and is not included in the host-input end-to-end figure. FEM_direct is an independent CPU P1 assembly plus sparse direct solve of the same discretization."
+}

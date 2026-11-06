@@ -1,0 +1,175 @@
+/data1/caohuilin/Graph/CDMC/experiments/v2/solver/numerics.py:16: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(
+{"split": "test", "index": 0, "methods": {"anchored_K1": [0.01088, 0.16145, 0.13218, 8.60689], "anchored_K2": [0.00142, 0.01391, 0.01078, 12.68203]}}
+{"split": "test", "index": 1, "methods": {"anchored_K1": [0.01889, 0.30096, 0.30817, 8.51931], "anchored_K2": [0.00204, 0.02349, 0.02505, 12.68172]}}
+{"split": "test", "index": 2, "methods": {"anchored_K1": [0.00954, 0.14463, 0.11966, 8.61364], "anchored_K2": [0.00122, 0.01228, 0.01037, 12.57155]}}
+{"split": "test", "index": 3, "methods": {"anchored_K1": [0.04234, 0.49342, 0.96884, 8.86799], "anchored_K2": [0.00408, 0.03959, 0.07625, 12.58429]}}
+{"split": "test", "index": 4, "methods": {"anchored_K1": [0.01646, 0.29409, 0.39968, 8.52036], "anchored_K2": [0.00156, 0.01912, 0.0329, 12.60717]}}
+{"split": "test", "index": 5, "methods": {"anchored_K1": [0.01143, 0.18598, 0.23667, 8.60945], "anchored_K2": [0.00108, 0.01304, 0.01816, 12.52206]}}
+{"split": "test", "index": 6, "methods": {"anchored_K1": [0.01409, 0.1967, 0.16732, 8.64035], "anchored_K2": [0.00129, 0.01443, 0.01305, 12.68344]}}
+{"split": "test", "index": 7, "methods": {"anchored_K1": [0.18934, 1.23272, 3.47246, 8.56807], "anchored_K2": [0.04617, 0.18081, 0.32251, 12.74997]}}
+{"split": "ood", "index": 0, "methods": {"anchored_K1": [0.29414, 1.54389, 3.66592, 8.75987], "anchored_K2": [0.08273, 0.36105, 0.42225, 12.64365]}}
+{"split": "ood", "index": 1, "methods": {"anchored_K1": [0.17494, 1.08605, 2.72098, 8.61002], "anchored_K2": [0.02939, 0.14689, 0.2132, 12.62304]}}
+{"split": "ood", "index": 2, "methods": {"anchored_K1": [0.19172, 1.14603, 5.02573, 8.57134], "anchored_K2": [0.04082, 0.21799, 0.41224, 12.54979]}}
+{"split": "ood", "index": 3, "methods": {"anchored_K1": [0.16994, 1.09919, 3.04839, 8.65099], "anchored_K2": [0.01467, 0.09157, 0.19944, 12.5528]}}
+{"split": "ood", "index": 4, "methods": {"anchored_K1": [0.53416, 3.03464, 15.05125, 8.63349], "anchored_K2": [0.1361, 0.56618, 0.9967, 12.51658]}}
+{"split": "ood", "index": 5, "methods": {"anchored_K1": [0.34686, 1.85139, 5.62983, 8.54866], "anchored_K2": [0.1024, 0.43177, 0.6268, 12.65873]}}
+{"split": "ood", "index": 6, "methods": {"anchored_K1": [0.0694, 0.54495, 1.78436, 8.61519], "anchored_K2": [0.01325, 0.06959, 0.138, 12.43488]}}
+{"split": "ood", "index": 7, "methods": {"anchored_K1": [0.11878, 0.99497, 2.88882, 8.82409], "anchored_K2": [0.02018, 0.10061, 0.21153, 12.59404]}}
+{
+  "result": "CDMC/experiments/multiscale_elliptic_v1/results/elasticity_20261028/elasticity_anchored_n65.json",
+  "summary": {
+    "test": {
+      "anchored_K1": {
+        "displacement_percent": {
+          "mean": 0.039121231297031045,
+          "p95": 0.13788940347731105,
+          "median": 0.015273560769855976
+        },
+        "strain_percent": {
+          "mean": 0.37624485045671463,
+          "p95": 0.9739649191498753,
+          "median": 0.2453952133655548
+        },
+        "stress_percent": {
+          "mean": 0.7256211508065462,
+          "p95": 2.5961948066949834,
+          "median": 0.27241579443216324
+        },
+        "energy_percent": {
+          "mean": 0.6566886305809021,
+          "p95": 0.9191239297389983,
+          "median": 0.6203334033489227
+        },
+        "fluctuation_percent": {
+          "mean": 0.5079287439584732,
+          "p95": 1.1328730970621104,
+          "median": 0.38976363837718964
+        },
+        "residual_percent": {
+          "mean": 1.6419797986745834,
+          "p95": 2.227220594882965,
+          "median": 1.6339126825332642
+        },
+        "total_ms": {
+          "mean": 8.61825974425301,
+          "p95": 8.788317255675793,
+          "median": 8.608173578977585
+        }
+      },
+      "anchored_K2": {
+        "displacement_percent": {
+          "mean": 0.007358221351751126,
+          "p95": 0.031437735306099036,
+          "median": 0.0014913721242919564
+        },
+        "strain_percent": {
+          "mean": 0.03958268160931766,
+          "p95": 0.1313820665702223,
+          "median": 0.016774012241512537
+        },
+        "stress_percent": {
+          "mean": 0.06363501865416765,
+          "p95": 0.23631928451359258,
+          "median": 0.021607629023492336
+        },
+        "energy_percent": {
+          "mean": 0.05594138125889003,
+          "p95": 0.10089017041027543,
+          "median": 0.04789801873266697
+        },
+        "fluctuation_percent": {
+          "mean": 0.07903171959333122,
+          "p95": 0.24834193848073466,
+          "median": 0.04278011992573738
+        },
+        "residual_percent": {
+          "mean": 0.11608424410223961,
+          "p95": 0.15270756408572198,
+          "median": 0.1162443533539772
+        },
+        "total_ms": {
+          "mean": 12.635281076654792,
+          "p95": 12.726688967086375,
+          "median": 12.644447619095445
+        }
+      }
+    },
+    "ood": {
+      "anchored_K1": {
+        "displacement_percent": {
+          "mean": 0.237493347376585,
+          "p95": 0.4686052486300467,
+          "median": 0.18333300203084946
+        },
+        "strain_percent": {
+          "mean": 1.4126394912600517,
+          "p95": 2.620503687858581,
+          "median": 1.1226128339767456
+        },
+        "stress_percent": {
+          "mean": 4.976909592747688,
+          "p95": 11.753750228881831,
+          "median": 3.357155203819275
+        },
+        "energy_percent": {
+          "mean": 1.0631158351898193,
+          "p95": 1.5046117186546324,
+          "median": 0.9819000363349915
+        },
+        "fluctuation_percent": {
+          "mean": 3.256283722817898,
+          "p95": 5.152469253540039,
+          "median": 3.18710458278656
+        },
+        "residual_percent": {
+          "mean": 2.496715322136879,
+          "p95": 3.195460283756256,
+          "median": 2.3668265342712402
+        },
+        "total_ms": {
+          "mean": 8.651706855744123,
+          "p95": 8.801611326634884,
+          "median": 8.624342968687415
+        }
+      },
+      "anchored_K2": {
+        "displacement_percent": {
+          "mean": 0.05494357843417674,
+          "p95": 0.12430650442838667,
+          "median": 0.03510519675910473
+        },
+        "strain_percent": {
+          "mean": 0.24820337630808353,
+          "p95": 0.5191331684589385,
+          "median": 0.1824357658624649
+        },
+        "stress_percent": {
+          "mean": 0.40252086892724037,
+          "p95": 0.867237791419029,
+          "median": 0.3127211481332779
+        },
+        "energy_percent": {
+          "mean": 0.1431935797445476,
+          "p95": 0.24964103996753692,
+          "median": 0.1210077591240406
+        },
+        "fluctuation_percent": {
+          "mean": 0.7280268035829067,
+          "p95": 1.4541692078113555,
+          "median": 0.5248938798904419
+        },
+        "residual_percent": {
+          "mean": 0.16226009838283062,
+          "p95": 0.20964576750993727,
+          "median": 0.15591438859701157
+        },
+        "total_ms": {
+          "mean": 12.571689207106829,
+          "p95": 12.653454951941967,
+          "median": 12.573420535773039
+        }
+      }
+    }
+  }
+}

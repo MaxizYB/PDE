@@ -1,0 +1,32 @@
+{
+  "epochs": 1000,
+  "best_validation_relative_L2": 0.24942062310583424,
+  "training_seconds": 162.44392123026773,
+  "parameters": 279340,
+  "device": "NVIDIA GeForce RTX 4090",
+  "data": {
+    "data": "baselines/data/multiscale_elliptic_v1/generated/suite129_rough_20261103",
+    "rhs_per_material": 16,
+    "seed": 20261104,
+    "sensors": 31,
+    "query_resolution": 65,
+    "fine_resolution": 129,
+    "rhs": "One constant plus SE-like GRF sources, correlation length 0.1; lumped-mass load.",
+    "labels": "Fine P1 solve; subsampled query nodes, never a coarsened PDE solution.",
+    "generation_seconds": 85.30314695229754,
+    "splits": {
+      "train": {
+        "materials": 256,
+        "pairs": 4096,
+        "constant_solution_relative_error_max": 3.9959103262059054e-08,
+        "linear_system_relative_residual_max": 4.671842054882913e-13
+      },
+      "val": {
+        "materials": 32,
+        "pairs": 512,
+        "constant_solution_relative_error_max": 3.968841054638005e-08,
+        "linear_system_relative_residual_max": 4.069188220883143e-13
+      }
+    }
+  }
+}

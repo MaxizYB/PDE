@@ -1,0 +1,72 @@
+{
+  "dataset": "baselines/data/darcy_v2/generated/scale_proxy_257",
+  "split": "val",
+  "nodes": 66049,
+  "triangles": 131072,
+  "sample_index": 1,
+  "coarse_size": 128,
+  "cycles": 2,
+  "terminal_pcg_steps": 2,
+  "gpu_fraction_cap": 0.15,
+  "fem": {
+    "assembly_and_direct_solve_ms": {
+      "mean": 542.384219635278,
+      "median": 527.6004718616605,
+      "min": 507.82944774255157,
+      "max": 581.4742450602353
+    },
+    "relative_discrete_residual": 2.1689672297217127e-12,
+    "stored_target_difference_percent": 2.479964794822741e-06
+  },
+  "NO": {
+    "field_error_percent": 6.174477934837341
+  },
+  "CDMC_NO_K2": {
+    "field_error_percent": 0.031137533369474113,
+    "relative_discrete_residual": 0.09627769887447357,
+    "corrector_graph_ms": {
+      "mean": 25.432926137000322,
+      "median": 25.400168728083372,
+      "min": 25.399049278348684,
+      "max": 25.562364142388105
+    },
+    "hot_total_ms_mean": 26.778553146868944
+  },
+  "MG_NO_K2": {
+    "field_error_percent": 0.020823263912461698,
+    "relative_discrete_residual": 0.09365656226873398,
+    "corrector_graph_ms": {
+      "mean": 24.839410837739706,
+      "median": 24.808630347251892,
+      "min": 24.804180022329092,
+      "max": 24.9655251391232
+    },
+    "hot_total_ms_mean": 26.185037847608328
+  },
+  "MG_zero_K2": {
+    "field_error_percent": 0.11580795980989933,
+    "relative_discrete_residual": 0.12611602246761322,
+    "corrector_graph_ms": {
+      "mean": 24.76248824968934,
+      "median": 24.73742701113224,
+      "min": 24.73403699696064,
+      "max": 24.86045239493251
+    },
+    "hot_total_ms_mean": 24.76248824968934
+  },
+  "shared_input_and_NO_ms": {
+    "mean": 1.3456270098686218,
+    "median": 1.2064091861248016,
+    "min": 1.1851480230689049,
+    "max": 1.783816609531641
+  },
+  "one_time": {
+    "mesh_plan_ms": 35284.469502046704,
+    "NO_compile_ms": 371.617513243109,
+    "CDMC_graph_capture_ms": 130.27467112988234,
+    "MG_graph_capture_ms": 123.12099989503622
+  },
+  "peak_pytorch_gpu_allocated_mib": 796.88037109375,
+  "peak_process_rss_mib": 1741.53125,
+  "note": "Synthetic regular Darcy scale proxy. FEM is CPU SciPy sparse direct on the same P1 system; GPU methods use frozen 33x33 pilot weights. MG_NO uses the same matrix-free hierarchy without learned gates. Cold plan/model/graph costs are excluded from hot_total."
+}

@@ -1,0 +1,54 @@
+{
+  "steps": 24,
+  "initial": "zero",
+  "preconditioner": "fixed-coarse",
+  "coarse_size": 107,
+  "summary": {
+    "error_percent": {
+      "mean": 1.529438975467201e-05,
+      "p95": 1.6825496516048588e-05,
+      "median": 1.529438975467201e-05
+    },
+    "input_ms": {
+      "mean": 0.1599760726094246,
+      "p95": 0.23740557953715324,
+      "median": 0.1599760726094246
+    },
+    "NO_ms": {
+      "mean": 0.0,
+      "p95": 0.0,
+      "median": 0.0
+    },
+    "graph_ms": {
+      "mean": 0.9498738218098879,
+      "p95": 0.9716636268422008,
+      "median": 0.9498738218098879
+    },
+    "total_ms": {
+      "mean": 1.1098498944193125,
+      "p95": 1.209069206379354,
+      "median": 1.1098498944193125
+    },
+    "graph_compile_ms_once": 312.4263579957187,
+    "mesh_plan_ms_once": 850.7356117479503,
+    "cuda_context_ms_once": 343.3826891705394,
+    "proposal_compile_ms_once": 0.0,
+    "peak_allocated_mib": 16.4423828125
+  },
+  "samples": [
+    {
+      "error_percent": 1.6995619489534874e-05,
+      "input_ms": 0.07394328713417053,
+      "NO_ms": 0.0,
+      "graph_ms": 0.9256629273295403,
+      "total_ms": 0.9996062144637108
+    },
+    {
+      "error_percent": 1.3593160019809147e-05,
+      "input_ms": 0.24600885808467865,
+      "NO_ms": 0.0,
+      "graph_ms": 0.9740847162902355,
+      "total_ms": 1.2200935743749142
+    }
+  ]
+}

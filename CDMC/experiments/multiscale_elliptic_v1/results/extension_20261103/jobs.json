@@ -1,0 +1,30 @@
+[
+  {
+    "pid": 3896627,
+    "gpu": 1,
+    "family": "smooth",
+    "method": "DCNO",
+    "log": "CDMC/experiments/multiscale_elliptic_v1/results/extension_20261103/smooth_DCNO.log"
+  },
+  {
+    "pid": 3896628,
+    "gpu": 3,
+    "family": "rough",
+    "method": "DCNO",
+    "log": "CDMC/experiments/multiscale_elliptic_v1/results/extension_20261103/rough_DCNO.log"
+  },
+  {
+    "pid": 3896629,
+    "gpu": 5,
+    "family": "rough",
+    "method": "M2NO",
+    "log": "CDMC/experiments/multiscale_elliptic_v1/results/extension_20261103/rough_M2NO.log"
+  },
+  {
+    "pid": 3896631,
+    "gpu": 7,
+    "family": "smooth",
+    "method": "M2NO",
+    "log": "CDMC/experiments/multiscale_elliptic_v1/results/extension_20261103/smooth_M2NO.log"
+  }
+]

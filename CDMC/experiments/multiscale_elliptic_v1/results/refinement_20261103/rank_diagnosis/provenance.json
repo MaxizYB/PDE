@@ -1,0 +1,33 @@
+{
+  "arguments": {
+    "stage": "diagnose",
+    "data": "baselines/data/multiscale_elliptic_v1/generated/n257_s20261023",
+    "no_dir": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/fno_l2",
+    "out": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/rank_diagnosis",
+    "initialize": null,
+    "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/direct128_train/model.pt",
+    "reference": null,
+    "rank": 64,
+    "width": 16,
+    "linear": false,
+    "pre": 64,
+    "post": 8,
+    "cutoff": 0.001,
+    "post_cutoff": 0.05,
+    "harmonic_steps": 2,
+    "matrix_bound": false,
+    "cycles": 2,
+    "epochs": 30,
+    "objective": "rms",
+    "lr": 0.0003,
+    "train_count": 48,
+    "val_count": 12,
+    "split": "test",
+    "count": 4,
+    "offset": 0,
+    "repeats": 3,
+    "seed": 20261103,
+    "device": "cuda"
+  },
+  "script_sha256": "c8859802092155a7c6ce140fe326ab0cc8533c83a33ba8a715afb772aaab899e"
+}

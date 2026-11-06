@@ -1,0 +1,25 @@
+{
+  "data": "baselines/data/multiscale_elliptic_v1/generated/suite129_smooth_20261103",
+  "rhs_per_material": 16,
+  "seed": 20261104,
+  "sensors": 31,
+  "query_resolution": 65,
+  "fine_resolution": 129,
+  "rhs": "One constant plus SE-like GRF sources, correlation length 0.1; lumped-mass load.",
+  "labels": "Fine P1 solve; subsampled query nodes, never a coarsened PDE solution.",
+  "generation_seconds": 85.51683749165386,
+  "splits": {
+    "train": {
+      "materials": 256,
+      "pairs": 4096,
+      "constant_solution_relative_error_max": 4.0510846957554675e-08,
+      "linear_system_relative_residual_max": 3.8792522298424204e-13
+    },
+    "val": {
+      "materials": 32,
+      "pairs": 512,
+      "constant_solution_relative_error_max": 4.009014098599856e-08,
+      "linear_system_relative_residual_max": 3.441427899890708e-13
+    }
+  }
+}

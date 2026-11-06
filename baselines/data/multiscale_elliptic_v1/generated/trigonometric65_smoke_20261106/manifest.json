@@ -1,0 +1,52 @@
+{
+  "family": "trigonometric",
+  "resolution": 65,
+  "kind": "regular",
+  "discretization": "P1 FEM",
+  "equation": "-div(a grad u)+sigma*u=f; homogeneous Dirichlet",
+  "coefficient_cell_rule": "arithmetic mean of stored nodal values",
+  "source_rule": "lumped P1 mass times stored nodal f",
+  "reaction_rule": "sigma times consistent P1 mass",
+  "seed": 20261106,
+  "contrast": 100.0,
+  "split_indices": {
+    "train": [
+      0,
+      24
+    ],
+    "val": [
+      24,
+      28
+    ],
+    "test": [
+      28,
+      36
+    ]
+  },
+  "reference": "float64 sparse direct solve; float64 labels retained",
+  "training_reference_rule": "No coarse PDE labels; train and test use their own fine system",
+  "literature_inspiration": [
+    "HANO arXiv:2210.10890, six-scale coefficient and rough interfaces",
+    "DeepONet preconditioning arXiv:2401.02016, JumpDiff contrast stress"
+  ],
+  "published_dataset": false,
+  "train_audit": {
+    "count": 24,
+    "max_reference_residual": 4.41090384445515e-13,
+    "coefficient_min": 0.002969385590404272,
+    "coefficient_max": 110.12450408935547
+  },
+  "val_audit": {
+    "count": 4,
+    "max_reference_residual": 3.8168902169712295e-13,
+    "coefficient_min": 0.0027122576721012592,
+    "coefficient_max": 67.60441589355469
+  },
+  "test_audit": {
+    "count": 8,
+    "max_reference_residual": 4.562658067426738e-13,
+    "coefficient_min": 0.004484246484935284,
+    "coefficient_max": 82.15901184082031
+  },
+  "seconds": 0.4033277500002441
+}

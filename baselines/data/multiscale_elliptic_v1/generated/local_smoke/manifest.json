@@ -1,0 +1,55 @@
+{
+  "equation": "-div(a grad u)=1; u=0 on boundary",
+  "coefficient_law": "HANO six-scale trigonometric product, section 3.1.2",
+  "source": "https://arxiv.org/html/2210.10890",
+  "target_protocol": "same-grid P1 FEM, cell coefficient=mean of 3 stored nodal values",
+  "published_labels_reproduced": false,
+  "coordinate_map": "x_original=2*x_unit-1; u_unit=u_original/4",
+  "resolution": 17,
+  "seed": 20261023,
+  "train": 2,
+  "val": 1,
+  "test": 1,
+  "nodes": 289,
+  "triangles": 512,
+  "discretization": "P1 FEM",
+  "kind": "regular",
+  "split_indices": {
+    "train": [
+      0,
+      2
+    ],
+    "val": [
+      2,
+      3
+    ],
+    "test": [
+      3,
+      4
+    ]
+  },
+  "train_audit": {
+    "max_solve_residual_float64": 1.7017689030126493e-14,
+    "contrast_min": 2558.603759765625,
+    "contrast_max": 5167.17431640625
+  },
+  "val_audit": {
+    "max_solve_residual_float64": 1.4519417690425354e-14,
+    "contrast_min": 2112.82373046875,
+    "contrast_max": 2112.82373046875
+  },
+  "test_audit": {
+    "max_solve_residual_float64": 1.720538777647553e-14,
+    "contrast_min": 1462.6510009765625,
+    "contrast_max": 1462.6510009765625
+  },
+  "refinement_audit": [
+    {
+      "test_index": 0,
+      "fine_resolution": 33,
+      "coarse_vs_restricted_fine_L2_percent": 13.20015422829481,
+      "stored_float32_relative_residual": 2.4251141432416437e-06
+    }
+  ],
+  "seconds": 0.029160557000068366
+}

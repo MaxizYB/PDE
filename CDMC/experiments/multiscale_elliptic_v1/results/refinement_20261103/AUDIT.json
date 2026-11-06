@@ -1,0 +1,28 @@
+{
+  "main_cases": 6,
+  "main_rows": 36,
+  "model_material_observations": 192,
+  "unique_material_samples": 128,
+  "same_frozen_corrector": true,
+  "checkpoint_sha256": "c2e920d736e2ea4a1c1865d5ba1031d4433ef73dda7db42d85d9d5728d74b545",
+  "code_snapshot_sha256": {
+    "report.py": "8a26ff203c6c3fdb04d46955ff6c1e7effdf4609e7cd73383c31209ed2101aea",
+    "verify_spd.py": "751397019ee3424081464fb39514c82f87252525e65533c0ea7b78dacab0f319",
+    "mgno_baseline.py": "583b092c6f43da4ed592f635e05ec2c694d1c3ce5d2898627192c710915fbaee",
+    "run_final_transfer.sh": "8975c628ecb3085599e66ef85a773e3b043ee4f4e05574ba95441ff481ec9cf5",
+    "run_family.sh": "46ad929ce4afcbed5cd87c7a1afe2251c970f9df5b284348fa24829c19a53447",
+    "core.py": "2c4b7782e7d7899fa301795ef6f61a7382935c8572c78752f4976e1ec2250489",
+    "predictors.py": "08f345760d6cc1d8bf92ab89660ff6ea78ca9c8fb03226acaf8ac17b2126c508",
+    "gpu_amg.py": "bc45ab6c1f0a38f6fe20859587de5c43c9a80e9e62e25b7ec4915bcc472a74bd",
+    "study.py": "1e8ce8b0bc1bf76a1a9aaed789487398fa3a86188dcf0f87085bf8f6ee517e0d",
+    "vendor/mgno/models.py": "18a1c5032842c1d6de68089f57d3b29ba0a575df303ca4d3b415e6cbc1b3a10a"
+  },
+  "sources": {
+    "balanced128_test32": "3aa9e4f04fc0816a91a933fb657371611a51aec7515926543fcd429e0ba8b399",
+    "balanced128_holdout32": "f3b5ba6122e174de141c56a5248a718efc2fc6f47ed66ed39d407541598e7afa",
+    "smooth/frozen128_fno_h1": "a8eeb809bf6bc498e1e0a0294576dfd3b36fd3e6c0711b4ef3ffd0d45048c8b1",
+    "smooth/frozen128_mgno": "ae1e1a305f91c101ceb52a0fd09a049408de8f40a7cb29c0ab1d71870289daa8",
+    "rough/frozen128_fno_h1": "2e6bb907f4973952df9cccd99452ef74436c1ff684193b0d507570b16d674407",
+    "rough/frozen128_mgno": "be584f15beb14b29d0edd64292999297b31926446f27b7d149bcea456d228264"
+  }
+}

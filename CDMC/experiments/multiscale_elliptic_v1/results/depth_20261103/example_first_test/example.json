@@ -1,0 +1,35 @@
+{
+  "test_index": 0,
+  "sample_index": 576,
+  "methods": {
+    "FNO": {
+      "L2_percent": 1.69054020009275,
+      "gradient_percent": 48.052519428164416,
+      "energy_percent": 59.03960026199625,
+      "flux_L2_percent": 88.73243578188669,
+      "error_sine_low_fraction_percent": 31.04802750532253,
+      "error_sine_mid_fraction_percent": 13.200269561326008,
+      "error_sine_high_fraction_percent": 55.75170293335146
+    },
+    "Numerical MG K2": {
+      "L2_percent": 0.3573227631361278,
+      "gradient_percent": 0.6425054634219587,
+      "energy_percent": 0.5956783826633455,
+      "flux_L2_percent": 0.6505242521154319,
+      "error_sine_low_fraction_percent": 99.02713633187552,
+      "error_sine_mid_fraction_percent": 0.8183585230044309,
+      "error_sine_high_fraction_percent": 0.15450514512004562
+    },
+    "Joint response K2": {
+      "L2_percent": 0.015075620782496336,
+      "gradient_percent": 0.05885795872285454,
+      "energy_percent": 0.055503925118281124,
+      "flux_L2_percent": 0.05509676443237831,
+      "error_sine_low_fraction_percent": 87.87407378923177,
+      "error_sine_mid_fraction_percent": 11.450773950277648,
+      "error_sine_high_fraction_percent": 0.6751522604905612
+    }
+  },
+  "source": "Fixed first held-out material, no example selection.",
+  "display": "Pointwise errors divided by reference global RMS; common logarithmic error color scales. Metrics use the exact P1 definitions."
+}

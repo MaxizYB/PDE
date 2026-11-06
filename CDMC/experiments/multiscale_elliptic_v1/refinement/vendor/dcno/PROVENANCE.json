@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/zhuhanqing/DCNO-ICLR2024",
+  "commit": "0f3a778909ca950e19bcfdb37ef7ef99526038e9",
+  "source": "DCNO/models.py",
+  "extracted_classes": [
+    "FeedForward",
+    "SpectralConv2d_fast",
+    "DilatedConv",
+    "PatchEmbed",
+    "Process",
+    "Decoder",
+    "DCNO2d"
+  ],
+  "modifications": "Class AST preserved exactly. Removed unused torchinfo and timm imports; timm to_2tuple replaced with equivalent scalar/tuple helper.",
+  "upstream_license": "No LICENSE file exposed by repository; retain origin and author attribution. Local research comparison."
+}

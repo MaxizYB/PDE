@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/xlliu2017/MgNO",
+  "commit": "cf7ba5bef2dac56a0d32cad98102c80796e092d2",
+  "upstream_file": "models.py",
+  "upstream_sha256": "99dcd2acc302aad36f444e36a50cba2ca162df01a2a0d642760842c49abe9ea5",
+  "definitions": [
+    "MgConv_DC",
+    "MgIte",
+    "MgIte_init",
+    "MgNO_DC",
+    "Restrict",
+    "_build_activation"
+  ],
+  "adaptation": "Six required definitions extracted verbatim with AST. Only module-level imports changed to avoid unrelated training/diagnostic dependencies. Numerical model definitions unchanged."
+}

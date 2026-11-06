@@ -1,0 +1,8 @@
+# Descriptive list, NOT a pinned reproduction of the old server environment.
+# Prefer existing server conda. Do not alter system Python.
+-r requirements-cpu.txt
+torch
+matplotlib
+pyamg
+sympy
+PyYAML

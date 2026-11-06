@@ -1,0 +1,10 @@
+/data1/caohuilin/Graph/CDMC/experiments/v2/solver/numerics.py:16: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(
+{"index": 0, "captured": {"learned": 0.798068106174469, "fixed_sine": 0.03410571813583374, "other_material_space": 0.029464364051818848, "material_only_space": 0.03801321983337402}}
+{"index": 1, "captured": {"learned": 0.7542794346809387, "fixed_sine": 0.10558885335922241, "other_material_space": 0.09423953294754028, "material_only_space": 0.09327369928359985}}
+{"index": 2, "captured": {"learned": 0.7511393427848816, "fixed_sine": 0.10942262411117554, "other_material_space": 0.11051928997039795, "material_only_space": 0.07903808355331421}}
+{"index": 3, "captured": {"learned": 0.7792600393295288, "fixed_sine": 0.09311568737030029, "other_material_space": 0.0850343108177185, "material_only_space": 0.07979774475097656}}
+{"index": 4, "captured": {"learned": 0.7643246650695801, "fixed_sine": 0.05487483739852905, "other_material_space": 0.04952341318130493, "material_only_space": 0.03992462158203125}}
+{"index": 5, "captured": {"learned": 0.7497579455375671, "fixed_sine": 0.0843886137008667, "other_material_space": 0.0841437578201294, "material_only_space": 0.07012933492660522}}
+{"index": 6, "captured": {"learned": 0.830642580986023, "fixed_sine": 0.3127802610397339, "other_material_space": 0.2907465100288391, "material_only_space": 0.23546677827835083}}
+{"index": 7, "captured": {"learned": 0.7622697353363037, "fixed_sine": 0.07935094833374023, "other_material_space": 0.0819939374923706, "material_only_space": 0.06550246477127075}}

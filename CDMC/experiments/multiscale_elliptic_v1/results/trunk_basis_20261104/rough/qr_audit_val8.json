@@ -1,0 +1,225 @@
+{
+  "split": "val",
+  "count": 8,
+  "cycles": 2,
+  "dictionary": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/balanced128_train/model.pt",
+  "definition": "Same pretrained learned span, no new training; all columns retained by QR; tests whether coordinate-sensitive ridge limits deployed correction.",
+  "samples": [
+    {
+      "index": 0,
+      "methods": {
+        "original": {
+          "L2_percent": 0.012681066058576107,
+          "gradient_percent": 0.030341733247041702,
+          "flux_L2_percent": 0.023217156529426575,
+          "normalized_gram_smallest_eigenvalue": 2.973551524097619e-07,
+          "normalized_gram_largest_eigenvalue": 57.16991345604123
+        },
+        "same_space_QR": {
+          "L2_percent": 0.007666445337235928,
+          "gradient_percent": 0.021070724353194237,
+          "flux_L2_percent": 0.015301734209060669,
+          "normalized_gram_smallest_eigenvalue": 0.02259532022283585,
+          "normalized_gram_largest_eigenvalue": 6.561875448853634
+        }
+      },
+      "qr_diagonal_min": 0.010687869638367419
+    },
+    {
+      "index": 1,
+      "methods": {
+        "original": {
+          "L2_percent": 0.00224584573879838,
+          "gradient_percent": 0.010914409533143044,
+          "flux_L2_percent": 0.010209658183157444,
+          "normalized_gram_smallest_eigenvalue": 7.513349292722716e-07,
+          "normalized_gram_largest_eigenvalue": 64.17132976485667
+        },
+        "same_space_QR": {
+          "L2_percent": 0.0017102196579799056,
+          "gradient_percent": 0.008338232524693012,
+          "flux_L2_percent": 0.007996177300810814,
+          "normalized_gram_smallest_eigenvalue": 0.036861876842356193,
+          "normalized_gram_largest_eigenvalue": 8.180733436113124
+        }
+      },
+      "qr_diagonal_min": 0.020750598423222417
+    },
+    {
+      "index": 2,
+      "methods": {
+        "original": {
+          "L2_percent": 0.00956119317561388,
+          "gradient_percent": 0.02510235644876957,
+          "flux_L2_percent": 0.0214970912784338,
+          "normalized_gram_smallest_eigenvalue": 3.1221708471553774e-07,
+          "normalized_gram_largest_eigenvalue": 63.86850938921515
+        },
+        "same_space_QR": {
+          "L2_percent": 0.005295217968523502,
+          "gradient_percent": 0.01600193791091442,
+          "flux_L2_percent": 0.014042649418115616,
+          "normalized_gram_smallest_eigenvalue": 0.03697440097473853,
+          "normalized_gram_largest_eigenvalue": 6.847353726911454
+        }
+      },
+      "qr_diagonal_min": 0.010392343138207664
+    },
+    {
+      "index": 3,
+      "methods": {
+        "original": {
+          "L2_percent": 0.005133567377924919,
+          "gradient_percent": 0.017225870862603188,
+          "flux_L2_percent": 0.020699145272374153,
+          "normalized_gram_smallest_eigenvalue": 2.390568483665364e-07,
+          "normalized_gram_largest_eigenvalue": 64.77265780559006
+        },
+        "same_space_QR": {
+          "L2_percent": 0.00469193747267127,
+          "gradient_percent": 0.015287517569959164,
+          "flux_L2_percent": 0.018390284851193428,
+          "normalized_gram_smallest_eigenvalue": 0.0269021592536784,
+          "normalized_gram_largest_eigenvalue": 5.670821000549007
+        }
+      },
+      "qr_diagonal_min": 0.00938739325506822
+    },
+    {
+      "index": 4,
+      "methods": {
+        "original": {
+          "L2_percent": 0.0033055951353162527,
+          "gradient_percent": 0.011469277553260326,
+          "flux_L2_percent": 0.008683222346007824,
+          "normalized_gram_smallest_eigenvalue": 1.5086611116971455e-06,
+          "normalized_gram_largest_eigenvalue": 55.11634339612098
+        },
+        "same_space_QR": {
+          "L2_percent": 0.002510236809030175,
+          "gradient_percent": 0.009220178239047527,
+          "flux_L2_percent": 0.007176571525633335,
+          "normalized_gram_smallest_eigenvalue": 0.04186406053054828,
+          "normalized_gram_largest_eigenvalue": 8.026481444340746
+        }
+      },
+      "qr_diagonal_min": 0.026138705435168302
+    },
+    {
+      "index": 5,
+      "methods": {
+        "original": {
+          "L2_percent": 0.03626425936818123,
+          "gradient_percent": 0.06253109127283096,
+          "flux_L2_percent": 0.07683026790618896,
+          "normalized_gram_smallest_eigenvalue": 3.5717483413696615e-07,
+          "normalized_gram_largest_eigenvalue": 64.93284652671073
+        },
+        "same_space_QR": {
+          "L2_percent": 0.011671378277242184,
+          "gradient_percent": 0.028145737946033478,
+          "flux_L2_percent": 0.027402345091104507,
+          "normalized_gram_smallest_eigenvalue": 0.04030674632236159,
+          "normalized_gram_largest_eigenvalue": 5.653082982298572
+        }
+      },
+      "qr_diagonal_min": 0.010447250479460777
+    },
+    {
+      "index": 6,
+      "methods": {
+        "original": {
+          "L2_percent": 0.0036409669555723667,
+          "gradient_percent": 0.013726620934903622,
+          "flux_L2_percent": 0.010612032376229763,
+          "normalized_gram_smallest_eigenvalue": 1.4930819681356288e-06,
+          "normalized_gram_largest_eigenvalue": 49.78864322038314
+        },
+        "same_space_QR": {
+          "L2_percent": 0.002944716950878501,
+          "gradient_percent": 0.011956091038882732,
+          "flux_L2_percent": 0.009214485995471478,
+          "normalized_gram_smallest_eigenvalue": 0.0401905029166223,
+          "normalized_gram_largest_eigenvalue": 8.092778601715937
+        }
+      },
+      "qr_diagonal_min": 0.02873014844907968
+    },
+    {
+      "index": 7,
+      "methods": {
+        "original": {
+          "L2_percent": 0.009016302414238453,
+          "gradient_percent": 0.01796473003923893,
+          "flux_L2_percent": 0.019818823784589767,
+          "normalized_gram_smallest_eigenvalue": 3.585653015366149e-07,
+          "normalized_gram_largest_eigenvalue": 56.59410351332719
+        },
+        "same_space_QR": {
+          "L2_percent": 0.005469010677188635,
+          "gradient_percent": 0.012487170286476612,
+          "flux_L2_percent": 0.013985277153551579,
+          "normalized_gram_smallest_eigenvalue": 0.028583830636325826,
+          "normalized_gram_largest_eigenvalue": 6.655554228736747
+        }
+      },
+      "qr_diagonal_min": 0.011025923983908203
+    }
+  ],
+  "summary": {
+    "original": {
+      "L2_percent": {
+        "mean": 0.010231099528027698,
+        "p95": 0.028010141709819424,
+        "median": 0.007074934896081686
+      },
+      "gradient_percent": {
+        "mean": 0.023659511236473918,
+        "p95": 0.05126481596380471,
+        "median": 0.01759530045092106
+      },
+      "flux_L2_percent": {
+        "mean": 0.023945924709551036,
+        "p95": 0.0580656789243221,
+        "median": 0.02025898452848196
+      },
+      "normalized_gram_smallest_eigenvalue": {
+        "mean": 6.646809037838079e-07,
+        "p95": 1.5032084114506147e-06,
+        "median": 3.5787006783679056e-07
+      },
+      "normalized_gram_largest_eigenvalue": {
+        "mean": 59.551793384030645,
+        "p95": 64.8767804743185,
+        "median": 60.51921142262819
+      }
+    },
+    "same_space_QR": {
+      "L2_percent": {
+        "mean": 0.005244895393843763,
+        "p95": 0.010269651748239992,
+        "median": 0.004993577720597386
+      },
+      "gradient_percent": {
+        "mean": 0.015313448733650148,
+        "p95": 0.02566948318853974,
+        "median": 0.013887343928217888
+      },
+      "flux_L2_percent": {
+        "mean": 0.014188690693117678,
+        "p95": 0.024248124007135625,
+        "median": 0.014013963285833597
+      },
+      "normalized_gram_smallest_eigenvalue": {
+        "mean": 0.03428486221243337,
+        "p95": 0.041319000557682936,
+        "median": 0.036918138908547365
+      },
+      "normalized_gram_largest_eigenvalue": {
+        "mean": 6.961085108689902,
+        "p95": 8.149949244074108,
+        "median": 6.7514539778241005
+      }
+    }
+  }
+}

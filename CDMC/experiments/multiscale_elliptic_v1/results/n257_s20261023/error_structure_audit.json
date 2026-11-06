@@ -1,0 +1,367 @@
+{
+  "purpose": "Offline error/coarse-space diagnosis; never changes trained solvers.\n\nExact coarse projections use ground-truth errors for diagnosis only. They\nmeasure approximation capacity, not deployable accuracy or runtime.\n",
+  "selection": "Median and maximum fixed-MG-K2 field error among 32 tests, plus prior learned-stall index 30",
+  "projection": "q=P(P.T A P)^(-1)P.T A e; exact A-orthogonal projection, not the approximate recursive V-cycle",
+  "algebraic_Rayleigh": "e.T A e / (e.T diag(A) e), exact current fine diagonal",
+  "oracle_fine_step": "One fine-level Jacobi step only, omega as deployed and 0.5<=g_i<=1.5; true-error-optimal gate, diagnostic not deployable. Wrong direction means e_i*(A e)_i<=0; positive local steps cannot reduce pointwise absolute error there at that step. This does not constrain a full V-cycle.",
+  "interpretation": "Projection residual is a limitation of that coarse subspace ALONE, not a lower bound for a full MG cycle with smoothing; energy and field norms differ.",
+  "samples": [
+    {
+      "index": 7,
+      "methods": {
+        "NO": {
+          "field_L2_percent": 1.2307860647009268,
+          "algebraic_Rayleigh_exact_diagonal": 0.10410906630934533,
+          "positive_local_step_wrong_direction_error_mass_percent": 15.338789882387582,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 86.26745145952506,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 92.71429954612722,
+              "energy_remaining_percent": 7.285700453873837,
+              "mass_norm_remaining_percent": 45.15953793966784,
+              "projection_relative_linear_residual": 6.446224672850787e-16
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 46.375481279115355,
+              "energy_remaining_percent": 53.62451872088467,
+              "mass_norm_remaining_percent": 828.1836568529917,
+              "projection_relative_linear_residual": 3.3003793037989817e-15
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 19.37612984952714,
+              "energy_remaining_percent": 80.62387015047369,
+              "mass_norm_remaining_percent": 1067.2990736501702,
+              "projection_relative_linear_residual": 2.2810727065019175e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 10.949278147309757,
+              "energy_remaining_percent": 89.05072185269042,
+              "mass_norm_remaining_percent": 945.4097413612708,
+              "projection_relative_linear_residual": 7.704673021184391e-16
+            }
+          }
+        },
+        "fixed_MG_K2": {
+          "field_L2_percent": 0.26680102458632315,
+          "algebraic_Rayleigh_exact_diagonal": 8.082973727254032e-05,
+          "positive_local_step_wrong_direction_error_mass_percent": 48.34808828366693,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 99.88611325508558,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 85.46913749651483,
+              "energy_remaining_percent": 14.53086250348519,
+              "mass_norm_remaining_percent": 8.654858834417213,
+              "projection_relative_linear_residual": 2.5184679968086045e-14
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 45.6771752852104,
+              "energy_remaining_percent": 54.3228247147893,
+              "mass_norm_remaining_percent": 32.85587558744887,
+              "projection_relative_linear_residual": 1.2008227962022014e-14
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 24.622626416056104,
+              "energy_remaining_percent": 75.37737358394364,
+              "mass_norm_remaining_percent": 50.15512014142729,
+              "projection_relative_linear_residual": 3.1415120294664954e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 14.505592435418095,
+              "energy_remaining_percent": 85.49440756458114,
+              "mass_norm_remaining_percent": 62.976674241900575,
+              "projection_relative_linear_residual": 8.985750243339434e-16
+            }
+          }
+        },
+        "actual_K2": {
+          "field_L2_percent": 0.16239199970830204,
+          "algebraic_Rayleigh_exact_diagonal": 0.00011753585065119494,
+          "positive_local_step_wrong_direction_error_mass_percent": 48.030521128119695,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 99.85271719066453,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 72.82745964592924,
+              "energy_remaining_percent": 27.17254035407003,
+              "mass_norm_remaining_percent": 7.324629963281957,
+              "projection_relative_linear_residual": 2.0343743987631225e-14
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 39.41315242160758,
+              "energy_remaining_percent": 60.586847578392046,
+              "mass_norm_remaining_percent": 31.31724819733051,
+              "projection_relative_linear_residual": 1.0459633857286815e-14
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 21.295480423228895,
+              "energy_remaining_percent": 78.70451957677037,
+              "mass_norm_remaining_percent": 47.53287552324246,
+              "projection_relative_linear_residual": 2.63915035058794e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 11.84709319770759,
+              "energy_remaining_percent": 88.15290680229283,
+              "mass_norm_remaining_percent": 60.780480655465695,
+              "projection_relative_linear_residual": 8.401444929204903e-16
+            }
+          }
+        }
+      },
+      "gate": {
+        "mean": 1.2167463302612305,
+        "std": 0.09692906588315964,
+        "min": 0.9853217601776123,
+        "max": 1.499998688697815
+      }
+    },
+    {
+      "index": 14,
+      "methods": {
+        "NO": {
+          "field_L2_percent": 3.803282971927111,
+          "algebraic_Rayleigh_exact_diagonal": 0.008025713299304271,
+          "positive_local_step_wrong_direction_error_mass_percent": 37.133090280905606,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 97.4923922599464,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 93.65976010078856,
+              "energy_remaining_percent": 6.340239899211239,
+              "mass_norm_remaining_percent": 17.88525258547801,
+              "projection_relative_linear_residual": 1.378509203193634e-15
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 43.894775961234444,
+              "energy_remaining_percent": 56.105224038765556,
+              "mass_norm_remaining_percent": 311.53549964812044,
+              "projection_relative_linear_residual": 2.620591032055191e-15
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 16.62576853134644,
+              "energy_remaining_percent": 83.37423146865298,
+              "mass_norm_remaining_percent": 388.3954142667669,
+              "projection_relative_linear_residual": 1.897741673143788e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 7.835300278510193,
+              "energy_remaining_percent": 92.16469972148876,
+              "mass_norm_remaining_percent": 335.9117890707299,
+              "projection_relative_linear_residual": 6.038047124062264e-16
+            }
+          }
+        },
+        "fixed_MG_K2": {
+          "field_L2_percent": 0.6449711618368883,
+          "algebraic_Rayleigh_exact_diagonal": 4.9492471299011705e-05,
+          "positive_local_step_wrong_direction_error_mass_percent": 48.12802233050507,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 99.9232338568116,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 86.84700577224413,
+              "energy_remaining_percent": 13.152994227758551,
+              "mass_norm_remaining_percent": 7.956986653766942,
+              "projection_relative_linear_residual": 3.463238730009325e-14
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 51.52875921574941,
+              "energy_remaining_percent": 48.47124078425174,
+              "mass_norm_remaining_percent": 29.64375299632512,
+              "projection_relative_linear_residual": 1.9534154892154863e-14
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 31.423223387039158,
+              "energy_remaining_percent": 68.5767766129617,
+              "mass_norm_remaining_percent": 48.02510389010596,
+              "projection_relative_linear_residual": 3.974152038552013e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 22.214535589115023,
+              "energy_remaining_percent": 77.78546441088648,
+              "mass_norm_remaining_percent": 60.48014381205219,
+              "projection_relative_linear_residual": 9.604668534859089e-16
+            }
+          }
+        },
+        "actual_K2": {
+          "field_L2_percent": 0.5194290000504941,
+          "algebraic_Rayleigh_exact_diagonal": 5.151899005408931e-05,
+          "positive_local_step_wrong_direction_error_mass_percent": 47.88558633614548,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 99.9239548807393,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 88.37803107794488,
+              "energy_remaining_percent": 11.62196892205633,
+              "mass_norm_remaining_percent": 6.835312003058279,
+              "projection_relative_linear_residual": 3.274827065275661e-14
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 54.16751598352138,
+              "energy_remaining_percent": 45.832484016478325,
+              "mass_norm_remaining_percent": 27.506577137039212,
+              "projection_relative_linear_residual": 1.7660123621206917e-14
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 34.152209741644405,
+              "energy_remaining_percent": 65.84779025835469,
+              "mass_norm_remaining_percent": 44.89828470593131,
+              "projection_relative_linear_residual": 3.72306702531073e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 24.263672019260568,
+              "energy_remaining_percent": 75.73632798073875,
+              "mass_norm_remaining_percent": 57.88582032712078,
+              "projection_relative_linear_residual": 9.164245160702533e-16
+            }
+          }
+        }
+      },
+      "gate": {
+        "mean": 1.2177270650863647,
+        "std": 0.09616007655858994,
+        "min": 0.9853603839874268,
+        "max": 1.5
+      }
+    },
+    {
+      "index": 30,
+      "methods": {
+        "NO": {
+          "field_L2_percent": 2.021951639399088,
+          "algebraic_Rayleigh_exact_diagonal": 0.03458558416739776,
+          "positive_local_step_wrong_direction_error_mass_percent": 25.5272348033477,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 93.31713396703006,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 91.04457521663602,
+              "energy_remaining_percent": 8.955424783364492,
+              "mass_norm_remaining_percent": 25.670812992095616,
+              "projection_relative_linear_residual": 9.902516984906635e-16
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 47.66630329758661,
+              "energy_remaining_percent": 52.33369670241371,
+              "mass_norm_remaining_percent": 437.383310630683,
+              "projection_relative_linear_residual": 3.4115193681432427e-15
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 17.438815517842624,
+              "energy_remaining_percent": 82.56118448215697,
+              "mass_norm_remaining_percent": 575.6494989239472,
+              "projection_relative_linear_residual": 2.356110052782806e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 8.88497718312065,
+              "energy_remaining_percent": 91.11502281687946,
+              "mass_norm_remaining_percent": 454.7959092857801,
+              "projection_relative_linear_residual": 8.932072009998819e-16
+            }
+          }
+        },
+        "fixed_MG_K2": {
+          "field_L2_percent": 0.20857186453333165,
+          "algebraic_Rayleigh_exact_diagonal": 0.0001617265345709704,
+          "positive_local_step_wrong_direction_error_mass_percent": 46.97305956277844,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 99.85613837064497,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 88.68158503428178,
+              "energy_remaining_percent": 11.318414965721118,
+              "mass_norm_remaining_percent": 7.358977123489771,
+              "projection_relative_linear_residual": 2.3856542640586183e-14
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 48.57377288117151,
+              "energy_remaining_percent": 51.426227118830404,
+              "mass_norm_remaining_percent": 38.70270578584643,
+              "projection_relative_linear_residual": 8.343962733049465e-15
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 19.438162985836986,
+              "energy_remaining_percent": 80.56183701416498,
+              "mass_norm_remaining_percent": 65.15375745703803,
+              "projection_relative_linear_residual": 2.1318821563315556e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 5.530843362169084,
+              "energy_remaining_percent": 94.46915663783099,
+              "mass_norm_remaining_percent": 81.53523725696628,
+              "projection_relative_linear_residual": 7.151201848324689e-16
+            }
+          }
+        },
+        "actual_K2": {
+          "field_L2_percent": 1.0796590333896556,
+          "algebraic_Rayleigh_exact_diagonal": 0.004312637901299273,
+          "positive_local_step_wrong_direction_error_mass_percent": 13.219372233061621,
+          "oracle_bounded_fine_smoothing_mass_remaining_percent": 98.8900133631214,
+          "coarse_projection": {
+            "level_1": {
+              "dimension": 32513,
+              "energy_captured_percent": 92.7071081533002,
+              "energy_remaining_percent": 7.292891846700035,
+              "mass_norm_remaining_percent": 5.595342226331567,
+              "projection_relative_linear_residual": 5.070075349102156e-15
+            },
+            "level_3": {
+              "dimension": 8129,
+              "energy_captured_percent": 78.29314508078194,
+              "energy_remaining_percent": 21.706854919218653,
+              "mass_norm_remaining_percent": 22.56410033302019,
+              "projection_relative_linear_residual": 1.5469726664615935e-15
+            },
+            "level_6": {
+              "dimension": 1017,
+              "energy_captured_percent": 45.382039703060705,
+              "energy_remaining_percent": 54.61796029693938,
+              "mass_norm_remaining_percent": 61.7994292397128,
+              "projection_relative_linear_residual": 1.0356720006225386e-15
+            },
+            "level_9": {
+              "dimension": 128,
+              "energy_captured_percent": 18.230970330638257,
+              "energy_remaining_percent": 81.76902966936255,
+              "mass_norm_remaining_percent": 82.40498888668508,
+              "projection_relative_linear_residual": 6.081336087323677e-16
+            }
+          }
+        }
+      },
+      "gate": {
+        "mean": 1.212735652923584,
+        "std": 0.09243935346603394,
+        "min": 0.9908199310302734,
+        "max": 1.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,4506 @@
+{
+  "summary": {
+    "NO": {
+      "L2_percent": {
+        "mean": 1.9711024207991015,
+        "p95": 3.385073841967264,
+        "median": 1.844551008838669
+      },
+      "gradient_percent": {
+        "mean": 44.325628878690054,
+        "p95": 47.7004716133452,
+        "median": 44.03193909119838
+      },
+      "energy_percent": {
+        "mean": 53.75018319890349,
+        "p95": 57.0669577465079,
+        "median": 53.662828551833485
+      },
+      "flux_L2_percent": {
+        "mean": 76.5044274631234,
+        "p95": 82.35539005389244,
+        "median": 76.44049736396518
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 46.48946953257676,
+        "p95": 86.25915999541274,
+        "median": 43.893319104306606
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 11.963056089281466,
+        "p95": 19.5777057871532,
+        "median": 12.225379830127848
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 41.54747437814177,
+        "p95": 64.38694941599748,
+        "median": 43.6078222669798
+      },
+      "total_ms": {
+        "mean": 1.5660432545701042,
+        "p95": 2.3017610656097522,
+        "median": 1.4529493637382984
+      },
+      "relative_residual": {
+        "mean": 66.75185096263885,
+        "p95": 72.94384841918945,
+        "median": 67.11383819580078
+      }
+    },
+    "MG_K2": {
+      "L2_percent": {
+        "mean": 0.3067734307721274,
+        "p95": 0.5999941695877081,
+        "median": 0.2656510562907557
+      },
+      "gradient_percent": {
+        "mean": 0.4995253558670367,
+        "p95": 0.7857236183146286,
+        "median": 0.47414410251320266
+      },
+      "energy_percent": {
+        "mean": 0.4660205482029422,
+        "p95": 0.7475700275648405,
+        "median": 0.42022249063910366
+      },
+      "flux_L2_percent": {
+        "mean": 0.49532832214039324,
+        "p95": 0.8107253710191471,
+        "median": 0.45273985474442424
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 98.67679306462779,
+        "p95": 99.49155396820272,
+        "median": 98.9321410079186
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 1.177244650853229,
+        "p95": 2.9992739534022017,
+        "median": 0.9208983279677765
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.14596228451899068,
+        "p95": 0.34407206144274216,
+        "median": 0.11814987121673393
+      },
+      "total_ms": {
+        "mean": 37.79021558875684,
+        "p95": 40.792522160336375,
+        "median": 36.75807756371796
+      },
+      "relative_residual": {
+        "mean": 0.44201295264065266,
+        "p95": 0.6932710468769073,
+        "median": 0.3887750804424286
+      }
+    },
+    "MG_K4": {
+      "L2_percent": {
+        "mean": 0.02171573731746563,
+        "p95": 0.043055368928967934,
+        "median": 0.019312464676828903
+      },
+      "gradient_percent": {
+        "mean": 0.03120820846032072,
+        "p95": 0.059773938405680016,
+        "median": 0.028446861491373814
+      },
+      "energy_percent": {
+        "mean": 0.02881442535033106,
+        "p95": 0.0545279073896313,
+        "median": 0.026401190282260296
+      },
+      "flux_L2_percent": {
+        "mean": 0.030995005701545522,
+        "p95": 0.05913066016770553,
+        "median": 0.02784498772643386
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 99.32634884007409,
+        "p95": 99.63166344547369,
+        "median": 99.39338275414946
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.5952375126130817,
+        "p95": 0.9211090102508082,
+        "median": 0.5402360043974954
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.07841364731282344,
+        "p95": 0.13451412032539323,
+        "median": 0.07329400874090758
+      },
+      "total_ms": {
+        "mean": 71.47337196511216,
+        "p95": 75.60402695089579,
+        "median": 70.47851104289293
+      },
+      "relative_residual": {
+        "mean": 0.029014186438871548,
+        "p95": 0.05438025034964084,
+        "median": 0.025790154933929443
+      }
+    },
+    "scalar_K2": {
+      "L2_percent": {
+        "mean": 0.2341771978803118,
+        "p95": 0.4908547714610524,
+        "median": 0.20001019777868118
+      },
+      "gradient_percent": {
+        "mean": 0.42571876525830205,
+        "p95": 0.6512880470278093,
+        "median": 0.34252589233758834
+      },
+      "energy_percent": {
+        "mean": 0.3984100642628211,
+        "p95": 0.6508884511901952,
+        "median": 0.30981860478938145
+      },
+      "flux_L2_percent": {
+        "mean": 0.43535971192881373,
+        "p95": 0.7697951120226675,
+        "median": 0.32801303931810005
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 97.1704818214993,
+        "p95": 99.49060185821158,
+        "median": 98.61512303075682
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 2.6323094112271335,
+        "p95": 3.4667536474080096,
+        "median": 1.2374099222860182
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.1972087672735765,
+        "p95": 0.3457421178143483,
+        "median": 0.1196166432552854
+      },
+      "total_ms": {
+        "mean": 38.445367812528275,
+        "p95": 40.675014862790704,
+        "median": 38.36259385570884
+      },
+      "relative_residual": {
+        "mean": 0.31675988575443625,
+        "p95": 0.5243138179183006,
+        "median": 0.26590193808078766
+      }
+    },
+    "old_CDMC_K2": {
+      "L2_percent": {
+        "mean": 0.24221956464835712,
+        "p95": 0.505073796366223,
+        "median": 0.18102356432114106
+      },
+      "gradient_percent": {
+        "mean": 0.5900071143895027,
+        "p95": 0.6619323383236452,
+        "median": 0.3392675989078551
+      },
+      "energy_percent": {
+        "mean": 0.5826998718654135,
+        "p95": 0.6501930043356782,
+        "median": 0.35478068927251055
+      },
+      "flux_L2_percent": {
+        "mean": 0.7183915259692872,
+        "p95": 0.7709546555246819,
+        "median": 0.4798348548441054
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 96.88206651232653,
+        "p95": 99.49062216230942,
+        "median": 98.6443259405458
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 2.8787617574995688,
+        "p95": 3.33045013431035,
+        "median": 1.185683782112709
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.23917173017390492,
+        "p95": 0.39508851513421417,
+        "median": 0.1402864732909498
+      },
+      "total_ms": {
+        "mean": 38.98751268570777,
+        "p95": 41.20634894352406,
+        "median": 39.28058105520904
+      },
+      "relative_residual": {
+        "mean": 0.7411776520311832,
+        "p95": 0.9378450483083723,
+        "median": 0.6176379919052124
+      }
+    },
+    "coupled_K1": {
+      "L2_percent": {
+        "mean": 0.2888172612960674,
+        "p95": 0.4475804350499174,
+        "median": 0.269811333104268
+      },
+      "gradient_percent": {
+        "mean": 1.996766062141266,
+        "p95": 2.5149158592846534,
+        "median": 1.9477383846496126
+      },
+      "energy_percent": {
+        "mean": 2.310214556933101,
+        "p95": 2.664752282394556,
+        "median": 2.2813453623164177
+      },
+      "flux_L2_percent": {
+        "mean": 3.18467990561126,
+        "p95": 3.6801770551253847,
+        "median": 3.1412593765411128
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 80.54696911528002,
+        "p95": 92.84507115592936,
+        "median": 82.05816070025477
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 16.673187597769918,
+        "p95": 28.80125339089266,
+        "median": 15.211235447345842
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 2.779843286950057,
+        "p95": 5.0480834139666735,
+        "median": 2.728295942146991
+      },
+      "total_ms": {
+        "mean": 27.151522066560574,
+        "p95": 32.11077677551657,
+        "median": 26.031260611489415
+      },
+      "relative_residual": {
+        "mean": 3.043203242123127,
+        "p95": 3.5998947501182554,
+        "median": 3.004302978515625
+      }
+    },
+    "coupled_K2": {
+      "L2_percent": {
+        "mean": 0.0755412241926044,
+        "p95": 0.1392149440768341,
+        "median": 0.06627038643954139
+      },
+      "gradient_percent": {
+        "mean": 0.29549208327414145,
+        "p95": 0.4438861243424399,
+        "median": 0.27727445626280345
+      },
+      "energy_percent": {
+        "mean": 0.3097536605065099,
+        "p95": 0.4294735929213597,
+        "median": 0.3015070745468853
+      },
+      "flux_L2_percent": {
+        "mean": 0.40501189664802195,
+        "p95": 0.6246218233321351,
+        "median": 0.366856907718596
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 90.92207539643081,
+        "p95": 97.67359182625762,
+        "median": 91.52242289817784
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 8.288825400550621,
+        "p95": 15.275674342600855,
+        "median": 7.620834997986593
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.7890992030185572,
+        "p95": 1.4499961837164481,
+        "median": 0.8059568311796033
+      },
+      "total_ms": {
+        "mean": 44.68127849395387,
+        "p95": 51.35267430450767,
+        "median": 43.17469010129571
+      },
+      "relative_residual": {
+        "mean": 0.4090580865740776,
+        "p95": 0.6329607367515564,
+        "median": 0.35963186621665955
+      }
+    },
+    "frozen_no_MG": {
+      "L2_percent": {
+        "mean": 1.6522449085477942,
+        "p95": 2.043652436821558,
+        "median": 1.6396137478097224
+      },
+      "gradient_percent": {
+        "mean": 24.401604409069414,
+        "p95": 26.275287831275715,
+        "median": 24.23432343989318
+      },
+      "energy_percent": {
+        "mean": 32.76352981381834,
+        "p95": 34.933188672500386,
+        "median": 32.69624786121786
+      },
+      "flux_L2_percent": {
+        "mean": 55.15695869151365,
+        "p95": 60.829648801706064,
+        "median": 54.84616164597557
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 70.19035399494774,
+        "p95": 80.95491545891059,
+        "median": 69.3145244926204
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 19.806273685117,
+        "p95": 27.009523286804047,
+        "median": 21.320376739269257
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 10.003372319935256,
+        "p95": 13.263451653321328,
+        "median": 9.40049753069754
+      },
+      "total_ms": {
+        "mean": 8.156189796864055,
+        "p95": 12.317288666963575,
+        "median": 6.914456840604544
+      },
+      "relative_residual": {
+        "mean": 57.48660612106323,
+        "p95": 63.03810634613037,
+        "median": 56.944618225097656
+      }
+    },
+    "trained_no_MG": {
+      "L2_percent": {
+        "mean": 1.1601671148611814,
+        "p95": 1.5453837818003413,
+        "median": 1.1067758670593286
+      },
+      "gradient_percent": {
+        "mean": 20.052291854367382,
+        "p95": 21.90844446507085,
+        "median": 19.91412385754363
+      },
+      "energy_percent": {
+        "mean": 27.436267565280026,
+        "p95": 29.693193586187714,
+        "median": 27.24996235241465
+      },
+      "flux_L2_percent": {
+        "mean": 42.89905780667409,
+        "p95": 46.22539146363799,
+        "median": 42.865281762330014
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 60.33672322107853,
+        "p95": 82.22690173118372,
+        "median": 58.50265463264417
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 26.110735540581587,
+        "p95": 41.53793617245704,
+        "median": 26.679860586255078
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 13.552541238339892,
+        "p95": 21.618623541540416,
+        "median": 13.131337211533289
+      },
+      "total_ms": {
+        "mean": 7.422335183946416,
+        "p95": 11.253948346711695,
+        "median": 6.880340399220586
+      },
+      "relative_residual": {
+        "mean": 50.06967079639435,
+        "p95": 55.751887512207034,
+        "median": 49.241912841796875
+      }
+    },
+    "geometric_K0": {
+      "L2_percent": {
+        "mean": 9.247514263271505,
+        "p95": 11.443096361259073,
+        "median": 9.02340964928863
+      },
+      "gradient_percent": {
+        "mean": 45.66547272471394,
+        "p95": 49.19220654164894,
+        "median": 45.30512626295266
+      },
+      "energy_percent": {
+        "mean": 52.45028934582915,
+        "p95": 55.5993362436242,
+        "median": 52.40632919668647
+      },
+      "flux_L2_percent": {
+        "mean": 70.79205811806263,
+        "p95": 76.707469828858,
+        "median": 70.89663329895814
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 97.79575810858151,
+        "p95": 98.57041479582165,
+        "median": 97.91691774895266
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.49765156287066176,
+        "p95": 0.9963629769142922,
+        "median": 0.46687929560682845
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 1.7065903285478448,
+        "p95": 2.6065569911630764,
+        "median": 1.5941537644322483
+      },
+      "total_ms": {
+        "mean": 4.680217563873157,
+        "p95": 8.280770853161812,
+        "median": 3.6140934098511934
+      },
+      "relative_residual": {
+        "mean": 65.28859305381775,
+        "p95": 70.79406623840332,
+        "median": 65.40732192993164
+      }
+    }
+  },
+  "samples": [
+    {
+      "index": 0,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.69054020009275,
+          "gradient_percent": 48.052519428164416,
+          "energy_percent": 59.03960026199625,
+          "flux_L2_percent": 88.73243578188669,
+          "error_sine_low_fraction_percent": 31.04802750532253,
+          "error_sine_mid_fraction_percent": 13.200269561326008,
+          "error_sine_high_fraction_percent": 55.75170293335146,
+          "total_ms": 1.6135931946337223,
+          "relative_residual": 73.2763442993164
+        },
+        "MG_K2": {
+          "L2_percent": 0.3580297776196709,
+          "gradient_percent": 0.6428931688590664,
+          "energy_percent": 0.595997261958543,
+          "flux_L2_percent": 0.650660339964399,
+          "error_sine_low_fraction_percent": 99.02910392874628,
+          "error_sine_mid_fraction_percent": 0.8168586114661306,
+          "error_sine_high_fraction_percent": 0.15403745978763156,
+          "total_ms": 36.5390102379024,
+          "relative_residual": 0.6103518009185791
+        },
+        "MG_K4": {
+          "L2_percent": 0.027257007086769678,
+          "gradient_percent": 0.038702443867410966,
+          "energy_percent": 0.03651380278095985,
+          "flux_L2_percent": 0.040860283772827445,
+          "error_sine_low_fraction_percent": 99.44919831412085,
+          "error_sine_mid_fraction_percent": 0.4723862744345416,
+          "error_sine_high_fraction_percent": 0.078415411444612,
+          "total_ms": 69.65345097705722,
+          "relative_residual": 0.039178092032670975
+        },
+        "scalar_K2": {
+          "L2_percent": 0.2357842814906916,
+          "gradient_percent": 0.45707470880890144,
+          "energy_percent": 0.42553052119659274,
+          "flux_L2_percent": 0.47851302250457706,
+          "error_sine_low_fraction_percent": 98.80376744003692,
+          "error_sine_mid_fraction_percent": 1.017238669220084,
+          "error_sine_high_fraction_percent": 0.17899389074297625,
+          "total_ms": 38.47275907173753,
+          "relative_residual": 0.4357611835002899
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.2111603690658644,
+          "gradient_percent": 0.43599132823838194,
+          "energy_percent": 0.43002609392299856,
+          "flux_L2_percent": 0.528761649276774,
+          "error_sine_low_fraction_percent": 98.75863744889622,
+          "error_sine_mid_fraction_percent": 1.0514065830196722,
+          "error_sine_high_fraction_percent": 0.18995596808410375,
+          "total_ms": 38.04598096758127,
+          "relative_residual": 0.6439126133918762
+        },
+        "coupled_K1": {
+          "L2_percent": 0.3369943807295527,
+          "gradient_percent": 2.5808753419826287,
+          "energy_percent": 2.85197227798557,
+          "flux_L2_percent": 3.8183006484139206,
+          "error_sine_low_fraction_percent": 82.96914907859056,
+          "error_sine_mid_fraction_percent": 13.642238020679144,
+          "error_sine_high_fraction_percent": 3.3886129007303056,
+          "total_ms": 27.83043310046196,
+          "relative_residual": 3.643064260482788
+        },
+        "coupled_K2": {
+          "L2_percent": 0.08096937701824627,
+          "gradient_percent": 0.4164900109148216,
+          "energy_percent": 0.4257995323430081,
+          "flux_L2_percent": 0.5730345443770383,
+          "error_sine_low_fraction_percent": 90.63320897233713,
+          "error_sine_mid_fraction_percent": 8.231340596900127,
+          "error_sine_high_fraction_percent": 1.1354504307627418,
+          "total_ms": 43.2657771743834,
+          "relative_residual": 0.569403886795044
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.9582572482770055,
+          "gradient_percent": 27.013573508670994,
+          "energy_percent": 35.65028735502022,
+          "flux_L2_percent": 61.45412818233644,
+          "error_sine_low_fraction_percent": 78.77234918567795,
+          "error_sine_mid_fraction_percent": 12.665435863659644,
+          "error_sine_high_fraction_percent": 8.562214950662401,
+          "total_ms": 6.866849027574062,
+          "relative_residual": 62.80673599243164
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.1399330686654516,
+          "gradient_percent": 22.700251221144853,
+          "energy_percent": 30.2214810816662,
+          "flux_L2_percent": 46.65248118024977,
+          "error_sine_low_fraction_percent": 55.56009744065553,
+          "error_sine_mid_fraction_percent": 25.45861071737053,
+          "error_sine_high_fraction_percent": 18.98129184197388,
+          "total_ms": 6.89974008128047,
+          "relative_residual": 51.04195785522461
+        },
+        "geometric_K0": {
+          "L2_percent": 12.249487183949542,
+          "gradient_percent": 50.23090102858938,
+          "energy_percent": 56.97988788065904,
+          "flux_L2_percent": 79.84108488185998,
+          "error_sine_low_fraction_percent": 98.64963343127785,
+          "error_sine_mid_fraction_percent": 0.2518471927400586,
+          "error_sine_high_fraction_percent": 1.0985193759821006,
+          "total_ms": 3.6016330122947693,
+          "relative_residual": 70.95256805419922
+        }
+      }
+    },
+    {
+      "index": 1,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.72916905660884,
+          "gradient_percent": 42.78913886351108,
+          "energy_percent": 51.10875726464249,
+          "flux_L2_percent": 70.10010881828177,
+          "error_sine_low_fraction_percent": 32.861705226911255,
+          "error_sine_mid_fraction_percent": 17.37759377434851,
+          "error_sine_high_fraction_percent": 49.76070099874022,
+          "total_ms": 1.6031917184591293,
+          "relative_residual": 62.25381088256836
+        },
+        "MG_K2": {
+          "L2_percent": 0.3904243255321031,
+          "gradient_percent": 0.5253283729129675,
+          "energy_percent": 0.4831383295160172,
+          "flux_L2_percent": 0.4861687020892923,
+          "error_sine_low_fraction_percent": 99.22398043606503,
+          "error_sine_mid_fraction_percent": 0.7059772209273533,
+          "error_sine_high_fraction_percent": 0.07004234300754195,
+          "total_ms": 37.602961994707584,
+          "relative_residual": 0.38581958413124084
+        },
+        "MG_K4": {
+          "L2_percent": 0.02456752068786738,
+          "gradient_percent": 0.03208942806541952,
+          "energy_percent": 0.02968301281258232,
+          "flux_L2_percent": 0.03025875769028751,
+          "error_sine_low_fraction_percent": 99.40401575508812,
+          "error_sine_mid_fraction_percent": 0.5286910935808622,
+          "error_sine_high_fraction_percent": 0.06729315133107237,
+          "total_ms": 70.4272068105638,
+          "relative_residual": 0.02603408508002758
+        },
+        "scalar_K2": {
+          "L2_percent": 0.30153252840478484,
+          "gradient_percent": 0.40202575037490745,
+          "energy_percent": 0.3699865247272997,
+          "flux_L2_percent": 0.37453790779646234,
+          "error_sine_low_fraction_percent": 99.22507873376951,
+          "error_sine_mid_fraction_percent": 0.7084152914974604,
+          "error_sine_high_fraction_percent": 0.06650597473304096,
+          "total_ms": 37.64817304909229,
+          "relative_residual": 0.26598265767097473
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.27810412626437603,
+          "gradient_percent": 0.3920822547351567,
+          "energy_percent": 0.4067832225559731,
+          "flux_L2_percent": 0.5658621207853253,
+          "error_sine_low_fraction_percent": 99.22306875205257,
+          "error_sine_mid_fraction_percent": 0.7068820427313627,
+          "error_sine_high_fraction_percent": 0.07004920521601665,
+          "total_ms": 38.137633353471756,
+          "relative_residual": 0.8502057194709778
+        },
+        "coupled_K1": {
+          "L2_percent": 0.23183239810616552,
+          "gradient_percent": 1.7469998554580295,
+          "energy_percent": 2.0369232624187323,
+          "flux_L2_percent": 2.7832589627671203,
+          "error_sine_low_fraction_percent": 76.61274637554904,
+          "error_sine_mid_fraction_percent": 20.182132274592334,
+          "error_sine_high_fraction_percent": 3.2051213498586235,
+          "total_ms": 26.731160935014486,
+          "relative_residual": 2.6108391284942627
+        },
+        "coupled_K2": {
+          "L2_percent": 0.05160935092688039,
+          "gradient_percent": 0.23435524089861587,
+          "energy_percent": 0.2584039379021572,
+          "flux_L2_percent": 0.3443139416755731,
+          "error_sine_low_fraction_percent": 86.49234439591261,
+          "error_sine_mid_fraction_percent": 12.504798869185688,
+          "error_sine_high_fraction_percent": 1.0028567349017046,
+          "total_ms": 41.1137230694294,
+          "relative_residual": 0.36355024576187134
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.553037093291514,
+          "gradient_percent": 23.4133573462133,
+          "energy_percent": 31.910520323412623,
+          "flux_L2_percent": 52.866273367472296,
+          "error_sine_low_fraction_percent": 65.8745547232298,
+          "error_sine_mid_fraction_percent": 21.53810756334846,
+          "error_sine_high_fraction_percent": 12.587337713421721,
+          "total_ms": 6.909430027008057,
+          "relative_residual": 55.8277587890625
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.1253073814255445,
+          "gradient_percent": 18.893498490788094,
+          "energy_percent": 26.37823652476234,
+          "flux_L2_percent": 40.37743164027763,
+          "error_sine_low_fraction_percent": 55.61350689505345,
+          "error_sine_mid_fraction_percent": 29.90512017525191,
+          "error_sine_high_fraction_percent": 14.481372929694663,
+          "total_ms": 6.917879916727543,
+          "relative_residual": 48.93954849243164
+        },
+        "geometric_K0": {
+          "L2_percent": 8.943665938951476,
+          "gradient_percent": 43.785031397507105,
+          "energy_percent": 49.99620103684191,
+          "flux_L2_percent": 64.92825538084666,
+          "error_sine_low_fraction_percent": 97.45371054853129,
+          "error_sine_mid_fraction_percent": 0.652023619390384,
+          "error_sine_high_fraction_percent": 1.8942658320783525,
+          "total_ms": 8.284218143671751,
+          "relative_residual": 60.99828338623047
+        }
+      }
+    },
+    {
+      "index": 2,
+      "methods": {
+        "NO": {
+          "L2_percent": 2.0039022907624315,
+          "gradient_percent": 43.04769605492531,
+          "energy_percent": 54.05961510759805,
+          "flux_L2_percent": 78.6264698588149,
+          "error_sine_low_fraction_percent": 51.84444188890176,
+          "error_sine_mid_fraction_percent": 17.109795080698095,
+          "error_sine_high_fraction_percent": 31.045763030400135,
+          "total_ms": 1.4665001071989536,
+          "relative_residual": 69.26168060302734
+        },
+        "MG_K2": {
+          "L2_percent": 0.18532296355432437,
+          "gradient_percent": 0.39320254406721356,
+          "energy_percent": 0.41850217461730416,
+          "flux_L2_percent": 0.4976005794931534,
+          "error_sine_low_fraction_percent": 98.76543893243455,
+          "error_sine_mid_fraction_percent": 1.0232767591332468,
+          "error_sine_high_fraction_percent": 0.21128430843223484,
+          "total_ms": 37.61587291955948,
+          "relative_residual": 0.46378737688064575
+        },
+        "MG_K4": {
+          "L2_percent": 0.012971875984987034,
+          "gradient_percent": 0.018447615145188855,
+          "energy_percent": 0.018873810875292645,
+          "flux_L2_percent": 0.02192586909786063,
+          "error_sine_low_fraction_percent": 99.69577483488112,
+          "error_sine_mid_fraction_percent": 0.23072973963166538,
+          "error_sine_high_fraction_percent": 0.07349542548719358,
+          "total_ms": 74.2332749068737,
+          "relative_residual": 0.02173161692917347
+        },
+        "scalar_K2": {
+          "L2_percent": 0.10704534870108158,
+          "gradient_percent": 0.2788703038850033,
+          "energy_percent": 0.3017394559745868,
+          "flux_L2_percent": 0.3665179236709906,
+          "error_sine_low_fraction_percent": 97.71601490949115,
+          "error_sine_mid_fraction_percent": 1.9693143798462656,
+          "error_sine_high_fraction_percent": 0.3146707106626133,
+          "total_ms": 38.32930698990822,
+          "relative_residual": 0.32696282863616943
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.09475416260708287,
+          "gradient_percent": 0.29704684191579556,
+          "energy_percent": 0.3884047941203,
+          "flux_L2_percent": 0.6514332493877325,
+          "error_sine_low_fraction_percent": 97.54862556011095,
+          "error_sine_mid_fraction_percent": 2.06408019637966,
+          "error_sine_high_fraction_percent": 0.38729424350940994,
+          "total_ms": 36.91269876435399,
+          "relative_residual": 1.0449597835540771
+        },
+        "coupled_K1": {
+          "L2_percent": 0.27246292719856474,
+          "gradient_percent": 2.0410930882885348,
+          "energy_percent": 2.45763466548262,
+          "flux_L2_percent": 3.348340447201872,
+          "error_sine_low_fraction_percent": 74.84502967829113,
+          "error_sine_mid_fraction_percent": 22.075790521599576,
+          "error_sine_high_fraction_percent": 3.0791798001093054,
+          "total_ms": 27.581739239394665,
+          "relative_residual": 3.1078624725341797
+        },
+        "coupled_K2": {
+          "L2_percent": 0.05327169885408167,
+          "gradient_percent": 0.2708682353369368,
+          "energy_percent": 0.3111033231138711,
+          "flux_L2_percent": 0.41783497445589834,
+          "error_sine_low_fraction_percent": 87.99697963413988,
+          "error_sine_mid_fraction_percent": 10.977660178648952,
+          "error_sine_high_fraction_percent": 1.0253601872111795,
+          "total_ms": 49.91109296679497,
+          "relative_residual": 0.42866384983062744
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.902807509265618,
+          "gradient_percent": 24.389530856932385,
+          "energy_percent": 33.33008035782417,
+          "flux_L2_percent": 56.126182539243565,
+          "error_sine_low_fraction_percent": 70.77128636701522,
+          "error_sine_mid_fraction_percent": 22.105557488223162,
+          "error_sine_high_fraction_percent": 7.123156144761623,
+          "total_ms": 6.879469845443964,
+          "relative_residual": 60.58961868286133
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.4282643187871853,
+          "gradient_percent": 21.5780972709713,
+          "energy_percent": 28.898138475631796,
+          "flux_L2_percent": 45.49433376566329,
+          "error_sine_low_fraction_percent": 60.98641443839409,
+          "error_sine_mid_fraction_percent": 28.03036145862002,
+          "error_sine_high_fraction_percent": 10.98322410298589,
+          "total_ms": 6.891099736094475,
+          "relative_residual": 53.35810089111328
+        },
+        "geometric_K0": {
+          "L2_percent": 9.73383837601045,
+          "gradient_percent": 44.64528611170307,
+          "energy_percent": 52.26958659409203,
+          "flux_L2_percent": 71.56041459814722,
+          "error_sine_low_fraction_percent": 97.91791602980803,
+          "error_sine_mid_fraction_percent": 0.7244089245389511,
+          "error_sine_high_fraction_percent": 1.3576750456530564,
+          "total_ms": 3.6161430180072784,
+          "relative_residual": 67.55352020263672
+        }
+      }
+    },
+    {
+      "index": 3,
+      "methods": {
+        "NO": {
+          "L2_percent": 3.9797099383149197,
+          "gradient_percent": 42.075961959699384,
+          "energy_percent": 53.40218675646572,
+          "flux_L2_percent": 82.18466286522565,
+          "error_sine_low_fraction_percent": 88.40942476687593,
+          "error_sine_mid_fraction_percent": 3.514225612125916,
+          "error_sine_high_fraction_percent": 8.076349620998174,
+          "total_ms": 1.4689499512314796,
+          "relative_residual": 69.68232727050781
+        },
+        "MG_K2": {
+          "L2_percent": 0.6105485122477642,
+          "gradient_percent": 0.8227937174623688,
+          "energy_percent": 0.7814902419960843,
+          "flux_L2_percent": 0.9108071185502258,
+          "error_sine_low_fraction_percent": 99.02290928780597,
+          "error_sine_mid_fraction_percent": 0.9072772688315334,
+          "error_sine_high_fraction_percent": 0.06981344336251338,
+          "total_ms": 37.01431071385741,
+          "relative_residual": 0.7579554319381714
+        },
+        "MG_K4": {
+          "L2_percent": 0.043758669501961764,
+          "gradient_percent": 0.06060215526536472,
+          "energy_percent": 0.055788551791233675,
+          "flux_L2_percent": 0.06341944159497676,
+          "error_sine_low_fraction_percent": 99.04394512163455,
+          "error_sine_mid_fraction_percent": 0.8777035981066149,
+          "error_sine_high_fraction_percent": 0.07835128025883417,
+          "total_ms": 74.0089719183743,
+          "relative_residual": 0.05929818004369736
+        },
+        "scalar_K2": {
+          "L2_percent": 0.5027189851056381,
+          "gradient_percent": 0.6696171556302928,
+          "energy_percent": 0.64618518435846,
+          "flux_L2_percent": 0.7702999095757483,
+          "error_sine_low_fraction_percent": 99.08069536996985,
+          "error_sine_mid_fraction_percent": 0.8515842903951165,
+          "error_sine_high_fraction_percent": 0.06772033963506002,
+          "total_ms": 38.99087104946375,
+          "relative_residual": 0.5884605646133423
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.4932838670316634,
+          "gradient_percent": 0.6633806496720228,
+          "energy_percent": 0.6470399956161477,
+          "flux_L2_percent": 0.7718965099606155,
+          "error_sine_low_fraction_percent": 99.09556160027871,
+          "error_sine_mid_fraction_percent": 0.8368567755278717,
+          "error_sine_high_fraction_percent": 0.06758162419341919,
+          "total_ms": 38.66489510983229,
+          "relative_residual": 0.6512036919593811
+        },
+        "coupled_K1": {
+          "L2_percent": 0.3364273522626779,
+          "gradient_percent": 2.137116045999512,
+          "energy_percent": 2.255921175071636,
+          "flux_L2_percent": 3.16026160347739,
+          "error_sine_low_fraction_percent": 83.66227429351868,
+          "error_sine_mid_fraction_percent": 13.979677495305044,
+          "error_sine_high_fraction_percent": 2.3580482111762886,
+          "total_ms": 32.57774095982313,
+          "relative_residual": 2.8564324378967285
+        },
+        "coupled_K2": {
+          "L2_percent": 0.07697022086588319,
+          "gradient_percent": 0.3850328361223632,
+          "energy_percent": 0.4339641114060117,
+          "flux_L2_percent": 0.6424453081030339,
+          "error_sine_low_fraction_percent": 89.32483486477844,
+          "error_sine_mid_fraction_percent": 9.393868527118507,
+          "error_sine_high_fraction_percent": 1.2812966081030648,
+          "total_ms": 47.14001668617129,
+          "relative_residual": 0.7077651619911194
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.725112855432905,
+          "gradient_percent": 24.14821139203633,
+          "energy_percent": 32.565162978397325,
+          "flux_L2_percent": 57.40307552275483,
+          "error_sine_low_fraction_percent": 66.1728703804731,
+          "error_sine_mid_fraction_percent": 24.340462565678664,
+          "error_sine_high_fraction_percent": 9.486667053848256,
+          "total_ms": 6.919420324265957,
+          "relative_residual": 57.5390510559082
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.2457814142638146,
+          "gradient_percent": 19.153652271279423,
+          "energy_percent": 26.14414239878969,
+          "flux_L2_percent": 42.78965445110535,
+          "error_sine_low_fraction_percent": 64.12130620702601,
+          "error_sine_mid_fraction_percent": 26.079035449071068,
+          "error_sine_high_fraction_percent": 9.799658343902935,
+          "total_ms": 6.945780944079161,
+          "relative_residual": 49.341827392578125
+        },
+        "geometric_K0": {
+          "L2_percent": 11.037897611330683,
+          "gradient_percent": 43.32479912811777,
+          "energy_percent": 52.5430717992809,
+          "flux_L2_percent": 76.78756754845676,
+          "error_sine_low_fraction_percent": 98.46825111362979,
+          "error_sine_mid_fraction_percent": 0.4591355140168162,
+          "error_sine_high_fraction_percent": 1.0726133723534153,
+          "total_ms": 3.6573242396116257,
+          "relative_residual": 68.13803100585938
+        }
+      }
+    },
+    {
+      "index": 4,
+      "methods": {
+        "NO": {
+          "L2_percent": 3.0099379376827757,
+          "gradient_percent": 44.928302675653526,
+          "energy_percent": 54.22052964798086,
+          "flux_L2_percent": 74.49209884744769,
+          "error_sine_low_fraction_percent": 78.01605006063323,
+          "error_sine_mid_fraction_percent": 5.4012158419605525,
+          "error_sine_high_fraction_percent": 16.58273409740622,
+          "total_ms": 1.4571091160178185,
+          "relative_residual": 68.56529998779297
+        },
+        "MG_K2": {
+          "L2_percent": 0.5913587983203895,
+          "gradient_percent": 0.7853147295594696,
+          "energy_percent": 0.7198171248483684,
+          "flux_L2_percent": 0.7304158423143371,
+          "error_sine_low_fraction_percent": 99.23714656565167,
+          "error_sine_mid_fraction_percent": 0.7112992430367605,
+          "error_sine_high_fraction_percent": 0.05155419131155705,
+          "total_ms": 38.01852185279131,
+          "relative_residual": 0.6110265851020813
+        },
+        "MG_K4": {
+          "L2_percent": 0.042479941187427525,
+          "gradient_percent": 0.060267925757350155,
+          "energy_percent": 0.05349519490390105,
+          "flux_L2_percent": 0.05408356447705625,
+          "error_sine_low_fraction_percent": 99.16474712919955,
+          "error_sine_mid_fraction_percent": 0.7701585618678235,
+          "error_sine_high_fraction_percent": 0.06509430893270965,
+          "total_ms": 75.3626599907875,
+          "relative_residual": 0.04839758947491646
+        },
+        "scalar_K2": {
+          "L2_percent": 0.48114768757002774,
+          "gradient_percent": 0.6323955840832812,
+          "energy_percent": 0.5859629783435795,
+          "flux_L2_percent": 0.6111700366833585,
+          "error_sine_low_fraction_percent": 99.26006867458297,
+          "error_sine_mid_fraction_percent": 0.6915982445888041,
+          "error_sine_high_fraction_percent": 0.048333080828241795,
+          "total_ms": 37.51471173018217,
+          "relative_residual": 0.4754151701927185
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.47965521885575635,
+          "gradient_percent": 0.6607473563113363,
+          "energy_percent": 0.637673139536836,
+          "flux_L2_percent": 0.6814222004565308,
+          "error_sine_low_fraction_percent": 99.2259450538196,
+          "error_sine_mid_fraction_percent": 0.7222139284118562,
+          "error_sine_high_fraction_percent": 0.05184101776855502,
+          "total_ms": 37.09453297778964,
+          "relative_residual": 0.6445491909980774
+        },
+        "coupled_K1": {
+          "L2_percent": 0.40864554216526927,
+          "gradient_percent": 2.0573180002367666,
+          "energy_percent": 2.3940829648831277,
+          "flux_L2_percent": 3.221831917793355,
+          "error_sine_low_fraction_percent": 92.1287976865835,
+          "error_sine_mid_fraction_percent": 6.606207258830105,
+          "error_sine_high_fraction_percent": 1.26499505458637,
+          "total_ms": 25.087169837206602,
+          "relative_residual": 3.170316457748413
+        },
+        "coupled_K2": {
+          "L2_percent": 0.13312264874351354,
+          "gradient_percent": 0.37321388299869374,
+          "energy_percent": 0.40652102261920986,
+          "flux_L2_percent": 0.5368627250893743,
+          "error_sine_low_fraction_percent": 97.23346894948826,
+          "error_sine_mid_fraction_percent": 2.488640219401565,
+          "error_sine_high_fraction_percent": 0.2778908311101711,
+          "total_ms": 52.90176486596465,
+          "relative_residual": 0.5675973296165466
+        },
+        "frozen_no_MG": {
+          "L2_percent": 2.027121162167743,
+          "gradient_percent": 24.003983802632,
+          "energy_percent": 33.58659579967939,
+          "flux_L2_percent": 57.936680966627996,
+          "error_sine_low_fraction_percent": 80.0235615089743,
+          "error_sine_mid_fraction_percent": 13.735649214275075,
+          "error_sine_high_fraction_percent": 6.240789276750629,
+          "total_ms": 6.923360750079155,
+          "relative_residual": 60.04818344116211
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.5088936222158824,
+          "gradient_percent": 20.130623741118985,
+          "energy_percent": 28.17104830879037,
+          "flux_L2_percent": 43.704869296215776,
+          "error_sine_low_fraction_percent": 75.66734979924951,
+          "error_sine_mid_fraction_percent": 17.40049206492068,
+          "error_sine_high_fraction_percent": 6.932158135829756,
+          "total_ms": 6.906149908900261,
+          "relative_residual": 52.02912902832031
+        },
+        "geometric_K0": {
+          "L2_percent": 9.848584099153562,
+          "gradient_percent": 46.059544979251115,
+          "energy_percent": 53.405705529339755,
+          "flux_L2_percent": 70.55451980075593,
+          "error_sine_low_fraction_percent": 97.91591946809729,
+          "error_sine_mid_fraction_percent": 0.5067121928348979,
+          "error_sine_high_fraction_percent": 1.5773683390678217,
+          "total_ms": 3.6133741959929466,
+          "relative_residual": 67.45948028564453
+        }
+      }
+    },
+    {
+      "index": 5,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.584503812597741,
+          "gradient_percent": 46.19978874869016,
+          "energy_percent": 54.17478144339564,
+          "flux_L2_percent": 73.49028837593187,
+          "error_sine_low_fraction_percent": 38.77195417100694,
+          "error_sine_mid_fraction_percent": 12.761965792996083,
+          "error_sine_high_fraction_percent": 48.46608003599697,
+          "total_ms": 1.4528390020132065,
+          "relative_residual": 63.594261169433594
+        },
+        "MG_K2": {
+          "L2_percent": 0.26445814318578575,
+          "gradient_percent": 0.49470031930937225,
+          "energy_percent": 0.4174449264388101,
+          "flux_L2_percent": 0.41798912885436434,
+          "error_sine_low_fraction_percent": 98.33620244926222,
+          "error_sine_mid_fraction_percent": 1.5158245389716734,
+          "error_sine_high_fraction_percent": 0.14797301176607736,
+          "total_ms": 36.322257947176695,
+          "relative_residual": 0.36827054619789124
+        },
+        "MG_K4": {
+          "L2_percent": 0.019415203735876487,
+          "gradient_percent": 0.029744106628325016,
+          "energy_percent": 0.02638827274455927,
+          "flux_L2_percent": 0.027612715847597783,
+          "error_sine_low_fraction_percent": 99.23133092303841,
+          "error_sine_mid_fraction_percent": 0.6825184542089798,
+          "error_sine_high_fraction_percent": 0.08615062275262633,
+          "total_ms": 75.25587920099497,
+          "relative_residual": 0.025546224787831306
+        },
+        "scalar_K2": {
+          "L2_percent": 0.1688014621321743,
+          "gradient_percent": 0.34403863499119086,
+          "energy_percent": 0.29110790335018977,
+          "flux_L2_percent": 0.29623190910211494,
+          "error_sine_low_fraction_percent": 97.78123037757612,
+          "error_sine_mid_fraction_percent": 2.044367128072004,
+          "error_sine_high_fraction_percent": 0.1744024943518984,
+          "total_ms": 37.81873779371381,
+          "relative_residual": 0.24666175246238708
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.15000505936598824,
+          "gradient_percent": 0.33752040666046196,
+          "energy_percent": 0.3330703994635683,
+          "flux_L2_percent": 0.408030192733751,
+          "error_sine_low_fraction_percent": 97.78183519350306,
+          "error_sine_mid_fraction_percent": 2.030841129653263,
+          "error_sine_high_fraction_percent": 0.18732367684367635,
+          "total_ms": 36.881628911942244,
+          "relative_residual": 0.5847087502479553
+        },
+        "coupled_K1": {
+          "L2_percent": 0.25892031065388854,
+          "gradient_percent": 2.2117987227332443,
+          "energy_percent": 2.359891258599969,
+          "flux_L2_percent": 3.117439171304148,
+          "error_sine_low_fraction_percent": 71.26579785261652,
+          "error_sine_mid_fraction_percent": 25.33252983657994,
+          "error_sine_high_fraction_percent": 3.4016723108035567,
+          "total_ms": 24.946677032858133,
+          "relative_residual": 2.903775215148926
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06891834053121662,
+          "gradient_percent": 0.3219785100285092,
+          "energy_percent": 0.29384729261187503,
+          "flux_L2_percent": 0.3455105864866609,
+          "error_sine_low_fraction_percent": 87.1702425357967,
+          "error_sine_mid_fraction_percent": 11.98879524271816,
+          "error_sine_high_fraction_percent": 0.8409622214851386,
+          "total_ms": 47.77630092576146,
+          "relative_residual": 0.3404514193534851
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.7558544842569481,
+          "gradient_percent": 25.42588730021791,
+          "energy_percent": 33.10795009438338,
+          "flux_L2_percent": 52.9733067786592,
+          "error_sine_low_fraction_percent": 74.77175063576232,
+          "error_sine_mid_fraction_percent": 16.363784032044247,
+          "error_sine_high_fraction_percent": 8.864465332193454,
+          "total_ms": 6.920911371707916,
+          "relative_residual": 54.01161193847656
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.9264001610318915,
+          "gradient_percent": 20.70950229455675,
+          "energy_percent": 27.702622452151992,
+          "flux_L2_percent": 41.28468686177857,
+          "error_sine_low_fraction_percent": 51.00929681784406,
+          "error_sine_mid_fraction_percent": 30.60552201529744,
+          "error_sine_high_fraction_percent": 18.38518116685855,
+          "total_ms": 6.906730588525534,
+          "relative_residual": 47.3800048828125
+        },
+        "geometric_K0": {
+          "L2_percent": 8.814358999596406,
+          "gradient_percent": 47.60045893843077,
+          "energy_percent": 52.87234262981121,
+          "flux_L2_percent": 68.23794449521577,
+          "error_sine_low_fraction_percent": 97.97605388397758,
+          "error_sine_mid_fraction_percent": 0.4130069262257,
+          "error_sine_high_fraction_percent": 1.610939189796675,
+          "total_ms": 7.9948329366743565,
+          "relative_residual": 62.16738510131836
+        }
+      }
+    },
+    {
+      "index": 6,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.811466104359519,
+          "gradient_percent": 47.93045006621948,
+          "energy_percent": 55.78158919614935,
+          "flux_L2_percent": 78.43713117964889,
+          "error_sine_low_fraction_percent": 25.174166912455814,
+          "error_sine_mid_fraction_percent": 20.634717190114404,
+          "error_sine_high_fraction_percent": 54.19111589742976,
+          "total_ms": 1.4697802253067493,
+          "relative_residual": 67.48062133789062
+        },
+        "MG_K2": {
+          "L2_percent": 0.31083278541986736,
+          "gradient_percent": 0.5479951665626381,
+          "energy_percent": 0.48825288960334834,
+          "flux_L2_percent": 0.49670522227211406,
+          "error_sine_low_fraction_percent": 98.5402262384032,
+          "error_sine_mid_fraction_percent": 1.3362163263212528,
+          "error_sine_high_fraction_percent": 0.1235574352755808,
+          "total_ms": 39.57253508269787,
+          "relative_residual": 0.4658772051334381
+        },
+        "MG_K4": {
+          "L2_percent": 0.022568642081272076,
+          "gradient_percent": 0.03180259436068057,
+          "energy_percent": 0.02959553448545856,
+          "flux_L2_percent": 0.031455513337244535,
+          "error_sine_low_fraction_percent": 99.38274975321079,
+          "error_sine_mid_fraction_percent": 0.5479015726936706,
+          "error_sine_high_fraction_percent": 0.06934867409553379,
+          "total_ms": 69.97298309579492,
+          "relative_residual": 0.029923036694526672
+        },
+        "scalar_K2": {
+          "L2_percent": 0.23798656769799378,
+          "gradient_percent": 0.4122252299749035,
+          "energy_percent": 0.371273810646937,
+          "flux_L2_percent": 0.38288852277667734,
+          "error_sine_low_fraction_percent": 98.51021570280724,
+          "error_sine_mid_fraction_percent": 1.379817878499175,
+          "error_sine_high_fraction_percent": 0.10996641869359133,
+          "total_ms": 36.34232934564352,
+          "relative_residual": 0.3425285220146179
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.212406674900572,
+          "gradient_percent": 0.3874751607929478,
+          "energy_percent": 0.381403557847035,
+          "flux_L2_percent": 0.458117193979821,
+          "error_sine_low_fraction_percent": 98.5389634678302,
+          "error_sine_mid_fraction_percent": 1.3473792649848535,
+          "error_sine_high_fraction_percent": 0.11365726718496155,
+          "total_ms": 39.86440971493721,
+          "relative_residual": 0.6231079697608948
+        },
+        "coupled_K1": {
+          "L2_percent": 0.32761380781612726,
+          "gradient_percent": 2.354162176647216,
+          "energy_percent": 2.5980929389312664,
+          "flux_L2_percent": 3.4955737328164456,
+          "error_sine_low_fraction_percent": 75.7916000881946,
+          "error_sine_mid_fraction_percent": 21.897801667145735,
+          "error_sine_high_fraction_percent": 2.3105982446596527,
+          "total_ms": 31.728715170174837,
+          "relative_residual": 3.2749433517456055
+        },
+        "coupled_K2": {
+          "L2_percent": 0.08017237289354064,
+          "gradient_percent": 0.3307319805362313,
+          "energy_percent": 0.3396186519334038,
+          "flux_L2_percent": 0.42763577551904275,
+          "error_sine_low_fraction_percent": 87.96368965451123,
+          "error_sine_mid_fraction_percent": 11.393622869253223,
+          "error_sine_high_fraction_percent": 0.6426874762355533,
+          "total_ms": 41.091805789619684,
+          "relative_residual": 0.4160265326499939
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.7450549068029366,
+          "gradient_percent": 25.435107755105385,
+          "energy_percent": 34.26377361416661,
+          "flux_L2_percent": 56.80875162780967,
+          "error_sine_low_fraction_percent": 65.23825262091798,
+          "error_sine_mid_fraction_percent": 24.95572815588933,
+          "error_sine_high_fraction_percent": 9.806019223192685,
+          "total_ms": 6.890370976179838,
+          "relative_residual": 57.64378356933594
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.2557211125315957,
+          "gradient_percent": 20.998643910412014,
+          "energy_percent": 28.80801237430473,
+          "flux_L2_percent": 44.829940023103845,
+          "error_sine_low_fraction_percent": 53.43601263630299,
+          "error_sine_mid_fraction_percent": 35.261654225410226,
+          "error_sine_high_fraction_percent": 11.302333138286771,
+          "total_ms": 6.900140084326267,
+          "relative_residual": 50.35235595703125
+        },
+        "geometric_K0": {
+          "L2_percent": 8.230461884934908,
+          "gradient_percent": 48.988281725033,
+          "energy_percent": 54.75299511909901,
+          "flux_L2_percent": 74.33580851329374,
+          "error_sine_low_fraction_percent": 96.33003035432097,
+          "error_sine_mid_fraction_percent": 1.0001246349745723,
+          "error_sine_high_fraction_percent": 2.6698450107044307,
+          "total_ms": 4.035941790789366,
+          "relative_residual": 66.25555419921875
+        }
+      }
+    },
+    {
+      "index": 7,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.2307860647009268,
+          "gradient_percent": 43.90137434370479,
+          "energy_percent": 53.26136841646068,
+          "flux_L2_percent": 76.1527706273934,
+          "error_sine_low_fraction_percent": 17.024111128651278,
+          "error_sine_mid_fraction_percent": 18.71287827563949,
+          "error_sine_high_fraction_percent": 64.26301059570922,
+          "total_ms": 1.4685899950563908,
+          "relative_residual": 64.15008544921875
+        },
+        "MG_K2": {
+          "L2_percent": 0.26684396939572563,
+          "gradient_percent": 0.4006187710704255,
+          "energy_percent": 0.39161633837266013,
+          "flux_L2_percent": 0.41057203649442225,
+          "error_sine_low_fraction_percent": 99.44278469759251,
+          "error_sine_mid_fraction_percent": 0.49761103585380845,
+          "error_sine_high_fraction_percent": 0.05960426655369814,
+          "total_ms": 39.77738879621029,
+          "relative_residual": 0.37311699986457825
+        },
+        "MG_K4": {
+          "L2_percent": 0.017492096266279268,
+          "gradient_percent": 0.02336821607385357,
+          "energy_percent": 0.022295413259665258,
+          "flux_L2_percent": 0.024071975835281943,
+          "error_sine_low_fraction_percent": 99.67951337794268,
+          "error_sine_mid_fraction_percent": 0.2794215112788809,
+          "error_sine_high_fraction_percent": 0.04106511077843165,
+          "total_ms": 69.57628484815359,
+          "relative_residual": 0.022537078708410263
+        },
+        "scalar_K2": {
+          "L2_percent": 0.17737399307071897,
+          "gradient_percent": 0.27092795632698724,
+          "energy_percent": 0.26630253151609135,
+          "flux_L2_percent": 0.28444879490672287,
+          "error_sine_low_fraction_percent": 99.35325375120938,
+          "error_sine_mid_fraction_percent": 0.588595508927663,
+          "error_sine_high_fraction_percent": 0.05815073986297614,
+          "total_ms": 38.38020097464323,
+          "relative_residual": 0.248347207903862
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.16239944388193125,
+          "gradient_percent": 0.2745141294990859,
+          "energy_percent": 0.28599063233892746,
+          "flux_L2_percent": 0.3502637755845446,
+          "error_sine_low_fraction_percent": 99.30735033317062,
+          "error_sine_mid_fraction_percent": 0.6276577996301339,
+          "error_sine_high_fraction_percent": 0.06499186719921897,
+          "total_ms": 38.687448017299175,
+          "relative_residual": 0.46781057119369507
+        },
+        "coupled_K1": {
+          "L2_percent": 0.1850499319116367,
+          "gradient_percent": 1.7759027050709975,
+          "energy_percent": 2.1922396994021205,
+          "flux_L2_percent": 3.1725595827323185,
+          "error_sine_low_fraction_percent": 72.37253259386118,
+          "error_sine_mid_fraction_percent": 24.09279092982376,
+          "error_sine_high_fraction_percent": 3.534676476315077,
+          "total_ms": 27.139252051711082,
+          "relative_residual": 3.0990700721740723
+        },
+        "coupled_K2": {
+          "L2_percent": 0.03887192355272918,
+          "gradient_percent": 0.2227462915964225,
+          "energy_percent": 0.24799067715983772,
+          "flux_L2_percent": 0.3479569671640753,
+          "error_sine_low_fraction_percent": 86.65344340314434,
+          "error_sine_mid_fraction_percent": 12.375464691328476,
+          "error_sine_high_fraction_percent": 0.9710919055271606,
+          "total_ms": 41.12900700420141,
+          "relative_residual": 0.3438818156719208
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.2929757631011682,
+          "gradient_percent": 25.132385434174488,
+          "energy_percent": 31.950014448886847,
+          "flux_L2_percent": 52.28432558321457,
+          "error_sine_low_fraction_percent": 60.03521363451174,
+          "error_sine_mid_fraction_percent": 27.45798759999355,
+          "error_sine_high_fraction_percent": 12.506798765494683,
+          "total_ms": 6.92985113710165,
+          "relative_residual": 52.941707611083984
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.025187621087139,
+          "gradient_percent": 20.979480714560708,
+          "energy_percent": 27.150666982742038,
+          "flux_L2_percent": 41.61075503554397,
+          "error_sine_low_fraction_percent": 64.32161723987677,
+          "error_sine_mid_fraction_percent": 23.64714471430128,
+          "error_sine_high_fraction_percent": 12.03123804582195,
+          "total_ms": 15.3646026737988,
+          "relative_residual": 45.485595703125
+        },
+        "geometric_K0": {
+          "L2_percent": 9.910466539531352,
+          "gradient_percent": 45.69975808854424,
+          "energy_percent": 51.89157507757686,
+          "flux_L2_percent": 69.44764461028316,
+          "error_sine_low_fraction_percent": 98.68575084139955,
+          "error_sine_mid_fraction_percent": 0.2889648295109037,
+          "error_sine_high_fraction_percent": 1.0252843290895688,
+          "total_ms": 3.6049634218215942,
+          "relative_residual": 62.32551956176758
+        }
+      }
+    },
+    {
+      "index": 8,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.4321810191197164,
+          "gradient_percent": 42.238876801851205,
+          "energy_percent": 52.62695891872104,
+          "flux_L2_percent": 75.5566395490718,
+          "error_sine_low_fraction_percent": 16.04727115442903,
+          "error_sine_mid_fraction_percent": 21.839541741706057,
+          "error_sine_high_fraction_percent": 62.1131871038649,
+          "total_ms": 1.4320090413093567,
+          "relative_residual": 62.78401565551758
+        },
+        "MG_K2": {
+          "L2_percent": 0.251482175706981,
+          "gradient_percent": 0.37489679885412397,
+          "energy_percent": 0.36987991457147495,
+          "flux_L2_percent": 0.3898204172155867,
+          "error_sine_low_fraction_percent": 99.21578296783137,
+          "error_sine_mid_fraction_percent": 0.7110218869624289,
+          "error_sine_high_fraction_percent": 0.07319514520617186,
+          "total_ms": 36.37888003140688,
+          "relative_residual": 0.33779293298721313
+        },
+        "MG_K4": {
+          "L2_percent": 0.018047817162291514,
+          "gradient_percent": 0.02381378560433198,
+          "energy_percent": 0.02255911677966555,
+          "flux_L2_percent": 0.024463057705342926,
+          "error_sine_low_fraction_percent": 99.41515114496397,
+          "error_sine_mid_fraction_percent": 0.5325704361013203,
+          "error_sine_high_fraction_percent": 0.05227841893471204,
+          "total_ms": 74.45747638121247,
+          "relative_residual": 0.021873537451028824
+        },
+        "scalar_K2": {
+          "L2_percent": 0.18550367257099123,
+          "gradient_percent": 0.27439707888337256,
+          "energy_percent": 0.2716421700589036,
+          "flux_L2_percent": 0.28738073440657214,
+          "error_sine_low_fraction_percent": 99.15004541520865,
+          "error_sine_mid_fraction_percent": 0.7816320176132057,
+          "error_sine_high_fraction_percent": 0.06832256717816503,
+          "total_ms": 38.86546101421118,
+          "relative_residual": 0.22372223436832428
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.16881509019273302,
+          "gradient_percent": 0.2769565814913331,
+          "energy_percent": 0.30925635518381633,
+          "flux_L2_percent": 0.3870543501984979,
+          "error_sine_low_fraction_percent": 99.12527952222214,
+          "error_sine_mid_fraction_percent": 0.8002560892831002,
+          "error_sine_high_fraction_percent": 0.07446438849472718,
+          "total_ms": 40.77539965510368,
+          "relative_residual": 0.530716598033905
+        },
+        "coupled_K1": {
+          "L2_percent": 0.1916774985796923,
+          "gradient_percent": 1.7146169037178423,
+          "energy_percent": 2.110654474917838,
+          "flux_L2_percent": 2.907663149694393,
+          "error_sine_low_fraction_percent": 71.98731011490547,
+          "error_sine_mid_fraction_percent": 24.6437061211357,
+          "error_sine_high_fraction_percent": 3.368983763958828,
+          "total_ms": 27.38481806591153,
+          "relative_residual": 2.734720230102539
+        },
+        "coupled_K2": {
+          "L2_percent": 0.03931157980042476,
+          "gradient_percent": 0.2035892126135021,
+          "energy_percent": 0.23234526152085141,
+          "flux_L2_percent": 0.29856547441496395,
+          "error_sine_low_fraction_percent": 89.38005835430845,
+          "error_sine_mid_fraction_percent": 9.70006714038763,
+          "error_sine_high_fraction_percent": 0.9198745053039431,
+          "total_ms": 41.32753098383546,
+          "relative_residual": 0.30697110295295715
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.4428572777148119,
+          "gradient_percent": 22.639818112648456,
+          "energy_percent": 31.121317435042673,
+          "flux_L2_percent": 49.60213287585651,
+          "error_sine_low_fraction_percent": 61.334623766963006,
+          "error_sine_mid_fraction_percent": 28.027561733444617,
+          "error_sine_high_fraction_percent": 10.637814499592363,
+          "total_ms": 7.0172930136322975,
+          "relative_residual": 52.40949249267578
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.9123166972645431,
+          "gradient_percent": 19.318602692738366,
+          "energy_percent": 27.304098367517387,
+          "flux_L2_percent": 42.86829935356801,
+          "error_sine_low_fraction_percent": 36.590138450509414,
+          "error_sine_mid_fraction_percent": 44.25830581880647,
+          "error_sine_high_fraction_percent": 19.15155573068413,
+          "total_ms": 6.878749933093786,
+          "relative_residual": 48.53249740600586
+        },
+        "geometric_K0": {
+          "L2_percent": 8.982240145225306,
+          "gradient_percent": 43.49753813940304,
+          "energy_percent": 51.3658918084767,
+          "flux_L2_percent": 69.8382179894768,
+          "error_sine_low_fraction_percent": 97.82891165394989,
+          "error_sine_mid_fraction_percent": 0.5551882434686484,
+          "error_sine_high_fraction_percent": 1.6159001025814466,
+          "total_ms": 3.654833883047104,
+          "relative_residual": 61.50471496582031
+        }
+      }
+    },
+    {
+      "index": 9,
+      "methods": {
+        "NO": {
+          "L2_percent": 2.0256720514651176,
+          "gradient_percent": 44.349282185776204,
+          "energy_percent": 52.188980277579,
+          "flux_L2_percent": 73.1524275746502,
+          "error_sine_low_fraction_percent": 61.798854748060734,
+          "error_sine_mid_fraction_percent": 7.251387141404516,
+          "error_sine_high_fraction_percent": 30.949758110534745,
+          "total_ms": 1.4436091296374798,
+          "relative_residual": 66.15677642822266
+        },
+        "MG_K2": {
+          "L2_percent": 0.13844968505335833,
+          "gradient_percent": 0.3521495436987625,
+          "energy_percent": 0.32454953095496497,
+          "flux_L2_percent": 0.36090908303151903,
+          "error_sine_low_fraction_percent": 97.22241706901869,
+          "error_sine_mid_fraction_percent": 2.5098495539603425,
+          "error_sine_high_fraction_percent": 0.26773337702097577,
+          "total_ms": 36.512574180960655,
+          "relative_residual": 0.33247464895248413
+        },
+        "MG_K4": {
+          "L2_percent": 0.011160999534178572,
+          "gradient_percent": 0.018308883935957882,
+          "energy_percent": 0.016600604343981282,
+          "flux_L2_percent": 0.01815175468713,
+          "error_sine_low_fraction_percent": 99.09948490223587,
+          "error_sine_mid_fraction_percent": 0.8063669633122758,
+          "error_sine_high_fraction_percent": 0.09414813445184583,
+          "total_ms": 72.24407093599439,
+          "relative_residual": 0.01738935150206089
+        },
+        "scalar_K2": {
+          "L2_percent": 0.08508096436526853,
+          "gradient_percent": 0.25980629832930063,
+          "energy_percent": 0.23853601100603988,
+          "flux_L2_percent": 0.26998810286829794,
+          "error_sine_low_fraction_percent": 95.43037619872885,
+          "error_sine_mid_fraction_percent": 4.185905519160212,
+          "error_sine_high_fraction_percent": 0.38371828211091347,
+          "total_ms": 40.598786901682615,
+          "relative_residual": 0.22040267288684845
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.07858174065188209,
+          "gradient_percent": 0.27099390318058125,
+          "energy_percent": 0.31549342907955036,
+          "flux_L2_percent": 0.5036143921787447,
+          "error_sine_low_fraction_percent": 95.67940606896771,
+          "error_sine_mid_fraction_percent": 3.9159790839122217,
+          "error_sine_high_fraction_percent": 0.40461484712008605,
+          "total_ms": 37.44115307927132,
+          "relative_residual": 0.826941967010498
+        },
+        "coupled_K1": {
+          "L2_percent": 0.26185203678018143,
+          "gradient_percent": 1.8509064565925568,
+          "energy_percent": 2.1357946655039797,
+          "flux_L2_percent": 2.927234132542782,
+          "error_sine_low_fraction_percent": 83.19819880691595,
+          "error_sine_mid_fraction_percent": 14.62868355754253,
+          "error_sine_high_fraction_percent": 2.173117635541519,
+          "total_ms": 24.96164897456765,
+          "relative_residual": 2.7397801876068115
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06915262939081868,
+          "gradient_percent": 0.253979948587093,
+          "energy_percent": 0.25860535920639866,
+          "flux_L2_percent": 0.3317171566336105,
+          "error_sine_low_fraction_percent": 92.97506925325722,
+          "error_sine_mid_fraction_percent": 6.55566163165298,
+          "error_sine_high_fraction_percent": 0.46926911508983193,
+          "total_ms": 41.99277516454458,
+          "relative_residual": 0.31272464990615845
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.4158326175245342,
+          "gradient_percent": 24.481223564374467,
+          "energy_percent": 31.46868624546209,
+          "flux_L2_percent": 53.82157923913555,
+          "error_sine_low_fraction_percent": 69.20236533260405,
+          "error_sine_mid_fraction_percent": 17.834656557065355,
+          "error_sine_high_fraction_percent": 12.962978110330623,
+          "total_ms": 6.871831137686968,
+          "relative_residual": 58.33694839477539
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.2082114499527388,
+          "gradient_percent": 19.067338898474446,
+          "energy_percent": 26.005448123595095,
+          "flux_L2_percent": 40.77892719747776,
+          "error_sine_low_fraction_percent": 74.11063348499263,
+          "error_sine_mid_fraction_percent": 15.850741061954514,
+          "error_sine_high_fraction_percent": 10.038625453052843,
+          "total_ms": 6.848529912531376,
+          "relative_residual": 50.294315338134766
+        },
+        "geometric_K0": {
+          "L2_percent": 7.860282024931371,
+          "gradient_percent": 45.45311960935076,
+          "energy_percent": 50.88823552803656,
+          "flux_L2_percent": 68.19112370761847,
+          "error_sine_low_fraction_percent": 97.41404627621019,
+          "error_sine_mid_fraction_percent": 0.48093629544505323,
+          "error_sine_high_fraction_percent": 2.1050174283447523,
+          "total_ms": 3.6307540722191334,
+          "relative_residual": 64.86164855957031
+        }
+      }
+    },
+    {
+      "index": 10,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.609465680256313,
+          "gradient_percent": 43.1307384364942,
+          "energy_percent": 53.30643894454566,
+          "flux_L2_percent": 79.55814923733652,
+          "error_sine_low_fraction_percent": 34.15436700290032,
+          "error_sine_mid_fraction_percent": 13.996810169730884,
+          "error_sine_high_fraction_percent": 51.84882282736879,
+          "total_ms": 1.4563100412487984,
+          "relative_residual": 71.68396759033203
+        },
+        "MG_K2": {
+          "L2_percent": 0.20805372272725123,
+          "gradient_percent": 0.3989968963805174,
+          "energy_percent": 0.35683043464648734,
+          "flux_L2_percent": 0.39735616339096486,
+          "error_sine_low_fraction_percent": 98.52926983579641,
+          "error_sine_mid_fraction_percent": 1.3332925216871192,
+          "error_sine_high_fraction_percent": 0.1374376425164259,
+          "total_ms": 36.47337295114994,
+          "relative_residual": 0.3701891005039215
+        },
+        "MG_K4": {
+          "L2_percent": 0.015083569912562971,
+          "gradient_percent": 0.022677394492829645,
+          "energy_percent": 0.020705910291591658,
+          "flux_L2_percent": 0.02367101939865791,
+          "error_sine_low_fraction_percent": 99.29381022518216,
+          "error_sine_mid_fraction_percent": 0.6312499530463623,
+          "error_sine_high_fraction_percent": 0.07493982177145429,
+          "total_ms": 73.17921100184321,
+          "relative_residual": 0.023211097344756126
+        },
+        "scalar_K2": {
+          "L2_percent": 0.13945800283465926,
+          "gradient_percent": 0.28332012745372603,
+          "energy_percent": 0.2563303677753848,
+          "flux_L2_percent": 0.288568178230642,
+          "error_sine_low_fraction_percent": 98.08906068658729,
+          "error_sine_mid_fraction_percent": 1.7627795754825797,
+          "error_sine_high_fraction_percent": 0.1481597379301128,
+          "total_ms": 39.12824718281627,
+          "relative_residual": 0.2445223480463028
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.12267216056393912,
+          "gradient_percent": 0.2826680795537506,
+          "energy_percent": 0.3349148444121233,
+          "flux_L2_percent": 0.49591736042043444,
+          "error_sine_low_fraction_percent": 98.0738008400824,
+          "error_sine_mid_fraction_percent": 1.7628732824307034,
+          "error_sine_high_fraction_percent": 0.16332587748690644,
+          "total_ms": 39.390703197568655,
+          "relative_residual": 0.8007827997207642
+        },
+        "coupled_K1": {
+          "L2_percent": 0.2753110035088793,
+          "gradient_percent": 1.7574059478620407,
+          "energy_percent": 2.1119989353184425,
+          "flux_L2_percent": 3.052373761188046,
+          "error_sine_low_fraction_percent": 85.08257734201666,
+          "error_sine_mid_fraction_percent": 13.11183854822462,
+          "error_sine_high_fraction_percent": 1.8055841097587144,
+          "total_ms": 25.015749968588352,
+          "relative_residual": 2.9822654724121094
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06573744718813818,
+          "gradient_percent": 0.2610186479926586,
+          "energy_percent": 0.26384606161413854,
+          "flux_L2_percent": 0.3389748782779007,
+          "error_sine_low_fraction_percent": 92.76648660772159,
+          "error_sine_mid_fraction_percent": 6.733635082018509,
+          "error_sine_high_fraction_percent": 0.49987831025989804,
+          "total_ms": 42.463354766368866,
+          "relative_residual": 0.33826491236686707
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.5849184986272007,
+          "gradient_percent": 22.133548590796984,
+          "energy_percent": 31.573566086525634,
+          "flux_L2_percent": 57.21566730481176,
+          "error_sine_low_fraction_percent": 71.92257047811547,
+          "error_sine_mid_fraction_percent": 19.962240058740974,
+          "error_sine_high_fraction_percent": 8.115189463143588,
+          "total_ms": 11.373631656169891,
+          "relative_residual": 63.320892333984375
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.9987720103056472,
+          "gradient_percent": 18.60197796216444,
+          "energy_percent": 27.252090426580605,
+          "flux_L2_percent": 44.12319677671306,
+          "error_sine_low_fraction_percent": 56.93804973211317,
+          "error_sine_mid_fraction_percent": 29.574657946005008,
+          "error_sine_high_fraction_percent": 13.487292321881847,
+          "total_ms": 6.854070350527763,
+          "relative_residual": 55.69674301147461
+        },
+        "geometric_K0": {
+          "L2_percent": 9.012731137615905,
+          "gradient_percent": 44.39802855705622,
+          "energy_percent": 51.89555852136879,
+          "flux_L2_percent": 73.72162471778284,
+          "error_sine_low_fraction_percent": 97.86040075287167,
+          "error_sine_mid_fraction_percent": 0.4465214857226237,
+          "error_sine_high_fraction_percent": 1.6930777614056987,
+          "total_ms": 3.6148126237094402,
+          "relative_residual": 70.46146392822266
+        }
+      }
+    },
+    {
+      "index": 11,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.6374019037312992,
+          "gradient_percent": 45.078964246112236,
+          "energy_percent": 53.92347034720126,
+          "flux_L2_percent": 74.6701640163843,
+          "error_sine_low_fraction_percent": 32.88982721108827,
+          "error_sine_mid_fraction_percent": 12.21872769652097,
+          "error_sine_high_fraction_percent": 54.89144509239076,
+          "total_ms": 1.4405190013349056,
+          "relative_residual": 67.61722564697266
+        },
+        "MG_K2": {
+          "L2_percent": 0.23313819859542032,
+          "gradient_percent": 0.3930244866205403,
+          "energy_percent": 0.3647335202138737,
+          "flux_L2_percent": 0.3739347789359902,
+          "error_sine_low_fraction_percent": 98.86564268377373,
+          "error_sine_mid_fraction_percent": 1.0243323506763415,
+          "error_sine_high_fraction_percent": 0.11002496554994719,
+          "total_ms": 36.47732408717275,
+          "relative_residual": 0.3612506091594696
+        },
+        "MG_K4": {
+          "L2_percent": 0.016484256511602617,
+          "gradient_percent": 0.022730356497586663,
+          "energy_percent": 0.02141093657819497,
+          "flux_L2_percent": 0.023518387518135484,
+          "error_sine_low_fraction_percent": 99.4827659627768,
+          "error_sine_mid_fraction_percent": 0.4583366773528113,
+          "error_sine_high_fraction_percent": 0.058897359870431584,
+          "total_ms": 68.91341414302588,
+          "relative_residual": 0.02333895117044449
+        },
+        "scalar_K2": {
+          "L2_percent": 0.16086247003703089,
+          "gradient_percent": 0.28374540518322483,
+          "energy_percent": 0.2638039919724808,
+          "flux_L2_percent": 0.2676500905144955,
+          "error_sine_low_fraction_percent": 98.50480464524435,
+          "error_sine_mid_fraction_percent": 1.3795424033199728,
+          "error_sine_high_fraction_percent": 0.1156529514357126,
+          "total_ms": 36.41290310770273,
+          "relative_residual": 0.24025553464889526
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.1396192228676856,
+          "gradient_percent": 0.276358925209223,
+          "energy_percent": 0.30809093803335064,
+          "flux_L2_percent": 0.38367890914648667,
+          "error_sine_low_fraction_percent": 98.45537738772738,
+          "error_sine_mid_fraction_percent": 1.4174385765482156,
+          "error_sine_high_fraction_percent": 0.12718403572439152,
+          "total_ms": 36.87991201877594,
+          "relative_residual": 0.5803210735321045
+        },
+        "coupled_K1": {
+          "L2_percent": 0.18650131146752433,
+          "gradient_percent": 1.8671960803600638,
+          "energy_percent": 2.2040129962526076,
+          "flux_L2_percent": 2.992181275784244,
+          "error_sine_low_fraction_percent": 68.81682135555249,
+          "error_sine_mid_fraction_percent": 26.709402677544592,
+          "error_sine_high_fraction_percent": 4.4737759669029185,
+          "total_ms": 31.012902967631817,
+          "relative_residual": 2.9977004528045654
+        },
+        "coupled_K2": {
+          "L2_percent": 0.03656397616771742,
+          "gradient_percent": 0.22138815989595975,
+          "energy_percent": 0.24194807664441642,
+          "flux_L2_percent": 0.31464937986871355,
+          "error_sine_low_fraction_percent": 80.53190147906936,
+          "error_sine_mid_fraction_percent": 17.979514152870994,
+          "error_sine_high_fraction_percent": 1.4885843680596218,
+          "total_ms": 42.18092979863286,
+          "relative_residual": 0.3352184295654297
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.5062004125391093,
+          "gradient_percent": 23.24384144843743,
+          "energy_percent": 32.909522011491546,
+          "flux_L2_percent": 54.35625050409446,
+          "error_sine_low_fraction_percent": 68.03319413841095,
+          "error_sine_mid_fraction_percent": 21.39859138396118,
+          "error_sine_high_fraction_percent": 10.568214477627835,
+          "total_ms": 11.252869386225939,
+          "relative_residual": 59.38312530517578
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.9845447640025617,
+          "gradient_percent": 19.153802643919693,
+          "energy_percent": 27.699123523989083,
+          "flux_L2_percent": 42.16887833186243,
+          "error_sine_low_fraction_percent": 55.02031379121417,
+          "error_sine_mid_fraction_percent": 29.615753895229084,
+          "error_sine_high_fraction_percent": 15.363932313556743,
+          "total_ms": 11.169197037816048,
+          "relative_residual": 51.9608268737793
+        },
+        "geometric_K0": {
+          "L2_percent": 7.698427589113842,
+          "gradient_percent": 46.113108902224916,
+          "energy_percent": 52.82579303244266,
+          "flux_L2_percent": 70.3075362180356,
+          "error_sine_low_fraction_percent": 96.91541844707486,
+          "error_sine_mid_fraction_percent": 0.5513332268774129,
+          "error_sine_high_fraction_percent": 2.533248326047738,
+          "total_ms": 7.855589967221022,
+          "relative_residual": 66.44044494628906
+        }
+      }
+    },
+    {
+      "index": 12,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.6693521470937167,
+          "gradient_percent": 42.15348842811724,
+          "energy_percent": 54.97012554532583,
+          "flux_L2_percent": 76.72822410053696,
+          "error_sine_low_fraction_percent": 37.01488101588171,
+          "error_sine_mid_fraction_percent": 13.928973042031929,
+          "error_sine_high_fraction_percent": 49.05614594208636,
+          "total_ms": 1.440888736397028,
+          "relative_residual": 71.02718353271484
+        },
+        "MG_K2": {
+          "L2_percent": 0.2538329416712326,
+          "gradient_percent": 0.45358788571703307,
+          "energy_percent": 0.42194280666090317,
+          "flux_L2_percent": 0.4183035513564541,
+          "error_sine_low_fraction_percent": 98.92321322760633,
+          "error_sine_mid_fraction_percent": 0.931621011755156,
+          "error_sine_high_fraction_percent": 0.14516576063852268,
+          "total_ms": 40.12607829645276,
+          "relative_residual": 0.37901371717453003
+        },
+        "MG_K4": {
+          "L2_percent": 0.020378278009523222,
+          "gradient_percent": 0.02938952224323597,
+          "energy_percent": 0.027525773900533235,
+          "flux_L2_percent": 0.02829877802434206,
+          "error_sine_low_fraction_percent": 99.40488732866926,
+          "error_sine_mid_fraction_percent": 0.5048326431961709,
+          "error_sine_high_fraction_percent": 0.09028002813451909,
+          "total_ms": 68.47454700618982,
+          "relative_residual": 0.026903418824076653
+        },
+        "scalar_K2": {
+          "L2_percent": 0.17701939983622803,
+          "gradient_percent": 0.3410131496839859,
+          "energy_percent": 0.3178977536041761,
+          "flux_L2_percent": 0.3166285912557046,
+          "error_sine_low_fraction_percent": 98.60665506801877,
+          "error_sine_mid_fraction_percent": 1.221991173141767,
+          "error_sine_high_fraction_percent": 0.17135375883950224,
+          "total_ms": 37.99626510590315,
+          "relative_residual": 0.2592136561870575
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.16534775785973396,
+          "gradient_percent": 0.34101479115524824,
+          "energy_percent": 0.3662865612711071,
+          "flux_L2_percent": 0.4652153569910941,
+          "error_sine_low_fraction_percent": 98.55496861999505,
+          "error_sine_mid_fraction_percent": 1.2595847996554363,
+          "error_sine_high_fraction_percent": 0.18544658034945358,
+          "total_ms": 37.49763499945402,
+          "relative_residual": 0.7078787684440613
+        },
+        "coupled_K1": {
+          "L2_percent": 0.2671597390099713,
+          "gradient_percent": 1.9597711547636474,
+          "energy_percent": 2.277418250584936,
+          "flux_L2_percent": 2.9798751374122325,
+          "error_sine_low_fraction_percent": 81.4822615252266,
+          "error_sine_mid_fraction_percent": 15.733382475952261,
+          "error_sine_high_fraction_percent": 2.784355998821109,
+          "total_ms": 28.54248182848096,
+          "relative_residual": 2.8484103679656982
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06462457564436427,
+          "gradient_percent": 0.30366680348823333,
+          "energy_percent": 0.30916685648189557,
+          "flux_L2_percent": 0.3595682387869329,
+          "error_sine_low_fraction_percent": 89.53595863854169,
+          "error_sine_mid_fraction_percent": 9.409869173368424,
+          "error_sine_high_fraction_percent": 1.0541721880899038,
+          "total_ms": 42.65352990478277,
+          "relative_residual": 0.35571348667144775
+        },
+        "frozen_no_MG": {
+          "L2_percent": 2.06385732806511,
+          "gradient_percent": 23.9910094069103,
+          "energy_percent": 33.966956650453,
+          "flux_L2_percent": 55.098650048379916,
+          "error_sine_low_fraction_percent": 80.89799044968316,
+          "error_sine_mid_fraction_percent": 12.130159868158874,
+          "error_sine_high_fraction_percent": 6.971849682157981,
+          "total_ms": 6.956272292882204,
+          "relative_residual": 61.93708419799805
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.085394905848942,
+          "gradient_percent": 20.043686433336415,
+          "energy_percent": 28.968416615939486,
+          "flux_L2_percent": 44.30292330962677,
+          "error_sine_low_fraction_percent": 57.9624942407918,
+          "error_sine_mid_fraction_percent": 25.459450672677345,
+          "error_sine_high_fraction_percent": 16.57805508653085,
+          "total_ms": 6.868469994515181,
+          "relative_residual": 55.81928634643555
+        },
+        "geometric_K0": {
+          "L2_percent": 8.638813013298114,
+          "gradient_percent": 43.265000356085885,
+          "energy_percent": 53.64154641734085,
+          "flux_L2_percent": 71.0418404074117,
+          "error_sine_low_fraction_percent": 97.60849185519014,
+          "error_sine_mid_fraction_percent": 0.5196963663410514,
+          "error_sine_high_fraction_percent": 1.8718117784688297,
+          "total_ms": 6.15232577547431,
+          "relative_residual": 69.66079711914062
+        }
+      }
+    },
+    {
+      "index": 13,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.9985630846748763,
+          "gradient_percent": 44.44329749044139,
+          "energy_percent": 55.74915756085811,
+          "flux_L2_percent": 82.17702652615257,
+          "error_sine_low_fraction_percent": 44.184184819617435,
+          "error_sine_mid_fraction_percent": 13.992104419844576,
+          "error_sine_high_fraction_percent": 41.82371076053799,
+          "total_ms": 1.4579100534319878,
+          "relative_residual": 64.54309844970703
+        },
+        "MG_K2": {
+          "L2_percent": 0.21471653659916654,
+          "gradient_percent": 0.40918845748361066,
+          "energy_percent": 0.3964308145750926,
+          "flux_L2_percent": 0.42850065097000506,
+          "error_sine_low_fraction_percent": 98.5529385405538,
+          "error_sine_mid_fraction_percent": 1.282911272577358,
+          "error_sine_high_fraction_percent": 0.16415018686881747,
+          "total_ms": 36.36851301416755,
+          "relative_residual": 0.39173057675361633
+        },
+        "MG_K4": {
+          "L2_percent": 0.014696749926510284,
+          "gradient_percent": 0.02068968413634573,
+          "energy_percent": 0.020311394628625676,
+          "flux_L2_percent": 0.022506055891111786,
+          "error_sine_low_fraction_percent": 99.42814388693634,
+          "error_sine_mid_fraction_percent": 0.4956785920478142,
+          "error_sine_high_fraction_percent": 0.07617752101582044,
+          "total_ms": 68.37392598390579,
+          "relative_residual": 0.021044665947556496
+        },
+        "scalar_K2": {
+          "L2_percent": 0.1382190111529437,
+          "gradient_percent": 0.28439853017783717,
+          "energy_percent": 0.2776188295215468,
+          "flux_L2_percent": 0.3059116058780302,
+          "error_sine_low_fraction_percent": 98.09955714186624,
+          "error_sine_mid_fraction_percent": 1.71682333560221,
+          "error_sine_high_fraction_percent": 0.18361952253154465,
+          "total_ms": 36.54254600405693,
+          "relative_residual": 0.2658212184906006
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.12281558028266644,
+          "gradient_percent": 0.28258109828890887,
+          "energy_percent": 0.31867178878487457,
+          "flux_L2_percent": 0.4499216080437759,
+          "error_sine_low_fraction_percent": 98.08420282161545,
+          "error_sine_mid_fraction_percent": 1.7196612683780037,
+          "error_sine_high_fraction_percent": 0.19613591000657443,
+          "total_ms": 41.18427122011781,
+          "relative_residual": 0.6648276448249817
+        },
+        "coupled_K1": {
+          "L2_percent": 0.2610897301569237,
+          "gradient_percent": 1.9357056145355778,
+          "energy_percent": 2.349560162417108,
+          "flux_L2_percent": 3.3297226532039295,
+          "error_sine_low_fraction_percent": 79.8755094451077,
+          "error_sine_mid_fraction_percent": 17.407581125724686,
+          "error_sine_high_fraction_percent": 2.716909429167609,
+          "total_ms": 25.164763908833265,
+          "relative_residual": 3.1378519535064697
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06680332569094459,
+          "gradient_percent": 0.25740699473212364,
+          "energy_percent": 0.28620381650032745,
+          "flux_L2_percent": 0.3741455766502591,
+          "error_sine_low_fraction_percent": 92.38325925890385,
+          "error_sine_mid_fraction_percent": 7.0103293990730595,
+          "error_sine_high_fraction_percent": 0.6064113420230803,
+          "total_ms": 42.932966724038124,
+          "relative_residual": 0.35121622681617737
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.4058563097852572,
+          "gradient_percent": 22.8550654396089,
+          "energy_percent": 31.198684253145036,
+          "flux_L2_percent": 52.93008095391567,
+          "error_sine_low_fraction_percent": 61.04149348006216,
+          "error_sine_mid_fraction_percent": 26.642597939648997,
+          "error_sine_high_fraction_percent": 12.315908580288882,
+          "total_ms": 6.887111347168684,
+          "relative_residual": 53.973243713378906
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.055294466854474,
+          "gradient_percent": 19.70317091054243,
+          "energy_percent": 26.620108189245517,
+          "flux_L2_percent": 41.58053152606433,
+          "error_sine_low_fraction_percent": 41.81736061125504,
+          "error_sine_mid_fraction_percent": 41.3707691584648,
+          "error_sine_high_fraction_percent": 16.81187023028015,
+          "total_ms": 6.921591237187386,
+          "relative_residual": 46.705902099609375
+        },
+        "geometric_K0": {
+          "L2_percent": 11.446451126998943,
+          "gradient_percent": 46.255193900021666,
+          "energy_percent": 53.54512460596297,
+          "flux_L2_percent": 72.49570432199273,
+          "error_sine_low_fraction_percent": 98.26022838385096,
+          "error_sine_mid_fraction_percent": 0.4270337596213046,
+          "error_sine_high_fraction_percent": 1.3127378565277312,
+          "total_ms": 7.992783095687628,
+          "relative_residual": 62.37588882446289
+        }
+      }
+    },
+    {
+      "index": 14,
+      "methods": {
+        "NO": {
+          "L2_percent": 3.803282971927111,
+          "gradient_percent": 46.285322450185824,
+          "energy_percent": 54.477987730767005,
+          "flux_L2_percent": 81.22079692718832,
+          "error_sine_low_fraction_percent": 87.15976604345484,
+          "error_sine_mid_fraction_percent": 2.1095334624921125,
+          "error_sine_high_fraction_percent": 10.730700494053037,
+          "total_ms": 1.461610198020935,
+          "relative_residual": 68.13423156738281
+        },
+        "MG_K2": {
+          "L2_percent": 0.6447316572851784,
+          "gradient_percent": 0.7839113485174248,
+          "energy_percent": 0.7941655966526932,
+          "flux_L2_percent": 0.9088814616583597,
+          "error_sine_low_fraction_percent": 99.63691947136586,
+          "error_sine_mid_fraction_percent": 0.319278528572151,
+          "error_sine_high_fraction_percent": 0.04380200006196475,
+          "total_ms": 36.64079820737243,
+          "relative_residual": 0.7429935932159424
+        },
+        "MG_K4": {
+          "L2_percent": 0.04524878733311906,
+          "gradient_percent": 0.059369766936131725,
+          "energy_percent": 0.05642497186718479,
+          "flux_L2_percent": 0.06362440757326539,
+          "error_sine_low_fraction_percent": 99.56049584540872,
+          "error_sine_mid_fraction_percent": 0.38284938284259407,
+          "error_sine_high_fraction_percent": 0.05665477174869198,
+          "total_ms": 68.48159898072481,
+          "relative_residual": 0.05715077370405197
+        },
+        "scalar_K2": {
+          "L2_percent": 0.5303984474960853,
+          "gradient_percent": 0.6362915036257774,
+          "energy_percent": 0.6566368884289827,
+          "flux_L2_percent": 0.7693820958428741,
+          "error_sine_low_fraction_percent": 99.66314410203267,
+          "error_sine_mid_fraction_percent": 0.29388049127347016,
+          "error_sine_high_fraction_percent": 0.042975406693862905,
+          "total_ms": 38.44288503751159,
+          "relative_residual": 0.5792089104652405
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.5194837099973513,
+          "gradient_percent": 0.6318560514765734,
+          "energy_percent": 0.6540466816595488,
+          "flux_L2_percent": 0.7701840473498271,
+          "error_sine_low_fraction_percent": 99.6642328785099,
+          "error_sine_mid_fraction_percent": 0.29181361048690646,
+          "error_sine_high_fraction_percent": 0.04395351100319658,
+          "total_ms": 40.02750711515546,
+          "relative_residual": 0.6250376105308533
+        },
+        "coupled_K1": {
+          "L2_percent": 0.3132795087265967,
+          "gradient_percent": 2.2262881610802454,
+          "energy_percent": 2.472947409077254,
+          "flux_L2_percent": 3.2286905156551993,
+          "error_sine_low_fraction_percent": 86.95966801196792,
+          "error_sine_mid_fraction_percent": 10.300649532905682,
+          "error_sine_high_fraction_percent": 2.7396824551263728,
+          "total_ms": 25.077462196350098,
+          "relative_residual": 3.075998544692993
+        },
+        "coupled_K2": {
+          "L2_percent": 0.08634334922152685,
+          "gradient_percent": 0.3375073848739449,
+          "energy_percent": 0.4161415738334101,
+          "flux_L2_percent": 0.6150115824715732,
+          "error_sine_low_fraction_percent": 96.49629527154664,
+          "error_sine_mid_fraction_percent": 2.922772718970816,
+          "error_sine_high_fraction_percent": 0.5809320094825393,
+          "total_ms": 45.32277584075928,
+          "relative_residual": 0.6742182374000549
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.8625474044776633,
+          "gradient_percent": 24.552861365590985,
+          "energy_percent": 32.04477078363801,
+          "flux_L2_percent": 55.445749989776985,
+          "error_sine_low_fraction_percent": 81.02449047018857,
+          "error_sine_mid_fraction_percent": 10.615208278750076,
+          "error_sine_high_fraction_percent": 8.360301251061353,
+          "total_ms": 6.866190116852522,
+          "relative_residual": 54.65790557861328
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.5899828657369022,
+          "gradient_percent": 19.86315990810576,
+          "energy_percent": 26.311236041840996,
+          "flux_L2_percent": 41.34419800062946,
+          "error_sine_low_fraction_percent": 83.10119203388572,
+          "error_sine_mid_fraction_percent": 9.37994862963896,
+          "error_sine_high_fraction_percent": 7.518859336475305,
+          "total_ms": 6.866469979286194,
+          "relative_residual": 46.54994201660156
+        },
+        "geometric_K0": {
+          "L2_percent": 11.1637721617274,
+          "gradient_percent": 47.64146378839777,
+          "energy_percent": 53.57993898685366,
+          "flux_L2_percent": 76.64193533100445,
+          "error_sine_low_fraction_percent": 98.48314360348361,
+          "error_sine_mid_fraction_percent": 0.2461382929162939,
+          "error_sine_high_fraction_percent": 1.2707181036001058,
+          "total_ms": 3.603754099458456,
+          "relative_residual": 66.65408325195312
+        }
+      }
+    },
+    {
+      "index": 15,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.3609501569986313,
+          "gradient_percent": 42.08190665238508,
+          "energy_percent": 52.30869758176987,
+          "flux_L2_percent": 73.3331211278568,
+          "error_sine_low_fraction_percent": 17.8531111546754,
+          "error_sine_mid_fraction_percent": 17.608458648974818,
+          "error_sine_high_fraction_percent": 64.5384301963498,
+          "total_ms": 1.4375601895153522,
+          "relative_residual": 63.752437591552734
+        },
+        "MG_K2": {
+          "L2_percent": 0.2832594958171137,
+          "gradient_percent": 0.40008705258516547,
+          "energy_percent": 0.383320803476043,
+          "flux_L2_percent": 0.40992554484711563,
+          "error_sine_low_fraction_percent": 99.34139242574405,
+          "error_sine_mid_fraction_percent": 0.5973437106545562,
+          "error_sine_high_fraction_percent": 0.06126386360139746,
+          "total_ms": 36.45703475922346,
+          "relative_residual": 0.36920398473739624
+        },
+        "MG_K4": {
+          "L2_percent": 0.018347014169439704,
+          "gradient_percent": 0.025819097303068736,
+          "energy_percent": 0.023622614780723413,
+          "flux_L2_percent": 0.02588092916699836,
+          "error_sine_low_fraction_percent": 99.37548663261465,
+          "error_sine_mid_fraction_percent": 0.5671493545905829,
+          "error_sine_high_fraction_percent": 0.05736401279468507,
+          "total_ms": 70.69294387474656,
+          "relative_residual": 0.024587228894233704
+        },
+        "scalar_K2": {
+          "L2_percent": 0.21579364525193956,
+          "gradient_percent": 0.29395252954945117,
+          "energy_percent": 0.279730936971357,
+          "flux_L2_percent": 0.2999236167356184,
+          "error_sine_low_fraction_percent": 99.314907364969,
+          "error_sine_mid_fraction_percent": 0.6326832807816194,
+          "error_sine_high_fraction_percent": 0.052409354249376,
+          "total_ms": 36.46381525322795,
+          "relative_residual": 0.2540873885154724
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.20222885779209943,
+          "gradient_percent": 0.29629712708308487,
+          "energy_percent": 0.3040820144654717,
+          "flux_L2_percent": 0.354746453968706,
+          "error_sine_low_fraction_percent": 99.33231868327249,
+          "error_sine_mid_fraction_percent": 0.6136504610614874,
+          "error_sine_high_fraction_percent": 0.05403085566598525,
+          "total_ms": 38.24211098253727,
+          "relative_residual": 0.44372624158859253
+        },
+        "coupled_K1": {
+          "L2_percent": 0.1367653564067211,
+          "gradient_percent": 1.743519191386003,
+          "energy_percent": 2.1429997584556153,
+          "flux_L2_percent": 2.991225782841717,
+          "error_sine_low_fraction_percent": 58.18670919762119,
+          "error_sine_mid_fraction_percent": 34.750552916345505,
+          "error_sine_high_fraction_percent": 7.062737886033307,
+          "total_ms": 28.271128423511982,
+          "relative_residual": 2.9126858711242676
+        },
+        "coupled_K2": {
+          "L2_percent": 0.032641577785656635,
+          "gradient_percent": 0.19951537131205074,
+          "energy_percent": 0.22536622825855326,
+          "flux_L2_percent": 0.31968741056385325,
+          "error_sine_low_fraction_percent": 85.68491309140333,
+          "error_sine_mid_fraction_percent": 12.896662875706454,
+          "error_sine_high_fraction_percent": 1.4184240328902153,
+          "total_ms": 46.05866223573685,
+          "relative_residual": 0.3419838547706604
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.4429026748428855,
+          "gradient_percent": 23.777244920119838,
+          "energy_percent": 31.837176684909018,
+          "flux_L2_percent": 52.00576569299754,
+          "error_sine_low_fraction_percent": 66.76257936874318,
+          "error_sine_mid_fraction_percent": 22.68806293148568,
+          "error_sine_high_fraction_percent": 10.549357699771152,
+          "total_ms": 6.886901333928108,
+          "relative_residual": 54.86408233642578
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.8287576143595414,
+          "gradient_percent": 19.921852872509387,
+          "energy_percent": 26.782643619601025,
+          "flux_L2_percent": 41.35269302285447,
+          "error_sine_low_fraction_percent": 39.6341685074586,
+          "error_sine_mid_fraction_percent": 41.154130312016115,
+          "error_sine_high_fraction_percent": 19.21170118052531,
+          "total_ms": 6.827880162745714,
+          "relative_residual": 47.883544921875
+        },
+        "geometric_K0": {
+          "L2_percent": 9.034088160961355,
+          "gradient_percent": 43.48115032103902,
+          "energy_percent": 51.15333509011868,
+          "flux_L2_percent": 68.43450450724923,
+          "error_sine_low_fraction_percent": 98.09867559889165,
+          "error_sine_mid_fraction_percent": 0.4008288254698468,
+          "error_sine_high_fraction_percent": 1.5004955756385603,
+          "total_ms": 7.86298094317317,
+          "relative_residual": 62.524635314941406
+        }
+      }
+    },
+    {
+      "index": 16,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.978683716662999,
+          "gradient_percent": 46.98207953686982,
+          "energy_percent": 57.46969571052736,
+          "flux_L2_percent": 81.13418490904247,
+          "error_sine_low_fraction_percent": 49.150022226871386,
+          "error_sine_mid_fraction_percent": 9.12279288860202,
+          "error_sine_high_fraction_percent": 41.72718488452659,
+          "total_ms": 1.4256690628826618,
+          "relative_residual": 67.39788055419922
+        },
+        "MG_K2": {
+          "L2_percent": 0.4711851592627923,
+          "gradient_percent": 0.631519039959452,
+          "energy_percent": 0.6036439150887233,
+          "flux_L2_percent": 0.6153513616628749,
+          "error_sine_low_fraction_percent": 99.30246896581158,
+          "error_sine_mid_fraction_percent": 0.6381047618880066,
+          "error_sine_high_fraction_percent": 0.059426272300410324,
+          "total_ms": 37.763021886348724,
+          "relative_residual": 0.5102255940437317
+        },
+        "MG_K4": {
+          "L2_percent": 0.03393382537030693,
+          "gradient_percent": 0.0453334513639795,
+          "energy_percent": 0.041674850034508895,
+          "flux_L2_percent": 0.04304435478060737,
+          "error_sine_low_fraction_percent": 99.29288854903493,
+          "error_sine_mid_fraction_percent": 0.654145216169371,
+          "error_sine_high_fraction_percent": 0.05296623479568909,
+          "total_ms": 68.7918858602643,
+          "relative_residual": 0.03798286244273186
+        },
+        "scalar_K2": {
+          "L2_percent": 0.3802772345412384,
+          "gradient_percent": 0.49912798107542655,
+          "energy_percent": 0.4811855993725348,
+          "flux_L2_percent": 0.5018527291866385,
+          "error_sine_low_fraction_percent": 99.30664612650827,
+          "error_sine_mid_fraction_percent": 0.6385815950147622,
+          "error_sine_high_fraction_percent": 0.0547722784769809,
+          "total_ms": 40.63759092241526,
+          "relative_residual": 0.37810203433036804
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.36105161411204567,
+          "gradient_percent": 0.4984160340510911,
+          "energy_percent": 0.5022980060599821,
+          "flux_L2_percent": 0.5681345588661757,
+          "error_sine_low_fraction_percent": 99.23490209711122,
+          "error_sine_mid_fraction_percent": 0.7054862674427815,
+          "error_sine_high_fraction_percent": 0.0596116354459793,
+          "total_ms": 41.23333282768726,
+          "relative_residual": 0.61216801404953
+        },
+        "coupled_K1": {
+          "L2_percent": 0.27773419230198526,
+          "gradient_percent": 2.0930580933721865,
+          "energy_percent": 2.4532847390501744,
+          "flux_L2_percent": 3.3391469430129077,
+          "error_sine_low_fraction_percent": 82.63405987528293,
+          "error_sine_mid_fraction_percent": 14.689088418739424,
+          "error_sine_high_fraction_percent": 2.6768517059776378,
+          "total_ms": 24.970709811896086,
+          "relative_residual": 3.2907283306121826
+        },
+        "coupled_K2": {
+          "L2_percent": 0.0848161147546528,
+          "gradient_percent": 0.3159501409569661,
+          "energy_percent": 0.34607413975984286,
+          "flux_L2_percent": 0.44509713350995017,
+          "error_sine_low_fraction_percent": 93.97439624717131,
+          "error_sine_mid_fraction_percent": 5.471331873188482,
+          "error_sine_high_fraction_percent": 0.5542718796402107,
+          "total_ms": 44.24339486286044,
+          "relative_residual": 0.4729820787906647
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.7360793430971644,
+          "gradient_percent": 24.11686928037287,
+          "energy_percent": 33.177271809396544,
+          "flux_L2_percent": 54.59367324357123,
+          "error_sine_low_fraction_percent": 69.89044621166303,
+          "error_sine_mid_fraction_percent": 21.24216209457733,
+          "error_sine_high_fraction_percent": 8.867391693759648,
+          "total_ms": 11.40359416604042,
+          "relative_residual": 57.735321044921875
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.0882443526931127,
+          "gradient_percent": 20.094251127650548,
+          "energy_percent": 28.686200033038716,
+          "flux_L2_percent": 44.48959654588336,
+          "error_sine_low_fraction_percent": 59.04281502449655,
+          "error_sine_mid_fraction_percent": 25.925574533759395,
+          "error_sine_high_fraction_percent": 15.031610441744075,
+          "total_ms": 6.910720840096474,
+          "relative_residual": 51.49313735961914
+        },
+        "geometric_K0": {
+          "L2_percent": 11.183447384368893,
+          "gradient_percent": 48.577386871260806,
+          "energy_percent": 56.08212926159229,
+          "flux_L2_percent": 74.90055441195227,
+          "error_sine_low_fraction_percent": 98.3754746316791,
+          "error_sine_mid_fraction_percent": 0.2860333955655562,
+          "error_sine_high_fraction_percent": 1.3384919727552564,
+          "total_ms": 3.6062337458133698,
+          "relative_residual": 65.8396224975586
+        }
+      }
+    },
+    {
+      "index": 17,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.892347143551198,
+          "gradient_percent": 43.123413819769176,
+          "energy_percent": 54.21905219585068,
+          "flux_L2_percent": 81.88611357923911,
+          "error_sine_low_fraction_percent": 45.662312723341145,
+          "error_sine_mid_fraction_percent": 11.395632343436352,
+          "error_sine_high_fraction_percent": 42.942054933222515,
+          "total_ms": 1.443549059331417,
+          "relative_residual": 66.82979583740234
+        },
+        "MG_K2": {
+          "L2_percent": 0.32999194231239365,
+          "gradient_percent": 0.6070561989635818,
+          "energy_percent": 0.5194616689814306,
+          "flux_L2_percent": 0.5432703060059205,
+          "error_sine_low_fraction_percent": 98.5004105732726,
+          "error_sine_mid_fraction_percent": 1.3296668000449454,
+          "error_sine_high_fraction_percent": 0.16992262668240113,
+          "total_ms": 36.73249110579491,
+          "relative_residual": 0.4986220896244049
+        },
+        "MG_K4": {
+          "L2_percent": 0.023108246088981526,
+          "gradient_percent": 0.036471711179899835,
+          "energy_percent": 0.03229226410393689,
+          "flux_L2_percent": 0.03472605551536456,
+          "error_sine_low_fraction_percent": 99.14700424101063,
+          "error_sine_mid_fraction_percent": 0.7371648253265985,
+          "error_sine_high_fraction_percent": 0.11583093366276319,
+          "total_ms": 70.2014360576868,
+          "relative_residual": 0.03307328745722771
+        },
+        "scalar_K2": {
+          "L2_percent": 0.2597110968148736,
+          "gradient_percent": 0.4690347006628415,
+          "energy_percent": 0.40502295787036996,
+          "flux_L2_percent": 0.42845513685487396,
+          "error_sine_low_fraction_percent": 98.54688269422563,
+          "error_sine_mid_fraction_percent": 1.2987400386044314,
+          "error_sine_high_fraction_percent": 0.1543772671699547,
+          "total_ms": 37.82726405188441,
+          "relative_residual": 0.3710457682609558
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.2469333176983422,
+          "gradient_percent": 0.45479027928482674,
+          "energy_percent": 0.4219185939180528,
+          "flux_L2_percent": 0.5173175614680486,
+          "error_sine_low_fraction_percent": 98.59814654251714,
+          "error_sine_mid_fraction_percent": 1.2484645466253539,
+          "error_sine_high_fraction_percent": 0.15338891085750803,
+          "total_ms": 41.32790630683303,
+          "relative_residual": 0.6738173961639404
+        },
+        "coupled_K1": {
+          "L2_percent": 0.4951675263533764,
+          "gradient_percent": 2.2130782498010153,
+          "energy_percent": 2.451317676907171,
+          "flux_L2_percent": 3.3762982113904294,
+          "error_sine_low_fraction_percent": 90.40571993966223,
+          "error_sine_mid_fraction_percent": 8.502617543324677,
+          "error_sine_high_fraction_percent": 1.091662517013066,
+          "total_ms": 25.04217205569148,
+          "relative_residual": 3.321835517883301
+        },
+        "coupled_K2": {
+          "L2_percent": 0.14666108281755927,
+          "gradient_percent": 0.4024490262875889,
+          "energy_percent": 0.3817259827164936,
+          "flux_L2_percent": 0.46530008720610144,
+          "error_sine_low_fraction_percent": 96.05688777056817,
+          "error_sine_mid_fraction_percent": 3.6144141342743206,
+          "error_sine_high_fraction_percent": 0.32869809515752835,
+          "total_ms": 41.24869406223297,
+          "relative_residual": 0.4537312090396881
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.6010214635128663,
+          "gradient_percent": 23.979197918582145,
+          "energy_percent": 31.5566445244213,
+          "flux_L2_percent": 53.05096228487176,
+          "error_sine_low_fraction_percent": 68.2360788373151,
+          "error_sine_mid_fraction_percent": 20.663839773606284,
+          "error_sine_high_fraction_percent": 11.100081389078603,
+          "total_ms": 6.890631280839443,
+          "relative_residual": 55.714412689208984
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.4117381864137981,
+          "gradient_percent": 20.022999943478634,
+          "energy_percent": 26.953095354934888,
+          "flux_L2_percent": 43.28714918852205,
+          "error_sine_low_fraction_percent": 73.99201954167886,
+          "error_sine_mid_fraction_percent": 16.099856088865447,
+          "error_sine_high_fraction_percent": 9.908124369455688,
+          "total_ms": 6.873100996017456,
+          "relative_residual": 49.141998291015625
+        },
+        "geometric_K0": {
+          "L2_percent": 10.594224940342674,
+          "gradient_percent": 44.611162790317096,
+          "energy_percent": 52.575629473330146,
+          "flux_L2_percent": 73.98116055621158,
+          "error_sine_low_fraction_percent": 98.23218775983754,
+          "error_sine_mid_fraction_percent": 0.3636127972155972,
+          "error_sine_high_fraction_percent": 1.4041994429468816,
+          "total_ms": 3.5912543535232544,
+          "relative_residual": 64.97502136230469
+        }
+      }
+    },
+    {
+      "index": 18,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.8776359133178187,
+          "gradient_percent": 44.00176482480545,
+          "energy_percent": 52.18488454839563,
+          "flux_L2_percent": 70.37319603273642,
+          "error_sine_low_fraction_percent": 51.31063605218369,
+          "error_sine_mid_fraction_percent": 10.273788342289537,
+          "error_sine_high_fraction_percent": 38.41557560552675,
+          "total_ms": 1.4484901912510395,
+          "relative_residual": 60.147762298583984
+        },
+        "MG_K2": {
+          "L2_percent": 0.15439601604638795,
+          "gradient_percent": 0.33265138135431194,
+          "energy_percent": 0.31465943419928516,
+          "flux_L2_percent": 0.3328946098033024,
+          "error_sine_low_fraction_percent": 98.27769290571982,
+          "error_sine_mid_fraction_percent": 1.5439601918189085,
+          "error_sine_high_fraction_percent": 0.17834690246131055,
+          "total_ms": 36.547367926687,
+          "relative_residual": 0.3151681125164032
+        },
+        "MG_K4": {
+          "L2_percent": 0.00884473582821186,
+          "gradient_percent": 0.015153854389807993,
+          "energy_percent": 0.01403754730359997,
+          "flux_L2_percent": 0.015109530445830499,
+          "error_sine_low_fraction_percent": 99.06235523026011,
+          "error_sine_mid_fraction_percent": 0.8427543363739313,
+          "error_sine_high_fraction_percent": 0.09489043336596452,
+          "total_ms": 71.16372603923082,
+          "relative_residual": 0.015191353857517242
+        },
+        "scalar_K2": {
+          "L2_percent": 0.08973751270157655,
+          "gradient_percent": 0.22365452285558673,
+          "energy_percent": 0.21131303715131974,
+          "flux_L2_percent": 0.22941280685438306,
+          "error_sine_low_fraction_percent": 97.34877109196489,
+          "error_sine_mid_fraction_percent": 2.4253870442896743,
+          "error_sine_high_fraction_percent": 0.22584186374541104,
+          "total_ms": 40.27146380394697,
+          "relative_residual": 0.20653851330280304
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.07232987987539456,
+          "gradient_percent": 0.2354469225904439,
+          "energy_percent": 0.2725063548816348,
+          "flux_L2_percent": 0.4007311081271327,
+          "error_sine_low_fraction_percent": 96.84043533068922,
+          "error_sine_mid_fraction_percent": 2.851380993727002,
+          "error_sine_high_fraction_percent": 0.3081836755837498,
+          "total_ms": 39.52689794823527,
+          "relative_residual": 0.642235279083252
+        },
+        "coupled_K1": {
+          "L2_percent": 0.24428710353637384,
+          "gradient_percent": 1.7867548179943054,
+          "energy_percent": 2.1490683296359414,
+          "flux_L2_percent": 3.007329387734659,
+          "error_sine_low_fraction_percent": 83.89508869405957,
+          "error_sine_mid_fraction_percent": 13.934253733265287,
+          "error_sine_high_fraction_percent": 2.1706575726751733,
+          "total_ms": 33.376123290508986,
+          "relative_residual": 2.8413100242614746
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06119987065431507,
+          "gradient_percent": 0.22908553473644527,
+          "energy_percent": 0.24190564941450232,
+          "flux_L2_percent": 0.31217195984091256,
+          "error_sine_low_fraction_percent": 93.64409366782846,
+          "error_sine_mid_fraction_percent": 5.911050872640051,
+          "error_sine_high_fraction_percent": 0.4448554595315374,
+          "total_ms": 48.204355873167515,
+          "relative_residual": 0.2895871698856354
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.364754150223424,
+          "gradient_percent": 24.03597298111397,
+          "energy_percent": 31.862662551458815,
+          "flux_L2_percent": 51.208225580817455,
+          "error_sine_low_fraction_percent": 64.16184894119186,
+          "error_sine_mid_fraction_percent": 23.284168527982896,
+          "error_sine_high_fraction_percent": 12.553982530825246,
+          "total_ms": 6.8740700371563435,
+          "relative_residual": 51.49029541015625
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.2484688290224861,
+          "gradient_percent": 19.90639484257787,
+          "energy_percent": 26.421509851241286,
+          "flux_L2_percent": 39.881714296886514,
+          "error_sine_low_fraction_percent": 73.71804305349404,
+          "error_sine_mid_fraction_percent": 17.100285530935835,
+          "error_sine_high_fraction_percent": 9.181671415570118,
+          "total_ms": 6.834920030087233,
+          "relative_residual": 44.92938232421875
+        },
+        "geometric_K0": {
+          "L2_percent": 7.933114566897191,
+          "gradient_percent": 45.239428790504526,
+          "energy_percent": 50.92125920291362,
+          "flux_L2_percent": 65.21950288320957,
+          "error_sine_low_fraction_percent": 97.22288875194927,
+          "error_sine_mid_fraction_percent": 0.5752425480005755,
+          "error_sine_high_fraction_percent": 2.20186870005013,
+          "total_ms": 3.6041531711816788,
+          "relative_residual": 58.94011688232422
+        }
+      }
+    },
+    {
+      "index": 19,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.8914933422031635,
+          "gradient_percent": 44.390503881591606,
+          "energy_percent": 52.28288123148735,
+          "flux_L2_percent": 72.32736348671648,
+          "error_sine_low_fraction_percent": 45.99378641963352,
+          "error_sine_mid_fraction_percent": 15.819818106857568,
+          "error_sine_high_fraction_percent": 38.186395473508924,
+          "total_ms": 1.4466596767306328,
+          "relative_residual": 63.96202850341797
+        },
+        "MG_K2": {
+          "L2_percent": 0.18689831183776917,
+          "gradient_percent": 0.34667773526306916,
+          "energy_percent": 0.3274457420285723,
+          "flux_L2_percent": 0.34819559074167417,
+          "error_sine_low_fraction_percent": 98.93030487840517,
+          "error_sine_mid_fraction_percent": 0.9531476448060283,
+          "error_sine_high_fraction_percent": 0.11654747678879801,
+          "total_ms": 36.583779379725456,
+          "relative_residual": 0.3309982717037201
+        },
+        "MG_K4": {
+          "L2_percent": 0.01159268686840072,
+          "gradient_percent": 0.019033085759056066,
+          "energy_percent": 0.01787037315500755,
+          "flux_L2_percent": 0.019354204383132845,
+          "error_sine_low_fraction_percent": 99.18706283064422,
+          "error_sine_mid_fraction_percent": 0.7318244469713245,
+          "error_sine_high_fraction_percent": 0.08111272238443908,
+          "total_ms": 72.5642149336636,
+          "relative_residual": 0.01944868639111519
+        },
+        "scalar_K2": {
+          "L2_percent": 0.11931106043733207,
+          "gradient_percent": 0.23375860209136576,
+          "energy_percent": 0.22528023041873843,
+          "flux_L2_percent": 0.24413516606627542,
+          "error_sine_low_fraction_percent": 98.62359099349486,
+          "error_sine_mid_fraction_percent": 1.2528286714302694,
+          "error_sine_high_fraction_percent": 0.12358033507485822,
+          "total_ms": 36.77637316286564,
+          "relative_residual": 0.21774624288082123
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.0959115805036909,
+          "gradient_percent": 0.230815249006287,
+          "energy_percent": 0.2713580959561749,
+          "flux_L2_percent": 0.35488106893178867,
+          "error_sine_low_fraction_percent": 98.47285236910102,
+          "error_sine_mid_fraction_percent": 1.3731515051800371,
+          "error_sine_high_fraction_percent": 0.15399612571897894,
+          "total_ms": 40.171192958950996,
+          "relative_residual": 0.5406534075737
+        },
+        "coupled_K1": {
+          "L2_percent": 0.29355831646027175,
+          "gradient_percent": 1.7929820590245868,
+          "energy_percent": 2.1854878334421812,
+          "flux_L2_percent": 3.1057803787157483,
+          "error_sine_low_fraction_percent": 89.97901410549714,
+          "error_sine_mid_fraction_percent": 8.603552595144341,
+          "error_sine_high_fraction_percent": 1.4174332993584953,
+          "total_ms": 25.11781407520175,
+          "relative_residual": 3.003455400466919
+        },
+        "coupled_K2": {
+          "L2_percent": 0.08501337615096619,
+          "gradient_percent": 0.2328936511002544,
+          "energy_percent": 0.2488990093583067,
+          "flux_L2_percent": 0.31347813717703416,
+          "error_sine_low_fraction_percent": 97.46928127828762,
+          "error_sine_mid_fraction_percent": 2.299686195507689,
+          "error_sine_high_fraction_percent": 0.23103252620472894,
+          "total_ms": 45.09220318868756,
+          "relative_residual": 0.30325594544410706
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.5528032441365711,
+          "gradient_percent": 23.91813990073799,
+          "energy_percent": 32.8273327440384,
+          "flux_L2_percent": 53.55864320800927,
+          "error_sine_low_fraction_percent": 67.07434898396899,
+          "error_sine_mid_fraction_percent": 23.611323008484202,
+          "error_sine_high_fraction_percent": 9.314328007546825,
+          "total_ms": 11.154379229992628,
+          "relative_residual": 55.39722442626953
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.046999719050089,
+          "gradient_percent": 19.96614788691809,
+          "energy_percent": 27.837646396376982,
+          "flux_L2_percent": 42.86226417109202,
+          "error_sine_low_fraction_percent": 51.624010265899145,
+          "error_sine_mid_fraction_percent": 35.60060763291613,
+          "error_sine_high_fraction_percent": 12.775382101184729,
+          "total_ms": 6.881930865347385,
+          "relative_residual": 48.77425003051758
+        },
+        "geometric_K0": {
+          "L2_percent": 7.381788731922737,
+          "gradient_percent": 45.40094594017134,
+          "energy_percent": 51.208766374699856,
+          "flux_L2_percent": 67.55498563188164,
+          "error_sine_low_fraction_percent": 96.40729487908177,
+          "error_sine_mid_fraction_percent": 1.0379292366526551,
+          "error_sine_high_fraction_percent": 2.5547758842656045,
+          "total_ms": 3.588583320379257,
+          "relative_residual": 62.87762451171875
+        }
+      }
+    },
+    {
+      "index": 20,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.8890414458407074,
+          "gradient_percent": 40.96775980199136,
+          "energy_percent": 51.23661703198056,
+          "flux_L2_percent": 69.45917982780479,
+          "error_sine_low_fraction_percent": 62.600249086505094,
+          "error_sine_mid_fraction_percent": 9.162140593447614,
+          "error_sine_high_fraction_percent": 28.237610320047256,
+          "total_ms": 1.4436389319598675,
+          "relative_residual": 60.854854583740234
+        },
+        "MG_K2": {
+          "L2_percent": 0.1289701145409342,
+          "gradient_percent": 0.2761240913797753,
+          "energy_percent": 0.31002038515243124,
+          "flux_L2_percent": 0.34667701665096584,
+          "error_sine_low_fraction_percent": 98.93397713743205,
+          "error_sine_mid_fraction_percent": 0.9101756441803969,
+          "error_sine_high_fraction_percent": 0.15584721838757784,
+          "total_ms": 37.85875579342246,
+          "relative_residual": 0.30538198351860046
+        },
+        "MG_K4": {
+          "L2_percent": 0.007971655293613373,
+          "gradient_percent": 0.013133462635371119,
+          "energy_percent": 0.013668628963949315,
+          "flux_L2_percent": 0.014894744417703401,
+          "error_sine_low_fraction_percent": 99.58941097800258,
+          "error_sine_mid_fraction_percent": 0.32956865524328316,
+          "error_sine_high_fraction_percent": 0.08102036675411574,
+          "total_ms": 70.52981527522206,
+          "relative_residual": 0.01401972584426403
+        },
+        "scalar_K2": {
+          "L2_percent": 0.08025345226362836,
+          "gradient_percent": 0.1976380956225165,
+          "energy_percent": 0.222524049214251,
+          "flux_L2_percent": 0.25210901796449164,
+          "error_sine_low_fraction_percent": 98.23045640953389,
+          "error_sine_mid_fraction_percent": 1.5649444484921358,
+          "error_sine_high_fraction_percent": 0.20459914197395718,
+          "total_ms": 43.00549020990729,
+          "relative_residual": 0.20689494907855988
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.06967744064465525,
+          "gradient_percent": 0.21514410663664515,
+          "energy_percent": 0.26555682909611195,
+          "flux_L2_percent": 0.3306736076048994,
+          "error_sine_low_fraction_percent": 98.08952705465386,
+          "error_sine_mid_fraction_percent": 1.6446931452154947,
+          "error_sine_high_fraction_percent": 0.2657798001306124,
+          "total_ms": 40.19564297050238,
+          "relative_residual": 0.46086475253105164
+        },
+        "coupled_K1": {
+          "L2_percent": 0.3408668656853913,
+          "gradient_percent": 1.7217793607762841,
+          "energy_percent": 2.143548852200191,
+          "flux_L2_percent": 2.8882213306606745,
+          "error_sine_low_fraction_percent": 93.50976533455461,
+          "error_sine_mid_fraction_percent": 5.524047912323421,
+          "error_sine_high_fraction_percent": 0.9661867531219627,
+          "total_ms": 29.340761248022318,
+          "relative_residual": 2.6679656505584717
+        },
+        "coupled_K2": {
+          "L2_percent": 0.08694532428094252,
+          "gradient_percent": 0.22741361236254973,
+          "energy_percent": 0.2624624639569873,
+          "flux_L2_percent": 0.31649339908020196,
+          "error_sine_low_fraction_percent": 97.92330471822096,
+          "error_sine_mid_fraction_percent": 1.8794253621179435,
+          "error_sine_high_fraction_percent": 0.19726991966108096,
+          "total_ms": 50.70124892517924,
+          "relative_residual": 0.28057238459587097
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.6555212430904915,
+          "gradient_percent": 24.72046842900805,
+          "energy_percent": 32.336339977160236,
+          "flux_L2_percent": 50.1494846620253,
+          "error_sine_low_fraction_percent": 73.27982877229134,
+          "error_sine_mid_fraction_percent": 17.72716912714936,
+          "error_sine_high_fraction_percent": 8.993002100559293,
+          "total_ms": 9.733158629387617,
+          "relative_residual": 50.983577728271484
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.3343080541521224,
+          "gradient_percent": 19.78031663700377,
+          "energy_percent": 26.569550835324534,
+          "flux_L2_percent": 38.944649727795536,
+          "error_sine_low_fraction_percent": 77.51600441747978,
+          "error_sine_mid_fraction_percent": 14.96448256332458,
+          "error_sine_high_fraction_percent": 7.5195130191956565,
+          "total_ms": 6.8780709989368916,
+          "relative_residual": 45.42828369140625
+        },
+        "geometric_K0": {
+          "L2_percent": 7.285323037053019,
+          "gradient_percent": 42.088097116680736,
+          "energy_percent": 50.0671660952958,
+          "flux_L2_percent": 64.89576082377744,
+          "error_sine_low_fraction_percent": 97.4372985557312,
+          "error_sine_mid_fraction_percent": 0.6157143768983063,
+          "error_sine_high_fraction_percent": 1.9469870673705278,
+          "total_ms": 3.59909376129508,
+          "relative_residual": 59.61311340332031
+        }
+      }
+    },
+    {
+      "index": 21,
+      "methods": {
+        "NO": {
+          "L2_percent": 2.0234088866003095,
+          "gradient_percent": 44.961039150116896,
+          "energy_percent": 51.98223043923043,
+          "flux_L2_percent": 70.82268896377295,
+          "error_sine_low_fraction_percent": 64.39580965654037,
+          "error_sine_mid_fraction_percent": 5.834481913049394,
+          "error_sine_high_fraction_percent": 29.769708430410237,
+          "total_ms": 1.4530597254633904,
+          "relative_residual": 61.15837097167969
+        },
+        "MG_K2": {
+          "L2_percent": 0.4401239449259546,
+          "gradient_percent": 0.5900920369289503,
+          "energy_percent": 0.5634125742502051,
+          "flux_L2_percent": 0.590233761906221,
+          "error_sine_low_fraction_percent": 99.5511608545041,
+          "error_sine_mid_fraction_percent": 0.3924650072834239,
+          "error_sine_high_fraction_percent": 0.05637413821249685,
+          "total_ms": 36.46493703126907,
+          "relative_residual": 0.47834622859954834
+        },
+        "MG_K4": {
+          "L2_percent": 0.02878467643265249,
+          "gradient_percent": 0.03787006990963834,
+          "energy_percent": 0.03551129707163177,
+          "flux_L2_percent": 0.03677395042100528,
+          "error_sine_low_fraction_percent": 99.59251350072634,
+          "error_sine_mid_fraction_percent": 0.3518402979822675,
+          "error_sine_high_fraction_percent": 0.05564620129142563,
+          "total_ms": 69.82004083693027,
+          "relative_residual": 0.03210102766752243
+        },
+        "scalar_K2": {
+          "L2_percent": 0.3588926082094374,
+          "gradient_percent": 0.47293762006014683,
+          "energy_percent": 0.4513943832793083,
+          "flux_L2_percent": 0.47813732310351365,
+          "error_sine_low_fraction_percent": 99.54516204387212,
+          "error_sine_mid_fraction_percent": 0.4030258709749563,
+          "error_sine_high_fraction_percent": 0.051812085152937365,
+          "total_ms": 40.720755234360695,
+          "relative_residual": 0.3486311137676239
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.3474952245411042,
+          "gradient_percent": 0.4721690211407015,
+          "energy_percent": 0.4603627007087689,
+          "flux_L2_percent": 0.4928941405250682,
+          "error_sine_low_fraction_percent": 99.54454491184195,
+          "error_sine_mid_fraction_percent": 0.40288235835800495,
+          "error_sine_high_fraction_percent": 0.05257272980004776,
+          "total_ms": 40.18489271402359,
+          "relative_residual": 0.44616588950157166
+        },
+        "coupled_K1": {
+          "L2_percent": 0.2784382912362665,
+          "gradient_percent": 1.9997820107877047,
+          "energy_percent": 2.2852724740478996,
+          "flux_L2_percent": 3.057670580848958,
+          "error_sine_low_fraction_percent": 84.81949476907863,
+          "error_sine_mid_fraction_percent": 12.428431257123052,
+          "error_sine_high_fraction_percent": 2.752073973798336,
+          "total_ms": 25.186586193740368,
+          "relative_residual": 2.8743364810943604
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06405083447302409,
+          "gradient_percent": 0.28368067718867007,
+          "energy_percent": 0.3123571998537994,
+          "flux_L2_percent": 0.42828844657298293,
+          "error_sine_low_fraction_percent": 94.25780244268206,
+          "error_sine_mid_fraction_percent": 4.910393995322537,
+          "error_sine_high_fraction_percent": 0.8318035619954082,
+          "total_ms": 43.08360302820802,
+          "relative_residual": 0.45187947154045105
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.7903836947181277,
+          "gradient_percent": 24.591431541771033,
+          "energy_percent": 31.490683144451065,
+          "flux_L2_percent": 51.824428799540826,
+          "error_sine_low_fraction_percent": 79.25040801606691,
+          "error_sine_mid_fraction_percent": 11.449233616080264,
+          "error_sine_high_fraction_percent": 9.300358367852835,
+          "total_ms": 6.8484400399029255,
+          "relative_residual": 52.375694274902344
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.0546127723079184,
+          "gradient_percent": 19.19743613591096,
+          "energy_percent": 25.467183252993674,
+          "flux_L2_percent": 38.27175539488534,
+          "error_sine_low_fraction_percent": 65.58930530170247,
+          "error_sine_mid_fraction_percent": 19.516295314570392,
+          "error_sine_high_fraction_percent": 14.89439938372715,
+          "total_ms": 6.870300974696875,
+          "relative_residual": 44.512393951416016
+        },
+        "geometric_K0": {
+          "L2_percent": 9.375430938304717,
+          "gradient_percent": 46.31441862844161,
+          "energy_percent": 51.02745007037595,
+          "flux_L2_percent": 66.0341410727807,
+          "error_sine_low_fraction_percent": 98.30842373559312,
+          "error_sine_mid_fraction_percent": 0.2717184250041722,
+          "error_sine_high_fraction_percent": 1.4198578394027492,
+          "total_ms": 3.6000139079988003,
+          "relative_residual": 59.694950103759766
+        }
+      }
+    },
+    {
+      "index": 22,
+      "methods": {
+        "NO": {
+          "L2_percent": 2.157245261389047,
+          "gradient_percent": 43.67999442168671,
+          "energy_percent": 52.91454757842074,
+          "flux_L2_percent": 75.58402623734746,
+          "error_sine_low_fraction_percent": 62.35482005063481,
+          "error_sine_mid_fraction_percent": 9.087237190224487,
+          "error_sine_high_fraction_percent": 28.55794275914072,
+          "total_ms": 1.4546802267432213,
+          "relative_residual": 67.83682250976562
+        },
+        "MG_K2": {
+          "L2_percent": 0.4391806989152965,
+          "gradient_percent": 0.6015214647501474,
+          "energy_percent": 0.5581502762725956,
+          "flux_L2_percent": 0.5818772281488004,
+          "error_sine_low_fraction_percent": 99.23224401121395,
+          "error_sine_mid_fraction_percent": 0.7037765054967102,
+          "error_sine_high_fraction_percent": 0.06397948328934507,
+          "total_ms": 39.670662954449654,
+          "relative_residual": 0.5134962201118469
+        },
+        "MG_K4": {
+          "L2_percent": 0.028985820132133047,
+          "gradient_percent": 0.03988329087883574,
+          "energy_percent": 0.03622893873221925,
+          "flux_L2_percent": 0.038583526272205085,
+          "error_sine_low_fraction_percent": 99.2627592973623,
+          "error_sine_mid_fraction_percent": 0.6741741948604522,
+          "error_sine_high_fraction_percent": 0.06306650777724582,
+          "total_ms": 68.69897805154324,
+          "relative_residual": 0.034965451806783676
+        },
+        "scalar_K2": {
+          "L2_percent": 0.3479970156153024,
+          "gradient_percent": 0.47787367659763974,
+          "energy_percent": 0.4574327510446,
+          "flux_L2_percent": 0.49086819315967917,
+          "error_sine_low_fraction_percent": 99.08340698393076,
+          "error_sine_mid_fraction_percent": 0.8574746080631203,
+          "error_sine_high_fraction_percent": 0.05911840800609367,
+          "total_ms": 38.388806860893965,
+          "relative_residual": 0.37841886281967163
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.33526782218771434,
+          "gradient_percent": 0.4909475335654361,
+          "energy_percent": 0.49239068871388647,
+          "flux_L2_percent": 0.5530949177220816,
+          "error_sine_low_fraction_percent": 98.84012183642777,
+          "error_sine_mid_fraction_percent": 1.0971197878567136,
+          "error_sine_high_fraction_percent": 0.062758375715506,
+          "total_ms": 39.30565621703863,
+          "relative_residual": 0.5330416560173035
+        },
+        "coupled_K1": {
+          "L2_percent": 0.3313881107732422,
+          "gradient_percent": 1.9073065572502594,
+          "energy_percent": 2.32961095403501,
+          "flux_L2_percent": 3.450251289860995,
+          "error_sine_low_fraction_percent": 90.33780549343079,
+          "error_sine_mid_fraction_percent": 7.982503622572956,
+          "error_sine_high_fraction_percent": 1.6796908839962439,
+          "total_ms": 30.437123961746693,
+          "relative_residual": 3.2518093585968018
+        },
+        "coupled_K2": {
+          "L2_percent": 0.08908229128175128,
+          "gradient_percent": 0.3048902774512545,
+          "energy_percent": 0.3265612285982019,
+          "flux_L2_percent": 0.45440316798057495,
+          "error_sine_low_fraction_percent": 95.4248284464853,
+          "error_sine_mid_fraction_percent": 4.064642230602235,
+          "error_sine_high_fraction_percent": 0.5105293229124719,
+          "total_ms": 42.87151899188757,
+          "relative_residual": 0.47543996572494507
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.425959544400401,
+          "gradient_percent": 24.38479859499184,
+          "energy_percent": 33.447890983435556,
+          "flux_L2_percent": 59.81513172453382,
+          "error_sine_low_fraction_percent": 63.562786493045245,
+          "error_sine_mid_fraction_percent": 23.065960213370108,
+          "error_sine_high_fraction_percent": 13.371253293584648,
+          "total_ms": 6.94240303710103,
+          "relative_residual": 59.568790435791016
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.2203447880386662,
+          "gradient_percent": 19.718933610736457,
+          "energy_percent": 27.247834278248696,
+          "flux_L2_percent": 43.61398008263151,
+          "error_sine_low_fraction_percent": 68.47364913769277,
+          "error_sine_mid_fraction_percent": 21.869156046612442,
+          "error_sine_high_fraction_percent": 9.657194815694776,
+          "total_ms": 6.858921144157648,
+          "relative_residual": 51.23577880859375
+        },
+        "geometric_K0": {
+          "L2_percent": 9.488560098088946,
+          "gradient_percent": 44.89097691099213,
+          "energy_percent": 51.884267366779156,
+          "flux_L2_percent": 70.75142619050456,
+          "error_sine_low_fraction_percent": 98.01970759602295,
+          "error_sine_mid_fraction_percent": 0.47212997988473027,
+          "error_sine_high_fraction_percent": 1.5081624240923877,
+          "total_ms": 3.5942629911005497,
+          "relative_residual": 66.55892944335938
+        }
+      }
+    },
+    {
+      "index": 23,
+      "methods": {
+        "NO": {
+          "L2_percent": 3.042902735636481,
+          "gradient_percent": 43.63749204576596,
+          "energy_percent": 50.81081230856523,
+          "flux_L2_percent": 68.36622618046214,
+          "error_sine_low_fraction_percent": 85.52230050156012,
+          "error_sine_mid_fraction_percent": 3.2726053964406483,
+          "error_sine_high_fraction_percent": 11.205094101999224,
+          "total_ms": 1.440869178622961,
+          "relative_residual": 61.64097595214844
+        },
+        "MG_K2": {
+          "L2_percent": 0.06729681585237317,
+          "gradient_percent": 0.2752175804384188,
+          "energy_percent": 0.2686115428873164,
+          "flux_L2_percent": 0.3148393630006902,
+          "error_sine_low_fraction_percent": 94.68799221944356,
+          "error_sine_mid_fraction_percent": 4.6225539461454455,
+          "error_sine_high_fraction_percent": 0.6894538344109887,
+          "total_ms": 36.783664021641016,
+          "relative_residual": 0.2927227318286896
+        },
+        "MG_K4": {
+          "L2_percent": 0.004586625171576889,
+          "gradient_percent": 0.010374390802421292,
+          "energy_percent": 0.009843287033527076,
+          "flux_L2_percent": 0.01119144685493227,
+          "error_sine_low_fraction_percent": 98.86849080421545,
+          "error_sine_mid_fraction_percent": 0.9741600695381556,
+          "error_sine_high_fraction_percent": 0.15734912624638553,
+          "total_ms": 69.7358907200396,
+          "relative_residual": 0.010734829120337963
+        },
+        "scalar_K2": {
+          "L2_percent": 0.07459600576556782,
+          "gradient_percent": 0.19358123356385587,
+          "energy_percent": 0.19915135826438402,
+          "flux_L2_percent": 0.24162421585880292,
+          "error_sine_low_fraction_percent": 97.7931143352998,
+          "error_sine_mid_fraction_percent": 1.9527544647479558,
+          "error_sine_high_fraction_percent": 0.2541311999522401,
+          "total_ms": 38.344986736774445,
+          "relative_residual": 0.196649968624115
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.08535121810386374,
+          "gradient_percent": 0.22203771405045042,
+          "energy_percent": 0.2694745265701534,
+          "flux_L2_percent": 0.3557782578484683,
+          "error_sine_low_fraction_percent": 98.69050533857444,
+          "error_sine_mid_fraction_percent": 1.1229030176000643,
+          "error_sine_high_fraction_percent": 0.18659164382550297,
+          "total_ms": 39.41280813887715,
+          "relative_residual": 0.5097470283508301
+        },
+        "coupled_K1": {
+          "L2_percent": 0.24526251761715212,
+          "gradient_percent": 1.7612611657216937,
+          "energy_percent": 2.0554433647911377,
+          "flux_L2_percent": 2.8138222503336094,
+          "error_sine_low_fraction_percent": 87.10795102463372,
+          "error_sine_mid_fraction_percent": 10.9020286964015,
+          "error_sine_high_fraction_percent": 1.9900202789647772,
+          "total_ms": 25.083054788410664,
+          "relative_residual": 2.652545928955078
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06139667096256063,
+          "gradient_percent": 0.22791987624487878,
+          "energy_percent": 0.2290834123381686,
+          "flux_L2_percent": 0.29173410905756014,
+          "error_sine_low_fraction_percent": 94.82027531829777,
+          "error_sine_mid_fraction_percent": 4.7166924325825175,
+          "error_sine_high_fraction_percent": 0.4630322491197129,
+          "total_ms": 42.30565810576081,
+          "relative_residual": 0.27370551228523254
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.6237062525289534,
+          "gradient_percent": 24.320435487750032,
+          "energy_percent": 31.229823435071268,
+          "flux_L2_percent": 51.33664459548308,
+          "error_sine_low_fraction_percent": 75.07510017047899,
+          "error_sine_mid_fraction_percent": 16.352286178871573,
+          "error_sine_high_fraction_percent": 8.572613650649433,
+          "total_ms": 13.434026390314102,
+          "relative_residual": 54.08570861816406
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.434388219860194,
+          "gradient_percent": 19.103682380001658,
+          "energy_percent": 25.325431327782162,
+          "flux_L2_percent": 39.046769366342915,
+          "error_sine_low_fraction_percent": 81.51157330170027,
+          "error_sine_mid_fraction_percent": 12.759613652094007,
+          "error_sine_high_fraction_percent": 5.728813046205719,
+          "total_ms": 6.893951911479235,
+          "relative_residual": 46.2115478515625
+        },
+        "geometric_K0": {
+          "L2_percent": 7.210967142714362,
+          "gradient_percent": 44.90515871579795,
+          "energy_percent": 49.341629344071755,
+          "flux_L2_percent": 63.640137261278326,
+          "error_sine_low_fraction_percent": 97.3617990564727,
+          "error_sine_mid_fraction_percent": 0.5813735135524867,
+          "error_sine_high_fraction_percent": 2.056827429974777,
+          "total_ms": 3.5899942740797997,
+          "relative_residual": 60.37080383300781
+        }
+      }
+    },
+    {
+      "index": 24,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.5866153219528372,
+          "gradient_percent": 47.2081823333613,
+          "energy_percent": 56.02294211383111,
+          "flux_L2_percent": 78.965952554374,
+          "error_sine_low_fraction_percent": 29.765487443647235,
+          "error_sine_mid_fraction_percent": 11.408460317770064,
+          "error_sine_high_fraction_percent": 58.82605223858271,
+          "total_ms": 3.142855130136013,
+          "relative_residual": 65.49347686767578
+        },
+        "MG_K2": {
+          "L2_percent": 0.44802537681860166,
+          "gradient_percent": 0.654427599003485,
+          "energy_percent": 0.5960627525134583,
+          "flux_L2_percent": 0.5989516589006443,
+          "error_sine_low_fraction_percent": 99.25351202297087,
+          "error_sine_mid_fraction_percent": 0.6704188335317138,
+          "error_sine_high_fraction_percent": 0.0760691434974662,
+          "total_ms": 42.75719774886966,
+          "relative_residual": 0.4975336194038391
+        },
+        "MG_K4": {
+          "L2_percent": 0.03316344845614243,
+          "gradient_percent": 0.045860927846213415,
+          "energy_percent": 0.041925751414932086,
+          "flux_L2_percent": 0.04328723808689127,
+          "error_sine_low_fraction_percent": 99.46932809852433,
+          "error_sine_mid_fraction_percent": 0.4648200785150279,
+          "error_sine_high_fraction_percent": 0.06585182296066046,
+          "total_ms": 74.04883904382586,
+          "relative_residual": 0.03796408325433731
+        },
+        "scalar_K2": {
+          "L2_percent": 0.34754900622561896,
+          "gradient_percent": 0.5025716177789404,
+          "energy_percent": 0.4573710810754838,
+          "flux_L2_percent": 0.465540217383795,
+          "error_sine_low_fraction_percent": 99.23828885938185,
+          "error_sine_mid_fraction_percent": 0.6888515143873325,
+          "error_sine_high_fraction_percent": 0.07285962623078697,
+          "total_ms": 36.38084698468447,
+          "relative_residual": 0.35628649592399597
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.3303877977149654,
+          "gradient_percent": 0.4885115790774778,
+          "energy_percent": 0.4533071800242295,
+          "flux_L2_percent": 0.47861075772916767,
+          "error_sine_low_fraction_percent": 99.25986524404685,
+          "error_sine_mid_fraction_percent": 0.6659304413026862,
+          "error_sine_high_fraction_percent": 0.07420431465049507,
+          "total_ms": 40.03762174397707,
+          "relative_residual": 0.4618235230445862
+        },
+        "coupled_K1": {
+          "L2_percent": 0.245142160213122,
+          "gradient_percent": 2.1549640332504225,
+          "energy_percent": 2.4874221008654325,
+          "flux_L2_percent": 3.3645833698989014,
+          "error_sine_low_fraction_percent": 73.32670209751403,
+          "error_sine_mid_fraction_percent": 22.783221085401813,
+          "error_sine_high_fraction_percent": 3.8900768170841733,
+          "total_ms": 25.331360287964344,
+          "relative_residual": 3.2009434700012207
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06512403482730617,
+          "gradient_percent": 0.34307687046072544,
+          "energy_percent": 0.352980998538658,
+          "flux_L2_percent": 0.4532206908418374,
+          "error_sine_low_fraction_percent": 87.89862901445434,
+          "error_sine_mid_fraction_percent": 10.868064975177235,
+          "error_sine_high_fraction_percent": 1.233306010368421,
+          "total_ms": 49.25270192325115,
+          "relative_residual": 0.4596457779407501
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.8927301535163266,
+          "gradient_percent": 25.86556108313078,
+          "energy_percent": 33.46466147701109,
+          "flux_L2_percent": 57.6798220912354,
+          "error_sine_low_fraction_percent": 76.28987899273615,
+          "error_sine_mid_fraction_percent": 14.99612582923045,
+          "error_sine_high_fraction_percent": 8.713995178033404,
+          "total_ms": 6.866941228508949,
+          "relative_residual": 56.35018539428711
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.9062887016386032,
+          "gradient_percent": 20.081549031134553,
+          "energy_percent": 27.03067488805694,
+          "flux_L2_percent": 42.3815642848478,
+          "error_sine_low_fraction_percent": 49.770441875789885,
+          "error_sine_mid_fraction_percent": 30.10615744621252,
+          "error_sine_high_fraction_percent": 20.123400677997598,
+          "total_ms": 6.848650053143501,
+          "relative_residual": 47.39796829223633
+        },
+        "geometric_K0": {
+          "L2_percent": 10.584465546268515,
+          "gradient_percent": 48.74823973534865,
+          "energy_percent": 54.59239976155976,
+          "flux_L2_percent": 72.14838909811012,
+          "error_sine_low_fraction_percent": 98.38447618788527,
+          "error_sine_mid_fraction_percent": 0.25802579597964465,
+          "error_sine_high_fraction_percent": 1.3574980161351158,
+          "total_ms": 8.277950342744589,
+          "relative_residual": 63.475257873535156
+        }
+      }
+    },
+    {
+      "index": 25,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.475508288244504,
+          "gradient_percent": 47.328273574555375,
+          "energy_percent": 56.12237253990079,
+          "flux_L2_percent": 79.53016950690737,
+          "error_sine_low_fraction_percent": 12.379344709780185,
+          "error_sine_mid_fraction_percent": 17.30204247508064,
+          "error_sine_high_fraction_percent": 70.31861281513918,
+          "total_ms": 1.4468701556324959,
+          "relative_residual": 64.6253890991211
+        },
+        "MG_K2": {
+          "L2_percent": 0.31158640517409836,
+          "gradient_percent": 0.5246901553793568,
+          "energy_percent": 0.4735366066007502,
+          "flux_L2_percent": 0.4769790585188434,
+          "error_sine_low_fraction_percent": 99.0147958326393,
+          "error_sine_mid_fraction_percent": 0.8696309926251141,
+          "error_sine_high_fraction_percent": 0.11557317473554923,
+          "total_ms": 36.67493304237723,
+          "relative_residual": 0.4513164758682251
+        },
+        "MG_K4": {
+          "L2_percent": 0.020674226816153756,
+          "gradient_percent": 0.02750420073951166,
+          "energy_percent": 0.02641410781996132,
+          "flux_L2_percent": 0.02807725960526994,
+          "error_sine_low_fraction_percent": 99.57560730974942,
+          "error_sine_mid_fraction_percent": 0.3667474693197197,
+          "error_sine_high_fraction_percent": 0.05764522093080258,
+          "total_ms": 74.96370980516076,
+          "relative_residual": 0.02634282223880291
+        },
+        "scalar_K2": {
+          "L2_percent": 0.2145167229863711,
+          "gradient_percent": 0.3668786723392255,
+          "energy_percent": 0.33208572742316955,
+          "flux_L2_percent": 0.3393974873804955,
+          "error_sine_low_fraction_percent": 98.84449533434916,
+          "error_sine_mid_fraction_percent": 1.0422794278319691,
+          "error_sine_high_fraction_percent": 0.11322523781886473,
+          "total_ms": 39.72320491448045,
+          "relative_residual": 0.3138735294342041
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.1932320384495491,
+          "gradient_percent": 0.35268816047171997,
+          "energy_percent": 0.343274817273914,
+          "flux_L2_percent": 0.4053130326816912,
+          "error_sine_low_fraction_percent": 98.79057631255684,
+          "error_sine_mid_fraction_percent": 1.0908078335834919,
+          "error_sine_high_fraction_percent": 0.11861585385965594,
+          "total_ms": 37.2493751347065,
+          "relative_residual": 0.5394787788391113
+        },
+        "coupled_K1": {
+          "L2_percent": 0.21241321282223802,
+          "gradient_percent": 2.2761240172569,
+          "energy_percent": 2.5213401710905914,
+          "flux_L2_percent": 3.4818764112395755,
+          "error_sine_low_fraction_percent": 62.8920254435262,
+          "error_sine_mid_fraction_percent": 31.357959818318086,
+          "error_sine_high_fraction_percent": 5.750014738155709,
+          "total_ms": 31.000927090644836,
+          "relative_residual": 3.2238974571228027
+        },
+        "coupled_K2": {
+          "L2_percent": 0.04097692154058972,
+          "gradient_percent": 0.3028801657784419,
+          "energy_percent": 0.31058563934120265,
+          "flux_L2_percent": 0.4163666194065003,
+          "error_sine_low_fraction_percent": 72.30390278176742,
+          "error_sine_mid_fraction_percent": 25.51899755905428,
+          "error_sine_high_fraction_percent": 2.1770996591782596,
+          "total_ms": 44.67619815841317,
+          "relative_residual": 0.40919432044029236
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.6647383024549207,
+          "gradient_percent": 25.857042743516672,
+          "energy_percent": 33.49831576974263,
+          "flux_L2_percent": 55.732521553208656,
+          "error_sine_low_fraction_percent": 70.39469125048124,
+          "error_sine_mid_fraction_percent": 19.14003866893862,
+          "error_sine_high_fraction_percent": 10.465270080580135,
+          "total_ms": 6.932422053068876,
+          "relative_residual": 54.20799255371094
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.880089709593318,
+          "gradient_percent": 21.11039463932804,
+          "energy_percent": 27.75735859193756,
+          "flux_L2_percent": 43.23023197852991,
+          "error_sine_low_fraction_percent": 37.190019252695976,
+          "error_sine_mid_fraction_percent": 38.415034885698184,
+          "error_sine_high_fraction_percent": 24.39494586160585,
+          "total_ms": 11.357533279806376,
+          "relative_residual": 45.56635284423828
+        },
+        "geometric_K0": {
+          "L2_percent": 11.440351552926451,
+          "gradient_percent": 49.2482443980864,
+          "energy_percent": 54.29998615732402,
+          "flux_L2_percent": 71.08082268874759,
+          "error_sine_low_fraction_percent": 98.50559954863022,
+          "error_sine_mid_fraction_percent": 0.2883100594389332,
+          "error_sine_high_fraction_percent": 1.2060903919308603,
+          "total_ms": 3.6224140785634518,
+          "relative_residual": 62.464683532714844
+        }
+      }
+    },
+    {
+      "index": 26,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.6726697846463758,
+          "gradient_percent": 44.071356636382355,
+          "energy_percent": 51.77471819198859,
+          "flux_L2_percent": 71.83383893758291,
+          "error_sine_low_fraction_percent": 39.77088159266526,
+          "error_sine_mid_fraction_percent": 11.638988976318227,
+          "error_sine_high_fraction_percent": 48.59012943101652,
+          "total_ms": 1.437538769096136,
+          "relative_residual": 68.13728332519531
+        },
+        "MG_K2": {
+          "L2_percent": 0.17880023791357227,
+          "gradient_percent": 0.3749125592455092,
+          "energy_percent": 0.33209911326320407,
+          "flux_L2_percent": 0.34658570441559355,
+          "error_sine_low_fraction_percent": 97.89357127653726,
+          "error_sine_mid_fraction_percent": 1.9090298898111924,
+          "error_sine_high_fraction_percent": 0.19739883365161626,
+          "total_ms": 41.60706466063857,
+          "relative_residual": 0.35011669993400574
+        },
+        "MG_K4": {
+          "L2_percent": 0.01349920658648074,
+          "gradient_percent": 0.021849734042855607,
+          "energy_percent": 0.019562949782295457,
+          "flux_L2_percent": 0.02107375577920503,
+          "error_sine_low_fraction_percent": 99.05326835578934,
+          "error_sine_mid_fraction_percent": 0.8534059350864575,
+          "error_sine_high_fraction_percent": 0.09332570912422587,
+          "total_ms": 69.34369495138526,
+          "relative_residual": 0.022090191021561623
+        },
+        "scalar_K2": {
+          "L2_percent": 0.10715619278851415,
+          "gradient_percent": 0.25374358030501754,
+          "energy_percent": 0.225977309342984,
+          "flux_L2_percent": 0.23841510626416307,
+          "error_sine_low_fraction_percent": 96.86684573307201,
+          "error_sine_mid_fraction_percent": 2.8783566614289366,
+          "error_sine_high_fraction_percent": 0.2547976054990497,
+          "total_ms": 39.80795806273818,
+          "relative_residual": 0.2253299206495285
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.0887786250138982,
+          "gradient_percent": 0.25283346016807773,
+          "energy_percent": 0.31788363981812506,
+          "flux_L2_percent": 0.481058951959043,
+          "error_sine_low_fraction_percent": 96.86485240268253,
+          "error_sine_mid_fraction_percent": 2.8472728517486945,
+          "error_sine_high_fraction_percent": 0.28787474556879605,
+          "total_ms": 39.25550589337945,
+          "relative_residual": 0.82407146692276
+        },
+        "coupled_K1": {
+          "L2_percent": 0.19808110089752673,
+          "gradient_percent": 1.8113201146045237,
+          "energy_percent": 2.1307301812981563,
+          "flux_L2_percent": 3.0760371419574692,
+          "error_sine_low_fraction_percent": 71.80351253357769,
+          "error_sine_mid_fraction_percent": 24.424529483073197,
+          "error_sine_high_fraction_percent": 3.7719579833491026,
+          "total_ms": 27.184969279915094,
+          "relative_residual": 3.0051441192626953
+        },
+        "coupled_K2": {
+          "L2_percent": 0.052203283729965286,
+          "gradient_percent": 0.25492869049580597,
+          "energy_percent": 0.24795580787287785,
+          "flux_L2_percent": 0.3164170118039833,
+          "error_sine_low_fraction_percent": 85.88417717835844,
+          "error_sine_mid_fraction_percent": 13.063441770561656,
+          "error_sine_high_fraction_percent": 1.0523810510799414,
+          "total_ms": 52.14886087924242,
+          "relative_residual": 0.3292613923549652
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.3650709642368828,
+          "gradient_percent": 23.552212532387923,
+          "energy_percent": 32.53435773681762,
+          "flux_L2_percent": 55.89159487287061,
+          "error_sine_low_fraction_percent": 63.132222459755525,
+          "error_sine_mid_fraction_percent": 23.692527228956763,
+          "error_sine_high_fraction_percent": 13.175250311287703,
+          "total_ms": 6.866291165351868,
+          "relative_residual": 61.25462341308594
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.7623892331979011,
+          "gradient_percent": 19.20741294210049,
+          "energy_percent": 27.039205322293558,
+          "flux_L2_percent": 43.27593940704321,
+          "error_sine_low_fraction_percent": 34.811630435681934,
+          "error_sine_mid_fraction_percent": 41.74225141178088,
+          "error_sine_high_fraction_percent": 23.4461181525372,
+          "total_ms": 6.855390965938568,
+          "relative_residual": 54.39448928833008
+        },
+        "geometric_K0": {
+          "L2_percent": 7.183897283072259,
+          "gradient_percent": 44.99262857066993,
+          "energy_percent": 50.73148121859964,
+          "flux_L2_percent": 67.16115033390014,
+          "error_sine_low_fraction_percent": 96.68626938568595,
+          "error_sine_mid_fraction_percent": 0.6292082541515045,
+          "error_sine_high_fraction_percent": 2.684522360162541,
+          "total_ms": 8.29770090058446,
+          "relative_residual": 67.0472412109375
+        }
+      }
+    },
+    {
+      "index": 27,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.9796887315501235,
+          "gradient_percent": 42.18393720445101,
+          "energy_percent": 51.98356331163714,
+          "flux_L2_percent": 78.54502830383902,
+          "error_sine_low_fraction_percent": 71.27293406137149,
+          "error_sine_mid_fraction_percent": 7.026522700239089,
+          "error_sine_high_fraction_percent": 21.70054323838943,
+          "total_ms": 1.4521698467433453,
+          "relative_residual": 70.9369125366211
+        },
+        "MG_K2": {
+          "L2_percent": 0.13192776129375577,
+          "gradient_percent": 0.30023770596977106,
+          "energy_percent": 0.31428809067942226,
+          "flux_L2_percent": 0.37676291439317233,
+          "error_sine_low_fraction_percent": 98.66457255616045,
+          "error_sine_mid_fraction_percent": 1.1525486937776006,
+          "error_sine_high_fraction_percent": 0.1828787500619568,
+          "total_ms": 36.64632327854633,
+          "relative_residual": 0.3517250418663025
+        },
+        "MG_K4": {
+          "L2_percent": 0.008354596749413789,
+          "gradient_percent": 0.014173804983282835,
+          "energy_percent": 0.014192014770780359,
+          "flux_L2_percent": 0.017010441006927186,
+          "error_sine_low_fraction_percent": 99.48092546540748,
+          "error_sine_mid_fraction_percent": 0.440189336685558,
+          "error_sine_high_fraction_percent": 0.07888519790695514,
+          "total_ms": 70.13598224148154,
+          "relative_residual": 0.016591645777225494
+        },
+        "scalar_K2": {
+          "L2_percent": 0.07650787769318303,
+          "gradient_percent": 0.20116700225563397,
+          "energy_percent": 0.21656536724776024,
+          "flux_L2_percent": 0.26890549800173347,
+          "error_sine_low_fraction_percent": 97.70991381414483,
+          "error_sine_mid_fraction_percent": 2.0580954052144667,
+          "error_sine_high_fraction_percent": 0.23199078064068643,
+          "total_ms": 38.010722026228905,
+          "relative_residual": 0.23530395328998566
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.06731144795793968,
+          "gradient_percent": 0.22113181156170938,
+          "energy_percent": 0.27662937142660293,
+          "flux_L2_percent": 0.38946937023313394,
+          "error_sine_low_fraction_percent": 97.56731289471712,
+          "error_sine_mid_fraction_percent": 2.1582270861037185,
+          "error_sine_high_fraction_percent": 0.2744600191791614,
+          "total_ms": 38.19831507280469,
+          "relative_residual": 0.5763145089149475
+        },
+        "coupled_K1": {
+          "L2_percent": 0.32381142746344,
+          "gradient_percent": 1.7209683691973003,
+          "energy_percent": 2.1372440690565297,
+          "flux_L2_percent": 3.122257149604835,
+          "error_sine_low_fraction_percent": 92.30123046432688,
+          "error_sine_mid_fraction_percent": 6.675376677829981,
+          "error_sine_high_fraction_percent": 1.0233928578431486,
+          "total_ms": 24.99717427417636,
+          "relative_residual": 3.0067386627197266
+        },
+        "coupled_K2": {
+          "L2_percent": 0.0920929156342208,
+          "gradient_percent": 0.24922697886480535,
+          "energy_percent": 0.2660005636535216,
+          "flux_L2_percent": 0.34749535327821346,
+          "error_sine_low_fraction_percent": 97.16772869239307,
+          "error_sine_mid_fraction_percent": 2.6163937969485507,
+          "error_sine_high_fraction_percent": 0.21587751065834843,
+          "total_ms": 41.10716516152024,
+          "relative_residual": 0.33361566066741943
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.2698810083524346,
+          "gradient_percent": 26.186827686185637,
+          "energy_percent": 34.038556676435505,
+          "flux_L2_percent": 58.54938509702784,
+          "error_sine_low_fraction_percent": 60.069256815157964,
+          "error_sine_mid_fraction_percent": 25.48921208289276,
+          "error_sine_high_fraction_percent": 14.441531101949302,
+          "total_ms": 11.178610380738974,
+          "relative_residual": 61.90558624267578
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.7440892367519525,
+          "gradient_percent": 21.16714082109909,
+          "energy_percent": 27.94579425960766,
+          "flux_L2_percent": 45.87595442277381,
+          "error_sine_low_fraction_percent": 87.96412123583636,
+          "error_sine_mid_fraction_percent": 7.652806460296152,
+          "error_sine_high_fraction_percent": 4.383072303867471,
+          "total_ms": 6.863320712000132,
+          "relative_residual": 53.55673599243164
+        },
+        "geometric_K0": {
+          "L2_percent": 7.092261138090179,
+          "gradient_percent": 43.49866665919514,
+          "energy_percent": 50.818790386682565,
+          "flux_L2_percent": 73.17400283929712,
+          "error_sine_low_fraction_percent": 97.71259760921029,
+          "error_sine_mid_fraction_percent": 0.5455424579272127,
+          "error_sine_high_fraction_percent": 1.7418599328624726,
+          "total_ms": 3.5959542728960514,
+          "relative_residual": 69.4730224609375
+        }
+      }
+    },
+    {
+      "index": 28,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.469242325113285,
+          "gradient_percent": 41.71101628213606,
+          "energy_percent": 48.797514436260094,
+          "flux_L2_percent": 67.98346974447622,
+          "error_sine_low_fraction_percent": 41.553776836477915,
+          "error_sine_mid_fraction_percent": 12.553426270248513,
+          "error_sine_high_fraction_percent": 45.89279689327356,
+          "total_ms": 3.142944071441889,
+          "relative_residual": 61.03498840332031
+        },
+        "MG_K2": {
+          "L2_percent": 0.1676120221714351,
+          "gradient_percent": 0.3131743143764876,
+          "energy_percent": 0.28744489986252664,
+          "flux_L2_percent": 0.30925433217534104,
+          "error_sine_low_fraction_percent": 98.8783133487081,
+          "error_sine_mid_fraction_percent": 1.0019343856472185,
+          "error_sine_high_fraction_percent": 0.11975226564466983,
+          "total_ms": 39.26358697935939,
+          "relative_residual": 0.30555760860443115
+        },
+        "MG_K4": {
+          "L2_percent": 0.009151798452699077,
+          "gradient_percent": 0.013127102224628798,
+          "energy_percent": 0.012519462302466273,
+          "flux_L2_percent": 0.014058115098448863,
+          "error_sine_low_fraction_percent": 99.56167378683998,
+          "error_sine_mid_fraction_percent": 0.3890765181746308,
+          "error_sine_high_fraction_percent": 0.049249694985390335,
+          "total_ms": 75.89903101325035,
+          "relative_residual": 0.014381278306245804
+        },
+        "scalar_K2": {
+          "L2_percent": 0.10055897210591595,
+          "gradient_percent": 0.20405130831836898,
+          "energy_percent": 0.1890613929510599,
+          "flux_L2_percent": 0.2096712895444921,
+          "error_sine_low_fraction_percent": 98.41855657903062,
+          "error_sine_mid_fraction_percent": 1.4424656174582675,
+          "error_sine_high_fraction_percent": 0.13897780351110764,
+          "total_ms": 36.436029244214296,
+          "relative_residual": 0.19712355732917786
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.08286504797010723,
+          "gradient_percent": 0.20584277558113717,
+          "energy_percent": 0.23719289288293763,
+          "flux_L2_percent": 0.36735248676778104,
+          "error_sine_low_fraction_percent": 98.31307185538103,
+          "error_sine_mid_fraction_percent": 1.5262345928990257,
+          "error_sine_high_fraction_percent": 0.16069355171993063,
+          "total_ms": 38.59662404283881,
+          "relative_residual": 0.5946243405342102
+        },
+        "coupled_K1": {
+          "L2_percent": 0.1792640609457835,
+          "gradient_percent": 1.6217729493159223,
+          "energy_percent": 1.929585607168149,
+          "flux_L2_percent": 2.7379941039586453,
+          "error_sine_low_fraction_percent": 77.66380353929893,
+          "error_sine_mid_fraction_percent": 19.306695914647168,
+          "error_sine_high_fraction_percent": 3.029500546053908,
+          "total_ms": 25.004833936691284,
+          "relative_residual": 2.7064368724823
+        },
+        "coupled_K2": {
+          "L2_percent": 0.03854576153558918,
+          "gradient_percent": 0.19670270509748797,
+          "energy_percent": 0.20149474962235994,
+          "flux_L2_percent": 0.2753513445610935,
+          "error_sine_low_fraction_percent": 88.18519383989094,
+          "error_sine_mid_fraction_percent": 10.949671455450739,
+          "error_sine_high_fraction_percent": 0.8651347046583172,
+          "total_ms": 43.4646843932569,
+          "relative_residual": 0.2837086617946625
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.2390947833827368,
+          "gradient_percent": 23.32647279905844,
+          "energy_percent": 30.182528751667228,
+          "flux_L2_percent": 50.287954258902126,
+          "error_sine_low_fraction_percent": 63.72053019557317,
+          "error_sine_mid_fraction_percent": 24.13737629389502,
+          "error_sine_high_fraction_percent": 12.142093510531808,
+          "total_ms": 15.899206977337599,
+          "relative_residual": 52.426002502441406
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.8799895049058999,
+          "gradient_percent": 19.36730077997133,
+          "energy_percent": 25.053780080443484,
+          "flux_L2_percent": 38.45400971865115,
+          "error_sine_low_fraction_percent": 54.68061364015941,
+          "error_sine_mid_fraction_percent": 30.12925179549714,
+          "error_sine_high_fraction_percent": 15.190134564343444,
+          "total_ms": 6.851171143352985,
+          "relative_residual": 45.438880920410156
+        },
+        "geometric_K0": {
+          "L2_percent": 7.668318867600838,
+          "gradient_percent": 42.93025245873973,
+          "energy_percent": 47.72901905174665,
+          "flux_L2_percent": 63.601015733632536,
+          "error_sine_low_fraction_percent": 97.81067267696609,
+          "error_sine_mid_fraction_percent": 0.46162861132892663,
+          "error_sine_high_fraction_percent": 1.7276987117049996,
+          "total_ms": 3.6078449338674545,
+          "relative_residual": 60.01655578613281
+        }
+      }
+    },
+    {
+      "index": 29,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.807972498272109,
+          "gradient_percent": 47.51230742462989,
+          "energy_percent": 56.737444866855625,
+          "flux_L2_percent": 82.56405661781851,
+          "error_sine_low_fraction_percent": 46.82031737210627,
+          "error_sine_mid_fraction_percent": 8.906093027156643,
+          "error_sine_high_fraction_percent": 44.27358960073709,
+          "total_ms": 1.4575901441276073,
+          "relative_residual": 72.67180633544922
+        },
+        "MG_K2": {
+          "L2_percent": 0.49590295761970876,
+          "gradient_percent": 0.7862233712376006,
+          "energy_percent": 0.7075564277636354,
+          "flux_L2_percent": 0.7240384372633031,
+          "error_sine_low_fraction_percent": 99.24980677619455,
+          "error_sine_mid_fraction_percent": 0.6512808273331332,
+          "error_sine_high_fraction_percent": 0.09891239647229863,
+          "total_ms": 39.76262779906392,
+          "relative_residual": 0.652588963508606
+        },
+        "MG_K4": {
+          "L2_percent": 0.04026308676879943,
+          "gradient_percent": 0.05911456534254834,
+          "energy_percent": 0.053496471061047546,
+          "flux_L2_percent": 0.05562165718175636,
+          "error_sine_low_fraction_percent": 99.37451453559774,
+          "error_sine_mid_fraction_percent": 0.5523928724076095,
+          "error_sine_high_fraction_percent": 0.07309259199462156,
+          "total_ms": 76.4885637909174,
+          "relative_residual": 0.05211345851421356
+        },
+        "scalar_K2": {
+          "L2_percent": 0.37564821327484355,
+          "gradient_percent": 0.5969844118094473,
+          "energy_percent": 0.536963515936647,
+          "flux_L2_percent": 0.5596348566072593,
+          "error_sine_low_fraction_percent": 99.23457797944343,
+          "error_sine_mid_fraction_percent": 0.6699425228394128,
+          "error_sine_high_fraction_percent": 0.09547949771715285,
+          "total_ms": 40.13539617881179,
+          "relative_residual": 0.4793996512889862
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.34380009393118444,
+          "gradient_percent": 0.5636396968657276,
+          "energy_percent": 0.5172433753214843,
+          "flux_L2_percent": 0.5760065994708132,
+          "error_sine_low_fraction_percent": 99.24826153989221,
+          "error_sine_mid_fraction_percent": 0.6538723927500715,
+          "error_sine_high_fraction_percent": 0.09786606735770034,
+          "total_ms": 39.919262286275625,
+          "relative_residual": 0.6619699597358704
+        },
+        "coupled_K1": {
+          "L2_percent": 0.6861752544834638,
+          "gradient_percent": 2.5052570901316145,
+          "energy_percent": 2.7462248132941327,
+          "flux_L2_percent": 3.659105295247921,
+          "error_sine_low_fraction_percent": 96.49784814007485,
+          "error_sine_mid_fraction_percent": 2.8150482525884826,
+          "error_sine_high_fraction_percent": 0.687103607336711,
+          "total_ms": 24.979974143207073,
+          "relative_residual": 3.5645742416381836
+        },
+        "coupled_K2": {
+          "L2_percent": 0.2210065024726175,
+          "gradient_percent": 0.528862218547429,
+          "energy_percent": 0.5191964511999819,
+          "flux_L2_percent": 0.636367673272822,
+          "error_sine_low_fraction_percent": 98.22891112816409,
+          "error_sine_mid_fraction_percent": 1.5486658453602893,
+          "error_sine_high_fraction_percent": 0.22242302647561812,
+          "total_ms": 48.382955603301525,
+          "relative_residual": 0.5992045998573303
+        },
+        "frozen_no_MG": {
+          "L2_percent": 2.1982434323119544,
+          "gradient_percent": 26.383405786385815,
+          "energy_percent": 34.71220308355606,
+          "flux_L2_percent": 60.31871112664485,
+          "error_sine_low_fraction_percent": 82.96352760100434,
+          "error_sine_mid_fraction_percent": 10.788327978302455,
+          "error_sine_high_fraction_percent": 6.248144420693191,
+          "total_ms": 6.854680832475424,
+          "relative_residual": 62.4515266418457
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.412078443340084,
+          "gradient_percent": 22.312202146748085,
+          "energy_percent": 28.74213705061096,
+          "flux_L2_percent": 45.59185309684812,
+          "error_sine_low_fraction_percent": 76.30593653361406,
+          "error_sine_mid_fraction_percent": 13.217663829883591,
+          "error_sine_high_fraction_percent": 10.476399636502386,
+          "total_ms": 6.971374154090881,
+          "relative_residual": 52.19302749633789
+        },
+        "geometric_K0": {
+          "L2_percent": 10.794661647322611,
+          "gradient_percent": 49.14635738638193,
+          "energy_percent": 55.204323774377585,
+          "flux_L2_percent": 75.20286497243661,
+          "error_sine_low_fraction_percent": 98.47102177677381,
+          "error_sine_mid_fraction_percent": 0.2505021592114526,
+          "error_sine_high_fraction_percent": 1.278476064014714,
+          "total_ms": 3.5989838652312756,
+          "relative_residual": 70.66438293457031
+        }
+      }
+    },
+    {
+      "index": 30,
+      "methods": {
+        "NO": {
+          "L2_percent": 2.021951639399088,
+          "gradient_percent": 43.91178099044601,
+          "energy_percent": 54.71197061628248,
+          "flux_L2_percent": 80.17723029772188,
+          "error_sine_low_fraction_percent": 43.60245338899578,
+          "error_sine_mid_fraction_percent": 16.123534900196418,
+          "error_sine_high_fraction_percent": 40.27401171080782,
+          "total_ms": 1.4503402635455132,
+          "relative_residual": 77.64364624023438
+        },
+        "MG_K2": {
+          "L2_percent": 0.20853490893907645,
+          "gradient_percent": 0.5989499323562755,
+          "energy_percent": 0.46254178120083944,
+          "flux_L2_percent": 0.48442637321899124,
+          "error_sine_low_fraction_percent": 95.96516577154397,
+          "error_sine_mid_fraction_percent": 3.5974593304978093,
+          "error_sine_high_fraction_percent": 0.43737489795823464,
+          "total_ms": 36.57353203743696,
+          "relative_residual": 0.4865623414516449
+        },
+        "MG_K4": {
+          "L2_percent": 0.01920972561778132,
+          "gradient_percent": 0.03983692440709121,
+          "energy_percent": 0.03138772901092813,
+          "flux_L2_percent": 0.03429742920553835,
+          "error_sine_low_fraction_percent": 98.31323592635373,
+          "error_sine_mid_fraction_percent": 1.475787510298213,
+          "error_sine_high_fraction_percent": 0.2109765633480776,
+          "total_ms": 71.12775510177016,
+          "relative_residual": 0.036244649440050125
+        },
+        "scalar_K2": {
+          "L2_percent": 0.3569337533537307,
+          "gradient_percent": 2.1415794279371543,
+          "energy_percent": 1.8719238518823833,
+          "flux_L2_percent": 2.1576675954698965,
+          "error_sine_low_fraction_percent": 54.62987202131873,
+          "error_sine_mid_fraction_percent": 43.33810596868269,
+          "error_sine_high_fraction_percent": 2.03202200999858,
+          "total_ms": 39.46401318535209,
+          "relative_residual": 0.46332377195358276
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 1.079660765192814,
+          "gradient_percent": 7.3980584554463045,
+          "energy_percent": 6.6535606793301225,
+          "flux_L2_percent": 7.973848612145522,
+          "error_sine_low_fraction_percent": 45.975074883145524,
+          "error_sine_mid_fraction_percent": 51.070250664043854,
+          "error_sine_high_fraction_percent": 2.95467445281063,
+          "total_ms": 40.20316759124398,
+          "relative_residual": 4.384706020355225
+        },
+        "coupled_K1": {
+          "L2_percent": 0.4027283115268082,
+          "gradient_percent": 2.526721021582812,
+          "energy_percent": 2.59146617757515,
+          "flux_L2_percent": 3.705931428308952,
+          "error_sine_low_fraction_percent": 80.27628331013194,
+          "error_sine_mid_fraction_percent": 17.39620923421578,
+          "error_sine_high_fraction_percent": 2.327507455652283,
+          "total_ms": 25.102526880800724,
+          "relative_residual": 3.6716039180755615
+        },
+        "coupled_K2": {
+          "L2_percent": 0.1190478993411595,
+          "gradient_percent": 0.47737026297619567,
+          "energy_percent": 0.39145879157989844,
+          "flux_L2_percent": 0.46912445373140527,
+          "error_sine_low_fraction_percent": 90.96360771060637,
+          "error_sine_mid_fraction_percent": 8.256282189029822,
+          "error_sine_high_fraction_percent": 0.7801101003637984,
+          "total_ms": 41.426732670515776,
+          "relative_residual": 0.4671303331851959
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.8601677238809071,
+          "gradient_percent": 23.98162615187733,
+          "energy_percent": 34.38533408498683,
+          "flux_L2_percent": 63.452218357705995,
+          "error_sine_low_fraction_percent": 69.42668365263675,
+          "error_sine_mid_fraction_percent": 21.45073281269396,
+          "error_sine_high_fraction_percent": 9.122583534669282,
+          "total_ms": 6.8579609505832195,
+          "relative_residual": 71.37921142578125
+        },
+        "trained_no_MG": {
+          "L2_percent": 1.3929475192442424,
+          "gradient_percent": 19.68364531436962,
+          "energy_percent": 30.129122962191012,
+          "flux_L2_percent": 52.81147685151532,
+          "error_sine_low_fraction_percent": 62.34481094423232,
+          "error_sine_mid_fraction_percent": 27.28068572343909,
+          "error_sine_high_fraction_percent": 10.374503332328613,
+          "total_ms": 6.936133373528719,
+          "relative_residual": 65.9491195678711
+        },
+        "geometric_K0": {
+          "L2_percent": 8.134479860792638,
+          "gradient_percent": 44.893673512101735,
+          "energy_percent": 53.43951381566902,
+          "flux_L2_percent": 75.46166416178556,
+          "error_sine_low_fraction_percent": 96.47200634230106,
+          "error_sine_mid_fraction_percent": 0.993285256683154,
+          "error_sine_high_fraction_percent": 2.5347084010158167,
+          "total_ms": 3.5975342616438866,
+          "relative_residual": 76.63458251953125
+        }
+      }
+    },
+    {
+      "index": 31,
+      "methods": {
+        "NO": {
+          "L2_percent": 1.731986010804511,
+          "gradient_percent": 44.06211335759131,
+          "energy_percent": 56.154370242241136,
+          "flux_L2_percent": 79.97643822629877,
+          "error_sine_low_fraction_percent": 41.25574810927585,
+          "error_sine_mid_fraction_percent": 12.232031963734725,
+          "error_sine_high_fraction_percent": 46.512219926989424,
+          "total_ms": 1.4554900117218494,
+          "relative_residual": 71.72386932373047
+        },
+        "MG_K2": {
+          "L2_percent": 0.45083342235259416,
+          "gradient_percent": 0.5926469614782843,
+          "energy_percent": 0.5656096226470848,
+          "flux_L2_percent": 0.5716179702479396,
+          "error_sine_low_fraction_percent": 99.43602017987999,
+          "error_sine_mid_fraction_percent": 0.5016835310284727,
+          "error_sine_high_fraction_percent": 0.062296289091523155,
+          "total_ms": 39.699518121778965,
+          "relative_residual": 0.48319780826568604
+        },
+        "MG_K4": {
+          "L2_percent": 0.03282080443388359,
+          "gradient_percent": 0.042119117912039455,
+          "energy_percent": 0.039641021825648944,
+          "flux_L2_percent": 0.04093396177652162,
+          "error_sine_low_fraction_percent": 99.50062283494853,
+          "error_sine_mid_fraction_percent": 0.4410038323730434,
+          "error_sine_high_fraction_percent": 0.0583733326784139,
+          "total_ms": 70.32643910497427,
+          "relative_residual": 0.037063684314489365
+        },
+        "scalar_K2": {
+          "L2_percent": 0.35929713967458576,
+          "gradient_percent": 0.46431808803035446,
+          "energy_percent": 0.44558358448267227,
+          "flux_L2_percent": 0.4556430992726594,
+          "error_sine_low_fraction_percent": 99.4459617063075,
+          "error_sine_mid_fraction_percent": 0.4958981123862792,
+          "error_sine_high_fraction_percent": 0.058140181306199364,
+          "total_ms": 36.372868809849024,
+          "relative_residual": 0.34429416060447693
+        },
+        "old_CDMC_K2": {
+          "L2_percent": 0.34963911266883385,
+          "gradient_percent": 0.4702701757021574,
+          "energy_percent": 0.4702036994194231,
+          "flux_L2_percent": 0.5172444284737172,
+          "error_sine_low_fraction_percent": 99.44650354905552,
+          "error_sine_mid_fraction_percent": 0.49312386345445425,
+          "error_sine_high_fraction_percent": 0.060372587490020536,
+          "total_ms": 37.05428401008248,
+          "relative_residual": 0.565311849117279
+        },
+        "coupled_K1": {
+          "L2_percent": 0.23625107367734188,
+          "gradient_percent": 2.0427086317380776,
+          "energy_percent": 2.3776735820985753,
+          "flux_L2_percent": 3.196919231956932,
+          "error_sine_low_fraction_percent": 74.81572347779137,
+          "error_sine_mid_fraction_percent": 21.121473923737085,
+          "error_sine_high_fraction_percent": 4.06280259847154,
+          "total_ms": 27.63875015079975,
+          "relative_residual": 3.0034618377685547
+        },
+        "coupled_K2": {
+          "L2_percent": 0.06407189543043773,
+          "gradient_percent": 0.284926464294868,
+          "energy_percent": 0.3225032652541461,
+          "flux_L2_percent": 0.43115658487702446,
+          "error_sine_low_fraction_percent": 92.0812380857493,
+          "error_sine_mid_fraction_percent": 6.990554761197992,
+          "error_sine_high_fraction_percent": 0.9282071530526995,
+          "total_ms": 42.32892207801342,
+          "relative_residual": 0.4532931447029114
+        },
+        "frozen_no_MG": {
+          "L2_percent": 1.9464882235128396,
+          "gradient_percent": 24.994227928880523,
+          "energy_percent": 35.20328217009901,
+          "flux_L2_percent": 59.244675494901735,
+          "error_sine_low_fraction_percent": 77.68454390362845,
+          "error_sine_mid_fraction_percent": 14.248483254343972,
+          "error_sine_high_fraction_percent": 8.066972842027612,
+          "total_ms": 6.9094933569431305,
+          "relative_residual": 61.954017639160156
+        },
+        "trained_no_MG": {
+          "L2_percent": 0.9896069310135558,
+          "gradient_percent": 20.136188864104067,
+          "energy_percent": 29.336524096730475,
+          "flux_L2_percent": 45.48714150658775,
+          "error_sine_low_fraction_percent": 50.350196785735974,
+          "error_sine_mid_fraction_percent": 30.11211606768955,
+          "error_sine_high_fraction_percent": 19.537687146574473,
+          "total_ms": 6.862151902168989,
+          "relative_residual": 54.63454055786133
+        },
+        "geometric_K0": {
+          "L2_percent": 9.963597695591504,
+          "gradient_percent": 45.3708237354008,
+          "energy_percent": 54.87865805421319,
+          "flux_L2_percent": 74.17255408906748,
+          "error_sine_low_fraction_percent": 98.18995873822236,
+          "error_sine_mid_fraction_percent": 0.3706928142717499,
+          "error_sine_high_fraction_percent": 1.4393484475059146,
+          "total_ms": 3.6187246441841125,
+          "relative_residual": 70.25505065917969
+        }
+      }
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 4090",
+  "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/coupled_actual/coupled.pt",
+  "best_epoch": 20,
+  "test_count": 32,
+  "split": "test",
+  "timing": "Same process, batch1 device-resident, 1 warmup / median repeats, fresh NO+system build+fixed V cycles+neural basis+exact Galerkin calibration; no timing from old report reused.",
+  "repeats": 3,
+  "mesh_plan_ms_once": 5672.575086820871,
+  "graph_context_ms_once": 268.2527801953256,
+  "stage_profiles": [
+    {
+      "index": 0,
+      "cycles": 1,
+      "NO_ms": 2.1906443871557713,
+      "system_ms": 1.7855563201010227,
+      "V_cycle_ms": 16.5336849167943,
+      "features_ms": 1.659913919866085,
+      "neural_modes_ms": 3.932289779186249,
+      "material_shaping_ms": 0.550171360373497,
+      "Galerkin_factor_ms": 0.6082919426262379,
+      "correction_ms": 0.32409699633717537,
+      "gram_min_eigenvalue": 0.0074787736101648425,
+      "gram_max_eigenvalue": 5.554267391844786
+    },
+    {
+      "index": 0,
+      "cycles": 2,
+      "NO_ms": 2.1906443871557713,
+      "system_ms": 1.7855563201010227,
+      "V_cycle_ms": 32.56155923008919,
+      "features_ms": 0.4930100403726101,
+      "neural_modes_ms": 6.0555231757462025,
+      "material_shaping_ms": 2.742054872214794,
+      "Galerkin_factor_ms": 0.6203618831932545,
+      "correction_ms": 0.31279586255550385,
+      "gram_min_eigenvalue": 0.006385782473070722,
+      "gram_max_eigenvalue": 5.575991749498888
+    },
+    {
+      "index": 0,
+      "cycles": 0,
+      "NO_ms": 2.1906443871557713,
+      "system_ms": 0.5894019268453121,
+      "V_cycle_ms": 0.0,
+      "features_ms": 0.5918322131037712,
+      "neural_modes_ms": 3.128413110971451,
+      "material_shaping_ms": 0.570192001760006,
+      "Galerkin_factor_ms": 0.618272926658392,
+      "correction_ms": 0.442728865891695,
+      "gram_min_eigenvalue": 0.008276624332286396,
+      "gram_max_eigenvalue": 3.385349141776259
+    },
+    {
+      "index": 1,
+      "cycles": 1,
+      "NO_ms": 1.6001230105757713,
+      "system_ms": 1.8222872167825699,
+      "V_cycle_ms": 18.473383970558643,
+      "features_ms": 0.5013700574636459,
+      "neural_modes_ms": 2.8007570654153824,
+      "material_shaping_ms": 0.54986122995615,
+      "Galerkin_factor_ms": 0.612601637840271,
+      "correction_ms": 0.32099708914756775,
+      "gram_min_eigenvalue": 0.008932555789172425,
+      "gram_max_eigenvalue": 5.446164807731277
+    },
+    {
+      "index": 1,
+      "cycles": 2,
+      "NO_ms": 1.6001230105757713,
+      "system_ms": 1.8222872167825699,
+      "V_cycle_ms": 34.40744802355766,
+      "features_ms": 2.589302137494087,
+      "neural_modes_ms": 6.071432959288359,
+      "material_shaping_ms": 0.5480209365487099,
+      "Galerkin_factor_ms": 0.6055817939341068,
+      "correction_ms": 0.3192569129168987,
+      "gram_min_eigenvalue": 0.007621954971530705,
+      "gram_max_eigenvalue": 5.44696033497766
+    },
+    {
+      "index": 1,
+      "cycles": 0,
+      "NO_ms": 1.6001230105757713,
+      "system_ms": 0.5748816765844822,
+      "V_cycle_ms": 0.0,
+      "features_ms": 0.5895220674574375,
+      "neural_modes_ms": 2.81900679692626,
+      "material_shaping_ms": 0.5493620410561562,
+      "Galerkin_factor_ms": 0.6091920658946037,
+      "correction_ms": 0.40117884054780006,
+      "gram_min_eigenvalue": 0.00868769307167625,
+      "gram_max_eigenvalue": 3.426890284183911
+    },
+    {
+      "index": 2,
+      "cycles": 1,
+      "NO_ms": 1.4687101356685162,
+      "system_ms": 1.78127596154809,
+      "V_cycle_ms": 20.807671826332808,
+      "features_ms": 0.49365032464265823,
+      "neural_modes_ms": 2.8314078226685524,
+      "material_shaping_ms": 0.5538910627365112,
+      "Galerkin_factor_ms": 0.6103217601776123,
+      "correction_ms": 0.3174156881868839,
+      "gram_min_eigenvalue": 0.008360289693157833,
+      "gram_max_eigenvalue": 5.3948112545425335
+    },
+    {
+      "index": 2,
+      "cycles": 2,
+      "NO_ms": 1.4687101356685162,
+      "system_ms": 1.78127596154809,
+      "V_cycle_ms": 34.335386008024216,
+      "features_ms": 2.586992923170328,
+      "neural_modes_ms": 6.073142867535353,
+      "material_shaping_ms": 0.5518118850886822,
+      "Galerkin_factor_ms": 0.6058220751583576,
+      "correction_ms": 0.3233468160033226,
+      "gram_min_eigenvalue": 0.00738417792019327,
+      "gram_max_eigenvalue": 5.503094140025489
+    },
+    {
+      "index": 2,
+      "cycles": 0,
+      "NO_ms": 1.4687101356685162,
+      "system_ms": 0.5852519534528255,
+      "V_cycle_ms": 0.0,
+      "features_ms": 0.5792020820081234,
+      "neural_modes_ms": 2.7630659751594067,
+      "material_shaping_ms": 0.5493410862982273,
+      "Galerkin_factor_ms": 0.6052618846297264,
+      "correction_ms": 0.3967778757214546,
+      "gram_min_eigenvalue": 0.008308926376329418,
+      "gram_max_eigenvalue": 3.3665242112527034
+    },
+    {
+      "index": 3,
+      "cycles": 1,
+      "NO_ms": 1.449268776923418,
+      "system_ms": 1.7746761441230774,
+      "V_cycle_ms": 16.60406682640314,
+      "features_ms": 0.4966999404132366,
+      "neural_modes_ms": 2.79831700026989,
+      "material_shaping_ms": 0.5520307458937168,
+      "Galerkin_factor_ms": 0.6062621250748634,
+      "correction_ms": 0.31936587765812874,
+      "gram_min_eigenvalue": 0.007947580640684605,
+      "gram_max_eigenvalue": 5.577853177403697
+    },
+    {
+      "index": 3,
+      "cycles": 2,
+      "NO_ms": 1.449268776923418,
+      "system_ms": 1.7746761441230774,
+      "V_cycle_ms": 32.708884216845036,
+      "features_ms": 0.5009709857404232,
+      "neural_modes_ms": 6.072693038731813,
+      "material_shaping_ms": 2.709306310862303,
+      "Galerkin_factor_ms": 1.7835660837590694,
+      "correction_ms": 0.32006576657295227,
+      "gram_min_eigenvalue": 0.006823165158386384,
+      "gram_max_eigenvalue": 5.505928619158027
+    },
+    {
+      "index": 3,
+      "cycles": 0,
+      "NO_ms": 1.449268776923418,
+      "system_ms": 0.5804519169032574,
+      "V_cycle_ms": 0.0,
+      "features_ms": 0.587542075663805,
+      "neural_modes_ms": 2.815736923366785,
+      "material_shaping_ms": 0.5512009374797344,
+      "Galerkin_factor_ms": 0.6096321158111095,
+      "correction_ms": 0.399657990783453,
+      "gram_min_eigenvalue": 0.008189033659768735,
+      "gram_max_eigenvalue": 3.4295742659671324
+    },
+    {
+      "index": 4,
+      "cycles": 1,
+      "NO_ms": 1.4277887530624866,
+      "system_ms": 1.7591160722076893,
+      "V_cycle_ms": 18.465925008058548,
+      "features_ms": 2.6059127412736416,
+      "neural_modes_ms": 2.7714669704437256,
+      "material_shaping_ms": 0.5517508834600449,
+      "Galerkin_factor_ms": 0.6037717685103416,
+      "correction_ms": 0.321757048368454,
+      "gram_min_eigenvalue": 0.008411691152746389,
+      "gram_max_eigenvalue": 5.5258307957175745
+    },
+    {
+      "index": 4,
+      "cycles": 2,
+      "NO_ms": 1.4277887530624866,
+      "system_ms": 1.7591160722076893,
+      "V_cycle_ms": 35.601504147052765,
+      "features_ms": 1.6602035611867905,
+      "neural_modes_ms": 3.9712609723210335,
+      "material_shaping_ms": 0.5509913899004459,
+      "Galerkin_factor_ms": 0.6040520966053009,
+      "correction_ms": 0.3175470046699047,
+      "gram_min_eigenvalue": 0.007092285040376968,
+      "gram_max_eigenvalue": 5.503213691495242
+    },
+    {
+      "index": 4,
+      "cycles": 0,
+      "NO_ms": 1.4277887530624866,
+      "system_ms": 0.5778418853878975,
+      "V_cycle_ms": 0.0,
+      "features_ms": 0.5736011080443859,
+      "neural_modes_ms": 2.7755959890782833,
+      "material_shaping_ms": 0.5504707805812359,
+      "Galerkin_factor_ms": 0.6012520752847195,
+      "correction_ms": 0.3941277973353863,
+      "gram_min_eigenvalue": 0.009563006766147714,
+      "gram_max_eigenvalue": 3.4877504175606906
+    },
+    {
+      "index": 5,
+      "cycles": 1,
+      "NO_ms": 1.4383792877197266,
+      "system_ms": 1.7653261311352253,
+      "V_cycle_ms": 20.482975989580154,
+      "features_ms": 0.4979800432920456,
+      "neural_modes_ms": 2.777495887130499,
+      "material_shaping_ms": 0.5503310821950436,
+      "Galerkin_factor_ms": 0.6000334396958351,
+      "correction_ms": 0.31531602144241333,
+      "gram_min_eigenvalue": 0.008497660322812831,
+      "gram_max_eigenvalue": 5.427466246200168
+    },
+    {
+      "index": 5,
+      "cycles": 2,
+      "NO_ms": 1.4383792877197266,
+      "system_ms": 1.7653261311352253,
+      "V_cycle_ms": 32.597141806036234,
+      "features_ms": 0.4934300668537617,
+      "neural_modes_ms": 2.7911970391869545,
+      "material_shaping_ms": 0.550451222807169,
+      "Galerkin_factor_ms": 2.7565457858145237,
+      "correction_ms": 0.41878875344991684,
+      "gram_min_eigenvalue": 0.008220725257139886,
+      "gram_max_eigenvalue": 5.446658543648956
+    },
+    {
+      "index": 5,
+      "cycles": 0,
+      "NO_ms": 1.4383792877197266,
+      "system_ms": 0.5894717760384083,
+      "V_cycle_ms": 0.0,
+      "features_ms": 0.5755620077252388,
+      "neural_modes_ms": 2.7698162011802197,
+      "material_shaping_ms": 0.5482709966599941,
+      "Galerkin_factor_ms": 0.6047631613910198,
+      "correction_ms": 0.39490777999162674,
+      "gram_min_eigenvalue": 0.008674645937269333,
+      "gram_max_eigenvalue": 3.3729268136770747
+    },
+    {
+      "index": 6,
+      "cycles": 1,
+      "NO_ms": 1.4288187958300114,
+      "system_ms": 1.7683557234704494,
+      "V_cycle_ms": 18.395133782178164,
+      "features_ms": 0.49322983250021935,
+      "neural_modes_ms": 2.796436194330454,
+      "material_shaping_ms": 0.5491510964930058,
+      "Galerkin_factor_ms": 0.6055328994989395,
+      "correction_ms": 0.3135460428893566,
+      "gram_min_eigenvalue": 0.007600687334719868,
+      "gram_max_eigenvalue": 5.494202922352544
+    },
+    {
+      "index": 6,
+      "cycles": 2,
+      "NO_ms": 1.4288187958300114,
+      "system_ms": 1.7683557234704494,
+      "V_cycle_ms": 32.55427209660411,
+      "features_ms": 0.49268966540694237,
+      "neural_modes_ms": 2.799597103148699,
+      "material_shaping_ms": 0.550802331417799,
+      "Galerkin_factor_ms": 0.6042122840881348,
+      "correction_ms": 0.31543709337711334,
+      "gram_min_eigenvalue": 0.0066010685696659,
+      "gram_max_eigenvalue": 5.47193696905995
+    },
+    {
+      "index": 6,
+      "cycles": 0,
+      "NO_ms": 1.4288187958300114,
+      "system_ms": 1.4947210438549519,
+      "V_cycle_ms": 0.0,
+      "features_ms": 2.6101930998265743,
+      "neural_modes_ms": 2.7932971715927124,
+      "material_shaping_ms": 0.5523120053112507,
+      "Galerkin_factor_ms": 0.6021917797625065,
+      "correction_ms": 0.4039481282234192,
+      "gram_min_eigenvalue": 0.008550941830580503,
+      "gram_max_eigenvalue": 3.41261217189757
+    },
+    {
+      "index": 7,
+      "cycles": 1,
+      "NO_ms": 3.1663943082094193,
+      "system_ms": 1.763535663485527,
+      "V_cycle_ms": 16.55609579756856,
+      "features_ms": 0.49674976617097855,
+      "neural_modes_ms": 6.09719380736351,
+      "material_shaping_ms": 2.710804808884859,
+      "Galerkin_factor_ms": 1.825377345085144,
+      "correction_ms": 0.3145970404148102,
+      "gram_min_eigenvalue": 0.008282704165923041,
+      "gram_max_eigenvalue": 5.408831609915528
+    },
+    {
+      "index": 7,
+      "cycles": 2,
+      "NO_ms": 3.1663943082094193,
+      "system_ms": 1.763535663485527,
+      "V_cycle_ms": 32.80184790492058,
+      "features_ms": 0.49425987526774406,
+      "neural_modes_ms": 2.7759158983826637,
+      "material_shaping_ms": 0.5509420298039913,
+      "Galerkin_factor_ms": 0.6024525500833988,
+      "correction_ms": 0.3162459470331669,
+      "gram_min_eigenvalue": 0.007012844765577288,
+      "gram_max_eigenvalue": 5.458926658908856
+    },
+    {
+      "index": 7,
+      "cycles": 0,
+      "NO_ms": 3.1663943082094193,
+      "system_ms": 0.5756407044827938,
+      "V_cycle_ms": 0.0,
+      "features_ms": 0.5689212121069431,
+      "neural_modes_ms": 2.7736169286072254,
+      "material_shaping_ms": 0.5462514236569405,
+      "Galerkin_factor_ms": 0.6052721291780472,
+      "correction_ms": 0.39363838732242584,
+      "gram_min_eigenvalue": 0.008774353399667853,
+      "gram_max_eigenvalue": 3.3649689171646795
+    }
+  ],
+  "no_mg_checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/coupled_no_mg_20261024/coupled.pt",
+  "no_mg_semantics": "No numerical V-cycle, coarse solve or PCG. Neural graph hierarchy, two fixed mode-shaping steps and 8x8 Galerkin calibration remain. Mode-only material build skips intermediate numerical levels and terminal Cholesky.",
+  "method": "Existing CDMC multilevel backbone plus learned material/NO-tail-conditioned coarse modes; no PCG; no test labels in prediction."
+}

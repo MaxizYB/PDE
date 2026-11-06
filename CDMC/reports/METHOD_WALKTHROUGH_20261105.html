@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CDMC 方法导读：从 PDE 到 128 维响应空间</title>
+<style>
+:root{
+  --ink:#14222e; --ink2:#3c4e5e; --muted:#7c8b99; --line:#e2e8ee;
+  --blue:#1f6fb2; --orange:#c96a22; --green:#2a8f84; --soft:#f6f9fc;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:#eef2f6; color:var(--ink);
+  font-family:"Noto Serif CJK SC","Source Han Serif SC","Songti SC",Georgia,serif;
+  font-size:16.5px; line-height:1.85;
+}
+.page{
+  max-width:860px; margin:0 auto; background:#fff; padding:56px 64px 72px;
+  box-shadow:0 1px 3px rgba(20,34,46,.08);
+}
+header .kicker{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  font-size:12px; letter-spacing:.18em; color:var(--blue); font-weight:700;}
+h1{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  font-size:31px; line-height:1.35; margin:12px 0 10px; letter-spacing:-.01em;}
+.sub{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  font-size:14.5px; color:var(--ink2); margin:0 0 8px;}
+.meta{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  font-size:12.5px; color:var(--muted); border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line); padding:10px 0; margin:22px 0 30px;}
+nav{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif; font-size:13.5px;
+  background:var(--soft); border:1px solid var(--line); border-radius:8px;
+  padding:14px 20px; margin-bottom:34px;}
+nav a{color:var(--ink2); text-decoration:none; margin-right:16px; white-space:nowrap;}
+nav a:hover{color:var(--blue);}
+h2{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  font-size:22px; margin:44px 0 14px; padding-bottom:7px; border-bottom:1px solid var(--line);}
+h3{font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  font-size:17.5px; margin:26px 0 8px; color:var(--ink);}
+p{margin:10px 0;}
+ul,ol{margin:10px 0; padding-left:24px;}
+li{margin:6px 0;}
+strong{font-weight:700;}
+.formula{
+  font-family:"Cambria Math","Latin Modern Math",Georgia,serif;
+  font-size:17.5px; background:var(--soft); border-left:3px solid var(--blue);
+  padding:11px 16px; margin:14px 0; overflow-x:auto; line-height:1.7;
+}
+.key{
+  background:#eef6fc; border:1px solid #d3e6f4; border-radius:8px;
+  padding:12px 16px; margin:16px 0; font-size:15.5px;
+}
+.key b{color:var(--blue);}
+.note{
+  background:#fdf6ef; border:1px solid #f0dcc8; border-radius:8px;
+  padding:11px 16px; margin:16px 0; font-size:15px; color:#5a4632;
+}
+table{width:100%; border-collapse:collapse; margin:16px 0; font-size:14.5px;
+  font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;}
+th{text-align:left; font-size:13px; color:#5c6b79; border-bottom:1.5px solid #cfd9e2;
+  padding:8px 10px; background:#fafcfe; font-weight:700;}
+td{padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top;}
+code{font-family:"JetBrains Mono","Consolas",monospace; font-size:13.5px;
+  background:#f2f5f8; padding:1px 5px; border-radius:3px;}
+.diagram{
+  font-family:"JetBrains Mono","Consolas",monospace; font-size:13px; line-height:1.6;
+  background:#101b26; color:#dde8f2; padding:18px 20px; border-radius:8px;
+  white-space:pre; overflow-x:auto; margin:18px 0;
+}
+.small{font-size:13.5px; color:var(--muted);
+  font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;}
+footer{margin-top:52px; padding-top:14px; border-top:1px solid var(--line);
+  font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  font-size:12px; color:var(--muted);}
+@media print{
+  body{background:#fff; font-size:11.5pt;}
+  .page{box-shadow:none; max-width:none; padding:0;}
+  h2{page-break-after:avoid;}
+  .formula,.key,.note,table{page-break-inside:avoid;}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <div class="kicker">CDMC · 方法导读</div>
+  <h1>从 PDE 到 128 维响应空间：方法逐步解释</h1>
+  <p class="sub">配合论文方法节与 <code>refinement/core.py</code> 阅读</p>
+  <div class="meta">2026-11-05　|　阅读约 25 分钟　|　目标：把每个公式的来历、符号含义与作用讲清楚</div>
+</header>
+
+<nav>
+  <a href="#s0">0 五个对象</a>
+  <a href="#s1">1 离散系统</a>
+  <a href="#s2">2 残差即误差</a>
+  <a href="#s3">3 总体策略</a>
+  <a href="#s4">4 滤波</a>
+  <a href="#s5">5 响应字典</a>
+  <a href="#s6">6 校准</a>
+  <a href="#s7">7 去偏</a>
+  <a href="#s8">8 多轮复用</a>
+  <a href="#s9">9 训练</a>
+  <a href="#s10">10 覆盖率</a>
+  <a href="#s11">11 成本</a>
+  <a href="#s12">12 公式地图</a>
+  <a href="#s13">13 代码对应</a>
+</nav>
+
+<h2 id="s0">0　先记住五个对象和一条恒等式</h2>
+
+<table>
+<tr><th style="width:16%">符号</th><th>含义</th><th style="width:26%">规模</th></tr>
+<tr><td>A</td><td>刚度矩阵，由当前材料 a 装配</td><td>N×N，N = 65,025（257² 网格）</td></tr>
+<tr><td>b</td><td>载荷向量（源项与边界提升）</td><td>N</td></tr>
+<tr><td>x*</td><td>参考解（离散方程的真解）</td><td>N</td></tr>
+<tr><td>x</td><td>当前近似解（神经算子预测，或某轮校正后的解）</td><td>N</td></tr>
+<tr><td>r = b − Ax</td><td>残差：当前解在方程上的“亏损”</td><td>N</td></tr>
+</table>
+
+<p>离散方程是</p>
+<div class="formula">A x* = b</div>
+<p>由此立刻得到整篇文章的出发点：</p>
+<div class="formula">A(x* − x) = b − Ax　⟹　A e = r，　e := x* − x</div>
+
+<p>这条恒等式说的是：<strong>残差不是误差的“代理指标”，它就是误差经过 A 变换后的结果。</strong>想得到误差，就要解一个和原问题同规模的方程 Ae = r，这等于把原问题再解一遍。方法的所有设计，都是为了<strong>不解这个方程，又能把 e 近似出来</strong>。</p>
+
+<div class="key"><b>一句话：</b>残差是误差的另一种写法；方法的目标是用很小的代价把 e 从 r 里“反推”出来。</div>
+
+<h2 id="s1">1　从 PDE 到线性系统：A 和 b 是怎么来的</h2>
+
+<p>原方程</p>
+<div class="formula">−∇·(a∇u) = f　in Ω，　u = g　on ∂Ω</div>
+
+<p>两边乘测试函数 v（边界上为 0），分部积分：</p>
+<div class="formula">∫<sub>Ω</sub> a ∇u·∇v dξ = ∫<sub>Ω</sub> f v dξ</div>
+
+<p>把边界条件写成 u = u<sub>g</sub> + w，w 在边界为 0，得到弱形式：</p>
+<div class="formula">∫<sub>Ω</sub> a ∇w·∇v dξ = ∫<sub>Ω</sub> f v dξ − ∫<sub>Ω</sub> a ∇u<sub>g</sub>·∇v dξ</div>
+
+<p>在三角网格上用 P1 基函数 φ<sub>i</sub>，令 w<sub>h</sub> = Σ<sub>i</sub> x<sub>i</sub>φ<sub>i</sub>，逐个用 φ<sub>j</sub> 测试：</p>
+<div class="formula">A<sub>ij</sub> = ∫<sub>Ω</sub> a ∇φ<sub>i</sub>·∇φ<sub>j</sub> dξ，　　b<sub>j</sub> = ∫<sub>Ω</sub> f φ<sub>j</sub> dξ − ∫<sub>Ω</sub> a ∇u<sub>g</sub>·∇φ<sub>j</sub> dξ</div>
+
+<p><strong>符号在做什么：</strong></p>
+<ul>
+<li>A<sub>ij</sub>：基函数 i 与 j 之间的“能量耦合”，只由材料 a 和网格几何决定；</li>
+<li>b<sub>j</sub>：源项在第 j 个基函数上的投影，减去边界提升的贡献；</li>
+<li>正系数 a &gt; 0 保证 A = A<sup>T</sup> 正定，这是后面所有能量论证的前提。</li>
+</ul>
+
+<p>实际装配不需要做积分：P1 基函数在三角形上是线性的，梯度为常量，单元刚度矩阵有闭式</p>
+<div class="formula">A<sup>T</sup><sub>ij</sub> = |T| a<sub>T</sub> ∇φ<sub>i</sub>|<sub>T</sub> · ∇φ<sub>j</sub>|<sub>T</sub></div>
+<p>其中 a<sub>T</sub> 是三个节点材料值的平均。网格几何与稀疏结构预先生成一次，换材料时只重算 a<sub>T</sub> 与这些数。</p>
+
+<div class="key"><b>一句话：</b>A 是材料在离散层面的全部信息；换材料就是换 A，其他都不变。</div>
+
+<h2 id="s2">2　为什么不能直接解 Ae = r</h2>
+
+<p>能解，但代价和原问题一样：一次完整的细网格求解。方法要面对的是“材料反复变化”的场景，如果每份材料都解一次细网格方程，就没有节省可言。</p>
+
+<p>所以策略是：<strong>把误差限制在一个低维子空间里近似</strong>，</p>
+<div class="formula">e ≈ Z c，　Z 为 N×r，r = 128 ≪ N</div>
+
+<p>Z 的每一列是一个“修正方向”，c 是 r 维系数。问题拆成三件事：</p>
+<ol>
+<li><strong>Z 从哪里来？</strong>由网络根据材料、当前解和残差生成（学习部分，只做一次）。</li>
+<li><strong>c 怎么定？</strong>由当前离散方程解一个 128×128 的小系统（物理部分，每轮都做）。</li>
+<li><strong>怎么让它便宜？</strong>先滤波把“容易消”的误差消掉，让 Z 只处理“难消”的部分；Z 与小系统分解在轮次间复用。</li>
+</ol>
+
+<div class="key"><b>一句话：</b>网络只负责“往哪些方向修”，方程负责“每个方向修多少”。</div>
+
+<h2 id="s3">3　第一步：滤波，先把“振荡型”误差压掉</h2>
+
+<h3>3.1　误差的“粗糙程度”怎么度量</h3>
+
+<p>考虑广义特征问题</p>
+<div class="formula">A v = λ D v，　D = diag(A)</div>
+<ul>
+<li>λ 小：特征向量在 A-内积下“平滑”，对应大范围、缓变的误差；</li>
+<li>λ 大：特征向量“振荡”，对应细尺度、高频的误差；</li>
+<li>λ 的最大值记为 λ<sub>U</sub>。</li>
+</ul>
+
+<p>为什么用 D<sup>−1</sup>A 而不是 A？因为 D<sup>−1</sup>A 与对称正定的 D<sup>−1/2</sup>A D<sup>−1/2</sup> 相似，特征值全为正实数，且量级被对角缩放控制在 O(1)。若不做这个缩放，λ<sub>max</sub> 会随材料和对比度剧烈变化，滤波参数无法固定。</p>
+
+<p>λ<sub>U</sub> 不通过特征分解求，而用 Gershgorin 行界估计：</p>
+<div class="formula">λ<sub>U</sub> = (1 + 10<sup>−6</sup>) · max<sub>i</sub> ( Σ<sub>j</sub> |A<sub>ij</sub>| / A<sub>ii</sub> )</div>
+<p><strong>读法：</strong>第 i 行所有元素绝对值之和除以对角元，是 D<sup>−1</sup>A 第 i 行元素的绝对值之和；矩阵任一特征值都不超过这个行和的最大值。直角三角网格上它约等于 2；10<sup>−6</sup> 只是防止浮点求和误差越界。</p>
+
+<div class="key"><b>关键：</b>滤波的所有参数都由当前矩阵算出来，不依赖“这是什么 PDE、什么材料”。</div>
+
+<h3>3.2　Chebyshev 多项式在做什么</h3>
+
+<p>滤波不是“解方程”，而是对当前解做固定步数的迭代。设 S<sub>m</sub> 表示 m 步 Chebyshev 半迭代，误差传播为</p>
+<div class="formula">ē = p<sub>m</sub>(D<sup>−1</sup>A) e，　　p<sub>m</sub>(λ) = T<sub>m</sub>((d − λ)/c) / T<sub>m</sub>(d/c)</div>
+<p>其中 T<sub>m</sub> 是 m 次 Chebyshev 多项式，</p>
+<div class="formula">d = (λ<sub>U</sub> + λ<sub>c</sub>)/2，　c = (λ<sub>U</sub> − λ<sub>c</sub>)/2，　λ<sub>c</sub> 为截止值</div>
+
+<p><strong>多项式的形状</strong>（理解滤波的关键）：</p>
+<ul>
+<li>λ = 0 时 p<sub>m</sub>(0) = 1：最平滑的分量不被衰减；</li>
+<li>λ 落在 [λ<sub>c</sub>, λ<sub>U</sub>] 时，|p<sub>m</sub>(λ)| ≤ 1/T<sub>m</sub>(d/c)：这一段被压到很小，并在正负之间等幅振荡；</li>
+<li>因此它是一个高通抑制器：保留接近零的谱分量，压掉其余分量。</li>
+</ul>
+<p>它还有性质：在整个谱区间上 |p<sub>m</sub>(λ)| ≤ 1，于是</p>
+<div class="formula">‖ē‖<sub>A</sub> = ‖p<sub>m</sub>(D<sup>−1</sup>A) e‖<sub>A</sub> ≤ ‖e‖<sub>A</sub></div>
+<p><strong>滤波在精确算术下不会让能量误差变大</strong>，这是它可以放在流程最前面、又不破坏后面校准单调性的原因。</p>
+
+<h3>3.3　递推公式怎么读</h3>
+<div class="formula">ρ<sub>j</sub> = (2d/c − ρ<sub>j−1</sub>)<sup>−1</sup><br>
+δ<sub>j</sub> = (2ρ<sub>j</sub>/c) D<sup>−1</sup>(b − A x<sub>j</sub>) + ρ<sub>j</sub>ρ<sub>j−1</sub>δ<sub>j−1</sub><br>
+x<sub>j+1</sub> = x<sub>j</sub> + δ<sub>j</sub></div>
+<ul>
+<li>b − A x<sub>j</sub>：当前残差，每次迭代算一次；</li>
+<li>D<sup>−1</sup>(b − A x<sub>j</sub>)：对残差做对角缩放（Jacobi 预条件），让更新量量级正常；</li>
+<li>ρ<sub>j</sub>：Chebyshev 递推系数，只依赖 λ<sub>U</sub>、λ<sub>c</sub> 和步数，不依赖当前解；</li>
+<li>δ<sub>j</sub>：第 j 步的更新方向，带上一步的记忆；</li>
+<li>x<sub>j+1</sub> = x<sub>j</sub> + δ<sub>j</sub>：更新解。</li>
+</ul>
+<p><strong>成本：</strong>每一步只需一次稀疏矩阵乘 A x<sub>j</sub> 和一次对角缩放，O(s)，s 为非零元个数。64 步就是 64 次稀疏矩阵乘，没有分解、没有全局通信。</p>
+
+<h3>3.4　参数与效果</h3>
+<table>
+<tr><th>阶段</th><th>步数</th><th>截止值</th><th>作用</th></tr>
+<tr><td>预滤波</td><td>64</td><td>0.0005 λ<sub>U</sub></td><td>压掉高频振荡，改变剩余误差的分布</td></tr>
+<tr><td>后滤波</td><td>8</td><td>0.025 λ<sub>U</sub></td><td>清理投影后引入的局部粗糙分量</td></tr>
+</table>
+
+<p>实测（8 份验证材料）：导数误差 45.38% → 4.36%，通量误差 77.56% → 5.24%；状态误差只从 1.54% 降到约 1%。这说明：</p>
+<ul>
+<li>导数和通量误差主要由高频分量贡献，滤波对它们最有效；</li>
+<li>状态误差主要由低频分量贡献，滤波几乎动不了它；剩下的“平滑但整体错”的误差，才是学习的对象。</li>
+</ul>
+
+<div class="key"><b>一句话：</b>滤波负责“能便宜消掉的”，它消不掉的那部分，交给低维响应空间。</div>
+
+<h2 id="s4">4　第二步：响应字典，网络生成 128 个修正方向</h2>
+
+<h3>4.1　输入：7 个通道</h3>
+<table>
+<tr><th>通道</th><th>含义</th><th>为什么需要</th></tr>
+<tr><td>log a<sub>i</sub> / log 12</td><td>材料系数的对数（固定尺度 12 归一化）</td><td>把跨 10<sup>4</sup> 的对比度压到 O(1)</td></tr>
+<tr><td>相对中位数的对角对数</td><td>log D<sub>ii</sub> − median(log D)</td><td>局部材料刚度</td></tr>
+<tr><td>两个坐标</td><td>节点位置</td><td>边界与几何位置</td></tr>
+<tr><td>相对中位数的节点质量对数</td><td>局部网格尺度</td><td>网格疏密</td></tr>
+<tr><td>x̄<sub>i</sub> / RMS(x̄)</td><td>滤波后的状态</td><td>当前解的形状</td></tr>
+<tr><td>(D<sup>−1</sup>r)<sub>i</sub> / RMS(D<sup>−1</sup>r)</td><td>滤波后的残差</td><td>还差在哪里</td></tr>
+</table>
+<p>前四个描述“材料与几何”，后两个描述“当前任务”。没有后两个，网络只能生成通用方向；有了它们，才能针对当前样本的剩余误差生成方向。</p>
+
+<h3>4.2　多层图：为什么要“多尺度”</h3>
+<p>残差的结构跨尺度：有的分量在一个大区域内整体偏，有的只在材料界面附近偏。单一尺度的消息传递感受野有限。</p>
+<ol>
+<li>用聚合把细网格逐层粗化，得到 prolongation 矩阵 P<sub>ℓ</sub>（粗→细）；</li>
+<li>限制算子取 R<sub>ℓ</sub><sup>+</sup>：把 |P<sub>ℓ</sub>|<sup>T</sup> 按行归一化，即正权平均，避免正负抵消；</li>
+<li>每层的邻接 𝒢<sub>ℓ</sub> 取“单位材料参考矩阵”的非对角绝对值并按行归一化；材料变化时复用，不重建图。</li>
+</ol>
+
+<p>消息传递块：</p>
+<div class="formula">ℬ<sub>ℓ</sub>(H) = H + GELU[ LN( H W<sub>s</sub> + 𝒢<sub>ℓ</sub> H W<sub>n</sub> + b<sub>s</sub> ) ]</div>
+<ul>
+<li>H W<sub>s</sub>：节点自身特征的线性变换；</li>
+<li>𝒢<sub>ℓ</sub> H W<sub>n</sub>：邻居特征的加权平均（图上的扩散）；</li>
+<li>两者相加，LayerNorm 归一化，GELU 加非线性；</li>
+<li>外面的 H + …：残差连接，保留原特征，训练更稳。</li>
+</ul>
+
+<p>下行（细→粗）扩大感受野：</p>
+<div class="formula">H<sub>1</sub> = ℬ<sub>1</sub><sup>↓</sup>(O<sub>1</sub>)，　H<sub>ℓ</sub> = ℬ<sub>ℓ</sub><sup>↓</sup>(O<sub>ℓ</sub> + R<sub>ℓ−1</sub><sup>+</sup>H<sub>ℓ−1</sub>)</div>
+<p><strong>读法：</strong>第 ℓ 层的特征 = 本层输入 O<sub>ℓ</sub> + 更粗层特征的平均池化 R<sup>+</sup>H，再过消息块。越往下，一个节点“看到”的范围越大。</p>
+
+<p>上行（粗→细）把全局上下文带回细节：</p>
+<div class="formula">U<sub>ℓ</sub> = ℬ<sub>ℓ</sub><sup>↑</sup>[ GELU( [H<sub>ℓ</sub>, P<sub>ℓ</sub>U<sub>ℓ+1</sub>] W<sub>merge</sub> + b<sub>merge</sub> ) ]</div>
+<p><strong>读法：</strong>把本层特征 H<sub>ℓ</sub> 与粗层上采样 P<sub>ℓ</sub>U<sub>ℓ+1</sub> 拼在一起，线性融合后再过消息块。下行所有层共用一套 (W<sub>s</sub>, W<sub>n</sub>)，上行共用另一套，所以参数量不随层数增长。</p>
+
+<h3>4.3　输出与“秩”的问题</h3>
+<div class="formula">Z̃ = tanh[ P<sub>0</sub>( U<sub>1</sub> W<sub>out</sub> + 1 b<sub>out</sub><sup>T</sup> ) ]</div>
+<p><strong>为什么必须是非线性读出？</strong>如果最后一步是线性的，即 Z̃ = H W + 1 b<sup>T</sup>，那么 rank(Z̃) ≤ w + 1。隐藏宽度 w = 16 时，即使输出 128 个通道，这 128 列最多张成 17 维空间，多出来的通道是冗余的。加逐元素 tanh 后，每一列是隐藏特征的不同非线性函数，可以彼此独立。实测奇异值谱：线性读出在第 18 个方向断崖（秩 17），非线性读出铺满 128 维。</p>
+<p>网络总共 3,952 个参数，与网格规模无关。</p>
+
+<h3>4.4　整形与归一化</h3>
+<p>得到 Z̃ 后，先做两次阻尼 Jacobi 平滑：</p>
+<div class="formula">Z̃<sup>j+1</sup> = Z̃<sup>j</sup> − (4/(3λ<sub>U</sub>)) D<sup>−1</sup>A Z̃<sup>j</sup>，　j = 0, 1</div>
+<p><strong>读法：</strong>把每个方向的高频毛刺磨掉。λ<sub>U</sub> ≈ 2 时系数 4/(3λ<sub>U</sub>) ≈ 2/3，正是经典阻尼 Jacobi 的权重。然后每列按 √(z<sub>j</sub><sup>T</sup>A z<sub>j</sub>) 归一化，使每个方向的 A-能量为 1；各列量级一致，Gram 矩阵不会因为某列特别大而病态。</p>
+
+<div class="key"><b>一句话：</b>网络输出的是 128 个“磨平、归一化”的形状，不是解本身。</div>
+
+<h2 id="s5">5　第三步：校准，方程决定每个方向修多少</h2>
+
+<h3>5.1　从“最小能量”出发</h3>
+<p>离散问题的能量泛函是</p>
+<div class="formula">ℰ(x) = ½ x<sup>T</sup>A x − b<sup>T</sup>x</div>
+<p>它的梯度是 A x − b = −r，驻点就是 A x = b。现在限制修正只能发生在 Z 张成的空间里，即 x + Z y，并加一个很小的正则项：</p>
+<div class="formula">c = argmin<sub>y</sub> [ ℰ(x + Z y) + (η/2)‖y‖<sub>2</sub><sup>2</sup> ]，　η = 10<sup>−5</sup></div>
+<p>对 y 求导令其为零：</p>
+<div class="formula">Z<sup>T</sup>A(x + Z c) − Z<sup>T</sup>b + η c = 0　⟹　(Z<sup>T</sup>A Z + η I) c = Z<sup>T</sup>(b − A x)</div>
+<p>记</p>
+<div class="formula">G = Z<sup>T</sup>A Z，　H = G + η I，　q = Z<sup>T</sup>r</div>
+<p>就得到方法文档里的三行：</p>
+<div class="formula">G = Z<sup>T</sup>A Z，　H = G + η I，　H c = Z<sup>T</sup>(b − A x)，　x<sup>+</sup> = x + Z c</div>
+
+<h3>5.2　每个符号在做什么</h3>
+<ul>
+<li>G：128×128 的 Gram 矩阵，元素 G<sub>ij</sub> = z<sub>i</sub><sup>T</sup>A z<sub>j</sub>，描述两个方向在能量内积下的耦合；</li>
+<li>q = Z<sup>T</sup>r：把 N 维残差投影到 128 个方向上，得到“每个方向上还差多少”；</li>
+<li>H = G + ηI：加正则，保证方向接近线性相关时也能稳定求解；</li>
+<li>c：每个方向的幅度；</li>
+<li>x<sup>+</sup> = x + Zc：用这 128 个方向组合出修正。</li>
+</ul>
+<p><strong>关键：</strong>网络只提供 Z，G 和 q 都由当前 A、b、x 算出。材料对比度变化时，幅度会自动按物理量级缩放；网络不需要学习“物理单位”。</p>
+
+<h3>5.3　几何解释：在子空间上做投影</h3>
+<p>把误差 e 看成一个 N 维向量，Z 的 128 列张成一个子空间。校准做的事，是把 e 投影到这个子空间上，只不过“垂直”是在 A-内积</p>
+<div class="formula">⟨u, v⟩<sub>A</sub> = u<sup>T</sup>A v</div>
+<p>下定义的。η → 0 时，</p>
+<div class="formula">Z c = Z (Z<sup>T</sup>A Z)<sup>−1</sup> Z<sup>T</sup>A e = Π<sub>A</sub> e</div>
+<p>Π<sub>A</sub> 是 A-正交投影算子。投影残差 e − Z c 与子空间 A-正交，所以它是子空间内能量意义下最优的修正。</p>
+
+<p>用一个一维例子把“方向 vs 幅度”说透。假设 Z 只有一列 z，最小化 ½‖e − c z‖²（A-范数）得</p>
+<div class="formula">c = (z<sup>T</sup>A e) / (z<sup>T</sup>A z) = (z<sup>T</sup>r) / (z<sup>T</sup>A z)</div>
+<p>如果把 z 放大 10 倍，分子分母同时放大 100 倍，c 缩小 10 倍，c z 不变。<strong>所以网络即使把方向的尺度搞错，也不影响结果；它只需要把“形状”学对。</strong>这就是“方向由网络、幅度由方程”的精确含义。</p>
+
+<h3>5.4　能量不增的证明</h3>
+<p>记 e = x* − x。由 H c = q = Z<sup>T</sup>A e，有</p>
+<div class="formula">‖e − Zc‖<sub>A</sub><sup>2</sup><br>
+= ‖e‖<sub>A</sub><sup>2</sup> − 2 c<sup>T</sup>Z<sup>T</sup>A e + c<sup>T</sup>G c<br>
+= ‖e‖<sub>A</sub><sup>2</sup> − 2 c<sup>T</sup>H c + c<sup>T</sup>G c<br>
+= ‖e‖<sub>A</sub><sup>2</sup> − c<sup>T</sup>G c − 2η‖c‖<sub>2</sub><sup>2</sup></div>
+<p>因为 G 半正定、η &gt; 0，右边一定不超过 ‖e‖<sub>A</sub><sup>2</sup>。<strong>每一步校准都不会让能量误差变大</strong>；η = 0 时正好是投影，误差严格不增。</p>
+
+<div class="key"><b>一句话：</b>校准是一个带正则的 Galerkin 投影；它把“往哪修”交给网络，把“修多少”交给方程。</div>
+
+<h2 id="s6">6　第四步：去偏，为什么多解一次小系统还能再好一点</h2>
+
+<p>正则项 η 让 H 稳定，但也让系数“缩水”了一点：真正的投影应该用 G<sup>−1</sup>q，实际用的是 (G + ηI)<sup>−1</sup>q。两者差多少？利用恒等式</p>
+<div class="formula">G<sup>−1</sup> = (I + ηG<sup>−1</sup>)<sup>−1</sup> H<sup>−1</sup> = H<sup>−1</sup> − ηH<sup>−2</sup> + η<sup>2</sup>H<sup>−3</sup> − ⋯</div>
+<p>可以把“无正则解”写成无穷级数。方法只取前 t 项：</p>
+<div class="formula">d<sub>0</sub> = H<sup>−1</sup>q，　d<sub>j+1</sub> = H<sup>−1</sup>(η d<sub>j</sub>)，　c<sub>t</sub> = Σ<sub>j=0</sub><sup>t−1</sup> d<sub>j</sub></div>
+<p><strong>读法：</strong>d<sub>0</sub> 就是原来的校准；d<sub>1</sub> 是用同一个 Cholesky 分解再解一次得到的修正项；c<sub>2</sub> = d<sub>0</sub> + d<sub>1</sub> 就是两次小求解。每多一项只多一次三角回代，O(r<sup>2</sup>)，不增加任何 A 的作用。</p>
+
+<p>对 G 的特征值 λ，这个截断相对“理想投影”的增益是</p>
+<div class="formula">g<sub>t</sub>(λ) = λ Σ<sub>j=0</sub><sup>t−1</sup> η<sup>j</sup> / (λ + η)<sup>j+1</sup> = 1 − (η/(λ + η))<sup>t</sup> ∈ [0, 1]</div>
+<ul>
+<li>λ ≫ η 时，η/(λ + η) ≈ 0，g<sub>1</sub> ≈ 1：大特征值方向本来就没被正则影响，多解无益；</li>
+<li>λ ~ η 时，η/(λ + η) ≈ 1/2，t = 2 把偏差从 1/2 降到 1/4；</li>
+<li>所以去偏只对小特征值方向有效，这正是正则影响最大的地方。</li>
+</ul>
+<p>实测：平滑 0.00415 → 0.00336，粗糙 0.00949 → 0.00787，六尺度 0.01383 → 0.01299；七个组合、16/16 样本全部改善，代价约 0.1–0.2 ms。</p>
+
+<div class="key"><b>一句话：</b>去偏是把正则带来的“缩水”用小系统自身的级数补回来，不动大网格。</div>
+
+<h2 id="s7">7　第五步：多轮与复用，为什么网络只调用一次</h2>
+
+<p>一轮的完整操作是：</p>
+<ol>
+<li>预滤波 S<sub>pre</sub>；</li>
+<li>用当前残差做校准 x ← x + Zc；</li>
+<li>后滤波 S<sub>post</sub>。</li>
+</ol>
+<p>固定 Z、忽略 η 时，一轮的误差传播可以写成</p>
+<div class="formula">e<sup>(k+1)</sup> = S<sub>post</sub> (I − Π<sub>A</sub>) S<sub>pre</sub> e<sup>(k)</sup></div>
+<ul>
+<li>S<sub>pre</sub> 压掉高频分量（子空间不擅长表示的部分）；</li>
+<li>I − Π<sub>A</sub> 是投影后的残差，去掉子空间能覆盖的部分；</li>
+<li>S<sub>post</sub> 再清理投影可能引入的局部粗糙分量。</li>
+</ul>
+<p>三者复合是收缩算子，所以轮数越多误差越小。实测：K1 约 10<sup>−1</sup>%，K2 约 10<sup>−2</sup>%，K4 约 10<sup>−3</sup>%。</p>
+
+<p><strong>为什么 Z 不每轮重算？</strong>因为 Z 由材料、初始状态和初始残差生成，后续轮次只改变 x，材料不变；实验显示复用同一 Z 到 K4 仍然收敛。复用带来两个好处：网络只调用一次（3.22 ms），Gram 与 Cholesky 只做一次（3.50 ms）；每轮只剩预滤波（4.26 ms）、小系统回代和后滤波。</p>
+
+<div class="key"><b>一句话：</b>“一次设置、多轮使用”是成本优势的来源，也是与逐轮调用网络的混合方法的主要区别。</div>
+
+<h2 id="s8">8　训练：为什么用对数损失、为什么展开四轮</h2>
+
+<p>训练时冻结神经算子，用它的真实预测经过预滤波后的状态作为输入。展开 K = 4 轮，损失是</p>
+<div class="formula">ℒ(θ) = (1/(3K)) Σ<sub>k=1</sub><sup>K</sup> Σ<sub>j∈{u,g,q}</sub> log max( E<sub>j</sub><sup>(k)</sup>, 10<sup>−6</sup> )</div>
+<ul>
+<li>E<sub>j</sub><sup>(k)</sup>：第 k 轮、第 j 个输出（状态/导数/通量）的相对误差；</li>
+<li>对 k 求和：让网络对每一轮之后的误差都负责，而不是只管第一轮；</li>
+<li>对 j 求和：三项物理输出同等重要，避免只优化状态；</li>
+<li>log：不同轮次误差差几个数量级（K1 约 10<sup>−1</sup>，K4 约 10<sup>−3</sup>），直接平均会被第一轮主导；取对数后各轮贡献均衡，后期小误差也能持续参与优化；</li>
+<li>max(·, 10<sup>−6</sup>)：防止 log 0，只影响数值安全。</li>
+</ul>
+<p>梯度通过“空间生成 → 整形 → Gram → Cholesky → 更新”整条链路反传（BPTT）。验证集用同一目标选模。</p>
+
+<div class="key"><b>一句话：</b>训练目标不是“预测得准”，而是“四轮校正之后三项物理输出都准”。</div>
+
+<h2 id="s9">9　为什么有效、什么时候失效：覆盖率</h2>
+
+<p>把误差做能量变换：y = A<sup>1/2</sup>e，Q = A<sup>1/2</sup>Z。投影后残差的能量是</p>
+<div class="formula">‖(I − Π<sub>Q</sub>) y‖<sub>2</sub><sup>2</sup>，　Π<sub>Q</sub> = Q (Q<sup>T</sup>Q)<sup>†</sup> Q<sup>T</sup></div>
+<p>如果误差来自某个分布，协方差 C = E[y y<sup>T</sup>]，那么期望残差能量是</p>
+<div class="formula">E‖(I − Π<sub>Q</sub>) y‖<sub>2</sub><sup>2</sup> = tr[ (I − Π<sub>Q</sub>) C ]</div>
+<p><strong>读法：</strong>Z 好不好，不取决于它“看起来像不像解”，而取决于 C 的能量有多少落在 Q 张成的子空间里。这就是“任务覆盖”。</p>
+<ul>
+<li>固定正弦空间对“最慢 16 个模态”的覆盖是 67.43%，但对实际误差分布只有 8.56%；</li>
+<li>学习空间对慢模态的覆盖是 67.12%（几乎一样），但对实际误差是 77.70%。</li>
+</ul>
+<p>所以“更好的通用低频基”不是答案；必须让空间依赖当前材料与残差。</p>
+
+<p><strong>失效条件：</strong>对比度从 6 外推到 60 时，相结构没变，但材料耦合强度变了，覆盖率从 79.06% 降到 57.15%，状态误差从 10<sup>−4</sup> 量级升到 1.69%（K2）。增加小求解次数只把覆盖率提到 59.34%，说明缺口在空间覆盖，不在幅度或求解精度。</p>
+
+<p><strong>三个物理误差为什么能被能量控制住：</strong>正系数给出</p>
+<div class="formula">α‖∇e‖<sub>L2</sub><sup>2</sup> ≤ ‖e‖<sub>a</sub><sup>2</sup> ≤ β‖∇e‖<sub>L2</sub><sup>2</sup>，　α‖e‖<sub>a</sub><sup>2</sup> ≤ ‖a∇e‖<sub>L2</sub><sup>2</sup> ≤ β‖e‖<sub>a</sub><sup>2</sup></div>
+<p>再由 Poincaré 不等式 ‖e‖<sub>L2</sub> ≤ C<sub>P</sub>‖e‖<sub>a</sub>/√α。所以能量误差小，三个物理误差都小；但常数依赖对比度 β/α，高对比时能量误差可能掩盖更大的通量误差，这就是三项必须分别评价的原因。</p>
+
+<h2 id="s10">10　成本：每个公式对应多少计算</h2>
+
+<table>
+<tr><th>操作</th><th>复杂度</th><th>说明</th></tr>
+<tr><td>A Z（128 列同时作用）</td><td>O(s r)</td><td>128 次稀疏矩阵乘</td></tr>
+<tr><td>G = Z<sup>T</sup>A Z</td><td>O(N r<sup>2</sup>)</td><td>逐列累加 128×128</td></tr>
+<tr><td>Cholesky 分解 H</td><td>O(r<sup>3</sup>)</td><td>128<sup>3</sup>，很小</td></tr>
+<tr><td>每轮</td><td>O(m s + N r + t r<sup>2</sup>)</td><td>m 次滤波 + 组合 + t 次回代</td></tr>
+<tr><td>存储 Z</td><td>O(N r)</td><td>128 个 N 维向量</td></tr>
+</table>
+<p>实测（六尺度 257²，K2）：神经算子 2.20 ms、装配 0.75、预滤波 4.26、特征 0.43、图网络 3.22、Gram 与分解 3.50、校准与后滤波 5.28，完整 17.96 ms。</p>
+
+<h2 id="s11">11　把公式串成一张图</h2>
+
+<div class="diagram">材料 a ──► 装配 A, b ──► NO 预测 x⁰
+                            │
+                            ▼
+                  预滤波 S_pre（64 步 Chebyshev）
+                            │  x̄, r = b − A x̄
+                            ▼
+        7 通道特征 ──► 多层图 ──► 128 列 Z
+                            │  （只做一次）
+                            ▼
+        两次 Jacobi 整形 + A-能量归一化
+                            │
+                            ▼
+   每轮：预滤波 → c = H⁻¹Zᵀr → x ← x + Zc → 后滤波
+                            │  （复用 Z 与 H 的 Cholesky）
+                            ▼
+                 K 轮后输出 u, ∇u, q = −a∇u</div>
+
+<h3>如果只记五个公式，记这五个</h3>
+<ol>
+<li>A e = r：残差就是误差，方法的目标是近似 e；</li>
+<li>|p<sub>m</sub>(λ)| ≤ 1：滤波不放大能量误差；</li>
+<li>G = Z<sup>T</sup>A Z，H c = Z<sup>T</sup>r：校准的小系统；</li>
+<li>‖e − Zc‖<sub>A</sub><sup>2</sup> = ‖e‖<sub>A</sub><sup>2</sup> − c<sup>T</sup>G c − 2η‖c‖<sup>2</sup>：每轮能量不增；</li>
+<li>E‖(I − Π<sub>Q</sub>)y‖<sup>2</sup> = tr[(I − Π<sub>Q</sub>)C]：性能由任务覆盖率决定。</li>
+</ol>
+
+<h2 id="s12">12　几个常见的“看不懂”点，直接回答</h2>
+
+<p><strong>Q1　为什么不直接解 Ae = r，而要学一个 Z？</strong><br>
+因为解 Ae = r 就是再做一次完整求解，材料反复变化时成本没有下降。Z 把“求解”换成了“在 128 维里选系数”，小系统 128×128 的代价可以忽略。</p>
+
+<p><strong>Q2　为什么用 D<sup>−1</sup>A，不直接用 A？</strong><br>
+D<sup>−1</sup>A 与对称正定矩阵相似，特征值为正、量级被对角缩放控制在 O(1)，λ<sub>U</sub> ≈ 2，滤波参数才能固定且与材料无关。用 A 的话，谱宽随对比度变化，多项式参数需要逐材料调。</p>
+
+<p><strong>Q3　η 能不能去掉？</strong><br>
+能去掉，当 Z 的列线性无关且数值条件好时，η = 0 就是纯投影。保留 η = 10<sup>−5</sup> 是为了在列接近相关时 Cholesky 稳定；代价是很小的幅值偏差，用第 6 节的去偏补回来。</p>
+
+<p><strong>Q4　为什么网络只调用一次，后面不重新生成 Z？</strong><br>
+Z 的条件是材料、初始状态和初始残差；材料不变时，后续轮次只是 x 变了，方向空间仍然适用。实验上 K4 仍收敛；复用省掉了每轮的图网络与分解。</p>
+
+<p><strong>Q5　为什么不用 PCG？</strong><br>
+固定轮次、无停止准则，是为了计时可比、空间与分解可复用。PCG 每轮需要新的 Krylov 空间，收敛速度又依赖材料条件数，会把“表示能力”和“迭代次数”混在一起。</p>
+
+<p><strong>Q6　128 维是怎么定的？</strong><br>
+64 和 128 是两个容量工作点。128 维在秩诊断中已满秩，K2 到 10<sup>−2</sup>%、K4 到 10<sup>−3</sup>%；再增大维度，Gram 的 O(Nr<sup>2</sup>) 与存储 O(Nr) 上升，收益递减。</p>
+
+<p><strong>Q7　为什么训练用 log，不用均方误差？</strong><br>
+四轮展开后误差跨几个数量级，均方误差会被第一轮的大误差主导，后期 10<sup>−3</sup> 的改善几乎不产生梯度；对数把各轮拉到同一尺度，后期小误差持续参与优化。</p>
+
+<p><strong>Q8　这个方法什么时候会失效？</strong><br>
+当测试材料的剩余误差方向超出 Z 的覆盖时。对比度外推实验就是例子：覆盖率 79% → 57%，误差上升两个数量级；此时增加小求解次数或调幅都无效，需要把材料连接强度纳入方向生成。</p>
+
+<h2 id="s13">13　公式与代码的对应</h2>
+
+<table>
+<tr><th style="width:30%">公式</th><th style="width:32%">函数</th><th>作用</th></tr>
+<tr><td>λ<sub>U</sub> 的 Gershgorin 界</td><td><code>spectral_upper</code></td><td>由当前矩阵算谱上界</td></tr>
+<tr><td>p<sub>m</sub>(D<sup>−1</sup>A) 与三项递推</td><td><code>fixed_filter</code> → <code>chebyshev</code></td><td>固定步数滤波</td></tr>
+<tr><td>两次 Jacobi 整形、归一化、Gram/Cholesky</td><td><code>calibrate_dictionary</code> → <code>factor_modes</code></td><td>生成并分解响应空间</td></tr>
+<tr><td>H c = Z<sup>T</sup>r、x ← x + Zc、去偏</td><td><code>calibrated_update</code></td><td>一轮校准</td></tr>
+<tr><td>预滤波 → 校准 → 后滤波，重复 K 轮</td><td><code>study.py: cycles</code></td><td>固定轮次执行</td></tr>
+<tr><td>展开四轮 + 对数损失</td><td><code>study.py: train</code></td><td>训练与选模</td></tr>
+</table>
+
+<footer>
+CDMC 方法导读 · 由论文方法节与 <code>refinement/core.py</code> 整理 · 2026-11-05<br>
+配套文件：汇报稿 <code>CDMC_REPORT_TALK_20261105.md</code>；原始结果见 <code>multiscale_elliptic_v1/results/</code>。
+</footer>
+
+</div>
+</body>
+</html>

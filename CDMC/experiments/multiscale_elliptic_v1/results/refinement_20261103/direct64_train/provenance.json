@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "stage": "train",
+    "data": "baselines/data/multiscale_elliptic_v1/generated/n257_s20261023",
+    "no_dir": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/fno_l2",
+    "out": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/direct64_train",
+    "initialize": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/cycle2_train/model.pt",
+    "checkpoint": null,
+    "reference": null,
+    "rank": 64,
+    "width": 16,
+    "linear": false,
+    "pre": 64,
+    "post": 8,
+    "cycles": 2,
+    "epochs": 30,
+    "lr": 0.0003,
+    "train_count": 48,
+    "val_count": 12,
+    "split": "test",
+    "count": 16,
+    "repeats": 3,
+    "seed": 20261103,
+    "device": "cuda"
+  },
+  "script_sha256": "04f12b1a663f798c72ce5278b23735d0c6ce234c2002a70719622e4245b16b55"
+}

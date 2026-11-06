@@ -1,0 +1,12 @@
+/data1/caohuilin/Graph/CDMC/experiments/v2/solver/numerics.py:16: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(
+Traceback (most recent call last):
+  File "/data1/caohuilin/Graph/CDMC/experiments/multiscale_elliptic_v1/refinement/study.py", line 346, in <module>
+    main()
+  File "/data1/caohuilin/Graph/CDMC/experiments/multiscale_elliptic_v1/refinement/study.py", line 341, in main
+    {'train':train, 'evaluate':evaluate, 'cache-no':cache_no,
+  File "/data1/caohuilin/Graph/CDMC/experiments/multiscale_elliptic_v1/refinement/study.py", line 300, in diagnose
+    rows.append(dict(index=i,rank=ranks,captured_energy_fraction=float(1-energy(after)/energy(before))))
+  File "/data1/caohuilin/Graph/CDMC/experiments/multiscale_elliptic_v1/refinement/study.py", line 299, in energy
+    return (v.double()*mm(item['matrix'],v[:,None])[:,0].double()).sum()
+NameError: name 'mm' is not defined

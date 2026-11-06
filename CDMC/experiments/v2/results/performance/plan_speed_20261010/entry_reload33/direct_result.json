@@ -1,0 +1,62 @@
+{
+  "dataset": "baselines/data/darcy_v2/generated/pilot_regular",
+  "checkpoint_dir": "CDMC/experiments/v2/results/performance/plan_speed_20261010/entry_train33",
+  "terminal_solver": "sample-specific direct Cholesky; no PCG",
+  "gate_mode": "smooth_only",
+  "levels": [
+    961,
+    481,
+    241,
+    121
+  ],
+  "mesh_plan_ms_once": 295.8152700448409,
+  "mesh_plan_stage_ms": {
+    "reference_geometry_assembly": 3.6396250361576676,
+    "reference_hierarchy": 38.56100398115814,
+    "transfers_graph_device": 57.56695102900267,
+    "reference_auxiliary": 2.231457969173789,
+    "terminal_geometry": 109.06480811536312,
+    "remaining": 84.75142391398549
+  },
+  "hierarchy_options": {
+    "aggregate_size": 2,
+    "interpolation_max_entries": 64
+  },
+  "checkpoint_hierarchy_options": {
+    "aggregate_size": 2,
+    "interpolation_max_entries": 64
+  },
+  "samples": [
+    {
+      "split": "test",
+      "sample_index": 80,
+      "NO_error_percent": 4.9503665417432785,
+      "CDMC_K1_error_percent": 0.2532738959416747,
+      "CDMC_K2_error_percent": 0.012417488323990256,
+      "smooth_only_K2_error_percent": 0.012417488323990256,
+      "MG_K1_error_percent": 0.30186346266418695,
+      "MG_K2_error_percent": 0.025379142607562244,
+      "MG_zero_K1_error_percent": 1.0395139455795288,
+      "MG_zero_K2_error_percent": 0.20862133242189884,
+      "sample_build_ms": 94.61785794701427,
+      "CDMC_K2_eager_ms": 53.880127030424774,
+      "MG_K2_eager_ms": 9.549019043333828,
+      "MG_zero_K2_eager_ms": 7.7396269189193845
+    }
+  ],
+  "mean": {
+    "NO_error_percent": 4.9503665417432785,
+    "CDMC_K1_error_percent": 0.2532738959416747,
+    "CDMC_K2_error_percent": 0.012417488323990256,
+    "smooth_only_K2_error_percent": 0.012417488323990256,
+    "MG_K1_error_percent": 0.30186346266418695,
+    "MG_K2_error_percent": 0.025379142607562244,
+    "MG_zero_K1_error_percent": 1.0395139455795288,
+    "MG_zero_K2_error_percent": 0.20862133242189884,
+    "sample_build_ms": 94.61785794701427,
+    "CDMC_K2_eager_ms": 53.880127030424774,
+    "MG_K2_eager_ms": 9.549019043333828,
+    "MG_zero_K2_eager_ms": 7.7396269189193845
+  },
+  "timing_note": "single-pass eager timing; NO and one-time mesh plan excluded"
+}

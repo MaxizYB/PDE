@@ -1,0 +1,24 @@
+{
+  "arguments": {
+    "stage": "train",
+    "data": "baselines/data/multiscale_elliptic_v1/generated/n257_s20261023",
+    "no_dir": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/fno_l2",
+    "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/regional_response_train_20261027/model.pt",
+    "out": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/cycle1_control_train",
+    "original": null,
+    "material_checkpoint": null,
+    "methods": null,
+    "conditioning": "all",
+    "cycles": 1,
+    "epochs": 20,
+    "train_count": 48,
+    "val_count": 12,
+    "count": 32,
+    "split": "test",
+    "repeats": 5,
+    "seed": 20261103,
+    "lr": 0.0003,
+    "device": "cuda"
+  },
+  "script_sha256": "262a75fbd39f0650576c7216b1892debf4131d6c3673fb01d66d0670711f80ea"
+}

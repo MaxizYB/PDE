@@ -1,0 +1,310 @@
+{
+  "status": "v2 compiled inference; existing trained weights",
+  "dataset": {
+    "version": 1,
+    "equation": "-div(a grad u)=1",
+    "discretization": "P1 FEM",
+    "boundary_type": "Dirichlet",
+    "kind": "regular",
+    "nodes": 1089,
+    "triangles": 2048,
+    "boundary_nodes": 128,
+    "splits": {
+      "train": 64,
+      "val": 16,
+      "test": 16
+    },
+    "seed": 20260927,
+    "coefficient_sampling": {
+      "parent_grid": 129,
+      "tau": 9.0,
+      "covariance": "proportional to (-Delta_N+tau I)^-2",
+      "threshold": 0.0,
+      "a_low": 3.0,
+      "a_high": 12.0
+    },
+    "boundary": "zero",
+    "resolution": 33,
+    "max_area": 0.00022,
+    "notch_width": 0.16,
+    "notch_depth": 0.68,
+    "refine_factor": 1,
+    "max_relative_discrete_residual": 5.5375027528367825e-14,
+    "primary_target": "solution; exactly matches saved mesh and P1-FEM operator",
+    "secondary_target": "fine_reference_on_mesh, only when refine-factor > 1"
+  },
+  "device": "cuda",
+  "coarse_size": 128,
+  "corrector": "cdmc",
+  "cycles": 2,
+  "terminal_pcg_steps": 2,
+  "compare_assembled": true,
+  "evaluated_samples": 16,
+  "summary": {
+    "NO_error_percent": {
+      "mean": 7.199047482572496,
+      "p95": 13.078995794057846,
+      "median": 6.107741221785545
+    },
+    "field_error_percent": {
+      "mean": 0.01028344233873213,
+      "p95": 0.015948158761602826,
+      "median": 0.01054291205946356
+    },
+    "input_ms": {
+      "mean": 0.0719499948900193,
+      "p95": 0.08376711048185825,
+      "median": 0.07365155033767223
+    },
+    "NO_ms": {
+      "mean": 0.4505277902353555,
+      "p95": 0.49028731882572174,
+      "median": 0.4587909206748009
+    },
+    "corrector_graph_ms": {
+      "mean": 1.6097389452625066,
+      "p95": 1.6123640816658735,
+      "median": 1.6102087683975697
+    },
+    "total_ms": {
+      "mean": 2.1322167303878814,
+      "p95": 2.179720322601497,
+      "median": 2.1474219392985106
+    },
+    "assembled_error_percent": {
+      "mean": 0.010195683876190742,
+      "p95": 0.016667128147673793,
+      "median": 0.00994784822978545
+    },
+    "assembled_ms": {
+      "mean": 4.62308170972392,
+      "p95": 4.987500142306089,
+      "median": 4.77961078286171
+    },
+    "assembled_total_ms": {
+      "mean": 5.145559494849294,
+      "p95": 5.554369185119867,
+      "median": 5.304063903167844
+    },
+    "max_solution_difference": {
+      "mean": 6.937189027667046e-07,
+      "p95": 1.287553459405899e-06,
+      "median": 5.690380930900574e-07
+    },
+    "mesh_plan_ms_once": 160.24357033893466,
+    "NO_compile_ms_once": 327.25216494873166,
+    "graph_capture_ms_once": 80.41925309225917,
+    "peak_allocated_mib": 54.0908203125
+  },
+  "per_sample": [
+    {
+      "sample_index": 80,
+      "NO_error_percent": 4.951605573296547,
+      "field_error_percent": 0.011026688298443332,
+      "input_ms": 0.06161211058497429,
+      "NO_ms": 0.41517987847328186,
+      "corrector_graph_ms": 1.6088290140032768,
+      "total_ms": 2.085621003061533,
+      "assembled_error_percent": 0.010367075446993113,
+      "assembled_ms": 4.9078380689024925,
+      "assembled_total_ms": 5.384630057960749,
+      "max_solution_difference": 6.416812539100647e-07
+    },
+    {
+      "sample_index": 81,
+      "NO_error_percent": 3.969133645296097,
+      "field_error_percent": 0.004719194475910626,
+      "input_ms": 0.07439218461513519,
+      "NO_ms": 0.4786918871104717,
+      "corrector_graph_ms": 1.6118488274514675,
+      "total_ms": 2.1649328991770744,
+      "assembled_error_percent": 0.00473162617709022,
+      "assembled_ms": 4.918239079415798,
+      "assembled_total_ms": 5.471323151141405,
+      "max_solution_difference": 2.654269337654114e-07
+    },
+    {
+      "sample_index": 82,
+      "NO_error_percent": 6.485576182603836,
+      "field_error_percent": 0.006052925891708583,
+      "input_ms": 0.07458217442035675,
+      "NO_ms": 0.48079201951622963,
+      "corrector_graph_ms": 1.609779428690672,
+      "total_ms": 2.1651536226272583,
+      "assembled_error_percent": 0.00601539941271767,
+      "assembled_ms": 4.869367927312851,
+      "assembled_total_ms": 5.424742121249437,
+      "max_solution_difference": 4.889443516731262e-07
+    },
+    {
+      "sample_index": 83,
+      "NO_error_percent": 5.439122766256332,
+      "field_error_percent": 0.008072375931078568,
+      "input_ms": 0.07525179535150528,
+      "NO_ms": 0.4790518432855606,
+      "corrector_graph_ms": 1.611148938536644,
+      "total_ms": 2.16545257717371,
+      "assembled_error_percent": 0.00760916227591224,
+      "assembled_ms": 4.964819643646479,
+      "assembled_total_ms": 5.5191232822835445,
+      "max_solution_difference": 4.7124922275543213e-07
+    },
+    {
+      "sample_index": 84,
+      "NO_error_percent": 5.492343008518219,
+      "field_error_percent": 0.012244687241036445,
+      "input_ms": 0.07291091606020927,
+      "NO_ms": 0.4760413430631161,
+      "corrector_graph_ms": 1.6103186644613743,
+      "total_ms": 2.1592709235846996,
+      "assembled_error_percent": 0.012044840696034953,
+      "assembled_ms": 4.712254274636507,
+      "assembled_total_ms": 5.261206533759832,
+      "max_solution_difference": 5.187466740608215e-07
+    },
+    {
+      "sample_index": 85,
+      "NO_error_percent": 6.474989652633667,
+      "field_error_percent": 0.01097306958399713,
+      "input_ms": 0.08579203858971596,
+      "NO_ms": 0.5187732167541981,
+      "corrector_graph_ms": 1.6138190403580666,
+      "total_ms": 2.2183842957019806,
+      "assembled_error_percent": 0.010606803698465228,
+      "assembled_ms": 5.055541638284922,
+      "assembled_total_ms": 5.660106893628836,
+      "max_solution_difference": 1.6158446669578552e-06
+    },
+    {
+      "sample_index": 86,
+      "NO_error_percent": 6.134591624140739,
+      "field_error_percent": 0.012459454592317343,
+      "input_ms": 0.07219193503260612,
+      "NO_ms": 0.4607411101460457,
+      "corrector_graph_ms": 1.6118790954351425,
+      "total_ms": 2.1448121406137943,
+      "assembled_error_percent": 0.010972810559906065,
+      "assembled_ms": 4.749725107103586,
+      "assembled_total_ms": 5.282658152282238,
+      "max_solution_difference": 8.195638656616211e-07
+    },
+    {
+      "sample_index": 87,
+      "NO_error_percent": 12.570197880268097,
+      "field_error_percent": 0.019060246995650232,
+      "input_ms": 0.08309213444590569,
+      "NO_ms": 0.45684073120355606,
+      "corrector_graph_ms": 1.610098872333765,
+      "total_ms": 2.1500317379832268,
+      "assembled_error_percent": 0.019668448658194393,
+      "assembled_ms": 4.518389236181974,
+      "assembled_total_ms": 5.058322101831436,
+      "max_solution_difference": 5.168840289115906e-07
+    },
+    {
+      "sample_index": 88,
+      "NO_error_percent": 6.080890819430351,
+      "field_error_percent": 0.00841676301206462,
+      "input_ms": 0.06348174065351486,
+      "NO_ms": 0.4236600361764431,
+      "corrector_graph_ms": 1.608128659427166,
+      "total_ms": 2.095270436257124,
+      "assembled_error_percent": 0.009305158164352179,
+      "assembled_ms": 4.298374056816101,
+      "assembled_total_ms": 4.785515833646059,
+      "max_solution_difference": 3.4924596548080444e-07
+    },
+    {
+      "sample_index": 89,
+      "NO_error_percent": 14.605389535427094,
+      "field_error_percent": 0.014910796016920358,
+      "input_ms": 0.0771419145166874,
+      "NO_ms": 0.43883128091692924,
+      "corrector_graph_ms": 1.6096788458526134,
+      "total_ms": 2.12565204128623,
+      "assembled_error_percent": 0.01566668797750026,
+      "assembled_ms": 4.809496458619833,
+      "assembled_total_ms": 5.32546965405345,
+      "max_solution_difference": 1.1101365089416504e-06
+    },
+    {
+      "sample_index": 90,
+      "NO_error_percent": 5.794868618249893,
+      "field_error_percent": 0.007037687464617193,
+      "input_ms": 0.07133185863494873,
+      "NO_ms": 0.45456085354089737,
+      "corrector_graph_ms": 1.6113691963255405,
+      "total_ms": 2.1372619085013866,
+      "assembled_error_percent": 0.007328526407945901,
+      "assembled_ms": 4.826746881008148,
+      "assembled_total_ms": 5.352639593183994,
+      "max_solution_difference": 2.207234501838684e-07
+    },
+    {
+      "sample_index": 91,
+      "NO_error_percent": 5.814407765865326,
+      "field_error_percent": 0.010154508345294744,
+      "input_ms": 0.0769319012761116,
+      "NO_ms": 0.47909142449498177,
+      "corrector_graph_ms": 1.6108090057969093,
+      "total_ms": 2.1668323315680027,
+      "assembled_error_percent": 0.009996045992011204,
+      "assembled_ms": 4.4062272645533085,
+      "assembled_total_ms": 4.962250590324402,
+      "max_solution_difference": 3.110617399215698e-07
+    },
+    {
+      "sample_index": 92,
+      "NO_error_percent": 7.356042414903641,
+      "field_error_percent": 0.008916944352677092,
+      "input_ms": 0.060921069234609604,
+      "NO_ms": 0.4175999201834202,
+      "corrector_graph_ms": 1.6068089753389359,
+      "total_ms": 2.0853299647569656,
+      "assembled_error_percent": 0.009775785292731598,
+      "assembled_ms": 3.9977459236979485,
+      "assembled_total_ms": 4.476266913115978,
+      "max_solution_difference": 1.1781230568885803e-06
+    },
+    {
+      "sample_index": 93,
+      "NO_error_percent": 9.130194783210754,
+      "field_error_percent": 0.010931315773632377,
+      "input_ms": 0.060962047427892685,
+      "NO_ms": 0.38473913446068764,
+      "corrector_graph_ms": 1.6054082661867142,
+      "total_ms": 2.0511094480752945,
+      "assembled_error_percent": 0.012198279000585899,
+      "assembled_ms": 3.8942438550293446,
+      "assembled_total_ms": 4.339945036917925,
+      "max_solution_difference": 1.1334195733070374e-06
+    },
+    {
+      "sample_index": 94,
+      "NO_error_percent": 9.90542322397232,
+      "field_error_percent": 0.012993745622225106,
+      "input_ms": 0.058821868151426315,
+      "NO_ms": 0.37458911538124084,
+      "corrector_graph_ms": 1.6040392220020294,
+      "total_ms": 2.0374502055346966,
+      "assembled_error_percent": 0.009899650467559695,
+      "assembled_ms": 4.227811936289072,
+      "assembled_total_ms": 4.661222919821739,
+      "max_solution_difference": 8.391216397285461e-07
+    },
+    {
+      "sample_index": 95,
+      "NO_error_percent": 4.979982227087021,
+      "field_error_percent": 0.006564673822140321,
+      "input_ms": 0.08178222924470901,
+      "NO_ms": 0.4692608490586281,
+      "corrector_graph_ms": 1.6118590719997883,
+      "total_ms": 2.1629021503031254,
+      "assembled_error_percent": 0.006944641791051254,
+      "assembled_ms": 4.812486004084349,
+      "assembled_total_ms": 5.363529082387686,
+      "max_solution_difference": 6.193295121192932e-07
+    }
+  ],
+  "timing_note": "total_ms includes host input copy, NO, and captured online CDMC computation. Mesh plan, NO compilation, and graph capture are one-time costs and are reported separately. Assembled CDMC is only timed when --compare-assembled is set; its timer includes sample-specific system build, gates and correction but shares the already timed NO/input."
+}

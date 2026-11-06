@@ -1,0 +1,58 @@
+model:
+  model_name: 'M2NO'
+  num_layer: 5
+  in_channels: 3
+  out_channels: 1
+  k: 4
+  c: 2
+  grid_levels: [3, 3, 2, 2, 1]
+  padding_mode: 'circular'
+  bias: True
+  base: 'legendre'
+  norm: True
+  activation: 'gelu'
+  resolutions: [128, 128]
+
+data:
+  dataset: 'Darcy'
+  data_path: "PathTo/2D_DarcyFlow_beta0.01_Train.hdf5"
+  raw_resolution: [128, 128]
+  sample_resolution: [128, 128]
+  train_ratio: 0.6
+  valid_ratio: 0.2
+  test_ratio: 0.2
+  subset: False
+  subset_ratio: 0.1
+
+train:
+  random_seed: 0
+  cuda: True
+  device: 0
+  epochs: 500
+  patience: 20
+  eval_freq: 1
+  train_batchsize: 16
+  saving_best: True
+  saving_checkpoint: False
+  checkpoint_freq: 100
+
+eval:
+  eval_batchsize: 16
+  eval_resolution: [128, 128]
+
+optimize:
+  optimizer: 'Adam'
+  lr: 0.001
+  weight_decay: 0.0001
+
+schedule:
+  scheduler: 'StepLR'
+  step_size: 100
+  gamma: 0.5
+
+log:
+  verbose: True
+  log: True
+  log_dir: './logs'
+  wandb: False
+  wandb_project: ''

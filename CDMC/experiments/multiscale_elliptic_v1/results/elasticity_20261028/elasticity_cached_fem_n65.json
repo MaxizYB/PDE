@@ -1,0 +1,1041 @@
+{
+  "dataset": "baselines/data/elasticity_v1/generated/n65_s20261028",
+  "training_dataset": "baselines/data/elasticity_v1/generated/n65_s20261028",
+  "seed": 20261028,
+  "rows": [
+    {
+      "split": "test",
+      "index": 0,
+      "contrast": 2.0020933948737563,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.09513472020626068,
+          "strain_percent": 0.6676840782165527,
+          "stress_percent": 0.7187194228172302,
+          "energy_percent": 3.5548529624938965,
+          "fluctuation_percent": 3.481645107269287,
+          "residual_percent": 3.793929100036621,
+          "total_ms": 72.38962175324559
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.05394987016916275,
+          "strain_percent": 0.2932775318622589,
+          "stress_percent": 0.29419538378715515,
+          "energy_percent": 1.5201984643936157,
+          "fluctuation_percent": 1.9744025468826294,
+          "residual_percent": 0.9950015544891357,
+          "total_ms": 70.33931789919734
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 0.6057948470115662,
+          "strain_percent": 3.261716604232788,
+          "stress_percent": 3.2143068313598633,
+          "energy_percent": 16.959321975708008,
+          "fluctuation_percent": 22.170263290405273,
+          "residual_percent": 8.436967849731445,
+          "total_ms": 71.9009293243289
+        },
+        "LU_K1": {
+          "displacement_percent": 4.459287538338685e-06,
+          "strain_percent": 0.0002649753587320447,
+          "stress_percent": 0.0002485953154973686,
+          "energy_percent": 0.0010754404356703162,
+          "fluctuation_percent": 0.00013554299948737025,
+          "residual_percent": 0.00017950963228940964,
+          "total_ms": 72.64509797096252
+        }
+      },
+      "K1_phase_ms": {
+        "NO": 1.71742495149374,
+        "fine_assembly": 0.18297508358955383,
+        "prefilter": 3.7625692784786224,
+        "features_graph_space_factor": 74.41534381359816,
+        "projection": 2.3125996813178062,
+        "postfilter": 0.5505136214196682
+      }
+    },
+    {
+      "split": "test",
+      "index": 1,
+      "contrast": 4.27161395902996,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.10809259116649628,
+          "strain_percent": 1.0214837789535522,
+          "stress_percent": 1.14645516872406,
+          "energy_percent": 2.1665124893188477,
+          "fluctuation_percent": 1.6591300964355469,
+          "residual_percent": 2.7583093643188477,
+          "total_ms": 64.49941406026483
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.06232829764485359,
+          "strain_percent": 0.45481076836586,
+          "stress_percent": 0.4583246111869812,
+          "energy_percent": 0.9293681979179382,
+          "fluctuation_percent": 0.9566857218742371,
+          "residual_percent": 0.6350704431533813,
+          "total_ms": 66.49523694068193
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.7323764562606812,
+          "strain_percent": 6.152758598327637,
+          "stress_percent": 11.15306568145752,
+          "energy_percent": 17.02620506286621,
+          "fluctuation_percent": 26.59052085876465,
+          "residual_percent": 8.949947357177734,
+          "total_ms": 64.73112106323242
+        },
+        "LU_K1": {
+          "displacement_percent": 4.377607638161862e-06,
+          "strain_percent": 0.00026512358454056084,
+          "stress_percent": 0.00042154837865382433,
+          "energy_percent": 0.0005284839426167309,
+          "fluctuation_percent": 5.616361886495724e-05,
+          "residual_percent": 0.00024215236771851778,
+          "total_ms": 69.86948382109404
+        }
+      },
+      "K1_phase_ms": {
+        "NO": 1.7896569333970547,
+        "fine_assembly": 0.19752467051148415,
+        "prefilter": 3.4853918477892876,
+        "features_graph_space_factor": 2.9496680945158005,
+        "projection": 0.2675773575901985,
+        "postfilter": 0.4894128069281578
+      }
+    },
+    {
+      "split": "test",
+      "index": 2,
+      "contrast": 2.6826102358324206,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.05690255016088486,
+          "strain_percent": 0.49556875228881836,
+          "stress_percent": 0.455081045627594,
+          "energy_percent": 2.0505847930908203,
+          "fluctuation_percent": 2.3362972736358643,
+          "residual_percent": 2.331465244293213,
+          "total_ms": 64.14229515939951
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.03371158242225647,
+          "strain_percent": 0.2248074859380722,
+          "stress_percent": 0.17961947619915009,
+          "energy_percent": 0.8819591999053955,
+          "fluctuation_percent": 1.3841216564178467,
+          "residual_percent": 0.5120519995689392,
+          "total_ms": 66.63984013721347
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 0.5669590830802917,
+          "strain_percent": 3.068373680114746,
+          "stress_percent": 3.8483481407165527,
+          "energy_percent": 14.955498695373535,
+          "fluctuation_percent": 23.27810287475586,
+          "residual_percent": 7.373564720153809,
+          "total_ms": 63.787214923650026
+        },
+        "LU_K1": {
+          "displacement_percent": 4.5337619667407125e-06,
+          "strain_percent": 0.000269547599600628,
+          "stress_percent": 0.000268401054199785,
+          "energy_percent": 0.0009290054440498352,
+          "fluctuation_percent": 0.00015280756633728743,
+          "residual_percent": 0.00011992198415100574,
+          "total_ms": 72.63814704492688
+        }
+      }
+    },
+    {
+      "split": "test",
+      "index": 3,
+      "contrast": 10.66542944230868,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.22093050181865692,
+          "strain_percent": 1.6945611238479614,
+          "stress_percent": 5.019874095916748,
+          "energy_percent": 2.765925407409668,
+          "fluctuation_percent": 2.8201727867126465,
+          "residual_percent": 3.684863567352295,
+          "total_ms": 63.86346695944667
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.140236496925354,
+          "strain_percent": 0.8430398106575012,
+          "stress_percent": 2.1406638622283936,
+          "energy_percent": 1.2632697820663452,
+          "fluctuation_percent": 1.7901158332824707,
+          "residual_percent": 0.9789268374443054,
+          "total_ms": 65.99438190460205
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 2.278418779373169,
+          "strain_percent": 8.750869750976562,
+          "stress_percent": 37.48183059692383,
+          "energy_percent": 19.211395263671875,
+          "fluctuation_percent": 29.083967208862305,
+          "residual_percent": 10.463859558105469,
+          "total_ms": 63.57508897781372
+        },
+        "LU_K1": {
+          "displacement_percent": 4.442827503225999e-06,
+          "strain_percent": 0.0002533103106543422,
+          "stress_percent": 0.0006780769326724112,
+          "energy_percent": 0.0002950409543700516,
+          "fluctuation_percent": 4.586507202475332e-05,
+          "residual_percent": 0.00020900947856716812,
+          "total_ms": 71.14939764142036
+        }
+      }
+    },
+    {
+      "split": "test",
+      "index": 4,
+      "contrast": 7.132332759479372,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.09411284327507019,
+          "strain_percent": 0.7903430461883545,
+          "stress_percent": 1.6545524597167969,
+          "energy_percent": 2.151282787322998,
+          "fluctuation_percent": 1.996631383895874,
+          "residual_percent": 3.3932621479034424,
+          "total_ms": 63.379363622516394
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.053266581147909164,
+          "strain_percent": 0.3577769994735718,
+          "stress_percent": 0.6525070071220398,
+          "energy_percent": 0.917577862739563,
+          "fluctuation_percent": 1.1300650835037231,
+          "residual_percent": 0.7706794738769531,
+          "total_ms": 66.84384495019913
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.21828293800354,
+          "strain_percent": 5.762862205505371,
+          "stress_percent": 15.919510841369629,
+          "energy_percent": 19.657920837402344,
+          "fluctuation_percent": 25.846216201782227,
+          "residual_percent": 10.658756256103516,
+          "total_ms": 64.39618999138474
+        },
+        "LU_K1": {
+          "displacement_percent": 4.4196344788360875e-06,
+          "strain_percent": 0.0002614277182146907,
+          "stress_percent": 0.00040795953827910125,
+          "energy_percent": 0.0005059877294115722,
+          "fluctuation_percent": 7.699680281803012e-05,
+          "residual_percent": 0.00018732888565864414,
+          "total_ms": 69.97304689139128
+        }
+      }
+    },
+    {
+      "split": "test",
+      "index": 5,
+      "contrast": 6.565925169142096,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.06846292316913605,
+          "strain_percent": 0.580669641494751,
+          "stress_percent": 0.9262262582778931,
+          "energy_percent": 1.3080824613571167,
+          "fluctuation_percent": 1.522858738899231,
+          "residual_percent": 1.8498510122299194,
+          "total_ms": 64.59921598434448
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.03926340490579605,
+          "strain_percent": 0.25416460633277893,
+          "stress_percent": 0.33459338545799255,
+          "energy_percent": 0.5263859033584595,
+          "fluctuation_percent": 0.8733580112457275,
+          "residual_percent": 0.436153769493103,
+          "total_ms": 66.38343213126063
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.1807750463485718,
+          "strain_percent": 5.303297996520996,
+          "stress_percent": 14.768192291259766,
+          "energy_percent": 17.242958068847656,
+          "fluctuation_percent": 26.26464080810547,
+          "residual_percent": 10.321636199951172,
+          "total_ms": 64.03859099373221
+        },
+        "LU_K1": {
+          "displacement_percent": 4.464351150090806e-06,
+          "strain_percent": 0.00026051898021250963,
+          "stress_percent": 0.0003778749378398061,
+          "energy_percent": 0.00046728638699278235,
+          "fluctuation_percent": 8.227025682572275e-05,
+          "residual_percent": 0.0001925057586049661,
+          "total_ms": 70.41469682008028
+        }
+      }
+    },
+    {
+      "split": "test",
+      "index": 6,
+      "contrast": 2.5613404891352314,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.07358721643686295,
+          "strain_percent": 0.6160293817520142,
+          "stress_percent": 0.6157328486442566,
+          "energy_percent": 2.0652127265930176,
+          "fluctuation_percent": 2.0245141983032227,
+          "residual_percent": 2.3806416988372803,
+          "total_ms": 64.15442423895001
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.03770541399717331,
+          "strain_percent": 0.24440285563468933,
+          "stress_percent": 0.21790410578250885,
+          "energy_percent": 0.7848470211029053,
+          "fluctuation_percent": 1.0373432636260986,
+          "residual_percent": 0.5520719885826111,
+          "total_ms": 67.16751307249069
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 0.955968976020813,
+          "strain_percent": 4.297541618347168,
+          "stress_percent": 5.152866840362549,
+          "energy_percent": 16.134201049804688,
+          "fluctuation_percent": 26.3004093170166,
+          "residual_percent": 7.627469062805176,
+          "total_ms": 64.37110900878906
+        },
+        "LU_K1": {
+          "displacement_percent": 4.431689376360737e-06,
+          "strain_percent": 0.0002597220882307738,
+          "stress_percent": 0.0002531128702685237,
+          "energy_percent": 0.000705536687746644,
+          "fluctuation_percent": 0.00010099510836880654,
+          "residual_percent": 0.00015478419663850218,
+          "total_ms": 71.53733726590872
+        }
+      }
+    },
+    {
+      "split": "test",
+      "index": 7,
+      "contrast": 18.781356660522373,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.5892477631568909,
+          "strain_percent": 3.5955681800842285,
+          "stress_percent": 20.279220581054688,
+          "energy_percent": 5.006262302398682,
+          "fluctuation_percent": 4.518408298492432,
+          "residual_percent": 5.732526779174805,
+          "total_ms": 62.66379402950406
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.33475688099861145,
+          "strain_percent": 1.8607678413391113,
+          "stress_percent": 10.00132942199707,
+          "energy_percent": 2.5254733562469482,
+          "fluctuation_percent": 2.5669479370117188,
+          "residual_percent": 1.9427275657653809,
+          "total_ms": 66.51188479736447
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 4.272231578826904,
+          "strain_percent": 13.243389129638672,
+          "stress_percent": 90.03045654296875,
+          "energy_percent": 21.372201919555664,
+          "fluctuation_percent": 32.759883880615234,
+          "residual_percent": 11.725062370300293,
+          "total_ms": 64.08069096505642
+        },
+        "LU_K1": {
+          "displacement_percent": 4.4753323891200125e-06,
+          "strain_percent": 0.0002210116945207119,
+          "stress_percent": 0.0008397682686336339,
+          "energy_percent": 0.00016834249254316092,
+          "fluctuation_percent": 2.85801688733045e-05,
+          "residual_percent": 0.0002651293470989913,
+          "total_ms": 69.97999688610435
+        }
+      }
+    },
+    {
+      "split": "ood",
+      "index": 0,
+      "contrast": 21.10971217854957,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.5294445157051086,
+          "strain_percent": 3.368969202041626,
+          "stress_percent": 15.433777809143066,
+          "energy_percent": 4.149985313415527,
+          "fluctuation_percent": 7.354203701019287,
+          "residual_percent": 5.5609660148620605,
+          "total_ms": 63.87063581496477
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.3444817066192627,
+          "strain_percent": 1.9165972471237183,
+          "stress_percent": 6.3300395011901855,
+          "energy_percent": 1.932633876800537,
+          "fluctuation_percent": 4.7849931716918945,
+          "residual_percent": 1.4260485172271729,
+          "total_ms": 66.7185508646071
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.6760882139205933,
+          "strain_percent": 8.525605201721191,
+          "stress_percent": 55.7239875793457,
+          "energy_percent": 14.451336860656738,
+          "fluctuation_percent": 23.281553268432617,
+          "residual_percent": 9.636290550231934,
+          "total_ms": 65.37003489211202
+        },
+        "LU_K1": {
+          "displacement_percent": 4.2546071199467406e-06,
+          "strain_percent": 0.0002377330238232389,
+          "stress_percent": 0.0013988313730806112,
+          "energy_percent": 0.0002586102928034961,
+          "fluctuation_percent": 4.9614125600783154e-05,
+          "residual_percent": 0.00018393155187368393,
+          "total_ms": 72.78769975528121
+        }
+      },
+      "K1_phase_ms": {
+        "NO": 1.6890349797904491,
+        "fine_assembly": 0.19291462376713753,
+        "prefilter": 3.501581959426403,
+        "features_graph_space_factor": 2.9882490634918213,
+        "projection": 0.265766866505146,
+        "postfilter": 0.4887930117547512
+      }
+    },
+    {
+      "split": "ood",
+      "index": 1,
+      "contrast": 22.623613222434237,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.4173288941383362,
+          "strain_percent": 2.5944666862487793,
+          "stress_percent": 16.087160110473633,
+          "energy_percent": 3.9122424125671387,
+          "fluctuation_percent": 5.737588882446289,
+          "residual_percent": 4.64783239364624,
+          "total_ms": 63.12398565933108
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.2633515000343323,
+          "strain_percent": 1.3890926837921143,
+          "stress_percent": 7.020002365112305,
+          "energy_percent": 1.8256703615188599,
+          "fluctuation_percent": 3.6206517219543457,
+          "residual_percent": 1.41416597366333,
+          "total_ms": 68.79008375108242
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 2.037100315093994,
+          "strain_percent": 8.2488431930542,
+          "stress_percent": 67.54622650146484,
+          "energy_percent": 16.38590431213379,
+          "fluctuation_percent": 28.006792068481445,
+          "residual_percent": 10.626562118530273,
+          "total_ms": 64.10626135766506
+        },
+        "LU_K1": {
+          "displacement_percent": 4.512703526415862e-06,
+          "strain_percent": 0.00024599494645372033,
+          "stress_percent": 0.001058459165506065,
+          "energy_percent": 0.000209371792152524,
+          "fluctuation_percent": 5.0567887228680775e-05,
+          "residual_percent": 0.00015666340186726302,
+          "total_ms": 73.50842794403434
+        }
+      },
+      "K1_phase_ms": {
+        "NO": 1.6799140721559525,
+        "fine_assembly": 0.17825374379754066,
+        "prefilter": 3.5211131907999516,
+        "features_graph_space_factor": 2.874345052987337,
+        "projection": 0.2544363960623741,
+        "postfilter": 0.4740818403661251
+      }
+    },
+    {
+      "split": "ood",
+      "index": 2,
+      "contrast": 36.57380059102835,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.5353831648826599,
+          "strain_percent": 2.4492573738098145,
+          "stress_percent": 31.682363510131836,
+          "energy_percent": 5.294885635375977,
+          "fluctuation_percent": 8.469131469726562,
+          "residual_percent": 4.726496696472168,
+          "total_ms": 63.40886326506734
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.3354129493236542,
+          "strain_percent": 1.4085150957107544,
+          "stress_percent": 16.009273529052734,
+          "energy_percent": 2.7785961627960205,
+          "fluctuation_percent": 5.305837631225586,
+          "residual_percent": 1.8150203227996826,
+          "total_ms": 65.73296384885907
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.7236640453338623,
+          "strain_percent": 7.729377746582031,
+          "stress_percent": 110.79512023925781,
+          "energy_percent": 18.651548385620117,
+          "fluctuation_percent": 27.266334533691406,
+          "residual_percent": 11.023588180541992,
+          "total_ms": 63.831205014139414
+        },
+        "LU_K1": {
+          "displacement_percent": 4.557699412544025e-06,
+          "strain_percent": 0.00025403022300451994,
+          "stress_percent": 0.0011880170786753297,
+          "energy_percent": 0.00019359274301677942,
+          "fluctuation_percent": 5.887256338610314e-05,
+          "residual_percent": 0.00023745137150399387,
+          "total_ms": 73.44413595274091
+        }
+      }
+    },
+    {
+      "split": "ood",
+      "index": 3,
+      "contrast": 32.11373376737828,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.35945576429367065,
+          "strain_percent": 2.0294289588928223,
+          "stress_percent": 25.72736167907715,
+          "energy_percent": 5.283936023712158,
+          "fluctuation_percent": 7.067657947540283,
+          "residual_percent": 4.777056694030762,
+          "total_ms": 63.30826971679926
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.21634535491466522,
+          "strain_percent": 1.1141949892044067,
+          "stress_percent": 13.060376167297363,
+          "energy_percent": 2.81122088432312,
+          "fluctuation_percent": 4.253805637359619,
+          "residual_percent": 1.8444929122924805,
+          "total_ms": 65.92218903824687
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.3556756973266602,
+          "strain_percent": 6.409877777099609,
+          "stress_percent": 78.39827728271484,
+          "energy_percent": 16.90283966064453,
+          "fluctuation_percent": 26.655441284179688,
+          "residual_percent": 10.924072265625,
+          "total_ms": 64.130580984056
+        },
+        "LU_K1": {
+          "displacement_percent": 4.400802026793826e-06,
+          "strain_percent": 0.000253670645179227,
+          "stress_percent": 0.0013953365851193666,
+          "energy_percent": 0.00025834026746451855,
+          "fluctuation_percent": 7.206857117125764e-05,
+          "residual_percent": 0.00018175721925217658,
+          "total_ms": 72.68310571089387
+        }
+      }
+    },
+    {
+      "split": "ood",
+      "index": 4,
+      "contrast": 49.20877103681398,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 1.7150288820266724,
+          "strain_percent": 7.4404754638671875,
+          "stress_percent": 125.07697296142578,
+          "energy_percent": 11.046977996826172,
+          "fluctuation_percent": 15.18986988067627,
+          "residual_percent": 9.277263641357422,
+          "total_ms": 64.24717465415597
+        },
+        "AMG_K2": {
+          "displacement_percent": 1.049712061882019,
+          "strain_percent": 4.3123698234558105,
+          "stress_percent": 67.1695327758789,
+          "energy_percent": 6.122357368469238,
+          "fluctuation_percent": 9.297212600708008,
+          "residual_percent": 3.8651909828186035,
+          "total_ms": 67.00352672487497
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 3.464709520339966,
+          "strain_percent": 13.635306358337402,
+          "stress_percent": 214.8722686767578,
+          "energy_percent": 19.281919479370117,
+          "fluctuation_percent": 30.686647415161133,
+          "residual_percent": 11.733601570129395,
+          "total_ms": 64.53192187473178
+        },
+        "LU_K1": {
+          "displacement_percent": 4.447779247129802e-06,
+          "strain_percent": 0.00022970161808189005,
+          "stress_percent": 0.0033442142885178328,
+          "energy_percent": 0.0002023814886342734,
+          "fluctuation_percent": 3.24322099913843e-05,
+          "residual_percent": 0.0002672641712706536,
+          "total_ms": 72.2728748805821
+        }
+      }
+    },
+    {
+      "split": "ood",
+      "index": 5,
+      "contrast": 37.090537484256174,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.4699855148792267,
+          "strain_percent": 3.0642495155334473,
+          "stress_percent": 31.73663330078125,
+          "energy_percent": 4.99943733215332,
+          "fluctuation_percent": 7.288999080657959,
+          "residual_percent": 5.614291667938232,
+          "total_ms": 63.71909100562334
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.2903420031070709,
+          "strain_percent": 1.6624534130096436,
+          "stress_percent": 13.988282203674316,
+          "energy_percent": 2.3631398677825928,
+          "fluctuation_percent": 4.502910614013672,
+          "residual_percent": 1.7888739109039307,
+          "total_ms": 66.87435321509838
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.7851423025131226,
+          "strain_percent": 8.321837425231934,
+          "stress_percent": 102.03207397460938,
+          "energy_percent": 16.554889678955078,
+          "fluctuation_percent": 27.685752868652344,
+          "residual_percent": 10.93547534942627,
+          "total_ms": 64.50793100520968
+        },
+        "LU_K1": {
+          "displacement_percent": 4.391600214148639e-06,
+          "strain_percent": 0.0002488727914169431,
+          "stress_percent": 0.0019128976855427027,
+          "energy_percent": 0.00025591746089048684,
+          "fluctuation_percent": 5.63209323445335e-05,
+          "residual_percent": 0.00017398038471583277,
+          "total_ms": 72.64101365581155
+        }
+      }
+    },
+    {
+      "split": "ood",
+      "index": 6,
+      "contrast": 21.474667203539312,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.2299225926399231,
+          "strain_percent": 1.4584226608276367,
+          "stress_percent": 9.983879089355469,
+          "energy_percent": 2.649327278137207,
+          "fluctuation_percent": 3.273952007293701,
+          "residual_percent": 3.05605411529541,
+          "total_ms": 63.26000904664397
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.1353348195552826,
+          "strain_percent": 0.7507202625274658,
+          "stress_percent": 4.8190202713012695,
+          "energy_percent": 1.3381216526031494,
+          "fluctuation_percent": 1.9270830154418945,
+          "residual_percent": 0.9558166265487671,
+          "total_ms": 65.71160303428769
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.8283694982528687,
+          "strain_percent": 8.239452362060547,
+          "stress_percent": 72.03329467773438,
+          "energy_percent": 19.19091033935547,
+          "fluctuation_percent": 26.034828186035156,
+          "residual_percent": 11.905794143676758,
+          "total_ms": 63.42411320656538
+        },
+        "LU_K1": {
+          "displacement_percent": 4.417525360622676e-06,
+          "strain_percent": 0.0002481404517311603,
+          "stress_percent": 0.0013178192311897874,
+          "energy_percent": 0.0002651980612426996,
+          "fluctuation_percent": 5.2153365686535835e-05,
+          "residual_percent": 0.0002958613040391356,
+          "total_ms": 72.49094033613801
+        }
+      }
+    },
+    {
+      "split": "ood",
+      "index": 7,
+      "contrast": 23.862878455390547,
+      "methods": {
+        "AMG_K1": {
+          "displacement_percent": 0.385662704706192,
+          "strain_percent": 2.406129837036133,
+          "stress_percent": 17.76970672607422,
+          "energy_percent": 4.098233222961426,
+          "fluctuation_percent": 6.774485111236572,
+          "residual_percent": 5.288849353790283,
+          "total_ms": 63.83755384013057
+        },
+        "AMG_K2": {
+          "displacement_percent": 0.24440041184425354,
+          "strain_percent": 1.2303078174591064,
+          "stress_percent": 7.7042951583862305,
+          "energy_percent": 1.9003305435180664,
+          "fluctuation_percent": 4.29309606552124,
+          "residual_percent": 1.4837530851364136,
+          "total_ms": 66.86161272227764
+        },
+        "zero-AMG_K2": {
+          "displacement_percent": 1.4735875129699707,
+          "strain_percent": 8.278436660766602,
+          "stress_percent": 66.74002838134766,
+          "energy_percent": 16.173683166503906,
+          "fluctuation_percent": 25.884788513183594,
+          "residual_percent": 10.53886604309082,
+          "total_ms": 64.66155359521508
+        },
+        "LU_K1": {
+          "displacement_percent": 4.219383754389128e-06,
+          "strain_percent": 0.00023723712365608662,
+          "stress_percent": 0.001236298237927258,
+          "energy_percent": 0.00023711693938821554,
+          "fluctuation_percent": 6.224279786692932e-05,
+          "residual_percent": 0.00019681639969348907,
+          "total_ms": 70.30129199847579
+        }
+      }
+    }
+  ],
+  "summary": {
+    "test": {
+      "AMG_K1": {
+        "displacement_percent": {
+          "mean": 0.16330888867378235,
+          "p95": 0.4603367216885088,
+          "median": 0.09462378174066544
+        },
+        "strain_percent": {
+          "mean": 1.1827384978532791,
+          "p95": 2.930215710401534,
+          "median": 0.7290135622024536
+        },
+        "stress_percent": {
+          "mean": 3.8519827350974083,
+          "p95": 14.9384493112564,
+          "median": 1.0363407135009766
+        },
+        "energy_percent": {
+          "mean": 2.633589491248131,
+          "p95": 4.498269033432006,
+          "median": 2.158897638320923
+        },
+        "fluctuation_percent": {
+          "mean": 2.544957235455513,
+          "p95": 4.15554118156433,
+          "median": 2.1804057359695435
+        },
+        "residual_percent": {
+          "mean": 3.240606114268303,
+          "p95": 5.054017591476439,
+          "median": 3.075785756111145
+        },
+        "total_ms": {
+          "mean": 64.96144947595894,
+          "p95": 69.6629797341302,
+          "median": 64.14835969917476
+        }
+      },
+      "AMG_K2": {
+        "displacement_percent": {
+          "mean": 0.0944023160263896,
+          "p95": 0.26667474657297124,
+          "median": 0.05360822565853596
+        },
+        "strain_percent": {
+          "mean": 0.5666309874504805,
+          "p95": 1.5045630306005473,
+          "median": 0.32552726566791534
+        },
+        "stress_percent": {
+          "mean": 1.7848921567201614,
+          "p95": 7.2500964760780295,
+          "median": 0.3964589983224869
+        },
+        "energy_percent": {
+          "mean": 1.1686349734663963,
+          "p95": 2.1736271440982815,
+          "median": 0.9234730303287506
+        },
+        "fluctuation_percent": {
+          "mean": 1.4641300067305565,
+          "p95": 2.3595570504665373,
+          "median": 1.257093369960785
+        },
+        "residual_percent": {
+          "mean": 0.8528354540467262,
+          "p95": 1.6110234618186945,
+          "median": 0.7028749585151672
+        },
+        "total_ms": {
+          "mean": 67.04693147912621,
+          "p95": 69.22918620985001,
+          "median": 66.57586246728897
+        }
+      },
+      "zero-AMG_K2": {
+        "displacement_percent": {
+          "mean": 1.6013509631156921,
+          "p95": 3.5743970990180958,
+          "median": 1.199528992176056
+        },
+        "strain_percent": {
+          "mean": 6.2301011979579926,
+          "p95": 11.671007347106931,
+          "median": 5.533080101013184
+        },
+        "stress_percent": {
+          "mean": 22.696072220802307,
+          "p95": 71.638437461853,
+          "median": 12.960628986358643
+        },
+        "energy_percent": {
+          "mean": 17.819962859153748,
+          "p95": 20.772203540802,
+          "median": 17.134581565856934
+        },
+        "fluctuation_percent": {
+          "mean": 26.536750555038452,
+          "p95": 31.47331304550171,
+          "median": 26.282525062561035
+        },
+        "residual_percent": {
+          "mean": 9.444657921791077,
+          "p95": 11.35185523033142,
+          "median": 9.635791778564453
+        },
+        "total_ms": {
+          "mean": 65.11011690599844,
+          "p95": 69.39149643294513,
+          "median": 64.22589998692274
+        }
+      },
+      "LU_K1": {
+        "displacement_percent": {
+          "mean": 4.450561505109363e-06,
+          "p95": 4.513311614573467e-06,
+          "median": 4.451057520782342e-06
+        },
+        "strain_percent": {
+          "mean": 0.0002569546668382827,
+          "p95": 0.0002679991943296045,
+          "median": 0.00026097334921360016
+        },
+        "stress_percent": {
+          "mean": 0.00043691716200555675,
+          "p95": 0.0007831763010472058,
+          "median": 0.00039291723805945367
+        },
+        "energy_percent": {
+          "mean": 0.0005843905091751367,
+          "p95": 0.0010241881886031477,
+          "median": 0.0005172358360141516
+        },
+        "fluctuation_percent": {
+          "mean": 8.490269920002902e-05,
+          "p95": 0.0001467649679398164,
+          "median": 7.963352982187644e-05
+        },
+        "residual_percent": {
+          "mean": 0.00019379270634090062,
+          "p95": 0.00025708740431582553,
+          "median": 0.00018991732213180512
+        },
+        "total_ms": {
+          "mean": 71.02590054273605,
+          "p95": 72.64266514685005,
+          "median": 70.78204723075032
+        }
+      }
+    },
+    "ood": {
+      "AMG_K1": {
+        "displacement_percent": {
+          "mean": 0.5802765041589737,
+          "p95": 1.3021528810262675,
+          "median": 0.44365720450878143
+        },
+        "strain_percent": {
+          "mean": 3.101424962282181,
+          "p95": 6.015448272228239,
+          "median": 2.521862030029297
+        },
+        "stress_percent": {
+          "mean": 34.1872318983078,
+          "p95": 92.40785408020014,
+          "median": 21.748534202575684
+        },
+        "energy_percent": {
+          "mean": 5.179378151893616,
+          "p95": 9.0337456703186,
+          "median": 4.574711322784424
+        },
+        "fluctuation_percent": {
+          "mean": 7.6444860100746155,
+          "p95": 12.837611436843869,
+          "median": 7.178328514099121
+        },
+        "residual_percent": {
+          "mean": 5.368601322174072,
+          "p95": 7.995223450660704,
+          "median": 5.0329530239105225
+        },
+        "total_ms": {
+          "mean": 63.59694787533954,
+          "p95": 64.11538606043905,
+          "median": 63.56397713534534
+        }
+      },
+      "AMG_K2": {
+        "displacement_percent": {
+          "mean": 0.35992260091006756,
+          "p95": 0.8028814375400539,
+          "median": 0.2768467515707016
+        },
+        "strain_percent": {
+          "mean": 1.7230314165353775,
+          "p95": 3.473849421739577,
+          "median": 1.3988038897514343
+        },
+        "stress_percent": {
+          "mean": 17.012602746486664,
+          "p95": 49.26344203948972,
+          "median": 10.382335662841797
+        },
+        "energy_percent": {
+          "mean": 2.634008839726448,
+          "p95": 4.963459599018095,
+          "median": 2.147886872291565
+        },
+        "fluctuation_percent": {
+          "mean": 4.7481988072395325,
+          "p95": 7.900231361389158,
+          "median": 4.398003339767456
+        },
+        "residual_percent": {
+          "mean": 1.8241702914237976,
+          "p95": 3.1579466581344593,
+          "median": 1.6363134980201721
+        },
+        "total_ms": {
+          "mean": 66.70186039991677,
+          "p95": 68.16478879190981,
+          "median": 66.79008179344237
+        }
+      },
+      "zero-AMG_K2": {
+        "displacement_percent": {
+          "mean": 1.9180421382188797,
+          "p95": 2.965046298503875,
+          "median": 1.7544031739234924
+        },
+        "strain_percent": {
+          "mean": 8.67359209060669,
+          "p95": 11.846910953521725,
+          "median": 8.2636399269104
+        },
+        "stress_percent": {
+          "mean": 96.01765966415405,
+          "p95": 178.44526672363276,
+          "median": 75.21578598022461
+        },
+        "energy_percent": {
+          "mean": 17.19912898540497,
+          "p95": 19.25006628036499,
+          "median": 16.728864669799805
+        },
+        "fluctuation_percent": {
+          "mean": 26.937767267227173,
+          "p95": 29.74869804382324,
+          "median": 26.960887908935547
+        },
+        "residual_percent": {
+          "mean": 10.915531277656555,
+          "p95": 11.845526742935181,
+          "median": 10.929773807525635
+        },
+        "total_ms": {
+          "mean": 64.3204502412118,
+          "p95": 65.12206643819809,
+          "median": 64.31925599463284
+        }
+      },
+      "LU_K1": {
+        "displacement_percent": {
+          "mean": 4.400262582748837e-06,
+          "p95": 4.541950852399168e-06,
+          "median": 4.409163693708251e-06
+        },
+        "strain_percent": {
+          "mean": 0.0002444226029183483,
+          "p95": 0.0002539043707656674,
+          "median": 0.0002470676990924403
+        },
+        "stress_percent": {
+          "mean": 0.0016064842056948692,
+          "p95": 0.0028432534774765366,
+          "median": 0.001356577908154577
+        },
+        "energy_percent": {
+          "mean": 0.0002350661306991242,
+          "p95": 0.0002628923422889784,
+          "median": 0.0002465172001393512
+        },
+        "fluctuation_percent": {
+          "mean": 5.428405665952596e-05,
+          "p95": 6.862955051474273e-05,
+          "median": 5.423714901553467e-05
+        },
+        "residual_percent": {
+          "mean": 0.00021171572552702855,
+          "p95": 0.0002858523075701669,
+          "median": 0.0001903739757835865
+        },
+        "total_ms": {
+          "mean": 72.51618627924472,
+          "p95": 73.48592574708164,
+          "median": 72.66205968335271
+        }
+      }
+    }
+  },
+  "graph_plan_ms_once": 367.62473778799176,
+  "spectral_bound": 4.04,
+  "mode_shaping_omega": 0.39603960396039606,
+  "pre": 64,
+  "post": 8,
+  "graph_rank": 8,
+  "regional_columns": 72,
+  "reference_anchor": false,
+  "hardware": "NVIDIA GeForce RTX 4090",
+  "repeats": 3,
+  "timing": "batch1 synchronized wallclock; fresh NO, material assembly and response setup every call; one warmup, repeat median; data IO/metrics/mesh plan excluded; numerical baseline reuses fixed MeshTri/Basis, includes material assembly and solver setup; inputs preloaded on GPU",
+  "note": "K1-trained graph weights and response factor are reused for K2; numerical AMG receives 2 translations + 1 rotation; linear P1 algebraic references, not a continuum convergence claim"
+}

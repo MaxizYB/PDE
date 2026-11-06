@@ -1,0 +1,186 @@
+{
+  "split": "val",
+  "samples": [
+    {
+      "index": 0,
+      "methods": {
+        "16": {
+          "L2_percent": 1.0088710233322145,
+          "gradient_percent": 25.8644943417478,
+          "energy_percent": 31.889671793095907,
+          "flux_L2_percent": 39.246185406879675,
+          "error_sine_low_fraction_percent": 42.430167860506806,
+          "error_sine_mid_fraction_percent": 12.132522998458404,
+          "error_sine_high_fraction_percent": 45.43730914103478,
+          "apply_ms": 1.1408347636461258
+        },
+        "32": {
+          "L2_percent": 0.725286682981309,
+          "gradient_percent": 14.432879238493019,
+          "energy_percent": 16.545755276544583,
+          "flux_L2_percent": 19.623703406368527,
+          "error_sine_low_fraction_percent": 67.80031267577485,
+          "error_sine_mid_fraction_percent": 7.915006775283373,
+          "error_sine_high_fraction_percent": 24.28468054894176,
+          "apply_ms": 2.448214218020439
+        },
+        "64": {
+          "L2_percent": 0.5470369788115457,
+          "gradient_percent": 3.9671353036014914,
+          "energy_percent": 4.257212840521651,
+          "flux_L2_percent": 4.721490904985492,
+          "error_sine_low_fraction_percent": 94.9930954521565,
+          "error_sine_mid_fraction_percent": 1.7538768275560241,
+          "error_sine_high_fraction_percent": 3.253027720287491,
+          "apply_ms": 3.9080092683434486
+        },
+        "128": {
+          "L2_percent": 0.4732685038358726,
+          "gradient_percent": 0.6593283466726577,
+          "energy_percent": 0.6465665328295949,
+          "flux_L2_percent": 0.6399247536375557,
+          "error_sine_low_fraction_percent": 99.42395833744555,
+          "error_sine_mid_fraction_percent": 0.5317526697663989,
+          "error_sine_high_fraction_percent": 0.04428899278805964,
+          "apply_ms": 8.700483944267035
+        }
+      }
+    },
+    {
+      "index": 1,
+      "methods": {
+        "16": {
+          "L2_percent": 1.7268221924886367,
+          "gradient_percent": 25.458416793082495,
+          "energy_percent": 31.181929786827318,
+          "flux_L2_percent": 40.27384006941476,
+          "error_sine_low_fraction_percent": 80.65163675982535,
+          "error_sine_mid_fraction_percent": 4.7181420612513,
+          "error_sine_high_fraction_percent": 14.63022117892337,
+          "apply_ms": 0.9434889070689678
+        },
+        "32": {
+          "L2_percent": 1.5080562705043659,
+          "gradient_percent": 13.94242950693477,
+          "energy_percent": 16.16366772596155,
+          "flux_L2_percent": 19.709643300871523,
+          "error_sine_low_fraction_percent": 92.6534823209806,
+          "error_sine_mid_fraction_percent": 2.0072996825343123,
+          "error_sine_high_fraction_percent": 5.339217996485116,
+          "apply_ms": 2.6534199714660645
+        },
+        "64": {
+          "L2_percent": 1.37645115149858,
+          "gradient_percent": 4.014134558539389,
+          "energy_percent": 4.302913590858445,
+          "flux_L2_percent": 4.789629333526222,
+          "error_sine_low_fraction_percent": 98.98383740374062,
+          "error_sine_mid_fraction_percent": 0.5678030135931673,
+          "error_sine_high_fraction_percent": 0.44835958266622566,
+          "apply_ms": 3.923409152776003
+        },
+        "128": {
+          "L2_percent": 1.27082208978517,
+          "gradient_percent": 1.3938173322876422,
+          "energy_percent": 1.386334623335705,
+          "flux_L2_percent": 1.4039891173482515,
+          "error_sine_low_fraction_percent": 99.635792012577,
+          "error_sine_mid_fraction_percent": 0.3439011462834749,
+          "error_sine_high_fraction_percent": 0.020306841139445194,
+          "apply_ms": 7.717604283243418
+        }
+      }
+    },
+    {
+      "index": 2,
+      "methods": {
+        "16": {
+          "L2_percent": 2.090191218844996,
+          "gradient_percent": 27.4163388857884,
+          "energy_percent": 33.82575073876194,
+          "flux_L2_percent": 40.16073777743593,
+          "error_sine_low_fraction_percent": 81.93266055868799,
+          "error_sine_mid_fraction_percent": 6.70279166246012,
+          "error_sine_high_fraction_percent": 11.364547778851867,
+          "apply_ms": 0.9331977926194668
+        },
+        "32": {
+          "L2_percent": 1.8975370967374987,
+          "gradient_percent": 15.775809401576632,
+          "energy_percent": 17.717119582084393,
+          "flux_L2_percent": 19.779338579182905,
+          "error_sine_low_fraction_percent": 92.77818419436771,
+          "error_sine_mid_fraction_percent": 3.313000497456059,
+          "error_sine_high_fraction_percent": 3.908815308176264,
+          "apply_ms": 2.8146160766482353
+        },
+        "64": {
+          "L2_percent": 1.7726609817726513,
+          "gradient_percent": 4.657743729843873,
+          "energy_percent": 5.048923234039114,
+          "flux_L2_percent": 5.387273155678962,
+          "error_sine_low_fraction_percent": 99.02671405052023,
+          "error_sine_mid_fraction_percent": 0.5929216307285899,
+          "error_sine_high_fraction_percent": 0.380364318751184,
+          "apply_ms": 5.879679229110479
+        },
+        "128": {
+          "L2_percent": 1.6460948553782428,
+          "gradient_percent": 1.85433499904517,
+          "energy_percent": 1.8683087486569265,
+          "flux_L2_percent": 1.9145835728005913,
+          "error_sine_low_fraction_percent": 99.52006038342743,
+          "error_sine_mid_fraction_percent": 0.4552169032085099,
+          "error_sine_high_fraction_percent": 0.024722713364037283,
+          "apply_ms": 8.025953080505133
+        }
+      }
+    },
+    {
+      "index": 3,
+      "methods": {
+        "16": {
+          "L2_percent": 2.2412555729287886,
+          "gradient_percent": 23.93344291841255,
+          "energy_percent": 29.40579216580187,
+          "flux_L2_percent": 35.978273203462265,
+          "error_sine_low_fraction_percent": 90.67788177988749,
+          "error_sine_mid_fraction_percent": 2.774124006069069,
+          "error_sine_high_fraction_percent": 6.547994214043421,
+          "apply_ms": 0.969169195741415
+        },
+        "32": {
+          "L2_percent": 2.1280095753305455,
+          "gradient_percent": 15.507904278312543,
+          "energy_percent": 18.693657913065547,
+          "flux_L2_percent": 21.975760358666253,
+          "error_sine_low_fraction_percent": 94.96667571953999,
+          "error_sine_mid_fraction_percent": 1.6356927399735752,
+          "error_sine_high_fraction_percent": 3.397631540486456,
+          "apply_ms": 2.093902789056301
+        },
+        "64": {
+          "L2_percent": 1.9725725351878873,
+          "gradient_percent": 4.800028819236105,
+          "energy_percent": 4.9684251113608475,
+          "flux_L2_percent": 5.203688438226381,
+          "error_sine_low_fraction_percent": 99.02179404302595,
+          "error_sine_mid_fraction_percent": 0.6300866701330576,
+          "error_sine_high_fraction_percent": 0.3481192868409421,
+          "apply_ms": 4.154397174715996
+        },
+        "128": {
+          "L2_percent": 1.844539332407739,
+          "gradient_percent": 2.1353998634214078,
+          "energy_percent": 1.960908385657696,
+          "flux_L2_percent": 1.8844499969972717,
+          "error_sine_low_fraction_percent": 99.51349386929381,
+          "error_sine_mid_fraction_percent": 0.4413948847240424,
+          "error_sine_high_fraction_percent": 0.04511124598216858,
+          "apply_ms": 7.15737696737051
+        }
+      }
+    }
+  ],
+  "config": "Fixed degrees 16/32/64/128, normalized cutoff .001, upper 2. No test-set selection."
+}

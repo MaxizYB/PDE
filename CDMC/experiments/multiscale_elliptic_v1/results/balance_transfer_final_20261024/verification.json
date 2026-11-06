@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "geometry": "base",
+      "n": 33,
+      "H_galerkin_relative_difference": 6.119100799996092e-16,
+      "L_galerkin_relative_difference": 3.4504287972334466e-16,
+      "kernel_reproduction_relative": 1.0612883358808244e-15,
+      "minimum_admissible_block_eigenvalue": 0.022605708777130952,
+      "preconditioner_symmetry_relative": 2.1925761720953784e-16,
+      "positive_quadratic_form": 303467.5196537708
+    },
+    {
+      "geometry": "warped",
+      "n": 33,
+      "H_galerkin_relative_difference": 5.018659552701321e-16,
+      "L_galerkin_relative_difference": 3.1853309759066315e-16,
+      "kernel_reproduction_relative": 1.0207510608932636e-15,
+      "minimum_admissible_block_eigenvalue": 0.020210148576845013,
+      "preconditioner_symmetry_relative": 3.106138769100822e-16,
+      "positive_quadratic_form": 461876.9432843083
+    },
+    {
+      "geometry": "two_cells",
+      "n": 33,
+      "H_galerkin_relative_difference": 6.455318203465198e-16,
+      "L_galerkin_relative_difference": 3.4591803665993597e-16,
+      "kernel_reproduction_relative": 8.577469225115117e-16,
+      "minimum_admissible_block_eigenvalue": 0.02446534088059457,
+      "preconditioner_symmetry_relative": 1.7043430731695234e-15,
+      "positive_quadratic_form": 465005.1272464154
+    },
+    {
+      "geometry": "triangle",
+      "n": 33,
+      "H_galerkin_relative_difference": 2.200649217367673e-16,
+      "L_galerkin_relative_difference": 3.5604822982127475e-16,
+      "kernel_reproduction_relative": 7.30185363736038e-16,
+      "minimum_admissible_block_eigenvalue": 0.05534462969471975,
+      "preconditioner_symmetry_relative": 4.4793609698821997e-17,
+      "positive_quadratic_form": 148102.76392781828
+    }
+  ],
+  "source_sha256": {
+    "balance_transfer.py": "0bd969a7b9c5d856249ac489b9465698e9b968d8659492c4f30559efdfe39332",
+    "balance_transfer_study.py": "d060fcb84733d3869af0bd4411e8d0192efc5e56a7d4ef6e5aa70ba0a65f3b09"
+  },
+  "edge_check": "Direct terminal level for grids below max_coarse: passed at 17x17."
+}

@@ -1,0 +1,33 @@
+{
+  "completed": true,
+  "baseline_rows": 8,
+  "unique_new_training_configurations": 7,
+  "checkpoint_sha256": "c2e920d736e2ea4a1c1865d5ba1031d4433ef73dda7db42d85d9d5728d74b545",
+  "matched_initialization_ablation_checked": true,
+  "structured_rows": 71,
+  "sources": {
+    "results/refinement_20261103/smooth/frozen128_fno_h1/evaluation.json": "a8eeb809bf6bc498e1e0a0294576dfd3b36fd3e6c0711b4ef3ffd0d45048c8b1",
+    "results/refinement_20261103/smooth/frozen128_mgno/evaluation.json": "ae1e1a305f91c101ceb52a0fd09a049408de8f40a7cb29c0ab1d71870289daa8",
+    "results/extension_20261103/smooth/DCNO_corrected/evaluation.json": "289c54f294a33a48c3bf46879ec12e0dad1d108c6f3f4883c506cbb22ec83cae",
+    "results/extension_20261103/smooth/M2NO_corrected/evaluation.json": "f04638a79b3a32f263db9350af106b83f904d038e221ac7d0c97e6a19e978ffb",
+    "results/refinement_20261103/rough/frozen128_fno_h1/evaluation.json": "2e6bb907f4973952df9cccd99452ef74436c1ff684193b0d507570b16d674407",
+    "results/refinement_20261103/rough/frozen128_mgno/evaluation.json": "be584f15beb14b29d0edd64292999297b31926446f27b7d149bcea456d228264",
+    "results/extension_20261103/rough/DCNO_corrected/evaluation.json": "b141c98e6e048b755e105e822c3b6d5e35fd455a608c457da71dfec17449e949",
+    "results/extension_20261103/rough/M2NO_corrected/evaluation.json": "074d5fa9a1f2e1afe07af0167ce3dd7e78bb06ec015e401f85fba64f2d16ff90",
+    "results/extension_20261103/baseline_fit_audit.json": "01c7017de0c55a0d72cda9c31923d05727c6feb0e93f0667f0edc4050bf556cb",
+    "results/extension_20261103/matched_linear_test/evaluation.json": "7df1f3b6bdd086ddee26c399dd9113a7380a76008eb1fffc7e99fc60427cc39b",
+    "results/extension_20261103/matched_nonlinear_test/evaluation.json": "e59133cfd56aca81c6d72c24ff7706b0e81ab8d8c8b2fbc21002553382b286b3",
+    "results/extension_20261103/loss_rms4_test/evaluation.json": "f1db010e1f29847d2e9ff01f542b3f1379a83917df8d101b18bbd79d9bd11e25",
+    "results/refinement_20261103/balanced128_holdout32/evaluation.json": "f3b5ba6122e174de141c56a5248a718efc2fc6f47ed66ed39d407541598e7afa",
+    "results/extension_20261103/calibration_isolated/smooth_FNO/evaluation.json": "3afb67c451702f19b9aac86560c3806e1663905b56ba9d28ad69b6ad8dd5bfaa",
+    "results/extension_20261103/calibration_isolated/rough_FNO/evaluation.json": "83f43dbfaf81405b58b5ddbd86034345b89bb8cd0470666f9100fa35eea28fa1",
+    "results/extension_20261103/calibration_isolated/trigonometric_FNO/evaluation.json": "9fac5ca87d79c2d7a2d49e0d6ed9066acddc9106d292a70dd3d2b8dcfab7b9bc",
+    "results/extension_20261103/calibration_isolated/smooth_DCNO/evaluation.json": "878c7efc16b0d5268a192139607b9007d690dce3d58867959577839d779426ce",
+    "results/extension_20261103/calibration_isolated/smooth_M2NO/evaluation.json": "cf02d11a95e92698a92ac2cce78de2e03959e68415ff555e952856953d115c70",
+    "results/extension_20261103/calibration_isolated/rough_DCNO/evaluation.json": "bdb3e73be70e22ff5e97895c5ebcb2d8fc58c34d8fc2e26ec77aee4491ab2c4f",
+    "results/extension_20261103/calibration_isolated/rough_M2NO/evaluation.json": "381fb787efdf18de40fb91ae89d0ce15384c84f9d2aa15bec1f278419a8370d2",
+    "results/extension_20261103/mesh_transfer/evaluation.json": "acecd0bba7ee294c67ccb2b285a11d5df2d54d285d3da022af4626e01f1d426d",
+    "results/extension_20261103/contrast60/evaluation.json": "f64c452ae903b5d5f6409b86b78ab7a0e70cc5b03a0d8d4852863a65e5c8dabe",
+    "results/extension_20261103/contrast_diagnosis.json": "a2947e8605f90336fdd8370f9d2f6860143510b39efabf41dc81d1814ec8d472"
+  }
+}

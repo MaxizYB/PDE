@@ -1,0 +1,183 @@
+{
+  "samples": [
+    {
+      "index": 0,
+      "methods": {
+        "partition_grid_1": {
+          "L2_percent": 0.3227179886085408,
+          "gradient_percent": 0.8131689457786723,
+          "energy_percent": 0.801918680177188,
+          "flux_L2_percent": 0.8026965925387655,
+          "error_sine_low_fraction_percent": 97.17591125014124,
+          "error_sine_mid_fraction_percent": 2.656245772908507,
+          "error_sine_high_fraction_percent": 0.16784297695023226,
+          "setup_ms": 3.4598377533257008,
+          "dimension": 8,
+          "effective_rank": 8,
+          "oracle_field_before_post_percent": 0.24731964125187067
+        },
+        "partition_grid_2": {
+          "L2_percent": 0.19627916722346236,
+          "gradient_percent": 0.6638471598590447,
+          "energy_percent": 0.671782413629195,
+          "flux_L2_percent": 0.678200567236382,
+          "error_sine_low_fraction_percent": 94.14714489461092,
+          "error_sine_mid_fraction_percent": 5.537150618241323,
+          "error_sine_high_fraction_percent": 0.31570448714777166,
+          "setup_ms": 3.578802105039358,
+          "dimension": 32,
+          "effective_rank": 32,
+          "oracle_field_before_post_percent": 0.16415341920244889
+        },
+        "partition_grid_3": {
+          "L2_percent": 0.12885905802114017,
+          "gradient_percent": 0.5348794151938835,
+          "energy_percent": 0.5671450753265541,
+          "flux_L2_percent": 0.606597484119288,
+          "error_sine_low_fraction_percent": 88.15383683450942,
+          "error_sine_mid_fraction_percent": 11.336891287140071,
+          "error_sine_high_fraction_percent": 0.5092718783505036,
+          "setup_ms": 5.541337188333273,
+          "dimension": 72,
+          "effective_rank": 72,
+          "oracle_field_before_post_percent": 0.0785156613683233
+        }
+      }
+    },
+    {
+      "index": 1,
+      "methods": {
+        "partition_grid_1": {
+          "L2_percent": 0.34033267041615217,
+          "gradient_percent": 0.8096402014938103,
+          "energy_percent": 0.79790026212769,
+          "flux_L2_percent": 0.8008112461740513,
+          "error_sine_low_fraction_percent": 97.30763131013424,
+          "error_sine_mid_fraction_percent": 2.5631528206178467,
+          "error_sine_high_fraction_percent": 0.12921586924791614,
+          "setup_ms": 3.8725296035408974,
+          "dimension": 8,
+          "effective_rank": 8,
+          "oracle_field_before_post_percent": 0.28279005882492186
+        },
+        "partition_grid_2": {
+          "L2_percent": 0.23865528148150875,
+          "gradient_percent": 0.6966188282259703,
+          "energy_percent": 0.6889330119041467,
+          "flux_L2_percent": 0.711345856387815,
+          "error_sine_low_fraction_percent": 95.09903104943916,
+          "error_sine_mid_fraction_percent": 4.676207542196537,
+          "error_sine_high_fraction_percent": 0.22476140836426528,
+          "setup_ms": 3.5366909578442574,
+          "dimension": 32,
+          "effective_rank": 32,
+          "oracle_field_before_post_percent": 0.1520830870370957
+        },
+        "partition_grid_3": {
+          "L2_percent": 0.2035513003162541,
+          "gradient_percent": 0.6174220254046052,
+          "energy_percent": 0.620056518717201,
+          "flux_L2_percent": 0.6461112760526202,
+          "error_sine_low_fraction_percent": 94.0529523863507,
+          "error_sine_mid_fraction_percent": 5.688890287299425,
+          "error_sine_high_fraction_percent": 0.2581573263498903,
+          "setup_ms": 5.845615640282631,
+          "dimension": 72,
+          "effective_rank": 72,
+          "oracle_field_before_post_percent": 0.09209636738577959
+        }
+      }
+    },
+    {
+      "index": 2,
+      "methods": {
+        "partition_grid_1": {
+          "L2_percent": 0.5262974327605776,
+          "gradient_percent": 1.330661266418845,
+          "energy_percent": 1.4327403545915547,
+          "flux_L2_percent": 1.4590129423633973,
+          "error_sine_low_fraction_percent": 97.10529820347223,
+          "error_sine_mid_fraction_percent": 2.7362509356119538,
+          "error_sine_high_fraction_percent": 0.15845086091582022,
+          "setup_ms": 3.4523778595030308,
+          "dimension": 8,
+          "effective_rank": 8,
+          "oracle_field_before_post_percent": 0.48330382851018056
+        },
+        "partition_grid_2": {
+          "L2_percent": 0.3982099978412795,
+          "gradient_percent": 1.1469977702645835,
+          "energy_percent": 1.24067131756429,
+          "flux_L2_percent": 1.2921474748441373,
+          "error_sine_low_fraction_percent": 96.01875724251698,
+          "error_sine_mid_fraction_percent": 3.7617212588300206,
+          "error_sine_high_fraction_percent": 0.21952149865303494,
+          "setup_ms": 4.357924219220877,
+          "dimension": 32,
+          "effective_rank": 32,
+          "oracle_field_before_post_percent": 0.31673817991920855
+        },
+        "partition_grid_3": {
+          "L2_percent": 0.26918091851888976,
+          "gradient_percent": 0.8977843333121432,
+          "energy_percent": 0.9670497520019099,
+          "flux_L2_percent": 1.0192785562991575,
+          "error_sine_low_fraction_percent": 92.28201035669262,
+          "error_sine_mid_fraction_percent": 7.379290975385322,
+          "error_sine_high_fraction_percent": 0.33869866792204195,
+          "setup_ms": 6.42017275094986,
+          "dimension": 72,
+          "effective_rank": 72,
+          "oracle_field_before_post_percent": 0.12990415075302825
+        }
+      }
+    },
+    {
+      "index": 3,
+      "methods": {
+        "partition_grid_1": {
+          "L2_percent": 0.5962651161540887,
+          "gradient_percent": 1.4411164936864886,
+          "energy_percent": 1.2828530191409282,
+          "flux_L2_percent": 1.241390635135391,
+          "error_sine_low_fraction_percent": 97.64167838268534,
+          "error_sine_mid_fraction_percent": 2.1387520123525197,
+          "error_sine_high_fraction_percent": 0.21956960496208713,
+          "setup_ms": 4.152378998696804,
+          "dimension": 8,
+          "effective_rank": 8,
+          "oracle_field_before_post_percent": 0.44550457998192466
+        },
+        "partition_grid_2": {
+          "L2_percent": 0.42849270166604186,
+          "gradient_percent": 1.2654617802164136,
+          "energy_percent": 1.0705127313419467,
+          "flux_L2_percent": 1.0021157653619548,
+          "error_sine_low_fraction_percent": 95.72892912004988,
+          "error_sine_mid_fraction_percent": 3.91808656690072,
+          "error_sine_high_fraction_percent": 0.3529843130494177,
+          "setup_ms": 4.689862951636314,
+          "dimension": 32,
+          "effective_rank": 32,
+          "oracle_field_before_post_percent": 0.2947498996798708
+        },
+        "partition_grid_3": {
+          "L2_percent": 0.36365120404513895,
+          "gradient_percent": 1.1039275499991454,
+          "energy_percent": 0.9356987009116127,
+          "flux_L2_percent": 0.888874228984178,
+          "error_sine_low_fraction_percent": 94.95093394752912,
+          "error_sine_mid_fraction_percent": 4.6651250629785705,
+          "error_sine_high_fraction_percent": 0.383940989492285,
+          "setup_ms": 6.327149923890829,
+          "dimension": 72,
+          "effective_rank": 72,
+          "oracle_field_before_post_percent": 0.14676720819262
+        }
+      }
+    }
+  ],
+  "split": "val",
+  "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/polynomial_joint_train_20261027/model.pt",
+  "purpose": "Frozen network; only expand response space using a partition of unity. Oracle coefficients are offline diagnostics, not deployed. No new training."
+}

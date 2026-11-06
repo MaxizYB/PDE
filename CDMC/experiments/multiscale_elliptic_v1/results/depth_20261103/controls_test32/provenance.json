@@ -1,0 +1,35 @@
+{
+  "arguments": {
+    "stage": "evaluate",
+    "data": "baselines/data/multiscale_elliptic_v1/generated/n257_s20261023",
+    "no_dir": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/fno_l2",
+    "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/cycle1_control_train/model.pt",
+    "out": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/controls_test32",
+    "original": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/cycle2_train/model.pt",
+    "material_checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/depth_20261103/material_train/model.pt",
+    "methods": [
+      "original_K2",
+      "original_K4",
+      "cycle1_control_K2",
+      "cycle1_control_K4",
+      "material_only_K2",
+      "material_only_K4",
+      "MG_zero_K2",
+      "MG_zero_K4",
+      "MG_zero_K8"
+    ],
+    "conditioning": "all",
+    "candidate_name": "cycle1_control",
+    "cycles": 2,
+    "epochs": 20,
+    "train_count": 48,
+    "val_count": 12,
+    "count": 32,
+    "split": "test",
+    "repeats": 5,
+    "seed": 20261103,
+    "lr": 0.0003,
+    "device": "cuda"
+  },
+  "script_sha256": "98fc82d514e73effb07ae9f21c8081773856cea114c53c7f485c0dc47a0c901e"
+}

@@ -1,0 +1,59 @@
+{
+  "meaning": "Exact continuum u=sin(pi*x)sin(pi*y)/eps; no iterative or learned solver. Cellwise P1 material approximation included.",
+  "rows": [
+    {
+      "n": 33,
+      "epsilon": 0.01,
+      "field_percent": 4.797510820575582,
+      "direct_factor_ms": 1.980410423129797,
+      "direct_solve_ms": 0.1138630323112011,
+      "direct_relative_residual": 1.998708267091828e-12,
+      "interpolated_exact_parallel_to_perpendicular_energy": 0.05221113860349095
+    },
+    {
+      "n": 33,
+      "epsilon": 0.0001,
+      "field_percent": 82.63107106999016,
+      "direct_factor_ms": 1.9714999943971634,
+      "direct_solve_ms": 0.07104221731424332,
+      "direct_relative_residual": 3.389226696123147e-11,
+      "interpolated_exact_parallel_to_perpendicular_energy": 5.221113860349096
+    },
+    {
+      "n": 65,
+      "epsilon": 0.01,
+      "field_percent": 1.2716435844363378,
+      "direct_factor_ms": 9.936442133039236,
+      "direct_solve_ms": 0.37137093022465706,
+      "direct_relative_residual": 8.238707365946091e-12,
+      "interpolated_exact_parallel_to_perpendicular_energy": 0.013069773588087648
+    },
+    {
+      "n": 65,
+      "epsilon": 0.0001,
+      "field_percent": 54.77832482797999,
+      "direct_factor_ms": 9.951143059879541,
+      "direct_solve_ms": 0.33216970041394234,
+      "direct_relative_residual": 3.9502584931355037e-10,
+      "interpolated_exact_parallel_to_perpendicular_energy": 1.3069773588087652
+    },
+    {
+      "n": 129,
+      "epsilon": 0.01,
+      "field_percent": 0.32332630151296976,
+      "direct_factor_ms": 57.047405280172825,
+      "direct_solve_ms": 2.2443579509854317,
+      "direct_relative_residual": 3.573477916521863e-11,
+      "interpolated_exact_parallel_to_perpendicular_energy": 0.003268500776843114
+    },
+    {
+      "n": 129,
+      "epsilon": 0.0001,
+      "field_percent": 23.84056499237652,
+      "direct_factor_ms": 57.98920290544629,
+      "direct_solve_ms": 2.2016367875039577,
+      "direct_relative_residual": 2.6289597673662594e-09,
+      "interpolated_exact_parallel_to_perpendicular_energy": 0.32685007768431124
+    }
+  ]
+}

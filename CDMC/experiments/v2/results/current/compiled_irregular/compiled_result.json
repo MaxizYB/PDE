@@ -1,0 +1,225 @@
+{
+  "status": "v2 compiled inference; existing trained weights",
+  "dataset": {
+    "version": 1,
+    "equation": "-div(a grad u)=1",
+    "discretization": "P1 FEM",
+    "boundary_type": "Dirichlet",
+    "kind": "irregular",
+    "nodes": 938,
+    "triangles": 1736,
+    "boundary_nodes": 138,
+    "splits": {
+      "train": 64,
+      "val": 16,
+      "test": 16
+    },
+    "seed": 20260927,
+    "coefficient_sampling": {
+      "parent_grid": 129,
+      "tau": 9.0,
+      "covariance": "proportional to (-Delta_N+tau I)^-2",
+      "threshold": 0.0,
+      "a_low": 3.0,
+      "a_high": 12.0
+    },
+    "boundary": "zero",
+    "resolution": 85,
+    "max_area": 0.0008,
+    "notch_width": 0.16,
+    "notch_depth": 0.68,
+    "refine_factor": 1,
+    "max_relative_discrete_residual": 1.3155455623148884e-14,
+    "primary_target": "solution; exactly matches saved mesh and P1-FEM operator",
+    "secondary_target": "fine_reference_on_mesh, only when refine-factor > 1"
+  },
+  "device": "cuda",
+  "coarse_size": 128,
+  "corrector": "cdmc",
+  "cycles": 2,
+  "terminal_pcg_steps": 2,
+  "evaluated_samples": 16,
+  "summary": {
+    "NO_error_percent": {
+      "mean": 5.6693707825616,
+      "p95": 9.304864704608917,
+      "median": 4.728815518319607
+    },
+    "field_error_percent": {
+      "mean": 0.008224649059229705,
+      "p95": 0.014786076280870475,
+      "median": 0.006640970968874171
+    },
+    "input_ms": {
+      "mean": 0.07547865970991552,
+      "p95": 0.08388946298509836,
+      "median": 0.0742215197533369
+    },
+    "NO_ms": {
+      "mean": 0.4252108628861606,
+      "p95": 0.46464637853205204,
+      "median": 0.4169046878814697
+    },
+    "corrector_graph_ms": {
+      "mean": 1.592702028574422,
+      "p95": 1.595241017639637,
+      "median": 1.5923879109323025
+    },
+    "total_ms": {
+      "mean": 2.093391551170498,
+      "p95": 2.13874620385468,
+      "median": 2.087055239826441
+    },
+    "mesh_plan_ms_once": 186.89650390297174,
+    "NO_compile_ms_once": 410.52066162228584,
+    "graph_capture_ms_once": 118.8733191229403,
+    "peak_allocated_mib": 32.1474609375
+  },
+  "per_sample": [
+    {
+      "sample_index": 80,
+      "NO_error_percent": 11.60738691687584,
+      "field_error_percent": 0.027425834559835494,
+      "input_ms": 0.08556200191378593,
+      "NO_ms": 0.45385072007775307,
+      "corrector_graph_ms": 1.593397930264473,
+      "total_ms": 2.132810652256012
+    },
+    {
+      "sample_index": 81,
+      "NO_error_percent": 4.479345306754112,
+      "field_error_percent": 0.004919988350593485,
+      "input_ms": 0.07715169340372086,
+      "NO_ms": 0.44356100261211395,
+      "corrector_graph_ms": 1.592968124896288,
+      "total_ms": 2.1136808209121227
+    },
+    {
+      "sample_index": 82,
+      "NO_error_percent": 4.6810779720544815,
+      "field_error_percent": 0.006648619455518201,
+      "input_ms": 0.08333195000886917,
+      "NO_ms": 0.4174397327005863,
+      "corrector_graph_ms": 1.591299194842577,
+      "total_ms": 2.0920708775520325
+    },
+    {
+      "sample_index": 83,
+      "NO_error_percent": 5.990695580840111,
+      "field_error_percent": 0.010572823521215469,
+      "input_ms": 0.07135188207030296,
+      "NO_ms": 0.4021902568638325,
+      "corrector_graph_ms": 1.5918482095003128,
+      "total_ms": 2.0653903484344482
+    },
+    {
+      "sample_index": 84,
+      "NO_error_percent": 5.265169218182564,
+      "field_error_percent": 0.006633322482230142,
+      "input_ms": 0.0691218301653862,
+      "NO_ms": 0.421739649027586,
+      "corrector_graph_ms": 1.591178122907877,
+      "total_ms": 2.082039602100849
+    },
+    {
+      "sample_index": 85,
+      "NO_error_percent": 4.776553064584732,
+      "field_error_percent": 0.006769375613657758,
+      "input_ms": 0.07099192589521408,
+      "NO_ms": 0.3996999002993107,
+      "corrector_graph_ms": 1.592197921127081,
+      "total_ms": 2.0628897473216057
+    },
+    {
+      "sample_index": 86,
+      "NO_error_percent": 7.100299000740051,
+      "field_error_percent": 0.008120595157379285,
+      "input_ms": 0.07254164665937424,
+      "NO_ms": 0.4093102179467678,
+      "corrector_graph_ms": 1.592577900737524,
+      "total_ms": 2.074429765343666
+    },
+    {
+      "sample_index": 87,
+      "NO_error_percent": 6.620006263256073,
+      "field_error_percent": 0.006418851262424141,
+      "input_ms": 0.08309213444590569,
+      "NO_ms": 0.41636964306235313,
+      "corrector_graph_ms": 1.593397930264473,
+      "total_ms": 2.092859707772732
+    },
+    {
+      "sample_index": 88,
+      "NO_error_percent": 4.075900092720985,
+      "field_error_percent": 0.004637720849132165,
+      "input_ms": 0.07455097511410713,
+      "NO_ms": 0.4042601212859154,
+      "corrector_graph_ms": 1.5911883674561977,
+      "total_ms": 2.0699994638562202
+    },
+    {
+      "sample_index": 89,
+      "NO_error_percent": 6.838309019804001,
+      "field_error_percent": 0.008254066779045388,
+      "input_ms": 0.07930165156722069,
+      "NO_ms": 0.47978200018405914,
+      "corrector_graph_ms": 1.5974692068994045,
+      "total_ms": 2.1565528586506844
+    },
+    {
+      "sample_index": 90,
+      "NO_error_percent": 4.407891631126404,
+      "field_error_percent": 0.0058915673434967175,
+      "input_ms": 0.07837219163775444,
+      "NO_ms": 0.4494008608162403,
+      "corrector_graph_ms": 1.5944982878863811,
+      "total_ms": 2.122271340340376
+    },
+    {
+      "sample_index": 91,
+      "NO_error_percent": 4.508155956864357,
+      "field_error_percent": 0.005317735121934675,
+      "input_ms": 0.0756620429456234,
+      "NO_ms": 0.45960117131471634,
+      "corrector_graph_ms": 1.5932382084429264,
+      "total_ms": 2.128501422703266
+    },
+    {
+      "sample_index": 92,
+      "NO_error_percent": 4.045254737138748,
+      "field_error_percent": 0.0052674004109576344,
+      "input_ms": 0.07348181679844856,
+      "NO_ms": 0.4296409897506237,
+      "corrector_graph_ms": 1.5920880250632763,
+      "total_ms": 2.0952108316123486
+    },
+    {
+      "sample_index": 93,
+      "NO_error_percent": 8.537357300519943,
+      "field_error_percent": 0.009730324381962419,
+      "input_ms": 0.0735018402338028,
+      "NO_ms": 0.4109288565814495,
+      "corrector_graph_ms": 1.5903781168162823,
+      "total_ms": 2.0748088136315346
+    },
+    {
+      "sample_index": 94,
+      "NO_error_percent": 3.7568945437669754,
+      "field_error_percent": 0.008392443123739213,
+      "input_ms": 0.07389206439256668,
+      "NO_ms": 0.40260981768369675,
+      "corrector_graph_ms": 1.5937387943267822,
+      "total_ms": 2.0702406764030457
+    },
+    {
+      "sample_index": 95,
+      "NO_error_percent": 4.019635915756226,
+      "field_error_percent": 0.006593716534553096,
+      "input_ms": 0.06575090810656548,
+      "NO_ms": 0.40298886597156525,
+      "corrector_graph_ms": 1.5917681157588959,
+      "total_ms": 2.0605078898370266
+    }
+  ],
+  "timing_note": "total_ms includes host input copy, NO, and captured online CDMC computation. Mesh plan, NO compilation, and graph capture are one-time costs and are reported separately. No reference FEM or assembled CDMC is timed in this mode."
+}

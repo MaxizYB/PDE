@@ -1,0 +1,11 @@
+/data1/caohuilin/Graph/CDMC/experiments/v2/solver/numerics.py:16: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  return torch.sparse_csr_tensor(
+{"epoch": 1, "training_loss": 5.122975605331703e-05, "validation_percent": [0.050119031220674515, 0.46222731471061707, 0.6614830493927002], "elapsed_s": 1.556448272895068}
+{"epoch": 5, "training_loss": 3.7462658968460495e-05, "validation_percent": [0.058061450719833374, 0.4001876413822174, 0.5709813237190247], "elapsed_s": 6.292973944917321}
+{"epoch": 10, "training_loss": 3.68382363523286e-05, "validation_percent": [0.05921478196978569, 0.3991052508354187, 0.5629138946533203], "elapsed_s": 12.546189288143069}
+{"epoch": 15, "training_loss": 3.650868739176379e-05, "validation_percent": [0.05953529477119446, 0.3991760313510895, 0.5663078427314758], "elapsed_s": 18.713760746177286}
+{"epoch": 20, "training_loss": 3.630269056505616e-05, "validation_percent": [0.05807861313223839, 0.3939545750617981, 0.5585314035415649], "elapsed_s": 24.950804573949426}
+{"epoch": 25, "training_loss": 3.6160948705325303e-05, "validation_percent": [0.05879363790154457, 0.39586812257766724, 0.5615079402923584], "elapsed_s": 31.096443921793252}
+{"epoch": 30, "training_loss": 3.599534054169832e-05, "validation_percent": [0.05661579966545105, 0.39161866903305054, 0.5592119097709656], "elapsed_s": 37.177941773086786}
+{"epoch": 35, "training_loss": 3.59354129386702e-05, "validation_percent": [0.05682076886296272, 0.39234012365341187, 0.5593819618225098], "elapsed_s": 43.27876619016752}
+{"epoch": 40, "training_loss": 3.591008266331149e-05, "validation_percent": [0.056634895503520966, 0.39200833439826965, 0.559093177318573], "elapsed_s": 49.359144744928926}

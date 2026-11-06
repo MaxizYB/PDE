@@ -1,0 +1,84 @@
+{
+  "dataset": "baselines/data/darcy_v2/generated/cdmc_final_257_s20271003",
+  "checkpoint_dir": "CDMC/experiments/v2/results/current/multiscale_direct_smooth_K2",
+  "terminal_solver": "sample-specific direct Cholesky; no PCG",
+  "gate_mode": "smooth_only",
+  "levels": [
+    65025,
+    32513,
+    16257,
+    8129,
+    4065,
+    2033,
+    1017,
+    509,
+    255,
+    128
+  ],
+  "mesh_plan_ms_once": 8026.929243002087,
+  "mesh_plan_stage_ms": {
+    "reference_geometry_assembly": 205.98810398951173,
+    "reference_hierarchy": 7298.10150701087,
+    "transfers_graph_device": 82.00266899075359,
+    "reference_auxiliary": 207.40418997593224,
+    "terminal_geometry": 136.3844299921766,
+    "remaining": 97.04834304284304
+  },
+  "hierarchy_options": {
+    "aggregate_size": 2,
+    "interpolation_max_entries": 64
+  },
+  "checkpoint_hierarchy_options": {
+    "aggregate_size": 2,
+    "interpolation_max_entries": 0
+  },
+  "samples": [
+    {
+      "split": "test",
+      "sample_index": 2,
+      "NO_error_percent": 6.771375238895416,
+      "CDMC_K1_error_percent": 1.0016189888119698,
+      "CDMC_K2_error_percent": 0.02396502095507458,
+      "smooth_only_K2_error_percent": 0.02396502095507458,
+      "MG_K1_error_percent": 1.203017681837082,
+      "MG_K2_error_percent": 0.03221097285859287,
+      "MG_zero_K1_error_percent": 1.4966686256229877,
+      "MG_zero_K2_error_percent": 0.16993797617033124,
+      "sample_build_ms": 99.3103040382266,
+      "CDMC_K2_eager_ms": 75.48788702115417,
+      "MG_K2_eager_ms": 32.98391797579825,
+      "MG_zero_K2_eager_ms": 35.1749750552699
+    },
+    {
+      "split": "test",
+      "sample_index": 3,
+      "NO_error_percent": 11.681483685970306,
+      "CDMC_K1_error_percent": 1.5888914465904236,
+      "CDMC_K2_error_percent": 0.024438556283712387,
+      "smooth_only_K2_error_percent": 0.024438556283712387,
+      "MG_K1_error_percent": 1.8953142687678337,
+      "MG_K2_error_percent": 0.036115097464062274,
+      "MG_zero_K1_error_percent": 0.9328111074864864,
+      "MG_zero_K2_error_percent": 0.1555943861603737,
+      "sample_build_ms": 1.9791820086538792,
+      "CDMC_K2_eager_ms": 33.141642925329506,
+      "MG_K2_eager_ms": 32.02868299558759,
+      "MG_zero_K2_eager_ms": 32.68647100776434
+    }
+  ],
+  "mean": {
+    "NO_error_percent": 9.226429462432861,
+    "CDMC_K1_error_percent": 1.2952552177011967,
+    "CDMC_K2_error_percent": 0.024201788619393483,
+    "smooth_only_K2_error_percent": 0.024201788619393483,
+    "MG_K1_error_percent": 1.5491659753024578,
+    "MG_K2_error_percent": 0.03416303516132757,
+    "MG_zero_K1_error_percent": 1.214739866554737,
+    "MG_zero_K2_error_percent": 0.16276618116535246,
+    "sample_build_ms": 50.64474302344024,
+    "CDMC_K2_eager_ms": 54.314764973241836,
+    "MG_K2_eager_ms": 32.50630048569292,
+    "MG_zero_K2_eager_ms": 33.93072303151712
+  },
+  "timing_note": "single-pass eager timing; NO and one-time mesh plan excluded"
+}

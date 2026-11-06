@@ -1,0 +1,81 @@
+{
+  "status": "independent preview",
+  "samples": 2,
+  "training_epoch": 1,
+  "residual_checks": [
+    {
+      "residual_max_abs": 4.516914486885071e-08,
+      "diagonal_max_abs": 1.9073486328125e-06
+    },
+    {
+      "residual_max_abs": 2.8870999813079834e-08,
+      "diagonal_max_abs": 1.9073486328125e-06
+    },
+    {
+      "residual_max_abs": 4.516914486885071e-08,
+      "diagonal_max_abs": 1.9073486328125e-06
+    }
+  ],
+  "summary": {
+    "NO_error_percent": {
+      "mean": 4.460369609296322,
+      "p95": 4.902481976896524,
+      "median": 4.460369609296322
+    },
+    "step1_error_percent": {
+      "mean": 3.6657946184277534,
+      "p95": 3.9953346736729145,
+      "median": 3.6657946184277534
+    },
+    "step2_error_percent": {
+      "mean": 3.336095716804266,
+      "p95": 3.637424213811755,
+      "median": 3.336095716804266
+    },
+    "prepare_ms": {
+      "mean": 0.16608997248113155,
+      "p95": 0.16802053432911634,
+      "median": 0.16608997248113155
+    },
+    "NO_ms": {
+      "mean": 0.3610304556787014,
+      "p95": 0.37383800372481346,
+      "median": 0.3610304556787014
+    },
+    "update_ms": {
+      "mean": 3.871177788823843,
+      "p95": 3.9075208827853203,
+      "median": 3.871177788823843
+    },
+    "total_ms": {
+      "mean": 4.398298216983676,
+      "p95": 4.4455182971432805,
+      "median": 4.398298216983676
+    },
+    "mesh_plan_ms_once": 41.66863113641739,
+    "proposal_startup_ms_once": 141.55178423970938,
+    "peak_allocated_mib": 60.62158203125
+  },
+  "per_sample": [
+    {
+      "index": 80,
+      "NO_error_percent": 4.951605573296547,
+      "step1_error_percent": 4.031950235366821,
+      "step2_error_percent": 3.6709051579236984,
+      "prepare_ms": 0.16394490376114845,
+      "NO_ms": 0.3752610646188259,
+      "update_ms": 3.9115590043365955,
+      "total_ms": 4.45076497271657
+    },
+    {
+      "index": 81,
+      "NO_error_percent": 3.969133645296097,
+      "step1_error_percent": 3.2996390014886856,
+      "step2_error_percent": 3.0012862756848335,
+      "prepare_ms": 0.16823504120111465,
+      "NO_ms": 0.3467998467385769,
+      "update_ms": 3.8307965733110905,
+      "total_ms": 4.345831461250782
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "split": "val",
+  "count": 8,
+  "cycles": 2,
+  "dictionary": "CDMC/experiments/multiscale_elliptic_v1/results/refinement_20261103/balanced128_train/model.pt",
+  "definition": "Same pretrained learned span, no new training; all columns retained by QR; tests whether coordinate-sensitive ridge limits deployed correction.",
+  "samples": [
+    {
+      "index": 0,
+      "methods": {
+        "original": {
+          "L2_percent": 0.003191448515281081,
+          "gradient_percent": 0.009374161250889301,
+          "flux_L2_percent": 0.008203878998756409,
+          "normalized_gram_smallest_eigenvalue": 3.475334434647672e-07,
+          "normalized_gram_largest_eigenvalue": 57.68484781990999
+        },
+        "same_space_QR": {
+          "L2_percent": 0.002038492588326335,
+          "gradient_percent": 0.006802013143897057,
+          "flux_L2_percent": 0.006665014196187258,
+          "normalized_gram_smallest_eigenvalue": 0.02650845382169857,
+          "normalized_gram_largest_eigenvalue": 6.0759903617306605
+        }
+      },
+      "qr_diagonal_min": 0.010862802041331774
+    },
+    {
+      "index": 1,
+      "methods": {
+        "original": {
+          "L2_percent": 0.0006214846507646143,
+          "gradient_percent": 0.0032436801120638847,
+          "flux_L2_percent": 0.0041685146279633045,
+          "normalized_gram_smallest_eigenvalue": 1.254029304818161e-06,
+          "normalized_gram_largest_eigenvalue": 59.851879787615296
+        },
+        "same_space_QR": {
+          "L2_percent": 0.0005756192258559167,
+          "gradient_percent": 0.003042577300220728,
+          "flux_L2_percent": 0.003814410651102662,
+          "normalized_gram_smallest_eigenvalue": 0.04098833768026291,
+          "normalized_gram_largest_eigenvalue": 7.005862311072522
+        }
+      },
+      "qr_diagonal_min": 0.022259947788359644
+    },
+    {
+      "index": 2,
+      "methods": {
+        "original": {
+          "L2_percent": 0.004028830677270889,
+          "gradient_percent": 0.013101776130497456,
+          "flux_L2_percent": 0.011507157236337662,
+          "normalized_gram_smallest_eigenvalue": 2.914056320406745e-07,
+          "normalized_gram_largest_eigenvalue": 64.21375260514955
+        },
+        "same_space_QR": {
+          "L2_percent": 0.0027035295497626066,
+          "gradient_percent": 0.00974227860569954,
+          "flux_L2_percent": 0.008493192493915558,
+          "normalized_gram_smallest_eigenvalue": 0.03934316449137066,
+          "normalized_gram_largest_eigenvalue": 6.209603005780087
+        }
+      },
+      "qr_diagonal_min": 0.00979304687655365
+    },
+    {
+      "index": 3,
+      "methods": {
+        "original": {
+          "L2_percent": 0.0012311746831983328,
+          "gradient_percent": 0.004910647869110107,
+          "flux_L2_percent": 0.006240993272513151,
+          "normalized_gram_smallest_eigenvalue": 2.59649683870498e-07,
+          "normalized_gram_largest_eigenvalue": 67.4436254578085
+        },
+        "same_space_QR": {
+          "L2_percent": 0.0009832241339609027,
+          "gradient_percent": 0.004030629526823759,
+          "flux_L2_percent": 0.005034582689404488,
+          "normalized_gram_smallest_eigenvalue": 0.029308996616565972,
+          "normalized_gram_largest_eigenvalue": 5.0942704778410075
+        }
+      },
+      "qr_diagonal_min": 0.009842324421876204
+    },
+    {
+      "index": 4,
+      "methods": {
+        "original": {
+          "L2_percent": 0.002689286367967725,
+          "gradient_percent": 0.006383539643138647,
+          "flux_L2_percent": 0.005940079223364592,
+          "normalized_gram_smallest_eigenvalue": 9.211650196742584e-07,
+          "normalized_gram_largest_eigenvalue": 53.60783530947414
+        },
+        "same_space_QR": {
+          "L2_percent": 0.0016808639047667384,
+          "gradient_percent": 0.004397746175527573,
+          "flux_L2_percent": 0.004418662283569574,
+          "normalized_gram_smallest_eigenvalue": 0.04954166111270306,
+          "normalized_gram_largest_eigenvalue": 7.073459280797489
+        }
+      },
+      "qr_diagonal_min": 0.017377917622544203
+    },
+    {
+      "index": 5,
+      "methods": {
+        "original": {
+          "L2_percent": 0.0052315713837742805,
+          "gradient_percent": 0.011461685411632061,
+          "flux_L2_percent": 0.012974172830581665,
+          "normalized_gram_smallest_eigenvalue": 2.635339683540487e-07,
+          "normalized_gram_largest_eigenvalue": 63.182147772780795
+        },
+        "same_space_QR": {
+          "L2_percent": 0.002351652830839157,
+          "gradient_percent": 0.007303658872842789,
+          "flux_L2_percent": 0.007745266426354647,
+          "normalized_gram_smallest_eigenvalue": 0.04205207540475865,
+          "normalized_gram_largest_eigenvalue": 5.381209965555529
+        }
+      },
+      "qr_diagonal_min": 0.009376786668880756
+    },
+    {
+      "index": 6,
+      "methods": {
+        "original": {
+          "L2_percent": 0.0059873973950743675,
+          "gradient_percent": 0.01611567661166191,
+          "flux_L2_percent": 0.011788927949965,
+          "normalized_gram_smallest_eigenvalue": 1.0596305261204877e-06,
+          "normalized_gram_largest_eigenvalue": 49.50220722065491
+        },
+        "same_space_QR": {
+          "L2_percent": 0.004159079398959875,
+          "gradient_percent": 0.012578458525240421,
+          "flux_L2_percent": 0.009259807877242565,
+          "normalized_gram_smallest_eigenvalue": 0.04918653348690503,
+          "normalized_gram_largest_eigenvalue": 6.877519735078774
+        }
+      },
+      "qr_diagonal_min": 0.023030224416325157
+    },
+    {
+      "index": 7,
+      "methods": {
+        "original": {
+          "L2_percent": 0.005688857287168503,
+          "gradient_percent": 0.011747349053621292,
+          "flux_L2_percent": 0.012251827865839005,
+          "normalized_gram_smallest_eigenvalue": 2.789593554012204e-07,
+          "normalized_gram_largest_eigenvalue": 56.7557683278296
+        },
+        "same_space_QR": {
+          "L2_percent": 0.002913110889494419,
+          "gradient_percent": 0.007179184351116419,
+          "flux_L2_percent": 0.007294067647308111,
+          "normalized_gram_smallest_eigenvalue": 0.029750129313502596,
+          "normalized_gram_largest_eigenvalue": 5.927081154469553
+        }
+      },
+      "qr_diagonal_min": 0.009757443171449401
+    }
+  ],
+  "summary": {
+    "original": {
+      "L2_percent": {
+        "mean": 0.003583756370062474,
+        "p95": 0.005882908357307315,
+        "median": 0.0036101395962759852
+      },
+      "gradient_percent": {
+        "mean": 0.009542314510326833,
+        "p95": 0.01506081144325435,
+        "median": 0.010417923331260681
+      },
+      "flux_L2_percent": {
+        "mean": 0.009134444000665098,
+        "p95": 0.012721352092921733,
+        "median": 0.009855518117547035
+      },
+      "normalized_gram_smallest_eigenvalue": {
+        "mean": 5.844883667180145e-07,
+        "p95": 1.1859897322739751e-06,
+        "median": 3.194695377527208e-07
+      },
+      "normalized_gram_largest_eigenvalue": {
+        "mean": 59.03025803765285,
+        "p95": 66.31316995937786,
+        "median": 58.76836380376264
+      }
+    },
+    "same_space_QR": {
+      "L2_percent": {
+        "mean": 0.002175696565245744,
+        "p95": 0.003722990420646965,
+        "median": 0.002195072709582746
+      },
+      "gradient_percent": {
+        "mean": 0.0068845683126710355,
+        "p95": 0.01158579555340111,
+        "median": 0.006990598747506738
+      },
+      "flux_L2_percent": {
+        "mean": 0.006590625533135608,
+        "p95": 0.008991492493078112,
+        "median": 0.0069795409217476845
+      },
+      "normalized_gram_smallest_eigenvalue": {
+        "mean": 0.03833491899097093,
+        "p95": 0.04941736644367375,
+        "median": 0.040165751085816784
+      },
+      "normalized_gram_largest_eigenvalue": {
+        "mean": 6.205624536540703,
+        "p95": 7.049800341393751,
+        "median": 6.142796683755374
+      }
+    }
+  }
+}

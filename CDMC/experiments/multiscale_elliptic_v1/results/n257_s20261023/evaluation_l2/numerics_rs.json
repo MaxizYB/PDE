@@ -1,0 +1,2258 @@
+{
+  "backend": "CPU PyAMG 5.3.0, classical Ruge-Stuben, default strength theta=0.25 and symmetric Gauss-Seidel",
+  "cpu_threads": 2,
+  "no_dir": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/fno_l2",
+  "summary": {
+    "zero_AMG_K1": {
+      "L2_percent": {
+        "mean": 70.4374431858744,
+        "p95": 75.65083900373594,
+        "median": 70.08375685699126
+      },
+      "gradient_percent": {
+        "mean": 70.6855814941346,
+        "p95": 75.53323039341345,
+        "median": 70.71790113425587
+      },
+      "energy_percent": {
+        "mean": 69.97469107251604,
+        "p95": 75.39115516027333,
+        "median": 69.7094769542965
+      },
+      "flux_L2_percent": {
+        "mean": 70.26129225919516,
+        "p95": 75.85810460477127,
+        "median": 70.05680158252372
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 99.64624529286385,
+        "p95": 99.75725953758271,
+        "median": 99.64337761272401
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.32843257279189436,
+        "p95": 0.4416926514931906,
+        "median": 0.33334324317783953
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.02532213434423631,
+        "p95": 0.031082239715019472,
+        "median": 0.024514244022061652
+      },
+      "solve_ms": {
+        "mean": 7.637800779775716,
+        "p95": 8.089457813184708,
+        "median": 7.548982044681907
+      },
+      "assembly_ms": {
+        "mean": 70.61427441658452,
+        "p95": 73.57814634451643,
+        "median": 70.08178101386875
+      },
+      "amg_setup_ms": {
+        "mean": 63.50298957841005,
+        "p95": 66.24283426208422,
+        "median": 63.05620039347559
+      },
+      "total_cpu_ms": {
+        "mean": 141.7550647747703,
+        "p95": 147.2193727386184,
+        "median": 140.5281494371593
+      }
+    },
+    "zero_AMG_K2": {
+      "L2_percent": {
+        "mean": 51.22051409260844,
+        "p95": 59.00953090699107,
+        "median": 50.392882970383006
+      },
+      "gradient_percent": {
+        "mean": 52.01830141647529,
+        "p95": 60.14147618458833,
+        "median": 51.61346601908594
+      },
+      "energy_percent": {
+        "mean": 51.3252954211557,
+        "p95": 59.3345347131409,
+        "median": 50.47784379070406
+      },
+      "flux_L2_percent": {
+        "mean": 51.79485072913526,
+        "p95": 60.31562641047681,
+        "median": 50.96412042869149
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 99.62822691247665,
+        "p95": 99.75148062956514,
+        "median": 99.62567943887302
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.3455941455875934,
+        "p95": 0.4652433889722559,
+        "median": 0.34851852231477776
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.026178941935755744,
+        "p95": 0.03269619813727914,
+        "median": 0.025158241288120664
+      },
+      "solve_ms": {
+        "mean": 14.440023602219298,
+        "p95": 14.883015013765544,
+        "median": 14.312576968222857
+      },
+      "assembly_ms": {
+        "mean": 70.61427441658452,
+        "p95": 73.57814634451643,
+        "median": 70.08178101386875
+      },
+      "amg_setup_ms": {
+        "mean": 63.50298957841005,
+        "p95": 66.24283426208422,
+        "median": 63.05620039347559
+      },
+      "total_cpu_ms": {
+        "mean": 148.55728759721387,
+        "p95": 154.3656405992806,
+        "median": 147.34919799957424
+      }
+    },
+    "zero_AMG_K4": {
+      "L2_percent": {
+        "mean": 28.464807439032533,
+        "p95": 37.80915011464214,
+        "median": 27.330545948976678
+      },
+      "gradient_percent": {
+        "mean": 29.6194220642559,
+        "p95": 39.634620165525675,
+        "median": 28.231255866582693
+      },
+      "energy_percent": {
+        "mean": 29.188217286512376,
+        "p95": 38.94095024498394,
+        "median": 27.861306035956243
+      },
+      "flux_L2_percent": {
+        "mean": 29.702766682204945,
+        "p95": 40.143212982839714,
+        "median": 28.542970509119378
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 99.59976622791514,
+        "p95": 99.74024652124228,
+        "median": 99.60363134537599
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.3725295655262063,
+        "p95": 0.5191099569002123,
+        "median": 0.36769671231367546
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.02770420655865556,
+        "p95": 0.03572720707831753,
+        "median": 0.027126154655873636
+      },
+      "solve_ms": {
+        "mean": 28.085880883736536,
+        "p95": 28.757314605172724,
+        "median": 27.99936500377953
+      },
+      "assembly_ms": {
+        "mean": 70.61427441658452,
+        "p95": 73.57814634451643,
+        "median": 70.08178101386875
+      },
+      "amg_setup_ms": {
+        "mean": 63.50298957841005,
+        "p95": 66.24283426208422,
+        "median": 63.05620039347559
+      },
+      "total_cpu_ms": {
+        "mean": 162.2031448787311,
+        "p95": 168.06436335900798,
+        "median": 161.009501083754
+      }
+    },
+    "zero_AMG_CG_tol1e-10": {
+      "L2_percent": {
+        "mean": 4.027851599126395e-06,
+        "p95": 4.059661239215645e-06,
+        "median": 4.021234399565841e-06
+      },
+      "gradient_percent": {
+        "mean": 0.00022859709480515714,
+        "p95": 0.0002370107303022275,
+        "median": 0.0002306716867794438
+      },
+      "energy_percent": {
+        "mean": 0.0004558390303723137,
+        "p95": 0.0004674043466244251,
+        "median": 0.00045816092714002295
+      },
+      "flux_L2_percent": {
+        "mean": 0.0009007507381355524,
+        "p95": 0.0009481760656563264,
+        "median": 0.0008974665744660393
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 54.73319320877769,
+        "p95": 55.41017813082013,
+        "median": 54.631363920758005
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.6913031979021325,
+        "p95": 0.7827739235466115,
+        "median": 0.6813160210883634
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 44.57550359332018,
+        "p95": 45.11009392788487,
+        "median": 44.5853124338915
+      },
+      "solve_ms": {
+        "mean": 201.33589325996581,
+        "p95": 214.72996572265401,
+        "median": 201.00158546119928
+      },
+      "iterations": {
+        "mean": 21.9375,
+        "p95": 23.0,
+        "median": 22.0
+      },
+      "relative_residual": {
+        "mean": 5.570390191892014e-11,
+        "p95": 8.843011026994363e-11,
+        "median": 5.264585365077436e-11
+      },
+      "total_cpu_ms": {
+        "mean": 335.4531572549604,
+        "p95": 349.8121155425906,
+        "median": 333.9146813377738
+      }
+    },
+    "NO_AMG_K1": {
+      "L2_percent": {
+        "mean": 0.9470897239558602,
+        "p95": 2.5869438702683505,
+        "median": 0.6367494262708494
+      },
+      "gradient_percent": {
+        "mean": 2.783170081512294,
+        "p95": 3.976150878699396,
+        "median": 2.556507337354569
+      },
+      "energy_percent": {
+        "mean": 3.1233249651594557,
+        "p95": 3.817633373928683,
+        "median": 2.9222001252630143
+      },
+      "flux_L2_percent": {
+        "mean": 3.8271456388120195,
+        "p95": 4.430460192208318,
+        "median": 3.727294608871251
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 89.27915953117281,
+        "p95": 98.79250354688853,
+        "median": 91.07060214670499
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 9.327216129517412,
+        "p95": 22.80425988436778,
+        "median": 7.826168869781542
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 1.3936243393097913,
+        "p95": 2.969219359355569,
+        "median": 1.1884768509527381
+      },
+      "solve_ms": {
+        "mean": 7.524193846620619,
+        "p95": 7.755639671813697,
+        "median": 7.462396053597331
+      },
+      "assembly_ms": {
+        "mean": 70.61427441658452,
+        "p95": 73.57814634451643,
+        "median": 70.08178101386875
+      },
+      "amg_setup_ms": {
+        "mean": 63.50298957841005,
+        "p95": 66.24283426208422,
+        "median": 63.05620039347559
+      },
+      "total_cpu_ms": {
+        "mean": 141.6414578416152,
+        "p95": 147.22199726384133,
+        "median": 140.51601698156446
+      }
+    },
+    "NO_AMG_K2": {
+      "L2_percent": {
+        "mean": 0.643481697782881,
+        "p95": 1.9037649052701773,
+        "median": 0.4187408343732357
+      },
+      "gradient_percent": {
+        "mean": 1.02262074850568,
+        "p95": 2.095004884705885,
+        "median": 0.8885783339489257
+      },
+      "energy_percent": {
+        "mean": 1.0517002854542619,
+        "p95": 2.0465309902129074,
+        "median": 0.9058125331005391
+      },
+      "flux_L2_percent": {
+        "mean": 1.115492734954533,
+        "p95": 1.9197538998950976,
+        "median": 0.9901634305131032
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 95.65175585799405,
+        "p95": 99.40473814365207,
+        "median": 96.98190933021178
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 4.170924477813967,
+        "p95": 10.680723009787362,
+        "median": 2.9145063011039687
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.17731966419199155,
+        "p95": 0.42812576781358347,
+        "median": 0.10358436868426987
+      },
+      "solve_ms": {
+        "mean": 14.391638746019453,
+        "p95": 14.792405883781612,
+        "median": 14.277030946686864
+      },
+      "assembly_ms": {
+        "mean": 70.61427441658452,
+        "p95": 73.57814634451643,
+        "median": 70.08178101386875
+      },
+      "amg_setup_ms": {
+        "mean": 63.50298957841005,
+        "p95": 66.24283426208422,
+        "median": 63.05620039347559
+      },
+      "total_cpu_ms": {
+        "mean": 148.50890274101403,
+        "p95": 154.11153010791168,
+        "median": 147.3521130392328
+      }
+    },
+    "NO_AMG_K4": {
+      "L2_percent": {
+        "mean": 0.3350855709203639,
+        "p95": 1.0311132700502494,
+        "median": 0.19526713240584215
+      },
+      "gradient_percent": {
+        "mean": 0.4153222001247919,
+        "p95": 1.1720098379355326,
+        "median": 0.29390261373325294
+      },
+      "energy_percent": {
+        "mean": 0.41260122608275696,
+        "p95": 1.085077382417534,
+        "median": 0.2879260755857849
+      },
+      "flux_L2_percent": {
+        "mean": 0.4169294108524476,
+        "p95": 1.0377757909008039,
+        "median": 0.2883050572738466
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 98.5215549322703,
+        "p95": 99.67032209154915,
+        "median": 99.19361153366376
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 1.4076192407072199,
+        "p95": 3.6438141094738334,
+        "median": 0.7680731796918225
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.070825827022477,
+        "p95": 0.1657193002642996,
+        "median": 0.04642409674763967
+      },
+      "solve_ms": {
+        "mean": 28.094412351492792,
+        "p95": 28.67305016843602,
+        "median": 28.06077606510371
+      },
+      "assembly_ms": {
+        "mean": 70.61427441658452,
+        "p95": 73.57814634451643,
+        "median": 70.08178101386875
+      },
+      "amg_setup_ms": {
+        "mean": 63.50298957841005,
+        "p95": 66.24283426208422,
+        "median": 63.05620039347559
+      },
+      "total_cpu_ms": {
+        "mean": 162.21167634648737,
+        "p95": 167.97161899739876,
+        "median": 161.09583887737244
+      }
+    },
+    "NO_AMG_CG_tol1e-10": {
+      "L2_percent": {
+        "mean": 4.027851421905446e-06,
+        "p95": 4.0596609266768126e-06,
+        "median": 4.021232237267308e-06
+      },
+      "gradient_percent": {
+        "mean": 0.0002285970948267765,
+        "p95": 0.00023701073012013293,
+        "median": 0.00023067168707238602
+      },
+      "energy_percent": {
+        "mean": 0.0004558390303047435,
+        "p95": 0.0004674043465510238,
+        "median": 0.0004581609270225399
+      },
+      "flux_L2_percent": {
+        "mean": 0.0009007507376870719,
+        "p95": 0.0009481760645223869,
+        "median": 0.0008974665758233976
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 54.73318925710251,
+        "p95": 55.410197964734564,
+        "median": 54.631161042922244
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 0.6913032817573302,
+        "p95": 0.7827743124207058,
+        "median": 0.6813176708206152
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 44.57550746114016,
+        "p95": 45.110033250894354,
+        "median": 44.58551225520155
+      },
+      "solve_ms": {
+        "mean": 191.10753283894155,
+        "p95": 204.5265202759765,
+        "median": 191.52883545029908
+      },
+      "iterations": {
+        "mean": 20.75,
+        "p95": 22.0,
+        "median": 21.0
+      },
+      "relative_residual": {
+        "mean": 6.159991008390694e-11,
+        "p95": 9.149947437833582e-11,
+        "median": 5.994318916423084e-11
+      },
+      "total_cpu_ms": {
+        "mean": 325.2247968339361,
+        "p95": 339.3607389880344,
+        "median": 325.95063268672675
+      }
+    }
+  },
+  "samples": [
+    {
+      "index": 0,
+      "assembly_ms": 72.6005018223077,
+      "amg_setup_ms": 68.01887694746256,
+      "operator_complexity": 1.8427230616789183,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 72.53358580583651,
+          "gradient_percent": 72.76518012447907,
+          "energy_percent": 72.13612340869182,
+          "flux_L2_percent": 73.09029237530221,
+          "error_sine_low_fraction_percent": 99.70991884830532,
+          "error_sine_mid_fraction_percent": 0.2612164281616465,
+          "error_sine_high_fraction_percent": 0.028864723533030615,
+          "solve_ms": 8.120606187731028,
+          "assembly_ms": 72.6005018223077,
+          "amg_setup_ms": 68.01887694746256,
+          "total_cpu_ms": 148.7399849575013
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 54.34684841589027,
+          "gradient_percent": 55.33988527556719,
+          "energy_percent": 54.7657562668986,
+          "flux_L2_percent": 56.25652512092807,
+          "error_sine_low_fraction_percent": 99.6926734364429,
+          "error_sine_mid_fraction_percent": 0.27703942959284245,
+          "error_sine_high_fraction_percent": 0.030287133964228108,
+          "solve_ms": 15.402101911604404,
+          "assembly_ms": 72.6005018223077,
+          "amg_setup_ms": 68.01887694746256,
+          "total_cpu_ms": 156.02148068137467
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 32.225681866574405,
+          "gradient_percent": 34.12815971688604,
+          "energy_percent": 33.81412978576704,
+          "flux_L2_percent": 35.515622383178844,
+          "error_sine_low_fraction_percent": 99.65825156577284,
+          "error_sine_mid_fraction_percent": 0.30852556772414697,
+          "error_sine_high_fraction_percent": 0.03322286650302608,
+          "solve_ms": 28.270945884287357,
+          "assembly_ms": 72.6005018223077,
+          "amg_setup_ms": 68.01887694746256,
+          "total_cpu_ms": 168.89032465405762
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.022847553551396e-06,
+          "gradient_percent": 0.00023075438427718007,
+          "energy_percent": 0.0004558373230140848,
+          "flux_L2_percent": 0.0009304587845288214,
+          "error_sine_low_fraction_percent": 55.352507942055226,
+          "error_sine_mid_fraction_percent": 0.5980639270709245,
+          "error_sine_high_fraction_percent": 44.04942813087388,
+          "solve_ms": 216.03027288801968,
+          "iterations": 23,
+          "relative_residual": 5.264490786791797e-11,
+          "total_cpu_ms": 356.64965165778995
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.5934602181994931,
+          "gradient_percent": 3.0179032537287007,
+          "energy_percent": 3.433608208160125,
+          "flux_L2_percent": 4.30501505824844,
+          "error_sine_low_fraction_percent": 87.54776326609613,
+          "error_sine_mid_fraction_percent": 10.250801759265286,
+          "error_sine_high_fraction_percent": 2.2014349746386124,
+          "solve_ms": 7.703715935349464,
+          "assembly_ms": 72.6005018223077,
+          "amg_setup_ms": 68.01887694746256,
+          "total_cpu_ms": 148.32309470511973
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.3548840608007041,
+          "gradient_percent": 1.0013429445094637,
+          "energy_percent": 0.9735372930359634,
+          "flux_L2_percent": 1.0033648534353845,
+          "error_sine_low_fraction_percent": 94.52544926597675,
+          "error_sine_mid_fraction_percent": 5.167619987119239,
+          "error_sine_high_fraction_percent": 0.30693074690405,
+          "solve_ms": 14.55219299532473,
+          "assembly_ms": 72.6005018223077,
+          "amg_setup_ms": 68.01887694746256,
+          "total_cpu_ms": 155.171571765095
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.16565511092468602,
+          "gradient_percent": 0.3190879418524612,
+          "energy_percent": 0.3011695263840581,
+          "flux_L2_percent": 0.2959304454108375,
+          "error_sine_low_fraction_percent": 98.18145198123442,
+          "error_sine_mid_fraction_percent": 1.7101075121112947,
+          "error_sine_high_fraction_percent": 0.10844050665427933,
+          "solve_ms": 28.181404108181596,
+          "assembly_ms": 72.6005018223077,
+          "amg_setup_ms": 68.01887694746256,
+          "total_cpu_ms": 168.80078287795186
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.022851337895335e-06,
+          "gradient_percent": 0.0002307543845389485,
+          "energy_percent": 0.00045583732291943794,
+          "flux_L2_percent": 0.0009304587822976567,
+          "error_sine_low_fraction_percent": 55.35259482813986,
+          "error_sine_mid_fraction_percent": 0.5980596570326814,
+          "error_sine_high_fraction_percent": 44.04934551482745,
+          "solve_ms": 207.27121201343834,
+          "iterations": 22,
+          "relative_residual": 6.493988026954456e-11,
+          "total_cpu_ms": 347.8905907832086
+        }
+      }
+    },
+    {
+      "index": 1,
+      "assembly_ms": 70.5284730065614,
+      "amg_setup_ms": 63.607905991375446,
+      "operator_complexity": 1.8464018608058932,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 64.85273434679767,
+          "gradient_percent": 64.80986442087104,
+          "energy_percent": 64.69110125894011,
+          "flux_L2_percent": 64.43232646330381,
+          "error_sine_low_fraction_percent": 99.59944771414659,
+          "error_sine_mid_fraction_percent": 0.37085033148518975,
+          "error_sine_high_fraction_percent": 0.029701954368237075,
+          "solve_ms": 7.807777961716056,
+          "assembly_ms": 70.5284730065614,
+          "amg_setup_ms": 63.607905991375446,
+          "total_cpu_ms": 141.9441569596529
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 43.07729704774516,
+          "gradient_percent": 43.17779786611559,
+          "energy_percent": 43.31980345143237,
+          "flux_L2_percent": 43.19335403508343,
+          "error_sine_low_fraction_percent": 99.60750509371509,
+          "error_sine_mid_fraction_percent": 0.3627098179297541,
+          "error_sine_high_fraction_percent": 0.029785088355199336,
+          "solve_ms": 14.619945082813501,
+          "assembly_ms": 70.5284730065614,
+          "amg_setup_ms": 63.607905991375446,
+          "total_cpu_ms": 148.75632408075035
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 19.60628311350773,
+          "gradient_percent": 19.817567559333636,
+          "energy_percent": 20.063086316090146,
+          "flux_L2_percent": 20.081438258852657,
+          "error_sine_low_fraction_percent": 99.61293285715132,
+          "error_sine_mid_fraction_percent": 0.35709367471870496,
+          "error_sine_high_fraction_percent": 0.029973468129971537,
+          "solve_ms": 28.973253211006522,
+          "assembly_ms": 70.5284730065614,
+          "amg_setup_ms": 63.607905991375446,
+          "total_cpu_ms": 163.10963220894337
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.018400393645395e-06,
+          "gradient_percent": 0.00021505894923749317,
+          "energy_percent": 0.0004642507207226109,
+          "flux_L2_percent": 0.0008999117922404569,
+          "error_sine_low_fraction_percent": 54.329852746677155,
+          "error_sine_mid_fraction_percent": 0.6933025544608722,
+          "error_sine_high_fraction_percent": 44.97684469886197,
+          "solve_ms": 183.64229099825025,
+          "iterations": 20,
+          "relative_residual": 8.640228345088342e-11,
+          "total_cpu_ms": 317.7786699961871
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.7050253973956472,
+          "gradient_percent": 2.7025257328284353,
+          "energy_percent": 2.773289159814733,
+          "flux_L2_percent": 3.192956759146801,
+          "error_sine_low_fraction_percent": 91.2663112980798,
+          "error_sine_mid_fraction_percent": 7.4128324538649935,
+          "error_sine_high_fraction_percent": 1.3208562480552342,
+          "solve_ms": 7.768787909299135,
+          "assembly_ms": 70.5284730065614,
+          "amg_setup_ms": 63.607905991375446,
+          "total_cpu_ms": 141.90516690723598
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.4548110607445967,
+          "gradient_percent": 0.9099854685150535,
+          "energy_percent": 0.8380877731651147,
+          "flux_L2_percent": 0.8267644851322842,
+          "error_sine_low_fraction_percent": 96.56873918789462,
+          "error_sine_mid_fraction_percent": 3.2326838556664277,
+          "error_sine_high_fraction_percent": 0.19857695643897297,
+          "solve_ms": 14.783508144319057,
+          "assembly_ms": 70.5284730065614,
+          "amg_setup_ms": 63.607905991375446,
+          "total_cpu_ms": 148.9198871422559
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.2001918327527371,
+          "gradient_percent": 0.30569142799392884,
+          "energy_percent": 0.2750115242467396,
+          "flux_L2_percent": 0.25673948558895554,
+          "error_sine_low_fraction_percent": 98.56267937388766,
+          "error_sine_mid_fraction_percent": 1.3432490854825279,
+          "error_sine_high_fraction_percent": 0.09407154062977141,
+          "solve_ms": 28.91763113439083,
+          "assembly_ms": 70.5284730065614,
+          "amg_setup_ms": 63.607905991375446,
+          "total_cpu_ms": 163.05401013232768
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.018417124997152e-06,
+          "gradient_percent": 0.00021505894967497756,
+          "energy_percent": 0.0004642507205990542,
+          "flux_L2_percent": 0.0008999117899844351,
+          "error_sine_low_fraction_percent": 54.33022586569354,
+          "error_sine_mid_fraction_percent": 0.6933039038430986,
+          "error_sine_high_fraction_percent": 44.97647023046336,
+          "solve_ms": 174.01418089866638,
+          "iterations": 19,
+          "relative_residual": 9.659378571335036e-11,
+          "total_cpu_ms": 308.1505598966032
+        }
+      }
+    },
+    {
+      "index": 2,
+      "assembly_ms": 73.95392190665007,
+      "amg_setup_ms": 62.90831882506609,
+      "operator_complexity": 1.840264644025979,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 68.20290085196797,
+          "gradient_percent": 68.22913472152652,
+          "energy_percent": 67.82998367619,
+          "flux_L2_percent": 68.36784424401202,
+          "error_sine_low_fraction_percent": 99.75315961237861,
+          "error_sine_mid_fraction_percent": 0.2192422160702315,
+          "error_sine_high_fraction_percent": 0.027598171551168168,
+          "solve_ms": 7.847749860957265,
+          "assembly_ms": 73.95392190665007,
+          "amg_setup_ms": 62.90831882506609,
+          "total_cpu_ms": 144.70999059267342
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 47.697403840160945,
+          "gradient_percent": 48.07414629389456,
+          "energy_percent": 47.81557226790964,
+          "flux_L2_percent": 48.50609527466882,
+          "error_sine_low_fraction_percent": 99.74827831842902,
+          "error_sine_mid_fraction_percent": 0.22342297512659004,
+          "error_sine_high_fraction_percent": 0.028298706444397505,
+          "solve_ms": 14.552842825651169,
+          "assembly_ms": 73.95392190665007,
+          "amg_setup_ms": 62.90831882506609,
+          "total_cpu_ms": 151.41508355736732
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 24.134895355048837,
+          "gradient_percent": 24.727731291170464,
+          "energy_percent": 24.671625597248216,
+          "flux_L2_percent": 25.230878790622064,
+          "error_sine_low_fraction_percent": 99.73749980818576,
+          "error_sine_mid_fraction_percent": 0.23311927459913495,
+          "error_sine_high_fraction_percent": 0.029380917215125275,
+          "solve_ms": 28.323707869276404,
+          "assembly_ms": 73.95392190665007,
+          "amg_setup_ms": 62.90831882506609,
+          "total_cpu_ms": 165.18594860099256
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.038526921184117e-06,
+          "gradient_percent": 0.00023499848748249376,
+          "energy_percent": 0.0004529086192022986,
+          "flux_L2_percent": 0.0008699659781472779,
+          "error_sine_low_fraction_percent": 54.96686759494724,
+          "error_sine_mid_fraction_percent": 0.7546270588681229,
+          "error_sine_high_fraction_percent": 44.27850534618466,
+          "solve_ms": 191.46063015796244,
+          "iterations": 21,
+          "relative_residual": 6.445263215487485e-11,
+          "total_cpu_ms": 328.3228708896786
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.9106582338503902,
+          "gradient_percent": 2.8678285674908164,
+          "energy_percent": 3.5219710988367057,
+          "flux_L2_percent": 4.370839599165085,
+          "error_sine_low_fraction_percent": 91.78695047933353,
+          "error_sine_mid_fraction_percent": 7.5833281887434625,
+          "error_sine_high_fraction_percent": 0.6297213319230228,
+          "solve_ms": 7.643434917554259,
+          "assembly_ms": 73.95392190665007,
+          "amg_setup_ms": 62.90831882506609,
+          "total_cpu_ms": 144.50567564927042
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.5757969470859133,
+          "gradient_percent": 1.0169476406931715,
+          "energy_percent": 1.1120240203992298,
+          "flux_L2_percent": 1.2058322518589026,
+          "error_sine_low_fraction_percent": 97.07070690870066,
+          "error_sine_mid_fraction_percent": 2.849075919965886,
+          "error_sine_high_fraction_percent": 0.08021717133345344,
+          "solve_ms": 14.146823901683092,
+          "assembly_ms": 73.95392190665007,
+          "amg_setup_ms": 62.90831882506609,
+          "total_cpu_ms": 151.00906463339925
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.26591435928986784,
+          "gradient_percent": 0.3318506809605365,
+          "energy_percent": 0.3354001479347263,
+          "flux_L2_percent": 0.3331709271565617,
+          "error_sine_low_fraction_percent": 99.26288679208525,
+          "error_sine_mid_fraction_percent": 0.6938278614179084,
+          "error_sine_high_fraction_percent": 0.043285346496842285,
+          "solve_ms": 27.793305926024914,
+          "assembly_ms": 73.95392190665007,
+          "amg_setup_ms": 62.90831882506609,
+          "total_cpu_ms": 164.65554665774107
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.03852975018293e-06,
+          "gradient_percent": 0.0002349984873010697,
+          "energy_percent": 0.000452908619222934,
+          "flux_L2_percent": 0.0008699659776881376,
+          "error_sine_low_fraction_percent": 54.96693173151741,
+          "error_sine_mid_fraction_percent": 0.7546248739129648,
+          "error_sine_high_fraction_percent": 44.278443394569635,
+          "solve_ms": 192.88955116644502,
+          "iterations": 21,
+          "relative_residual": 3.074867377909066e-11,
+          "total_cpu_ms": 329.7517918981612
+        }
+      }
+    },
+    {
+      "index": 3,
+      "assembly_ms": 70.12463384307921,
+      "amg_setup_ms": 63.11177299357951,
+      "operator_complexity": 1.84805036887299,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 69.250095132847,
+          "gradient_percent": 71.25547835273963,
+          "energy_percent": 69.17977656987671,
+          "flux_L2_percent": 69.01767801920016,
+          "error_sine_low_fraction_percent": 99.41885302076734,
+          "error_sine_mid_fraction_percent": 0.5459238834772441,
+          "error_sine_high_fraction_percent": 0.03522309575536666,
+          "solve_ms": 7.494711084291339,
+          "assembly_ms": 70.12463384307921,
+          "amg_setup_ms": 63.11177299357951,
+          "total_cpu_ms": 140.73111792095006
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 49.13404244587221,
+          "gradient_percent": 51.71623503753607,
+          "energy_percent": 49.58101879902302,
+          "flux_L2_percent": 49.269451857333,
+          "error_sine_low_fraction_percent": 99.37337185823235,
+          "error_sine_mid_fraction_percent": 0.5894260286485219,
+          "error_sine_high_fraction_percent": 0.03720211311912245,
+          "solve_ms": 14.28903709165752,
+          "assembly_ms": 70.12463384307921,
+          "amg_setup_ms": 63.11177299357951,
+          "total_cpu_ms": 147.52544392831624
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 25.519410072908187,
+          "gradient_percent": 27.73234899772171,
+          "energy_percent": 26.303878350808795,
+          "flux_L2_percent": 25.962506798793477,
+          "error_sine_low_fraction_percent": 99.32043007623338,
+          "error_sine_mid_fraction_percent": 0.6397060249342862,
+          "error_sine_high_fraction_percent": 0.03986389883233723,
+          "solve_ms": 28.01803103648126,
+          "assembly_ms": 70.12463384307921,
+          "amg_setup_ms": 63.11177299357951,
+          "total_cpu_ms": 161.25443787313998
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0181232016484e-06,
+          "gradient_percent": 0.00021586493904066027,
+          "energy_percent": 0.00046832071680333196,
+          "flux_L2_percent": 0.0009531236589171948,
+          "error_sine_low_fraction_percent": 54.55709626327997,
+          "error_sine_mid_fraction_percent": 0.8672145175820772,
+          "error_sine_high_fraction_percent": 44.57568921913799,
+          "solve_ms": 214.29653000086546,
+          "iterations": 23,
+          "relative_residual": 2.919997067246399e-11,
+          "total_cpu_ms": 347.5329368375242
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 2.6471439951235913,
+          "gradient_percent": 4.208637481658128,
+          "energy_percent": 3.8353607580393834,
+          "flux_L2_percent": 3.844348405457472,
+          "error_sine_low_fraction_percent": 98.59685976378363,
+          "error_sine_mid_fraction_percent": 1.2472197534403264,
+          "error_sine_high_fraction_percent": 0.15592048277605947,
+          "solve_ms": 7.436210056766868,
+          "assembly_ms": 70.12463384307921,
+          "amg_setup_ms": 63.11177299357951,
+          "total_cpu_ms": 140.67261689342558
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 1.8961323941780632,
+          "gradient_percent": 2.345571043710123,
+          "energy_percent": 2.075875188768153,
+          "flux_L2_percent": 1.8596209286132455,
+          "error_sine_low_fraction_percent": 99.01591125402533,
+          "error_sine_mid_fraction_percent": 0.9243910511046021,
+          "error_sine_high_fraction_percent": 0.059697694870078616,
+          "solve_ms": 14.241734985262156,
+          "assembly_ms": 70.12463384307921,
+          "amg_setup_ms": 63.11177299357951,
+          "total_cpu_ms": 147.47814182192087
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.9938294681365988,
+          "gradient_percent": 1.175594885681241,
+          "energy_percent": 1.0580436477673225,
+          "flux_L2_percent": 0.9837459072509394,
+          "error_sine_low_fraction_percent": 99.13424411520143,
+          "error_sine_mid_fraction_percent": 0.8161930378001644,
+          "error_sine_high_fraction_percent": 0.04956284699843706,
+          "solve_ms": 28.089082101359963,
+          "assembly_ms": 70.12463384307921,
+          "amg_setup_ms": 63.11177299357951,
+          "total_cpu_ms": 161.32548893801868
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0181091130350714e-06,
+          "gradient_percent": 0.0002158649389171341,
+          "energy_percent": 0.00046832071673270453,
+          "flux_L2_percent": 0.0009531236593577167,
+          "error_sine_low_fraction_percent": 54.55677582955362,
+          "error_sine_mid_fraction_percent": 0.8672226279439287,
+          "error_sine_high_fraction_percent": 44.576001542502425,
+          "solve_ms": 195.8375470712781,
+          "iterations": 21,
+          "relative_residual": 7.38077440144241e-11,
+          "total_cpu_ms": 329.0739539079368
+        }
+      }
+    },
+    {
+      "index": 4,
+      "assembly_ms": 69.90133807994425,
+      "amg_setup_ms": 62.69040401093662,
+      "operator_complexity": 1.845351405866217,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 67.22263130479604,
+          "gradient_percent": 67.63946460999576,
+          "energy_percent": 66.69458877903033,
+          "flux_L2_percent": 66.94854312281298,
+          "error_sine_low_fraction_percent": 99.5706570478184,
+          "error_sine_mid_fraction_percent": 0.4069489074985061,
+          "error_sine_high_fraction_percent": 0.022394044683130873,
+          "solve_ms": 7.482751039788127,
+          "assembly_ms": 69.90133807994425,
+          "amg_setup_ms": 62.69040401093662,
+          "total_cpu_ms": 140.074493130669
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 46.23437889869872,
+          "gradient_percent": 46.968612171511126,
+          "energy_percent": 46.06718808963162,
+          "flux_L2_percent": 46.346875977406214,
+          "error_sine_low_fraction_percent": 99.55309540230047,
+          "error_sine_mid_fraction_percent": 0.42384917574683395,
+          "error_sine_high_fraction_percent": 0.023055421952701716,
+          "solve_ms": 14.305926859378815,
+          "assembly_ms": 69.90133807994425,
+          "amg_setup_ms": 62.69040401093662,
+          "total_cpu_ms": 146.89766895025969
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 22.515355093401915,
+          "gradient_percent": 23.17853598212551,
+          "energy_percent": 22.696958817232797,
+          "flux_L2_percent": 22.907964602973983,
+          "error_sine_low_fraction_percent": 99.53798445301493,
+          "error_sine_mid_fraction_percent": 0.438252966992961,
+          "error_sine_high_fraction_percent": 0.02376257999214736,
+          "solve_ms": 27.824425837025046,
+          "assembly_ms": 69.90133807994425,
+          "amg_setup_ms": 62.69040401093662,
+          "total_cpu_ms": 160.41616792790592
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.038714736468081e-06,
+          "gradient_percent": 0.00022112258378712354,
+          "energy_percent": 0.00046157688556742104,
+          "flux_L2_percent": 0.0009465268679027036,
+          "error_sine_low_fraction_percent": 54.792483143773644,
+          "error_sine_mid_fraction_percent": 0.7502470984005911,
+          "error_sine_high_fraction_percent": 44.45726975782578,
+          "solve_ms": 194.437304046005,
+          "iterations": 21,
+          "relative_residual": 7.594028865014262e-11,
+          "total_cpu_ms": 327.0290461368859
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 1.783626743089953,
+          "gradient_percent": 3.536564515594778,
+          "energy_percent": 3.3684717486205344,
+          "flux_L2_percent": 3.5996487810616715,
+          "error_sine_low_fraction_percent": 98.07889307395335,
+          "error_sine_mid_fraction_percent": 1.6538182317713404,
+          "error_sine_high_fraction_percent": 0.2672886942753258,
+          "solve_ms": 7.471039891242981,
+          "assembly_ms": 69.90133807994425,
+          "amg_setup_ms": 62.69040401093662,
+          "total_cpu_ms": 140.06278198212385
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 1.2218539148649568,
+          "gradient_percent": 1.5634604862270152,
+          "energy_percent": 1.4227110676474386,
+          "flux_L2_percent": 1.3775685669267144,
+          "error_sine_low_fraction_percent": 99.0168985577673,
+          "error_sine_mid_fraction_percent": 0.9284732233058243,
+          "error_sine_high_fraction_percent": 0.0546282189268844,
+          "solve_ms": 14.227245002985,
+          "assembly_ms": 69.90133807994425,
+          "amg_setup_ms": 62.69040401093662,
+          "total_cpu_ms": 146.81898709386587
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.5907754046126299,
+          "gradient_percent": 0.6669437170629687,
+          "energy_percent": 0.629450761933401,
+          "flux_L2_percent": 0.6186991741429232,
+          "error_sine_low_fraction_percent": 99.36216628052296,
+          "error_sine_mid_fraction_percent": 0.6042765638463345,
+          "error_sine_high_fraction_percent": 0.03355715563071188,
+          "solve_ms": 27.886328054592013,
+          "assembly_ms": 69.90133807994425,
+          "amg_setup_ms": 62.69040401093662,
+          "total_cpu_ms": 160.47807014547288
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.03872442594025e-06,
+          "gradient_percent": 0.00022112258397868155,
+          "energy_percent": 0.00046157688557423206,
+          "flux_L2_percent": 0.0009465268662439436,
+          "error_sine_low_fraction_percent": 54.79270314032564,
+          "error_sine_mid_fraction_percent": 0.7502400695081924,
+          "error_sine_high_fraction_percent": 44.45705679016618,
+          "solve_ms": 185.87182788178325,
+          "iterations": 20,
+          "relative_residual": 5.911074953730334e-11,
+          "total_cpu_ms": 318.4635699726641
+        }
+      }
+    },
+    {
+      "index": 5,
+      "assembly_ms": 70.85011899471283,
+      "amg_setup_ms": 63.98429302498698,
+      "operator_complexity": 1.844618735614174,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 75.02509624395746,
+          "gradient_percent": 75.14378212322784,
+          "energy_percent": 74.32625036723387,
+          "flux_L2_percent": 75.04476209489184,
+          "error_sine_low_fraction_percent": 99.70736079528609,
+          "error_sine_mid_fraction_percent": 0.26325641323087395,
+          "error_sine_high_fraction_percent": 0.029382791483061853,
+          "solve_ms": 7.456840015947819,
+          "assembly_ms": 70.85011899471283,
+          "amg_setup_ms": 63.98429302498698,
+          "total_cpu_ms": 142.29125203564763
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 58.82052803058828,
+          "gradient_percent": 59.97409610872276,
+          "energy_percent": 59.06712583519759,
+          "flux_L2_percent": 60.370129503625016,
+          "error_sine_low_fraction_percent": 99.68103498108411,
+          "error_sine_mid_fraction_percent": 0.288493975283597,
+          "error_sine_high_fraction_percent": 0.030471043632294685,
+          "solve_ms": 14.319227077066898,
+          "assembly_ms": 70.85011899471283,
+          "amg_setup_ms": 63.98429302498698,
+          "total_cpu_ms": 149.1536390967667
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 38.66144488332654,
+          "gradient_percent": 40.90610123658269,
+          "energy_percent": 40.23230966985011,
+          "flux_L2_percent": 41.84004741596819,
+          "error_sine_low_fraction_percent": 99.64081378485338,
+          "error_sine_mid_fraction_percent": 0.32674603018610876,
+          "error_sine_high_fraction_percent": 0.03244018496051949,
+          "solve_ms": 27.9806989710778,
+          "assembly_ms": 70.85011899471283,
+          "amg_setup_ms": 63.98429302498698,
+          "total_cpu_ms": 162.8151109907776
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.011923299944671e-06,
+          "gradient_percent": 0.000231569365586978,
+          "energy_percent": 0.0004310058050481289,
+          "flux_L2_percent": 0.0008258823539514708,
+          "error_sine_low_fraction_percent": 54.871588574171554,
+          "error_sine_mid_fraction_percent": 0.6367980580107128,
+          "error_sine_high_fraction_percent": 44.491613367817784,
+          "solve_ms": 210.48782113939524,
+          "iterations": 23,
+          "relative_residual": 3.3067137073935384e-11,
+          "total_cpu_ms": 345.32223315909505
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.6800386343422057,
+          "gradient_percent": 2.2607865296059844,
+          "energy_percent": 2.7503389519521173,
+          "flux_L2_percent": 3.535312477948923,
+          "error_sine_low_fraction_percent": 93.86116237433814,
+          "error_sine_mid_fraction_percent": 5.430733599595241,
+          "error_sine_high_fraction_percent": 0.7081040260667152,
+          "solve_ms": 7.45884096249938,
+          "assembly_ms": 70.85011899471283,
+          "amg_setup_ms": 63.98429302498698,
+          "total_cpu_ms": 142.2932529821992
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.4662381206250568,
+          "gradient_percent": 0.6896173613608878,
+          "energy_percent": 0.7788395803353396,
+          "flux_L2_percent": 0.8948584388554587,
+          "error_sine_low_fraction_percent": 98.37305168180352,
+          "error_sine_mid_fraction_percent": 1.5639115881472456,
+          "error_sine_high_fraction_percent": 0.06303673004928717,
+          "solve_ms": 14.295967062935233,
+          "assembly_ms": 70.85011899471283,
+          "amg_setup_ms": 63.98429302498698,
+          "total_cpu_ms": 149.13037908263505
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.26413274594757935,
+          "gradient_percent": 0.28211379947257703,
+          "energy_percent": 0.29506972169880835,
+          "flux_L2_percent": 0.30472193210506265,
+          "error_sine_low_fraction_percent": 99.66087600015776,
+          "error_sine_mid_fraction_percent": 0.30770453772171397,
+          "error_sine_high_fraction_percent": 0.031419462120516536,
+          "solve_ms": 28.03457109257579,
+          "assembly_ms": 70.85011899471283,
+          "amg_setup_ms": 63.98429302498698,
+          "total_cpu_ms": 162.8689831122756
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0119111500588574e-06,
+          "gradient_percent": 0.00023156936528210853,
+          "energy_percent": 0.00043100580484675645,
+          "flux_L2_percent": 0.0008258823529513331,
+          "error_sine_low_fraction_percent": 54.87131806235262,
+          "error_sine_mid_fraction_percent": 0.636799217338326,
+          "error_sine_high_fraction_percent": 44.49188272030905,
+          "solve_ms": 192.41728796623647,
+          "iterations": 21,
+          "relative_residual": 6.077562879115835e-11,
+          "total_cpu_ms": 327.2516999859363
+        }
+      }
+    },
+    {
+      "index": 6,
+      "assembly_ms": 70.08417206816375,
+      "amg_setup_ms": 62.66200193203986,
+      "operator_complexity": 1.841734398206282,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 71.4513369459842,
+          "gradient_percent": 71.01753814970628,
+          "energy_percent": 71.18338287618734,
+          "flux_L2_percent": 72.04150119552013,
+          "error_sine_low_fraction_percent": 99.68032877184412,
+          "error_sine_mid_fraction_percent": 0.29643111170551245,
+          "error_sine_high_fraction_percent": 0.02324011645033037,
+          "solve_ms": 7.483121007680893,
+          "assembly_ms": 70.08417206816375,
+          "amg_setup_ms": 62.66200193203986,
+          "total_cpu_ms": 140.2292950078845
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 52.25379913302135,
+          "gradient_percent": 52.14915415210758,
+          "energy_percent": 52.539074693443375,
+          "flux_L2_percent": 53.67061740249959,
+          "error_sine_low_fraction_percent": 99.67057885022992,
+          "error_sine_mid_fraction_percent": 0.30601058360436145,
+          "error_sine_high_fraction_percent": 0.02341056616568693,
+          "solve_ms": 14.642614871263504,
+          "assembly_ms": 70.08417206816375,
+          "amg_setup_ms": 62.66200193203986,
+          "total_cpu_ms": 147.3887888714671
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 28.86004042325129,
+          "gradient_percent": 29.133686615919512,
+          "energy_percent": 29.701238972975062,
+          "flux_L2_percent": 30.772337983789406,
+          "error_sine_low_fraction_percent": 99.6542858755389,
+          "error_sine_mid_fraction_percent": 0.3217705237125473,
+          "error_sine_high_fraction_percent": 0.023943600748552445,
+          "solve_ms": 28.494301019236445,
+          "assembly_ms": 70.08417206816375,
+          "amg_setup_ms": 62.66200193203986,
+          "total_cpu_ms": 161.24047501944005
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.049396231236434e-06,
+          "gradient_percent": 0.00022831825767208712,
+          "energy_percent": 0.00046709888989812285,
+          "flux_L2_percent": 0.0009347700483665628,
+          "error_sine_low_fraction_percent": 54.42057036134329,
+          "error_sine_mid_fraction_percent": 0.6413786236935503,
+          "error_sine_high_fraction_percent": 44.938051014963136,
+          "solve_ms": 199.32465394958854,
+          "iterations": 22,
+          "relative_residual": 5.152720806882174e-11,
+          "total_cpu_ms": 332.07082794979215
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.5245916343813541,
+          "gradient_percent": 3.1119640119023955,
+          "energy_percent": 3.5107609632307453,
+          "flux_L2_percent": 4.396347756958598,
+          "error_sine_low_fraction_percent": 78.27378489591729,
+          "error_sine_mid_fraction_percent": 19.147234633135106,
+          "error_sine_high_fraction_percent": 2.5789804709476227,
+          "solve_ms": 7.421480026096106,
+          "assembly_ms": 70.08417206816375,
+          "amg_setup_ms": 62.66200193203986,
+          "total_cpu_ms": 140.16765402629972
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.2930769102119335,
+          "gradient_percent": 0.9430145320517487,
+          "energy_percent": 1.0365278514850174,
+          "flux_L2_percent": 1.1420415451015413,
+          "error_sine_low_fraction_percent": 90.5488763699375,
+          "error_sine_mid_fraction_percent": 9.074855515348055,
+          "error_sine_high_fraction_percent": 0.3762681147144472,
+          "solve_ms": 14.819099102169275,
+          "assembly_ms": 70.08417206816375,
+          "amg_setup_ms": 62.66200193203986,
+          "total_cpu_ms": 147.56527310237288
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.1279706581007044,
+          "gradient_percent": 0.25667449216665866,
+          "energy_percent": 0.2807824294727615,
+          "flux_L2_percent": 0.2806796691368557,
+          "error_sine_low_fraction_percent": 97.37776808251992,
+          "error_sine_mid_fraction_percent": 2.5134349608165594,
+          "error_sine_high_fraction_percent": 0.10879695666350613,
+          "solve_ms": 28.462719870731235,
+          "assembly_ms": 70.08417206816375,
+          "amg_setup_ms": 62.66200193203986,
+          "total_cpu_ms": 161.20889387093484
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0493951045376226e-06,
+          "gradient_percent": 0.00022831825748540266,
+          "energy_percent": 0.0004670988898237969,
+          "flux_L2_percent": 0.0009347700479274236,
+          "error_sine_low_fraction_percent": 54.42054270188185,
+          "error_sine_mid_fraction_percent": 0.6413818275290183,
+          "error_sine_high_fraction_percent": 44.93807547058913,
+          "solve_ms": 190.45565207488835,
+          "iterations": 21,
+          "relative_residual": 5.3983577432286986e-11,
+          "total_cpu_ms": 323.20182607509196
+        }
+      }
+    },
+    {
+      "index": 7,
+      "assembly_ms": 73.45288782380521,
+      "amg_setup_ms": 65.65082003362477,
+      "operator_complexity": 1.8413062716132207,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 70.91741858113552,
+          "gradient_percent": 70.41826411880544,
+          "energy_percent": 70.2391773387163,
+          "flux_L2_percent": 71.09592514584729,
+          "error_sine_low_fraction_percent": 99.76955931319502,
+          "error_sine_mid_fraction_percent": 0.213566552043004,
+          "error_sine_high_fraction_percent": 0.016874134762037692,
+          "solve_ms": 7.608794141560793,
+          "assembly_ms": 73.45288782380521,
+          "amg_setup_ms": 65.65082003362477,
+          "total_cpu_ms": 146.71250199899077
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 51.6517234948938,
+          "gradient_percent": 51.51069700063581,
+          "energy_percent": 51.3746687823851,
+          "flux_L2_percent": 52.58215700667665,
+          "error_sine_low_fraction_percent": 99.76108756297351,
+          "error_sine_mid_fraction_percent": 0.22201487488919985,
+          "error_sine_high_fraction_percent": 0.016897562137304107,
+          "solve_ms": 14.709986047819257,
+          "assembly_ms": 73.45288782380521,
+          "amg_setup_ms": 65.65082003362477,
+          "total_cpu_ms": 153.81369390524924
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 28.42357758398924,
+          "gradient_percent": 28.73016273544367,
+          "energy_percent": 28.69269080335751,
+          "flux_L2_percent": 29.822406953398296,
+          "error_sine_low_fraction_percent": 99.74848666041183,
+          "error_sine_mid_fraction_percent": 0.234451545262748,
+          "error_sine_high_fraction_percent": 0.01706179432541335,
+          "solve_ms": 28.68533506989479,
+          "assembly_ms": 73.45288782380521,
+          "amg_setup_ms": 65.65082003362477,
+          "total_cpu_ms": 167.78904292732477
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0196212455802865e-06,
+          "gradient_percent": 0.00024304745876142878,
+          "energy_percent": 0.0004412797671908075,
+          "flux_L2_percent": 0.0008766483514420776,
+          "error_sine_low_fraction_percent": 55.58318869711485,
+          "error_sine_mid_fraction_percent": 0.6385681335268376,
+          "error_sine_high_fraction_percent": 43.778243169358305,
+          "solve_ms": 206.49706688709557,
+          "iterations": 22,
+          "relative_residual": 3.414757116689832e-11,
+          "total_cpu_ms": 345.60077474452555
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.3095200750094756,
+          "gradient_percent": 2.1346549834658757,
+          "energy_percent": 2.6791180005640505,
+          "flux_L2_percent": 3.696771501333996,
+          "error_sine_low_fraction_percent": 76.48823978176006,
+          "error_sine_mid_fraction_percent": 20.94135281139601,
+          "error_sine_high_fraction_percent": 2.5704074068439517,
+          "solve_ms": 7.751256925985217,
+          "assembly_ms": 73.45288782380521,
+          "amg_setup_ms": 65.65082003362477,
+          "total_cpu_ms": 146.8549647834152
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.17182254418840812,
+          "gradient_percent": 0.6163218927629152,
+          "energy_percent": 0.686165270856697,
+          "flux_L2_percent": 0.8565386736161062,
+          "error_sine_low_fraction_percent": 90.05130880620939,
+          "error_sine_mid_fraction_percent": 9.66585251594403,
+          "error_sine_high_fraction_percent": 0.28283867784659006,
+          "solve_ms": 14.654475031420588,
+          "assembly_ms": 73.45288782380521,
+          "amg_setup_ms": 65.65082003362477,
+          "total_cpu_ms": 153.75818288885057
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.07192425338547849,
+          "gradient_percent": 0.17814509157855005,
+          "energy_percent": 0.18847405002569625,
+          "flux_L2_percent": 0.2167414153743267,
+          "error_sine_low_fraction_percent": 96.85400818752916,
+          "error_sine_mid_fraction_percent": 3.0424456898436607,
+          "error_sine_high_fraction_percent": 0.10354612262718244,
+          "solve_ms": 28.591523179784417,
+          "assembly_ms": 73.45288782380521,
+          "amg_setup_ms": 65.65082003362477,
+          "total_cpu_ms": 167.6952310372144
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.019613136639281e-06,
+          "gradient_percent": 0.00024304745857732258,
+          "energy_percent": 0.00044127976710407074,
+          "flux_L2_percent": 0.000876648351100494,
+          "error_sine_low_fraction_percent": 55.583007374518694,
+          "error_sine_mid_fraction_percent": 0.6385733453824345,
+          "error_sine_high_fraction_percent": 43.77841928009888,
+          "solve_ms": 186.82026793248951,
+          "iterations": 20,
+          "relative_residual": 8.980137059999763e-11,
+          "total_cpu_ms": 325.9239757899195
+        }
+      }
+    },
+    {
+      "index": 8,
+      "assembly_ms": 69.97021823190153,
+      "amg_setup_ms": 62.86095594987273,
+      "operator_complexity": 1.8467527480651547,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 67.05237285066453,
+          "gradient_percent": 68.12863019534122,
+          "energy_percent": 66.42851150855735,
+          "flux_L2_percent": 65.93716068649898,
+          "error_sine_low_fraction_percent": 99.60166083043084,
+          "error_sine_mid_fraction_percent": 0.3737692117004545,
+          "error_sine_high_fraction_percent": 0.02456995786870156,
+          "solve_ms": 7.692405954003334,
+          "assembly_ms": 69.97021823190153,
+          "amg_setup_ms": 62.86095594987273,
+          "total_cpu_ms": 140.5235801357776
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 46.44013804597597,
+          "gradient_percent": 48.16850990671118,
+          "energy_percent": 46.35724216862806,
+          "flux_L2_percent": 45.92155641541512,
+          "error_sine_low_fraction_percent": 99.55681160999822,
+          "error_sine_mid_fraction_percent": 0.4177157768971819,
+          "error_sine_high_fraction_percent": 0.025472613104575013,
+          "solve_ms": 14.548002975061536,
+          "assembly_ms": 69.97021823190153,
+          "amg_setup_ms": 62.86095594987273,
+          "total_cpu_ms": 147.3791771568358
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 23.263683392266255,
+          "gradient_percent": 24.94642338008827,
+          "energy_percent": 23.701035347259143,
+          "flux_L2_percent": 23.457412685218063,
+          "error_sine_low_fraction_percent": 99.49420683962335,
+          "error_sine_mid_fraction_percent": 0.4789112675555211,
+          "error_sine_high_fraction_percent": 0.02688189282113713,
+          "solve_ms": 28.320607030764222,
+          "assembly_ms": 69.97021823190153,
+          "amg_setup_ms": 62.86095594987273,
+          "total_cpu_ms": 161.15178121253848
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0276862745487575e-06,
+          "gradient_percent": 0.0002328906324666625,
+          "energy_percent": 0.00044796786938658997,
+          "flux_L2_percent": 0.0009095680235744782,
+          "error_sine_low_fraction_percent": 54.705631578236044,
+          "error_sine_mid_fraction_percent": 0.6994327731189532,
+          "error_sine_high_fraction_percent": 44.594935648645006,
+          "solve_ms": 198.62570613622665,
+          "iterations": 22,
+          "relative_residual": 2.9736706728274967e-11,
+          "total_cpu_ms": 331.4568803180009
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.32469694243848185,
+          "gradient_percent": 2.410488941880703,
+          "energy_percent": 2.900976683416723,
+          "flux_L2_percent": 3.748314745856722,
+          "error_sine_low_fraction_percent": 67.4670828721375,
+          "error_sine_mid_fraction_percent": 28.39298110328309,
+          "error_sine_high_fraction_percent": 4.139936024579409,
+          "solve_ms": 7.675364846363664,
+          "assembly_ms": 69.97021823190153,
+          "amg_setup_ms": 62.86095594987273,
+          "total_cpu_ms": 140.50653902813792
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.1663769381179323,
+          "gradient_percent": 0.6559770103334038,
+          "energy_percent": 0.7205823464940178,
+          "flux_L2_percent": 0.7942992618269173,
+          "error_sine_low_fraction_percent": 85.69096678157166,
+          "error_sine_mid_fraction_percent": 13.725334491317362,
+          "error_sine_high_fraction_percent": 0.5836987271109924,
+          "solve_ms": 14.583313139155507,
+          "assembly_ms": 69.97021823190153,
+          "amg_setup_ms": 62.86095594987273,
+          "total_cpu_ms": 147.41448732092977
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.06653767870317652,
+          "gradient_percent": 0.15893784935204794,
+          "energy_percent": 0.1672000254501208,
+          "flux_L2_percent": 0.16944135927397358,
+          "error_sine_low_fraction_percent": 96.30549844875459,
+          "error_sine_mid_fraction_percent": 3.5350628049056794,
+          "error_sine_high_fraction_percent": 0.1594387463397392,
+          "solve_ms": 28.380007948726416,
+          "assembly_ms": 69.97021823190153,
+          "amg_setup_ms": 62.86095594987273,
+          "total_cpu_ms": 161.21118213050067
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.027682325951123e-06,
+          "gradient_percent": 0.00023289063248639515,
+          "energy_percent": 0.00044796786936533473,
+          "flux_L2_percent": 0.0009095680234004875,
+          "error_sine_low_fraction_percent": 54.70554625629087,
+          "error_sine_mid_fraction_percent": 0.6994307758084356,
+          "error_sine_high_fraction_percent": 44.595022967900675,
+          "solve_ms": 180.62466499395669,
+          "iterations": 20,
+          "relative_residual": 7.243966324237541e-11,
+          "total_cpu_ms": 313.45583917573094
+        }
+      }
+    },
+    {
+      "index": 9,
+      "assembly_ms": 69.62673994712532,
+      "amg_setup_ms": 62.42673494853079,
+      "operator_complexity": 1.8445878398806541,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 72.43446939019339,
+          "gradient_percent": 72.15475549035179,
+          "energy_percent": 71.78447367499354,
+          "flux_L2_percent": 72.66128007014034,
+          "error_sine_low_fraction_percent": 99.64790951403607,
+          "error_sine_mid_fraction_percent": 0.32883787822038224,
+          "error_sine_high_fraction_percent": 0.023252607743579894,
+          "solve_ms": 7.398279150947928,
+          "assembly_ms": 69.62673994712532,
+          "amg_setup_ms": 62.42673494853079,
+          "total_cpu_ms": 139.45175404660404
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 53.71126946664082,
+          "gradient_percent": 53.79502036530285,
+          "energy_percent": 53.438740398444004,
+          "flux_L2_percent": 54.55399661498588,
+          "error_sine_low_fraction_percent": 99.63836545291024,
+          "error_sine_mid_fraction_percent": 0.337792322688451,
+          "error_sine_high_fraction_percent": 0.023842224401282197,
+          "solve_ms": 14.111211989074945,
+          "assembly_ms": 69.62673994712532,
+          "amg_setup_ms": 62.42673494853079,
+          "total_cpu_ms": 146.16468688473105
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 30.455578941626353,
+          "gradient_percent": 30.96569393372156,
+          "energy_percent": 30.68045339575609,
+          "flux_L2_percent": 31.603737631481433,
+          "error_sine_low_fraction_percent": 99.62092096999957,
+          "error_sine_mid_fraction_percent": 0.3539902056450653,
+          "error_sine_high_fraction_percent": 0.02508882435540294,
+          "solve_ms": 27.53727906383574,
+          "assembly_ms": 69.62673994712532,
+          "amg_setup_ms": 62.42673494853079,
+          "total_cpu_ms": 159.59075395949185
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0030191055489635e-06,
+          "gradient_percent": 0.00023073104528008212,
+          "energy_percent": 0.0004553149451493745,
+          "flux_L2_percent": 0.0008990281395166839,
+          "error_sine_low_fraction_percent": 54.190785188204806,
+          "error_sine_mid_fraction_percent": 0.6515465725798203,
+          "error_sine_high_fraction_percent": 45.1576682392154,
+          "solve_ms": 190.95616997219622,
+          "iterations": 21,
+          "relative_residual": 9.451359072712426e-11,
+          "total_cpu_ms": 323.00964486785233
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 1.1539199792068755,
+          "gradient_percent": 2.362180665917541,
+          "energy_percent": 2.833290670221245,
+          "flux_L2_percent": 3.7062744718857794,
+          "error_sine_low_fraction_percent": 98.06673257892403,
+          "error_sine_mid_fraction_percent": 1.6822989914453856,
+          "error_sine_high_fraction_percent": 0.25096842963059346,
+          "solve_ms": 7.393619045615196,
+          "assembly_ms": 69.62673994712532,
+          "amg_setup_ms": 62.42673494853079,
+          "total_cpu_ms": 139.4470939412713
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.8669935446507848,
+          "gradient_percent": 1.0568166059014596,
+          "energy_percent": 1.11969688338027,
+          "flux_L2_percent": 1.2363975110761964,
+          "error_sine_low_fraction_percent": 99.31988253202027,
+          "error_sine_mid_fraction_percent": 0.6449364490037859,
+          "error_sine_high_fraction_percent": 0.03518101897595256,
+          "solve_ms": 14.114252990111709,
+          "assembly_ms": 69.62673994712532,
+          "amg_setup_ms": 62.42673494853079,
+          "total_cpu_ms": 146.16772788576782
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.5080080522398911,
+          "gradient_percent": 0.5615572252945926,
+          "energy_percent": 0.571139387685439,
+          "flux_L2_percent": 0.6020347145822911,
+          "error_sine_low_fraction_percent": 99.56050597668025,
+          "error_sine_mid_fraction_percent": 0.4099334288061838,
+          "error_sine_high_fraction_percent": 0.029560594513559135,
+          "solve_ms": 27.587590040639043,
+          "assembly_ms": 69.62673994712532,
+          "amg_setup_ms": 62.42673494853079,
+          "total_cpu_ms": 159.64106493629515
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0030245364901065e-06,
+          "gradient_percent": 0.0002307310458105897,
+          "energy_percent": 0.00045531494510556446,
+          "flux_L2_percent": 0.0008990281415860307,
+          "error_sine_low_fraction_percent": 54.19090458396339,
+          "error_sine_mid_fraction_percent": 0.6515488516145563,
+          "error_sine_high_fraction_percent": 45.15754656442205,
+          "solve_ms": 190.6403829343617,
+          "iterations": 21,
+          "relative_residual": 2.6615516753026262e-11,
+          "total_cpu_ms": 322.6938578300178
+        }
+      }
+    },
+    {
+      "index": 10,
+      "assembly_ms": 70.07938995957375,
+      "amg_setup_ms": 63.00062779337168,
+      "operator_complexity": 1.8450821716169723,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 68.8834133124283,
+          "gradient_percent": 69.1672623572623,
+          "energy_percent": 68.34839250495841,
+          "flux_L2_percent": 68.28347144208912,
+          "error_sine_low_fraction_percent": 99.6172741217912,
+          "error_sine_mid_fraction_percent": 0.3624027864650185,
+          "error_sine_high_fraction_percent": 0.020323091743725465,
+          "solve_ms": 7.452700985595584,
+          "assembly_ms": 70.07938995957375,
+          "amg_setup_ms": 63.00062779337168,
+          "total_cpu_ms": 140.532718738541
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 49.10569136537909,
+          "gradient_percent": 49.94065913483046,
+          "energy_percent": 49.2396203303409,
+          "flux_L2_percent": 49.34608385070632,
+          "error_sine_low_fraction_percent": 99.59879579198501,
+          "error_sine_mid_fraction_percent": 0.3802096633962013,
+          "error_sine_high_fraction_percent": 0.02099454461878038,
+          "solve_ms": 14.183304039761424,
+          "assembly_ms": 70.07938995957375,
+          "amg_setup_ms": 63.00062779337168,
+          "total_cpu_ms": 147.26332179270685
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 26.237514313964116,
+          "gradient_percent": 27.394347859296218,
+          "energy_percent": 27.029921268554975,
+          "flux_L2_percent": 27.235947311395332,
+          "error_sine_low_fraction_percent": 99.57398653365583,
+          "error_sine_mid_fraction_percent": 0.4038853484924361,
+          "error_sine_high_fraction_percent": 0.02212811785172992,
+          "solve_ms": 27.568588964641094,
+          "assembly_ms": 70.07938995957375,
+          "amg_setup_ms": 63.00062779337168,
+          "total_cpu_ms": 160.64860671758652
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.0173320472727365e-06,
+          "gradient_percent": 0.00023061232827880547,
+          "energy_percent": 0.0004473632615932973,
+          "flux_L2_percent": 0.0008959050094153947,
+          "error_sine_low_fraction_percent": 55.01962161526829,
+          "error_sine_mid_fraction_percent": 0.6899626123486563,
+          "error_sine_high_fraction_percent": 44.29041577238305,
+          "solve_ms": 202.67851697281003,
+          "iterations": 22,
+          "relative_residual": 5.161271454930323e-11,
+          "total_cpu_ms": 335.75853472575545
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.5934354983300352,
+          "gradient_percent": 2.318660338882165,
+          "energy_percent": 2.9434235671093054,
+          "flux_L2_percent": 3.9585949878692372,
+          "error_sine_low_fraction_percent": 90.87489299533017,
+          "error_sine_mid_fraction_percent": 8.069009550819622,
+          "error_sine_high_fraction_percent": 1.0560974538502421,
+          "solve_ms": 7.610563887283206,
+          "assembly_ms": 70.07938995957375,
+          "amg_setup_ms": 63.00062779337168,
+          "total_cpu_ms": 140.69058164022863
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.3826706080018748,
+          "gradient_percent": 0.7268607465045341,
+          "energy_percent": 0.8298260206537839,
+          "flux_L2_percent": 0.9769620075908219,
+          "error_sine_low_fraction_percent": 96.94019618474566,
+          "error_sine_mid_fraction_percent": 2.974126094041912,
+          "error_sine_high_fraction_percent": 0.08567772121245054,
+          "solve_ms": 14.12055199034512,
+          "assembly_ms": 70.07938995957375,
+          "amg_setup_ms": 63.00062779337168,
+          "total_cpu_ms": 147.20056974329054
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.18689077887781386,
+          "gradient_percent": 0.2350480874902614,
+          "energy_percent": 0.25577539217117123,
+          "flux_L2_percent": 0.279207871143449,
+          "error_sine_low_fraction_percent": 99.25297895212607,
+          "error_sine_mid_fraction_percent": 0.7199533215834807,
+          "error_sine_high_fraction_percent": 0.02706772629044789,
+          "solve_ms": 27.604729868471622,
+          "assembly_ms": 70.07938995957375,
+          "amg_setup_ms": 63.00062779337168,
+          "total_cpu_ms": 160.68474762141705
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.017332972410441e-06,
+          "gradient_percent": 0.00023061232833418232,
+          "energy_percent": 0.00044736326163742195,
+          "flux_L2_percent": 0.0008959050100607645,
+          "error_sine_low_fraction_percent": 55.01964161102058,
+          "error_sine_mid_fraction_percent": 0.6899630511603292,
+          "error_sine_high_fraction_percent": 44.290395337819106,
+          "solve_ms": 192.89727183058858,
+          "iterations": 21,
+          "relative_residual": 3.378088278390579e-11,
+          "total_cpu_ms": 325.977289583534
+        }
+      }
+    },
+    {
+      "index": 11,
+      "assembly_ms": 70.08714904077351,
+      "amg_setup_ms": 62.10152804851532,
+      "operator_complexity": 1.842063217084458,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 64.76419488744851,
+          "gradient_percent": 65.6864774644788,
+          "energy_percent": 64.23547740158342,
+          "flux_L2_percent": 63.79150121535824,
+          "error_sine_low_fraction_percent": 99.67240411624202,
+          "error_sine_mid_fraction_percent": 0.3055772156576521,
+          "error_sine_high_fraction_percent": 0.02201866810032297,
+          "solve_ms": 7.543192012235522,
+          "assembly_ms": 70.08714904077351,
+          "amg_setup_ms": 62.10152804851532,
+          "total_cpu_ms": 139.73186910152435
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 43.45310053005824,
+          "gradient_percent": 45.22421151770871,
+          "energy_percent": 43.50709312310079,
+          "flux_L2_percent": 42.91568191477948,
+          "error_sine_low_fraction_percent": 99.64373016150334,
+          "error_sine_mid_fraction_percent": 0.33230841111316106,
+          "error_sine_high_fraction_percent": 0.02396142738352281,
+          "solve_ms": 14.080651104450226,
+          "assembly_ms": 70.08714904077351,
+          "amg_setup_ms": 62.10152804851532,
+          "total_cpu_ms": 146.26932819373906
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 20.554863580360312,
+          "gradient_percent": 22.41138966550199,
+          "energy_percent": 21.12770619388019,
+          "flux_L2_percent": 20.58946657085869,
+          "error_sine_low_fraction_percent": 99.59432983360067,
+          "error_sine_mid_fraction_percent": 0.37829974990864595,
+          "error_sine_high_fraction_percent": 0.02737041649061014,
+          "solve_ms": 27.605929877609015,
+          "assembly_ms": 70.08714904077351,
+          "amg_setup_ms": 62.10152804851532,
+          "total_cpu_ms": 159.79460696689785
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.076419430809757e-06,
+          "gradient_percent": 0.00023290126784077274,
+          "energy_percent": 0.00046391331458697836,
+          "flux_L2_percent": 0.0008878359266368815,
+          "error_sine_low_fraction_percent": 54.53954462375705,
+          "error_sine_mid_fraction_percent": 0.6676970928242691,
+          "error_sine_high_fraction_percent": 44.792758283418685,
+          "solve_ms": 187.6157319638878,
+          "iterations": 21,
+          "relative_residual": 5.986753135719857e-11,
+          "total_cpu_ms": 319.80440905317664
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.4899410045844767,
+          "gradient_percent": 2.3661368827551756,
+          "energy_percent": 2.863572598423183,
+          "flux_L2_percent": 3.605882896745284,
+          "error_sine_low_fraction_percent": 87.33597857679185,
+          "error_sine_mid_fraction_percent": 10.892999488072537,
+          "error_sine_high_fraction_percent": 1.7710219351356185,
+          "solve_ms": 7.383748888969421,
+          "assembly_ms": 70.08714904077351,
+          "amg_setup_ms": 62.10152804851532,
+          "total_cpu_ms": 139.57242597825825
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.2630692555422417,
+          "gradient_percent": 0.6461673029478054,
+          "energy_percent": 0.7434695500203286,
+          "flux_L2_percent": 0.8224152942864364,
+          "error_sine_low_fraction_percent": 94.44221843424518,
+          "error_sine_mid_fraction_percent": 5.346916961296214,
+          "error_sine_high_fraction_percent": 0.21086460445859806,
+          "solve_ms": 14.51587094925344,
+          "assembly_ms": 70.08714904077351,
+          "amg_setup_ms": 62.10152804851532,
+          "total_cpu_ms": 146.70454803854227
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.09352268004192113,
+          "gradient_percent": 0.15637396433046655,
+          "energy_percent": 0.17321362562449802,
+          "flux_L2_percent": 0.1800063875616146,
+          "error_sine_low_fraction_percent": 98.29216247274374,
+          "error_sine_mid_fraction_percent": 1.6335202933372202,
+          "error_sine_high_fraction_percent": 0.07431723391900236,
+          "solve_ms": 28.08698103763163,
+          "assembly_ms": 70.08714904077351,
+          "amg_setup_ms": 62.10152804851532,
+          "total_cpu_ms": 160.27565812692046
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.076412701641625e-06,
+          "gradient_percent": 0.0002329012675785746,
+          "energy_percent": 0.00046391331446620735,
+          "flux_L2_percent": 0.0008878359267591506,
+          "error_sine_low_fraction_percent": 54.53939437254876,
+          "error_sine_mid_fraction_percent": 0.6676997197345336,
+          "error_sine_high_fraction_percent": 44.792905907716765,
+          "solve_ms": 180.6492218747735,
+          "iterations": 20,
+          "relative_residual": 4.9027745308249025e-11,
+          "total_cpu_ms": 312.83789896406233
+        }
+      }
+    },
+    {
+      "index": 12,
+      "assembly_ms": 69.64366999454796,
+      "amg_setup_ms": 63.36818588897586,
+      "operator_complexity": 1.843791171323463,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 68.48853452749204,
+          "gradient_percent": 68.98940855705035,
+          "energy_percent": 67.7418287850727,
+          "flux_L2_percent": 67.85839777724442,
+          "error_sine_low_fraction_percent": 99.6148403579847,
+          "error_sine_mid_fraction_percent": 0.3556657370076969,
+          "error_sine_high_fraction_percent": 0.02949390500759167,
+          "solve_ms": 7.473350036889315,
+          "assembly_ms": 69.64366999454796,
+          "amg_setup_ms": 63.36818588897586,
+          "total_cpu_ms": 140.48520592041314
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 48.72476553494971,
+          "gradient_percent": 49.80344444932695,
+          "energy_percent": 48.61110367935549,
+          "flux_L2_percent": 49.02972251158248,
+          "error_sine_low_fraction_percent": 99.60113791710802,
+          "error_sine_mid_fraction_percent": 0.3676678564153083,
+          "error_sine_high_fraction_percent": 0.031194226476664703,
+          "solve_ms": 14.246915001422167,
+          "assembly_ms": 69.64366999454796,
+          "amg_setup_ms": 63.36818588897586,
+          "total_cpu_ms": 147.258770884946
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 26.09860801994821,
+          "gradient_percent": 27.53560908338598,
+          "energy_percent": 26.745439348532674,
+          "flux_L2_percent": 27.26353406484046,
+          "error_sine_low_fraction_percent": 99.56523424007315,
+          "error_sine_mid_fraction_percent": 0.4004174500998677,
+          "error_sine_high_fraction_percent": 0.034348309826977626,
+          "solve_ms": 27.855365071445704,
+          "assembly_ms": 69.64366999454796,
+          "amg_setup_ms": 63.36818588897586,
+          "total_cpu_ms": 160.86722095496953
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.054075175350941e-06,
+          "gradient_percent": 0.0002233340938134818,
+          "energy_percent": 0.00046102420605080894,
+          "flux_L2_percent": 0.0008925561830151574,
+          "error_sine_low_fraction_percent": 54.17556383962384,
+          "error_sine_mid_fraction_percent": 0.7302003362681289,
+          "error_sine_high_fraction_percent": 45.094235824108026,
+          "solve_ms": 194.90165798924863,
+          "iterations": 21,
+          "relative_residual": 5.264679943363075e-11,
+          "total_cpu_ms": 327.91351387277246
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.498217699000765,
+          "gradient_percent": 2.3903486069374282,
+          "energy_percent": 2.82661306745715,
+          "flux_L2_percent": 3.512657195770362,
+          "error_sine_low_fraction_percent": 87.13850358829258,
+          "error_sine_mid_fraction_percent": 10.946611613881187,
+          "error_sine_high_fraction_percent": 1.9148847978262338,
+          "solve_ms": 7.408368866890669,
+          "assembly_ms": 69.64366999454796,
+          "amg_setup_ms": 63.36818588897586,
+          "total_cpu_ms": 140.4202247504145
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.2645802261166509,
+          "gradient_percent": 0.7240066547666563,
+          "energy_percent": 0.7866902370962201,
+          "flux_L2_percent": 0.8456058783628161,
+          "error_sine_low_fraction_percent": 93.19389633134145,
+          "error_sine_mid_fraction_percent": 6.497401554109387,
+          "error_sine_high_fraction_percent": 0.3087021145491987,
+          "solve_ms": 14.240654883906245,
+          "assembly_ms": 69.64366999454796,
+          "amg_setup_ms": 63.36818588897586,
+          "total_cpu_ms": 147.25251076743007
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.0922809399876991,
+          "gradient_percent": 0.2100600300344561,
+          "energy_percent": 0.220619633703931,
+          "flux_L2_percent": 0.21948227325571637,
+          "error_sine_low_fraction_percent": 95.84537101478371,
+          "error_sine_mid_fraction_percent": 3.9700680231782965,
+          "error_sine_high_fraction_percent": 0.18456096203798072,
+          "solve_ms": 27.97092800028622,
+          "assembly_ms": 69.64366999454796,
+          "amg_setup_ms": 63.36818588897586,
+          "total_cpu_ms": 160.98278388381004
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.054077001688542e-06,
+          "gradient_percent": 0.0002233340940318527,
+          "energy_percent": 0.00046102420590375274,
+          "flux_L2_percent": 0.0008925561826833195,
+          "error_sine_low_fraction_percent": 54.17560250608027,
+          "error_sine_mid_fraction_percent": 0.7302020142012907,
+          "error_sine_high_fraction_percent": 45.09419547971846,
+          "solve_ms": 187.0656879618764,
+          "iterations": 20,
+          "relative_residual": 5.7834937360353804e-11,
+          "total_cpu_ms": 320.0775438454002
+        }
+      }
+    },
+    {
+      "index": 13,
+      "assembly_ms": 69.80977300554514,
+      "amg_setup_ms": 62.74587195366621,
+      "operator_complexity": 1.8455522281340964,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 75.42789346848815,
+          "gradient_percent": 74.05190436877983,
+          "energy_percent": 75.26996803910012,
+          "flux_L2_percent": 76.02022984225447,
+          "error_sine_low_fraction_percent": 99.70255601120711,
+          "error_sine_mid_fraction_percent": 0.2729854586174445,
+          "error_sine_high_fraction_percent": 0.024458530175421746,
+          "solve_ms": 7.7086859382689,
+          "assembly_ms": 69.80977300554514,
+          "amg_setup_ms": 62.74587195366621,
+          "total_cpu_ms": 140.26433089748025
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 58.6731776176261,
+          "gradient_percent": 57.77172714845461,
+          "energy_percent": 59.30355391574129,
+          "flux_L2_percent": 60.29745871276074,
+          "error_sine_low_fraction_percent": 99.6994313888557,
+          "error_sine_mid_fraction_percent": 0.2757247416726578,
+          "error_sine_high_fraction_percent": 0.024843869471666315,
+          "solve_ms": 14.54350189305842,
+          "assembly_ms": 69.80977300554514,
+          "amg_setup_ms": 62.74587195366621,
+          "total_cpu_ms": 147.09914685226977
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 37.08193578558085,
+          "gradient_percent": 37.053108555853846,
+          "energy_percent": 38.510497103361885,
+          "flux_L2_percent": 39.577601505130225,
+          "error_sine_low_fraction_percent": 99.68672925276043,
+          "error_sine_mid_fraction_percent": 0.28740661070006274,
+          "error_sine_high_fraction_percent": 0.025864136539613804,
+          "solve_ms": 28.30983605235815,
+          "assembly_ms": 69.80977300554514,
+          "amg_setup_ms": 62.74587195366621,
+          "total_cpu_ms": 160.8654810115695
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.015581873299374e-06,
+          "gradient_percent": 0.0002291305304011052,
+          "energy_percent": 0.00046048453126596106,
+          "flux_L2_percent": 0.0008867737414295332,
+          "error_sine_low_fraction_percent": 54.503677328469784,
+          "error_sine_mid_fraction_percent": 0.6726694298280705,
+          "error_sine_high_fraction_percent": 44.82365324170213,
+          "solve_ms": 207.75865903124213,
+          "iterations": 23,
+          "relative_residual": 3.502610993097415e-11,
+          "total_cpu_ms": 340.3143039904535
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.9364953981415322,
+          "gradient_percent": 2.724832183763581,
+          "energy_percent": 3.3249107269247546,
+          "flux_L2_percent": 4.532797497957479,
+          "error_sine_low_fraction_percent": 95.19231732501743,
+          "error_sine_mid_fraction_percent": 4.174567783319816,
+          "error_sine_high_fraction_percent": 0.6331148916626723,
+          "solve_ms": 7.38832913339138,
+          "assembly_ms": 69.80977300554514,
+          "amg_setup_ms": 62.74587195366621,
+          "total_cpu_ms": 139.94397409260273
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.6803877075756952,
+          "gradient_percent": 0.8671711993827981,
+          "energy_percent": 1.0225750365685973,
+          "flux_L2_percent": 1.1729950254561952,
+          "error_sine_low_fraction_percent": 98.98706397744017,
+          "error_sine_mid_fraction_percent": 0.9787457268383357,
+          "error_sine_high_fraction_percent": 0.03419029572148111,
+          "solve_ms": 14.541801996529102,
+          "assembly_ms": 69.80977300554514,
+          "amg_setup_ms": 62.74587195366621,
+          "total_cpu_ms": 147.09744695574045
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.4004280638748901,
+          "gradient_percent": 0.40256045688979786,
+          "energy_percent": 0.4477807680413678,
+          "flux_L2_percent": 0.4762746420716767,
+          "error_sine_low_fraction_percent": 99.69866036572336,
+          "error_sine_mid_fraction_percent": 0.2794137394849526,
+          "error_sine_high_fraction_percent": 0.021925894791706754,
+          "solve_ms": 28.345996979624033,
+          "assembly_ms": 69.80977300554514,
+          "amg_setup_ms": 62.74587195366621,
+          "total_cpu_ms": 160.90164193883538
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.015575574103931e-06,
+          "gradient_percent": 0.00022913053047461692,
+          "energy_percent": 0.00046048453112564183,
+          "flux_L2_percent": 0.0008867737405846922,
+          "error_sine_low_fraction_percent": 54.50353356777585,
+          "error_sine_mid_fraction_percent": 0.6726722904809012,
+          "error_sine_high_fraction_percent": 44.82379414174325,
+          "solve_ms": 198.58072977513075,
+          "iterations": 22,
+          "relative_residual": 4.983121381874926e-11,
+          "total_cpu_ms": 331.1363747343421
+        }
+      }
+    },
+    {
+      "index": 14,
+      "assembly_ms": 69.46674501523376,
+      "amg_setup_ms": 63.43908701092005,
+      "operator_complexity": 1.844614321937957,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 74.17273771447391,
+          "gradient_percent": 74.81058364756743,
+          "energy_percent": 73.75130444733176,
+          "flux_L2_percent": 73.78569959370313,
+          "error_sine_low_fraction_percent": 99.6351488989765,
+          "error_sine_mid_fraction_percent": 0.3378486081352968,
+          "error_sine_high_fraction_percent": 0.02700249288820381,
+          "solve_ms": 7.554772077128291,
+          "assembly_ms": 69.46674501523376,
+          "amg_setup_ms": 63.43908701092005,
+          "total_cpu_ms": 140.4606041032821
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 56.62752207803484,
+          "gradient_percent": 58.035009822994134,
+          "energy_percent": 56.78968783161958,
+          "flux_L2_percent": 56.903562354126734,
+          "error_sine_low_fraction_percent": 99.61273934902268,
+          "error_sine_mid_fraction_percent": 0.3592447219411045,
+          "error_sine_high_fraction_percent": 0.028015929036196808,
+          "solve_ms": 14.28499585017562,
+          "assembly_ms": 69.46674501523376,
+          "amg_setup_ms": 63.43908701092005,
+          "total_cpu_ms": 147.19082787632942
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 34.27299474035225,
+          "gradient_percent": 36.03909327322328,
+          "energy_percent": 35.012518335237615,
+          "flux_L2_percent": 35.15253587524423,
+          "error_sine_low_fraction_percent": 99.57879080348242,
+          "error_sine_mid_fraction_percent": 0.3914791018666863,
+          "error_sine_high_fraction_percent": 0.02973009465084989,
+          "solve_ms": 27.900387067347765,
+          "assembly_ms": 69.46674501523376,
+          "amg_setup_ms": 63.43908701092005,
+          "total_cpu_ms": 160.80621909350157
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.010746830411977e-06,
+          "gradient_percent": 0.00022638504925454303,
+          "energy_percent": 0.0004613568558143417,
+          "flux_L2_percent": 0.0009114694533851737,
+          "error_sine_low_fraction_percent": 54.48465652566713,
+          "error_sine_mid_fraction_percent": 0.7089661740769975,
+          "error_sine_high_fraction_percent": 44.80637730025588,
+          "solve_ms": 212.14148914441466,
+          "iterations": 23,
+          "relative_residual": 7.201028714620052e-11,
+          "total_cpu_ms": 345.04732117056847
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 2.56687716198327,
+          "gradient_percent": 3.8986553443798186,
+          "energy_percent": 3.811724245891783,
+          "flux_L2_percent": 4.0195672818902555,
+          "error_sine_low_fraction_percent": 99.37943489620322,
+          "error_sine_mid_fraction_percent": 0.4637854273890085,
+          "error_sine_high_fraction_percent": 0.15677967640773474,
+          "solve_ms": 7.465951144695282,
+          "assembly_ms": 69.46674501523376,
+          "amg_setup_ms": 63.43908701092005,
+          "total_cpu_ms": 140.37178317084908
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 1.9266624385465199,
+          "gradient_percent": 2.011482831704472,
+          "energy_percent": 2.0367495906944924,
+          "flux_L2_percent": 2.100152813740654,
+          "error_sine_low_fraction_percent": 99.65930497854747,
+          "error_sine_mid_fraction_percent": 0.3055802036491602,
+          "error_sine_high_fraction_percent": 0.03511481780333854,
+          "solve_ms": 14.258094830438495,
+          "assembly_ms": 69.46674501523376,
+          "amg_setup_ms": 63.43908701092005,
+          "total_cpu_ms": 147.1639268565923
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 1.1429646757912015,
+          "gradient_percent": 1.1708148220202965,
+          "energy_percent": 1.166178586368168,
+          "flux_L2_percent": 1.1998654418503976,
+          "error_sine_low_fraction_percent": 99.64326825168637,
+          "error_sine_mid_fraction_percent": 0.327990889558712,
+          "error_sine_high_fraction_percent": 0.028740858754919354,
+          "solve_ms": 27.895026141777635,
+          "assembly_ms": 69.46674501523376,
+          "amg_setup_ms": 63.43908701092005,
+          "total_cpu_ms": 160.80085816793144
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.010739053850172e-06,
+          "gradient_percent": 0.00022638504840765094,
+          "energy_percent": 0.0004613568552543462,
+          "flux_L2_percent": 0.0009114694530185908,
+          "error_sine_low_fraction_percent": 54.48449007581973,
+          "error_sine_mid_fraction_percent": 0.7089596553958424,
+          "error_sine_high_fraction_percent": 44.80655026878441,
+          "solve_ms": 203.6116230301559,
+          "iterations": 22,
+          "relative_residual": 8.46603964148223e-11,
+          "total_cpu_ms": 336.5174550563097
+        }
+      }
+    },
+    {
+      "index": 15,
+      "assembly_ms": 69.64865792542696,
+      "amg_setup_ms": 63.47044790163636,
+      "operator_complexity": 1.8444863253276602,
+      "methods": {
+        "zero_AMG_K1": {
+          "L2_percent": 76.3196756094793,
+          "gradient_percent": 76.70157520397028,
+          "energy_percent": 75.75471652379294,
+          "flux_L2_percent": 75.80406285894354,
+          "error_sine_low_fraction_percent": 99.63884571141195,
+          "error_sine_mid_fraction_percent": 0.3403984251941559,
+          "error_sine_high_fraction_percent": 0.02075586339387054,
+          "solve_ms": 8.079075021669269,
+          "assembly_ms": 69.64865792542696,
+          "amg_setup_ms": 63.47044790163636,
+          "total_cpu_ms": 141.1981808487326
+        },
+        "zero_AMG_K2": {
+          "L2_percent": 59.57653953619943,
+          "gradient_percent": 60.64361641218503,
+          "energy_percent": 59.42747710533971,
+          "flux_L2_percent": 59.554343113586626,
+          "error_sine_low_fraction_percent": 99.61299342483579,
+          "error_sine_mid_fraction_percent": 0.36587597445572717,
+          "error_sine_high_fraction_percent": 0.02113060070846886,
+          "solve_ms": 14.200113015249372,
+          "assembly_ms": 69.64865792542696,
+          "amg_setup_ms": 63.47044790163636,
+          "total_cpu_ms": 147.3192188423127
+        },
+        "zero_AMG_K4": {
+          "L2_percent": 37.525051858414,
+          "gradient_percent": 39.21079314184001,
+          "energy_percent": 38.02798727828582,
+          "flux_L2_percent": 38.23082808353375,
+          "error_sine_low_fraction_percent": 99.5713760922845,
+          "error_sine_mid_fraction_percent": 0.4064177060203775,
+          "error_sine_high_fraction_percent": 0.02220620169507478,
+          "solve_ms": 27.705402113497257,
+          "assembly_ms": 69.64865792542696,
+          "amg_setup_ms": 63.47044790163636,
+          "total_cpu_ms": 160.82450794056058
+        },
+        "zero_AMG_CG_tol1e-10": {
+          "L2_percent": 4.023211265521045e-06,
+          "gradient_percent": 0.00023083414370161692,
+          "energy_percent": 0.0004537207746628604,
+          "flux_L2_percent": 0.0008915874976989705,
+          "error_sine_low_fraction_percent": 55.237455317853296,
+          "error_sine_mid_fraction_percent": 0.6601762037755342,
+          "error_sine_high_fraction_percent": 44.10236847837117,
+          "solve_ms": 210.5197908822447,
+          "iterations": 23,
+          "relative_residual": 6.84666917240774e-11,
+          "total_cpu_ms": 343.638896709308
+        },
+        "NO_AMG_K1": {
+          "L2_percent": 0.43578696821621776,
+          "gradient_percent": 2.2185532634051803,
+          "energy_percent": 2.5957689938887496,
+          "flux_L2_percent": 3.2090008036962088,
+          "error_sine_low_fraction_percent": 87.11164473280623,
+          "error_sine_mid_fraction_percent": 10.945882682856176,
+          "error_sine_high_fraction_percent": 1.9424725843376134,
+          "solve_ms": 7.40638910792768,
+          "assembly_ms": 69.64865792542696,
+          "amg_setup_ms": 63.47044790163636,
+          "total_cpu_ms": 140.525494934991
+        },
+        "NO_AMG_K2": {
+          "L2_percent": 0.31035049327476405,
+          "gradient_percent": 0.5871882547193719,
+          "energy_percent": 0.6438468566675261,
+          "flux_L2_percent": 0.7324662233928503,
+          "error_sine_low_fraction_percent": 97.0236224756779,
+          "error_sine_mid_fraction_percent": 2.8548865081660257,
+          "error_sine_high_fraction_percent": 0.12149101615608919,
+          "solve_ms": 14.170632930472493,
+          "assembly_ms": 69.64865792542696,
+          "amg_setup_ms": 63.47044790163636,
+          "total_cpu_ms": 147.28973875753582
+        },
+        "NO_AMG_K4": {
+          "L2_percent": 0.1903424320589472,
+          "gradient_percent": 0.23370072981582934,
+          "energy_percent": 0.23631038881590152,
+          "flux_L2_percent": 0.25412892773358015,
+          "error_sine_low_fraction_percent": 99.35035262068813,
+          "error_sine_mid_fraction_percent": 0.6147261014208292,
+          "error_sine_high_fraction_percent": 0.03492127789102951,
+          "solve_ms": 27.68277213908732,
+          "assembly_ms": 69.64865792542696,
+          "amg_setup_ms": 63.47044790163636,
+          "total_cpu_ms": 160.80187796615064
+        },
+        "NO_AMG_CG_tol1e-10": {
+          "L2_percent": 4.02322744106469e-06,
+          "gradient_percent": 0.00023083414434891668,
+          "energy_percent": 0.00045372077519463967,
+          "flux_L2_percent": 0.0008915874973489729,
+          "error_sine_low_fraction_percent": 55.237815606157454,
+          "error_sine_mid_fraction_percent": 0.6601706272307494,
+          "error_sine_high_fraction_percent": 44.1020137666118,
+          "solve_ms": 198.0734160169959,
+          "iterations": 21,
+          "relative_residual": 8.164679552387323e-11,
+          "total_cpu_ms": 331.19252184405923
+        }
+      }
+    }
+  ],
+  "timing_note": "CPU baseline, not a controlled same-hardware GPU speedup comparison; full coefficient-dependent AMG setup charged separately"
+}

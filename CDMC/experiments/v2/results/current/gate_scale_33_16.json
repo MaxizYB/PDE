@@ -1,0 +1,304 @@
+{
+  "dataset": "baselines/data/darcy_v2/generated/pilot_regular",
+  "nodes": 1089,
+  "levels": [
+    961,
+    481,
+    241,
+    121
+  ],
+  "count": 16,
+  "summary": {
+    "smooth_mean": {
+      "mean": 1.2944021821022034,
+      "p95": 1.312530279159546
+    },
+    "coarse_mean": {
+      "mean": 1.0125692188739777,
+      "p95": 1.0129176676273346
+    },
+    "fixed_K1_error_percent": {
+      "mean": 0.4169985309999902,
+      "p95": 0.7027251296676695
+    },
+    "fixed_K2_error_percent": {
+      "mean": 0.020561043675115798,
+      "p95": 0.029227072809590027
+    },
+    "learned_K1_error_percent": {
+      "mean": 0.2260178909637034,
+      "p95": 0.3884507867041975
+    },
+    "learned_K2_error_percent": {
+      "mean": 0.010283259530297073,
+      "p95": 0.01595056055521127
+    },
+    "smooth_only_K1_error_percent": {
+      "mean": 0.4022260873171035,
+      "p95": 0.6520279566757381
+    },
+    "smooth_only_K2_error_percent": {
+      "mean": 0.014594716049032286,
+      "p95": 0.02511509956093505
+    },
+    "coarse_only_K1_error_percent": {
+      "mean": 0.2735752408625558,
+      "p95": 0.4791296669282019
+    },
+    "coarse_only_K2_error_percent": {
+      "mean": 0.02246324229417951,
+      "p95": 0.03797496829065494
+    },
+    "learned_half_strength_K1_error_percent": {
+      "mean": 0.3113060985924676,
+      "p95": 0.5320555297657847
+    },
+    "learned_half_strength_K2_error_percent": {
+      "mean": 0.013092283825244522,
+      "p95": 0.01878905313787982
+    }
+  },
+  "samples": [
+    {
+      "sample_index": 80,
+      "smooth_mean": 1.2929487228393555,
+      "coarse_mean": 1.012611746788025,
+      "fixed_K1_error_percent": 0.3188884351402521,
+      "fixed_K2_error_percent": 0.025621906388550997,
+      "learned_K1_error_percent": 0.21001880522817373,
+      "learned_K2_error_percent": 0.01102649184758775,
+      "smooth_only_K1_error_percent": 0.26506807189434767,
+      "smooth_only_K2_error_percent": 0.013672822387889028,
+      "coarse_only_K1_error_percent": 0.2782838186249137,
+      "coarse_only_K2_error_percent": 0.024775139172561467,
+      "learned_half_strength_K1_error_percent": 0.2559123793616891,
+      "learned_half_strength_K2_error_percent": 0.01639524707570672
+    },
+    {
+      "sample_index": 81,
+      "smooth_mean": 1.2860162258148193,
+      "coarse_mean": 1.0125106573104858,
+      "fixed_K1_error_percent": 0.17897066427394748,
+      "fixed_K2_error_percent": 0.009975171997211874,
+      "learned_K1_error_percent": 0.11510094627737999,
+      "learned_K2_error_percent": 0.004718869240605272,
+      "smooth_only_K1_error_percent": 0.18632725114002824,
+      "smooth_only_K2_error_percent": 0.007192129123723134,
+      "coarse_only_K1_error_percent": 0.1360573573037982,
+      "coarse_only_K2_error_percent": 0.01152913027908653,
+      "learned_half_strength_K1_error_percent": 0.14351605204865336,
+      "learned_half_strength_K2_error_percent": 0.006280515663092956
+    },
+    {
+      "sample_index": 82,
+      "smooth_mean": 1.2927218675613403,
+      "coarse_mean": 1.0126439332962036,
+      "fixed_K1_error_percent": 0.3999484237283468,
+      "fixed_K2_error_percent": 0.019585514382924885,
+      "learned_K1_error_percent": 0.191328686196357,
+      "learned_K2_error_percent": 0.006053610559320077,
+      "smooth_only_K1_error_percent": 0.3998679108917713,
+      "smooth_only_K2_error_percent": 0.017230797675438225,
+      "coarse_only_K1_error_percent": 0.18770030001178384,
+      "coarse_only_K2_error_percent": 0.009740285167936236,
+      "learned_half_strength_K1_error_percent": 0.28707131277769804,
+      "learned_half_strength_K2_error_percent": 0.00984643047559075
+    },
+    {
+      "sample_index": 83,
+      "smooth_mean": 1.286376714706421,
+      "coarse_mean": 1.0124626159667969,
+      "fixed_K1_error_percent": 0.4096983000636101,
+      "fixed_K2_error_percent": 0.019577369675971568,
+      "learned_K1_error_percent": 0.26112147606909275,
+      "learned_K2_error_percent": 0.008072347554843873,
+      "smooth_only_K1_error_percent": 0.3735886886715889,
+      "smooth_only_K2_error_percent": 0.014690417447127402,
+      "coarse_only_K1_error_percent": 0.30232020653784275,
+      "coarse_only_K2_error_percent": 0.01760664163157344,
+      "learned_half_strength_K1_error_percent": 0.32757949084043503,
+      "learned_half_strength_K2_error_percent": 0.01226361928274855
+    },
+    {
+      "sample_index": 84,
+      "smooth_mean": 1.301600456237793,
+      "coarse_mean": 1.0127736330032349,
+      "fixed_K1_error_percent": 0.34572589211165905,
+      "fixed_K2_error_percent": 0.018821071716956794,
+      "learned_K1_error_percent": 0.24355584755539894,
+      "learned_K2_error_percent": 0.012244493700563908,
+      "smooth_only_K1_error_percent": 0.33235864248126745,
+      "smooth_only_K2_error_percent": 0.010371336247771978,
+      "coarse_only_K1_error_percent": 0.28264783322811127,
+      "coarse_only_K2_error_percent": 0.021820371330250055,
+      "learned_half_strength_K1_error_percent": 0.2887581940740347,
+      "learned_half_strength_K2_error_percent": 0.012411482748575509
+    },
+    {
+      "sample_index": 85,
+      "smooth_mean": 1.2676337957382202,
+      "coarse_mean": 1.0118482112884521,
+      "fixed_K1_error_percent": 0.7218456827104092,
+      "fixed_K2_error_percent": 0.02805811818689108,
+      "learned_K1_error_percent": 0.4688217304646969,
+      "learned_K2_error_percent": 0.01097352069336921,
+      "smooth_only_K1_error_percent": 0.6190941203385592,
+      "smooth_only_K2_error_percent": 0.022957789769861847,
+      "coarse_only_K1_error_percent": 0.5813537165522575,
+      "coarse_only_K2_error_percent": 0.027296377811580896,
+      "learned_half_strength_K1_error_percent": 0.5857493728399277,
+      "learned_half_strength_K2_error_percent": 0.017562582797836512
+    },
+    {
+      "sample_index": 86,
+      "smooth_mean": 1.2853608131408691,
+      "coarse_mean": 1.0125125646591187,
+      "fixed_K1_error_percent": 0.36174634005874395,
+      "fixed_K2_error_percent": 0.026520935352891684,
+      "learned_K1_error_percent": 0.21976453717797995,
+      "learned_K2_error_percent": 0.012459537538234144,
+      "smooth_only_K1_error_percent": 0.36280208732932806,
+      "smooth_only_K2_error_percent": 0.014479276433121413,
+      "coarse_only_K1_error_percent": 0.26538048405200243,
+      "coarse_only_K2_error_percent": 0.02062871790258214,
+      "learned_half_strength_K1_error_percent": 0.2812538295984268,
+      "learned_half_strength_K2_error_percent": 0.01795934367692098
+    },
+    {
+      "sample_index": 87,
+      "smooth_mean": 1.3042336702346802,
+      "coarse_mean": 1.0127074718475342,
+      "fixed_K1_error_percent": 0.6963516119867563,
+      "fixed_K2_error_percent": 0.030174583662301302,
+      "learned_K1_error_percent": 0.3616604721173644,
+      "learned_K2_error_percent": 0.01906542747747153,
+      "smooth_only_K1_error_percent": 0.6915770936757326,
+      "smooth_only_K2_error_percent": 0.024999375455081463,
+      "coarse_only_K1_error_percent": 0.4450549837201834,
+      "coarse_only_K2_error_percent": 0.0417770235799253,
+      "learned_half_strength_K1_error_percent": 0.5141575820744038,
+      "learned_half_strength_K2_error_percent": 0.021278181520756334
+    },
+    {
+      "sample_index": 88,
+      "smooth_mean": 1.3070420026779175,
+      "coarse_mean": 1.0129263401031494,
+      "fixed_K1_error_percent": 0.39001619443297386,
+      "fixed_K2_error_percent": 0.01918803754961118,
+      "learned_K1_error_percent": 0.19048266112804413,
+      "learned_K2_error_percent": 0.008416047785431147,
+      "smooth_only_K1_error_percent": 0.36161658354103565,
+      "smooth_only_K2_error_percent": 0.013729961938224733,
+      "coarse_only_K1_error_percent": 0.21670146379619837,
+      "coarse_only_K2_error_percent": 0.015408791659865528,
+      "learned_half_strength_K1_error_percent": 0.2827851101756096,
+      "learned_half_strength_K2_error_percent": 0.013167361612431705
+    },
+    {
+      "sample_index": 89,
+      "smooth_mean": 1.2858456373214722,
+      "coarse_mean": 1.012453556060791,
+      "fixed_K1_error_percent": 0.6059038452804089,
+      "fixed_K2_error_percent": 0.026795791927725077,
+      "learned_K1_error_percent": 0.2683165017515421,
+      "learned_K2_error_percent": 0.014912271581124514,
+      "smooth_only_K1_error_percent": 0.6388449110090733,
+      "smooth_only_K2_error_percent": 0.018361771071795374,
+      "coarse_only_K1_error_percent": 0.322613725438714,
+      "coarse_only_K2_error_percent": 0.036707616527564824,
+      "learned_half_strength_K1_error_percent": 0.4076154436916113,
+      "learned_half_strength_K2_error_percent": 0.016944928211160004
+    },
+    {
+      "sample_index": 90,
+      "smooth_mean": 1.2753944396972656,
+      "coarse_mean": 1.012071967124939,
+      "fixed_K1_error_percent": 0.22308819461613894,
+      "fixed_K2_error_percent": 0.014210223162081093,
+      "learned_K1_error_percent": 0.13745886972174048,
+      "learned_K2_error_percent": 0.0070381043769884855,
+      "smooth_only_K1_error_percent": 0.22295108065009117,
+      "smooth_only_K2_error_percent": 0.008670955867273733,
+      "coarse_only_K1_error_percent": 0.19631951581686735,
+      "coarse_only_K2_error_percent": 0.019039186008740216,
+      "learned_half_strength_K1_error_percent": 0.17013384494930506,
+      "learned_half_strength_K2_error_percent": 0.008886951400199905
+    },
+    {
+      "sample_index": 91,
+      "smooth_mean": 1.307273030281067,
+      "coarse_mean": 1.012914776802063,
+      "fixed_K1_error_percent": 0.26824704837054014,
+      "fixed_K2_error_percent": 0.01458692568121478,
+      "learned_K1_error_percent": 0.12420217972248793,
+      "learned_K2_error_percent": 0.010150739399250597,
+      "smooth_only_K1_error_percent": 0.2880711341276765,
+      "smooth_only_K2_error_percent": 0.010757148265838623,
+      "coarse_only_K1_error_percent": 0.1692522782832384,
+      "coarse_only_K2_error_percent": 0.023034813057165593,
+      "learned_half_strength_K1_error_percent": 0.1845860737375915,
+      "learned_half_strength_K2_error_percent": 0.010819508315762505
+    },
+    {
+      "sample_index": 92,
+      "smooth_mean": 1.3049070835113525,
+      "coarse_mean": 1.0126665830612183,
+      "fixed_K1_error_percent": 0.42286901734769344,
+      "fixed_K2_error_percent": 0.01744781475281343,
+      "learned_K1_error_percent": 0.18930458463728428,
+      "learned_K2_error_percent": 0.00891590680112131,
+      "smooth_only_K1_error_percent": 0.4024867434054613,
+      "smooth_only_K2_error_percent": 0.011161481234012172,
+      "coarse_only_K1_error_percent": 0.22397805005311966,
+      "coarse_only_K2_error_percent": 0.016134907491505146,
+      "learned_half_strength_K1_error_percent": 0.3019500058144331,
+      "learned_half_strength_K2_error_percent": 0.010322916932636872
+    },
+    {
+      "sample_index": 93,
+      "smooth_mean": 1.2877204418182373,
+      "coarse_mean": 1.0126595497131348,
+      "fixed_K1_error_percent": 0.6035092286765575,
+      "fixed_K2_error_percent": 0.02891123585868627,
+      "learned_K1_error_percent": 0.2646815963089466,
+      "learned_K2_error_percent": 0.010926671529887244,
+      "smooth_only_K1_error_percent": 0.587955117225647,
+      "smooth_only_K2_error_percent": 0.025462271878495812,
+      "coarse_only_K1_error_percent": 0.2895986195653677,
+      "coarse_only_K2_error_percent": 0.021809677127748728,
+      "learned_half_strength_K1_error_percent": 0.4225026350468397,
+      "learned_half_strength_K2_error_percent": 0.017318522441200912
+    },
+    {
+      "sample_index": 94,
+      "smooth_mean": 1.3123805522918701,
+      "coarse_mean": 1.0126034021377563,
+      "fixed_K1_error_percent": 0.49623907543718815,
+      "fixed_K2_error_percent": 0.015926834021229297,
+      "learned_K1_error_percent": 0.24008001200854778,
+      "learned_K2_error_percent": 0.012993034033570439,
+      "smooth_only_K1_error_percent": 0.4677155986428261,
+      "smooth_only_K2_error_percent": 0.01269407948711887,
+      "coarse_only_K1_error_percent": 0.2950340276584029,
+      "coarse_only_K2_error_percent": 0.03195542667526752,
+      "learned_half_strength_K1_error_percent": 0.350751169025898,
+      "learned_half_strength_K2_error_percent": 0.00954813149292022
+    },
+    {
+      "sample_index": 95,
+      "smooth_mean": 1.3129794597625732,
+      "coarse_mean": 1.0127404928207397,
+      "fixed_K1_error_percent": 0.22892854176461697,
+      "fixed_K2_error_percent": 0.013575164484791458,
+      "learned_K1_error_percent": 0.13038734905421734,
+      "learned_K2_error_percent": 0.00656507836538367,
+      "smooth_only_K1_error_percent": 0.235292362049222,
+      "smooth_only_K2_error_percent": 0.007083842501742765,
+      "coarse_only_K1_error_percent": 0.1849074731580913,
+      "coarse_only_K2_error_percent": 0.020147771283518523,
+      "learned_half_strength_K1_error_percent": 0.176575081422925,
+      "learned_half_strength_K2_error_percent": 0.008470817556371912
+    }
+  ],
+  "note": "Frozen weights and same compiled K=1/K=2 kernel; only smooth/coarse gate values are varied."
+}

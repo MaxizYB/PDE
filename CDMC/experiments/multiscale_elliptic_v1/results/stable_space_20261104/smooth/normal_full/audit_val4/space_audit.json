@@ -1,0 +1,102 @@
+{
+  "split": "val",
+  "count": 4,
+  "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/stable_space_20261104/smooth/normal_full/model.pt",
+  "samples": [
+    {
+      "index": 0,
+      "euclidean_gram_min": 0.9999999952384427,
+      "euclidean_gram_max": 2.3884546029431912,
+      "euclidean_gram_condition": 2.388454614315955,
+      "reference_orthogonality_error": 2.395057752650891e-08,
+      "normal_component_error": 3.646898626482131e-09,
+      "relative_frame_change": 0.13174643507848818,
+      "update_rank": 8,
+      "reference_energy_gram_condition": 125.84676466481336,
+      "learned_energy_gram_condition": 210.51222043166476
+    },
+    {
+      "index": 1,
+      "euclidean_gram_min": 0.9999999952385431,
+      "euclidean_gram_max": 2.3818534897348993,
+      "euclidean_gram_condition": 2.3818535010759923,
+      "reference_orthogonality_error": 2.395057752650891e-08,
+      "normal_component_error": 4.4309585789705246e-09,
+      "relative_frame_change": 0.13143328978596927,
+      "update_rank": 8,
+      "reference_energy_gram_condition": 172.34686380731293,
+      "learned_energy_gram_condition": 298.3070276151243
+    },
+    {
+      "index": 2,
+      "euclidean_gram_min": 0.999999995238488,
+      "euclidean_gram_max": 2.3742478488746115,
+      "euclidean_gram_condition": 2.374247860179621,
+      "reference_orthogonality_error": 2.395057752650891e-08,
+      "normal_component_error": 4.8940587351861965e-09,
+      "relative_frame_change": 0.13107268432476557,
+      "update_rank": 8,
+      "reference_energy_gram_condition": 144.01947811299652,
+      "learned_energy_gram_condition": 249.06971204405454
+    },
+    {
+      "index": 3,
+      "euclidean_gram_min": 0.9999999952384967,
+      "euclidean_gram_max": 2.379566282312282,
+      "euclidean_gram_condition": 2.3795662936425948,
+      "reference_orthogonality_error": 2.395057752650891e-08,
+      "normal_component_error": 6.738790282595677e-09,
+      "relative_frame_change": 0.13132567966499797,
+      "update_rank": 8,
+      "reference_energy_gram_condition": 154.4004051207959,
+      "learned_energy_gram_condition": 338.8009984124767
+    }
+  ],
+  "summary": {
+    "euclidean_gram_min": {
+      "mean": 0.9999999952384927,
+      "p95": 0.9999999952385361,
+      "median": 0.9999999952384924
+    },
+    "euclidean_gram_max": {
+      "mean": 2.3810305559662464,
+      "p95": 2.3874644359619475,
+      "median": 2.380709886023591
+    },
+    "euclidean_gram_condition": {
+      "mean": 2.3810305673035406,
+      "p95": 2.3874644473299607,
+      "median": 2.3807098973592935
+    },
+    "reference_orthogonality_error": {
+      "mean": 2.395057752650891e-08,
+      "p95": 2.395057752650891e-08,
+      "median": 2.395057752650891e-08
+    },
+    "normal_component_error": {
+      "mean": 4.9276765558086325e-09,
+      "p95": 6.462080550484254e-09,
+      "median": 4.6625086570783605e-09
+    },
+    "relative_frame_change": {
+      "mean": 0.13139452221355524,
+      "p95": 0.13169946328461035,
+      "median": 0.1313794847254836
+    },
+    "update_rank": {
+      "mean": 8.0,
+      "p95": 8.0,
+      "median": 8.0
+    },
+    "reference_energy_gram_condition": {
+      "mean": 149.1533779264797,
+      "p95": 169.65489500433537,
+      "median": 149.20994161689623
+    },
+    "learned_energy_gram_condition": {
+      "mean": 274.17248962583005,
+      "p95": 332.72690279287383,
+      "median": 273.6883698295894
+    }
+  }
+}

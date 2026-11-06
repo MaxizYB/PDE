@@ -1,0 +1,1195 @@
+{
+  "summary": {
+    "POD_response_K4": {
+      "L2_percent": {
+        "mean": 0.028328414672723762,
+        "p95": 0.06545542907464269,
+        "median": 0.022348192225593647
+      },
+      "gradient_percent": {
+        "mean": 0.05505289555400709,
+        "p95": 0.11637227511054724,
+        "median": 0.04380943065440475
+      },
+      "energy_percent": {
+        "mean": 0.047762815078859114,
+        "p95": 0.09816422866517062,
+        "median": 0.03965008725336941
+      },
+      "flux_L2_percent": {
+        "mean": 0.040337323553849634,
+        "p95": 0.07616844099915214,
+        "median": 0.03343774094315309
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 97.18901940920307,
+        "p95": 98.47903079771059,
+        "median": 97.72664831076449
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 2.6867414445679154,
+        "p95": 4.461081864468716,
+        "median": 2.1754631602716783
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.1242391462290113,
+        "p95": 0.24578601765653532,
+        "median": 0.10858897730516842
+      },
+      "total_ms": {
+        "mean": 23.313930665608495,
+        "p95": 25.77981506474316,
+        "median": 23.257770109921694
+      }
+    },
+    "geometric_response_K4": {
+      "L2_percent": {
+        "mean": 0.014582464560712789,
+        "p95": 0.03729819362734773,
+        "median": 0.012177671234487505
+      },
+      "gradient_percent": {
+        "mean": 0.026734230698190857,
+        "p95": 0.0702765290959128,
+        "median": 0.01985260409327174
+      },
+      "energy_percent": {
+        "mean": 0.02206499536323729,
+        "p95": 0.052711120416194766,
+        "median": 0.016848635164083702
+      },
+      "flux_L2_percent": {
+        "mean": 0.018547100127302263,
+        "p95": 0.03958354609559491,
+        "median": 0.014727211950219452
+      },
+      "error_sine_low_fraction_percent": {
+        "mean": 96.5815492335996,
+        "p95": 98.07220921355476,
+        "median": 96.99273599405831
+      },
+      "error_sine_mid_fraction_percent": {
+        "mean": 3.2961760353868943,
+        "p95": 6.722249444404056,
+        "median": 2.8938724143447176
+      },
+      "error_sine_high_fraction_percent": {
+        "mean": 0.12227473101351505,
+        "p95": 0.2691479393978543,
+        "median": 0.0994424597599948
+      },
+      "total_ms": {
+        "mean": 23.386273678625003,
+        "p95": 26.25774487387389,
+        "median": 22.66739751212299
+      }
+    }
+  },
+  "samples": [
+    {
+      "index": 0,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.0111717060451943,
+          "gradient_percent": 0.030984216975989992,
+          "energy_percent": 0.028486947767279665,
+          "flux_L2_percent": 0.027372234332792622,
+          "error_sine_low_fraction_percent": 95.25139061423182,
+          "error_sine_mid_fraction_percent": 4.480929794485923,
+          "error_sine_high_fraction_percent": 0.2676795912822542,
+          "total_ms": 22.568925749510527
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.005270517164540286,
+          "gradient_percent": 0.0173509079363398,
+          "energy_percent": 0.0158504088933008,
+          "flux_L2_percent": 0.015292829421287218,
+          "error_sine_low_fraction_percent": 90.58925995278622,
+          "error_sine_mid_fraction_percent": 9.032926003729985,
+          "error_sine_high_fraction_percent": 0.3778140434838129,
+          "total_ms": 22.578815929591656
+        }
+      },
+      "profile": {
+        "FNO": 1.438759732991457,
+        "fine_build": 0.4508630372583866,
+        "prefilter": 3.5489490255713463,
+        "features": 0.3799302503466606,
+        "neural_modes_and_calibration": 5.4976316168904305,
+        "mode_apply": 0.18918514251708984,
+        "postfilter": 0.4450427368283272
+      }
+    },
+    {
+      "index": 1,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.027710194358684163,
+          "gradient_percent": 0.05784308181260813,
+          "energy_percent": 0.04995345272079197,
+          "flux_L2_percent": 0.040596490833053875,
+          "error_sine_low_fraction_percent": 96.8675922017178,
+          "error_sine_mid_fraction_percent": 2.948340522172021,
+          "error_sine_high_fraction_percent": 0.18406727611020587,
+          "total_ms": 21.71063097193837
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.01543444939986199,
+          "gradient_percent": 0.02755436468328765,
+          "energy_percent": 0.02204157749095154,
+          "flux_L2_percent": 0.016747810435315022,
+          "error_sine_low_fraction_percent": 97.20480357946353,
+          "error_sine_mid_fraction_percent": 2.6530620978169406,
+          "error_sine_high_fraction_percent": 0.14213432271955476,
+          "total_ms": 30.705321114510298
+        }
+      },
+      "profile": {
+        "FNO": 1.535463146865368,
+        "fine_build": 0.4561631940305233,
+        "prefilter": 3.5600392147898674,
+        "features": 0.3661396913230419,
+        "neural_modes_and_calibration": 5.854032002389431,
+        "mode_apply": 0.2049161121249199,
+        "postfilter": 0.46295300126075745
+      }
+    },
+    {
+      "index": 2,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.02227921022113542,
+          "gradient_percent": 0.03863105994965893,
+          "energy_percent": 0.03760071575406124,
+          "flux_L2_percent": 0.03491069038169993,
+          "error_sine_low_fraction_percent": 98.24660352475857,
+          "error_sine_mid_fraction_percent": 1.6542409828345817,
+          "error_sine_high_fraction_percent": 0.09915549240684322,
+          "total_ms": 24.192460346966982
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.006161900916883047,
+          "gradient_percent": 0.012150718361983925,
+          "energy_percent": 0.01095230095818366,
+          "flux_L2_percent": 0.010349687264402739,
+          "error_sine_low_fraction_percent": 96.88239900366098,
+          "error_sine_mid_fraction_percent": 2.9690876461457774,
+          "error_sine_high_fraction_percent": 0.14851335019323458,
+          "total_ms": 23.937992751598358
+        }
+      },
+      "profile": {
+        "FNO": 1.5588626265525818,
+        "fine_build": 0.45475177466869354,
+        "prefilter": 3.5137967206537724,
+        "features": 0.3551701083779335,
+        "neural_modes_and_calibration": 5.28814597055316,
+        "mode_apply": 0.18334481865167618,
+        "postfilter": 0.4495321772992611
+      }
+    },
+    {
+      "index": 3,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.11116100945445324,
+          "gradient_percent": 0.20595102379261992,
+          "energy_percent": 0.15630628730653878,
+          "flux_L2_percent": 0.11603592879173745,
+          "error_sine_low_fraction_percent": 96.88150880624605,
+          "error_sine_mid_fraction_percent": 2.970481459696142,
+          "error_sine_high_fraction_percent": 0.1480097340577965,
+          "total_ms": 24.72531469538808
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.040016737548044676,
+          "gradient_percent": 0.07311472734049147,
+          "energy_percent": 0.054607721873561096,
+          "flux_L2_percent": 0.04114255206944858,
+          "error_sine_low_fraction_percent": 96.24059575409173,
+          "error_sine_mid_fraction_percent": 3.612624736177924,
+          "error_sine_high_fraction_percent": 0.14677950973037623,
+          "total_ms": 25.539228226989508
+        }
+      },
+      "profile": {
+        "FNO": 1.840321347117424,
+        "fine_build": 0.45549310743808746,
+        "prefilter": 5.180502776056528,
+        "features": 0.35580992698669434,
+        "neural_modes_and_calibration": 5.411349702626467,
+        "mode_apply": 0.18921494483947754,
+        "postfilter": 0.459183007478714
+      }
+    },
+    {
+      "index": 4,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.059732045732657627,
+          "gradient_percent": 0.12367964532327667,
+          "energy_percent": 0.09702369010269442,
+          "flux_L2_percent": 0.07367000657716206,
+          "error_sine_low_fraction_percent": 96.58111859092834,
+          "error_sine_mid_fraction_percent": 3.2633817622842067,
+          "error_sine_high_fraction_percent": 0.15549964678741465,
+          "total_ms": 23.70805712416768
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.03507393041950478,
+          "gradient_percent": 0.06795436689580298,
+          "energy_percent": 0.051159355587440496,
+          "flux_L2_percent": 0.038307995753351004,
+          "error_sine_low_fraction_percent": 96.53596642454436,
+          "error_sine_mid_fraction_percent": 3.327990758627187,
+          "error_sine_high_fraction_percent": 0.13604281682847402,
+          "total_ms": 23.17224210128188
+        }
+      },
+      "profile": {
+        "FNO": 1.779309008270502,
+        "fine_build": 0.4557128995656967,
+        "prefilter": 4.280928988009691,
+        "features": 0.3565601073205471,
+        "neural_modes_and_calibration": 5.556764081120491,
+        "mode_apply": 0.1959758810698986,
+        "postfilter": 0.4573417827486992
+      }
+    },
+    {
+      "index": 5,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.014163427640266398,
+          "gradient_percent": 0.02388024564002447,
+          "energy_percent": 0.02132440973072837,
+          "flux_L2_percent": 0.02015332048853748,
+          "error_sine_low_fraction_percent": 98.79679794352568,
+          "error_sine_mid_fraction_percent": 1.115253475023728,
+          "error_sine_high_fraction_percent": 0.08794858145056636,
+          "total_ms": 24.037226103246212
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.004169822323849815,
+          "gradient_percent": 0.007826442577874343,
+          "energy_percent": 0.0067772490842654375,
+          "flux_L2_percent": 0.007310612601120928,
+          "error_sine_low_fraction_percent": 97.65798419194697,
+          "error_sine_mid_fraction_percent": 2.2176404637240332,
+          "error_sine_high_fraction_percent": 0.12437534432898942,
+          "total_ms": 25.12349607422948
+        }
+      },
+      "profile": {
+        "FNO": 1.4750710688531399,
+        "fine_build": 0.5910671316087246,
+        "prefilter": 3.5171383060514927,
+        "features": 0.3578099422156811,
+        "neural_modes_and_calibration": 5.117931868880987,
+        "mode_apply": 0.23246603086590767,
+        "postfilter": 0.5731559358537197
+      }
+    },
+    {
+      "index": 6,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.015617706949686228,
+          "gradient_percent": 0.04248689493004537,
+          "energy_percent": 0.04044961362222083,
+          "flux_L2_percent": 0.036363730297548975,
+          "error_sine_low_fraction_percent": 95.6965184893504,
+          "error_sine_mid_fraction_percent": 4.075608416868671,
+          "error_sine_high_fraction_percent": 0.2278730937809472,
+          "total_ms": 23.297366220504045
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.0066579730683354755,
+          "gradient_percent": 0.013719396057998537,
+          "energy_percent": 0.01225253759767378,
+          "flux_L2_percent": 0.011222753027119347,
+          "error_sine_low_fraction_percent": 96.79283597249601,
+          "error_sine_mid_fraction_percent": 3.077897397291722,
+          "error_sine_high_fraction_percent": 0.12926663021231605,
+          "total_ms": 22.162914276123047
+        }
+      },
+      "profile": {
+        "FNO": 1.638675108551979,
+        "fine_build": 0.4627229645848274,
+        "prefilter": 4.174975678324699,
+        "features": 0.44638291001319885,
+        "neural_modes_and_calibration": 6.957712583243847,
+        "mode_apply": 0.24323724210262299,
+        "postfilter": 0.4700026474893093
+      }
+    },
+    {
+      "index": 7,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.012507248101017616,
+          "gradient_percent": 0.032973571611596315,
+          "energy_percent": 0.030580247819032732,
+          "flux_L2_percent": 0.03020286978841032,
+          "error_sine_low_fraction_percent": 96.12456776178213,
+          "error_sine_mid_fraction_percent": 3.72767288046658,
+          "error_sine_high_fraction_percent": 0.14775935775130417,
+          "total_ms": 23.218173999339342
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.008472313367439038,
+          "gradient_percent": 0.01642288433217192,
+          "energy_percent": 0.014031476240566934,
+          "flux_L2_percent": 0.01372177124452177,
+          "error_sine_low_fraction_percent": 97.10999349011306,
+          "error_sine_mid_fraction_percent": 2.8039389342432544,
+          "error_sine_high_fraction_percent": 0.0860675756436699,
+          "total_ms": 24.89313017576933
+        }
+      },
+      "profile": {
+        "FNO": 1.463419757783413,
+        "fine_build": 0.45043230056762695,
+        "prefilter": 3.465265966951847,
+        "features": 0.3569195978343487,
+        "neural_modes_and_calibration": 5.241206381469965,
+        "mode_apply": 0.2155960537493229,
+        "postfilter": 0.47419313341379166
+      }
+    },
+    {
+      "index": 8,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.012278360257040368,
+          "gradient_percent": 0.03380529548919568,
+          "energy_percent": 0.03308742904975678,
+          "flux_L2_percent": 0.030359882783689358,
+          "error_sine_low_fraction_percent": 95.57962246799093,
+          "error_sine_mid_fraction_percent": 4.252636453766141,
+          "error_sine_high_fraction_percent": 0.1677410782429463,
+          "total_ms": 24.481709115207195
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.003985171305680396,
+          "gradient_percent": 0.006876683306156076,
+          "energy_percent": 0.006495837794775496,
+          "flux_L2_percent": 0.007250733895414873,
+          "error_sine_low_fraction_percent": 97.82543699226984,
+          "error_sine_mid_fraction_percent": 2.096427534442272,
+          "error_sine_high_fraction_percent": 0.07813547328787344,
+          "total_ms": 22.016189992427826
+        }
+      },
+      "profile": {
+        "FNO": 1.4606909826397896,
+        "fine_build": 0.4519317299127579,
+        "prefilter": 3.530108369886875,
+        "features": 0.3585699014365673,
+        "neural_modes_and_calibration": 5.282295867800713,
+        "mode_apply": 0.22082636132836342,
+        "postfilter": 0.44694170355796814
+      }
+    },
+    {
+      "index": 9,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.013177022410329378,
+          "gradient_percent": 0.02279718036697398,
+          "energy_percent": 0.02201273766421841,
+          "flux_L2_percent": 0.020458599749699803,
+          "error_sine_low_fraction_percent": 98.11878714131082,
+          "error_sine_mid_fraction_percent": 1.7951261921362287,
+          "error_sine_high_fraction_percent": 0.08608666655300747,
+          "total_ms": 24.05428607016802
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.011002613482749123,
+          "gradient_percent": 0.018846656391278936,
+          "energy_percent": 0.016027103162244496,
+          "flux_L2_percent": 0.014614056183395714,
+          "error_sine_low_fraction_percent": 97.36053059251849,
+          "error_sine_mid_fraction_percent": 2.5455304536949517,
+          "error_sine_high_fraction_percent": 0.09393895378657079,
+          "total_ms": 22.368519101291895
+        }
+      },
+      "profile": {
+        "FNO": 1.4589698985219002,
+        "fine_build": 0.44848211109638214,
+        "prefilter": 3.7362943403422832,
+        "features": 0.35452982410788536,
+        "neural_modes_and_calibration": 5.110031925141811,
+        "mode_apply": 0.18775509670376778,
+        "postfilter": 0.6464477628469467
+      }
+    },
+    {
+      "index": 10,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.015881335980946428,
+          "gradient_percent": 0.04279110176424846,
+          "energy_percent": 0.0353545279541961,
+          "flux_L2_percent": 0.02981287754940097,
+          "error_sine_low_fraction_percent": 95.46281954274161,
+          "error_sine_mid_fraction_percent": 4.361368060469481,
+          "error_sine_high_fraction_percent": 0.1758123967889005,
+          "total_ms": 24.22557072713971
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.009029520278159694,
+          "gradient_percent": 0.018656074697317455,
+          "energy_percent": 0.014989339611177946,
+          "flux_L2_percent": 0.01344474247532003,
+          "error_sine_low_fraction_percent": 96.19808035234891,
+          "error_sine_mid_fraction_percent": 3.672148588738664,
+          "error_sine_high_fraction_percent": 0.12977105891246105,
+          "total_ms": 22.9454361833632
+        }
+      },
+      "profile": {
+        "FNO": 1.5220618806779385,
+        "fine_build": 0.46682264655828476,
+        "prefilter": 3.516747150570154,
+        "features": 0.39540091529488564,
+        "neural_modes_and_calibration": 5.189924035221338,
+        "mode_apply": 0.1874552108347416,
+        "postfilter": 0.45789219439029694
+      }
+    },
+    {
+      "index": 11,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.020607947051087826,
+          "gradient_percent": 0.03354182912937082,
+          "energy_percent": 0.029888431161711186,
+          "flux_L2_percent": 0.026023748135724733,
+          "error_sine_low_fraction_percent": 98.31788568468835,
+          "error_sine_mid_fraction_percent": 1.6151136078681114,
+          "error_sine_high_fraction_percent": 0.06700070744356643,
+          "total_ms": 24.416686035692692
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.01607134005549082,
+          "gradient_percent": 0.02548564640621968,
+          "energy_percent": 0.021272438761977017,
+          "flux_L2_percent": 0.017890599089656824,
+          "error_sine_low_fraction_percent": 97.91210153328893,
+          "error_sine_mid_fraction_percent": 2.0185228252691654,
+          "error_sine_high_fraction_percent": 0.06937564144187783,
+          "total_ms": 21.494705229997635
+        }
+      },
+      "profile": {
+        "FNO": 1.4602509327232838,
+        "fine_build": 0.453433021903038,
+        "prefilter": 3.5354578867554665,
+        "features": 0.35251909866929054,
+        "neural_modes_and_calibration": 5.126422271132469,
+        "mode_apply": 0.1837559975683689,
+        "postfilter": 0.4448932595551014
+      }
+    },
+    {
+      "index": 12,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.017341898751810223,
+          "gradient_percent": 0.04663367911613266,
+          "energy_percent": 0.040231667405019565,
+          "flux_L2_percent": 0.03215157751284493,
+          "error_sine_low_fraction_percent": 92.7986108833158,
+          "error_sine_mid_fraction_percent": 6.902944587332204,
+          "error_sine_high_fraction_percent": 0.29844452935199955,
+          "total_ms": 22.14366290718317
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.004388777700202339,
+          "gradient_percent": 0.012986410059437925,
+          "energy_percent": 0.010702160864464358,
+          "flux_L2_percent": 0.008875996041550876,
+          "error_sine_low_fraction_percent": 90.01198580348206,
+          "error_sine_mid_fraction_percent": 9.576451765542432,
+          "error_sine_high_fraction_percent": 0.4115624309754978,
+          "total_ms": 22.85198401659727
+        }
+      },
+      "profile": {
+        "FNO": 1.4749513939023018,
+        "fine_build": 0.4513729363679886,
+        "prefilter": 4.772902000695467,
+        "features": 0.3518899902701378,
+        "neural_modes_and_calibration": 5.121141206473112,
+        "mode_apply": 0.17784489318728447,
+        "postfilter": 0.4485221579670906
+      }
+    },
+    {
+      "index": 13,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.02071431523648162,
+          "gradient_percent": 0.032576753692863156,
+          "energy_percent": 0.03141497212361866,
+          "flux_L2_percent": 0.028885914075019777,
+          "error_sine_low_fraction_percent": 98.22433548103274,
+          "error_sine_mid_fraction_percent": 1.7205078787228667,
+          "error_sine_high_fraction_percent": 0.055156640244411574,
+          "total_ms": 22.041760850697756
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.005534883370845443,
+          "gradient_percent": 0.01093055583327062,
+          "energy_percent": 0.01096900046883287,
+          "flux_L2_percent": 0.010818136388745696,
+          "error_sine_low_fraction_percent": 96.60194783190424,
+          "error_sine_mid_fraction_percent": 3.2907054624995733,
+          "error_sine_high_fraction_percent": 0.10734670559617056,
+          "total_ms": 22.22538599744439
+        }
+      },
+      "profile": {
+        "FNO": 1.509371679276228,
+        "fine_build": 0.4526618868112564,
+        "prefilter": 3.580738790333271,
+        "features": 0.3502797335386276,
+        "neural_modes_and_calibration": 5.416020285338163,
+        "mode_apply": 0.18818536773324013,
+        "postfilter": 0.4416820593178272
+      }
+    },
+    {
+      "index": 14,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.07245067538151335,
+          "gradient_percent": 0.11039351766376862,
+          "energy_percent": 0.09955822024153044,
+          "flux_L2_percent": 0.07840619174439807,
+          "error_sine_low_fraction_percent": 98.4306032129324,
+          "error_sine_mid_fraction_percent": 1.502278297984024,
+          "error_sine_high_fraction_percent": 0.06711848908357826,
+          "total_ms": 23.383638355880976
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.04984980995797624,
+          "gradient_percent": 0.08037886953629796,
+          "energy_percent": 0.0652118895838505,
+          "flux_L2_percent": 0.05235520402020485,
+          "error_sine_low_fraction_percent": 97.77387552305309,
+          "error_sine_mid_fraction_percent": 2.140012309422066,
+          "error_sine_high_fraction_percent": 0.08611216752482753,
+          "total_ms": 21.657399833202362
+        }
+      },
+      "profile": {
+        "FNO": 1.4925510622560978,
+        "fine_build": 0.45112287625670433,
+        "prefilter": 3.5675591789186,
+        "features": 0.35286927595734596,
+        "neural_modes_and_calibration": 5.28665678575635,
+        "mode_apply": 0.18264492973685265,
+        "postfilter": 0.44990284368395805
+      }
+    },
+    {
+      "index": 15,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.011638004183512204,
+          "gradient_percent": 0.022302145475086743,
+          "energy_percent": 0.01753199556668762,
+          "flux_L2_percent": 0.015464546133171815,
+          "error_sine_low_fraction_percent": 97.69513469474633,
+          "error_sine_mid_fraction_percent": 2.1868428430501443,
+          "error_sine_high_fraction_percent": 0.11802246220349362,
+          "total_ms": 22.442361805588007
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.012369336231202626,
+          "gradient_percent": 0.023299551998179385,
+          "energy_percent": 0.017296509990323585,
+          "flux_L2_percent": 0.014117012524595966,
+          "error_sine_low_fraction_percent": 97.0345791765247,
+          "error_sine_mid_fraction_percent": 2.8596885212284757,
+          "error_sine_high_fraction_percent": 0.10573230224685777,
+          "total_ms": 21.63007901981473
+        }
+      },
+      "profile": {
+        "FNO": 1.4503803104162216,
+        "fine_build": 0.46682311221957207,
+        "prefilter": 3.864408005028963,
+        "features": 0.3541703335940838,
+        "neural_modes_and_calibration": 5.122501868754625,
+        "mode_apply": 0.18214527517557144,
+        "postfilter": 0.6520678289234638
+      }
+    },
+    {
+      "index": 16,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.04228627712234512,
+          "gradient_percent": 0.08072877262431252,
+          "energy_percent": 0.07304841403408462,
+          "flux_L2_percent": 0.057226205913404896,
+          "error_sine_low_fraction_percent": 97.57147189409656,
+          "error_sine_mid_fraction_percent": 2.347435222649435,
+          "error_sine_high_fraction_percent": 0.0810928832540019,
+          "total_ms": 22.014730144292116
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.0236917759526114,
+          "gradient_percent": 0.03656136313797099,
+          "energy_percent": 0.0321257677524942,
+          "flux_L2_percent": 0.0276804927624318,
+          "error_sine_low_fraction_percent": 97.76476905874684,
+          "error_sine_mid_fraction_percent": 2.1821186834750086,
+          "error_sine_high_fraction_percent": 0.05311225777811729,
+          "total_ms": 22.09802158176899
+        }
+      },
+      "profile": {
+        "FNO": 1.4549298211932182,
+        "fine_build": 0.452572014182806,
+        "prefilter": 3.5264980979263783,
+        "features": 0.35729026421904564,
+        "neural_modes_and_calibration": 5.62132615596056,
+        "mode_apply": 0.18716510385274887,
+        "postfilter": 0.4456229507923126
+      }
+    },
+    {
+      "index": 17,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.03260693999785033,
+          "gradient_percent": 0.06450075350645038,
+          "energy_percent": 0.054834659603743424,
+          "flux_L2_percent": 0.045021325128246706,
+          "error_sine_low_fraction_percent": 97.79669119627481,
+          "error_sine_mid_fraction_percent": 2.0280164382303982,
+          "error_sine_high_fraction_percent": 0.17529236549478663,
+          "total_ms": 22.074291948229074
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.018351565638547836,
+          "gradient_percent": 0.03613168035055264,
+          "energy_percent": 0.029507751410493867,
+          "flux_L2_percent": 0.023589649421511424,
+          "error_sine_low_fraction_percent": 96.99690531479276,
+          "error_sine_mid_fraction_percent": 2.8284239311730315,
+          "error_sine_high_fraction_percent": 0.17467075403425883,
+          "total_ms": 23.155372124165297
+        }
+      },
+      "profile": {
+        "FNO": 1.4582998119294643,
+        "fine_build": 0.4516327753663063,
+        "prefilter": 3.768844995647669,
+        "features": 0.45005278661847115,
+        "neural_modes_and_calibration": 5.066419951617718,
+        "mode_apply": 0.18175458535552025,
+        "postfilter": 0.4489119164645672
+      }
+    },
+    {
+      "index": 18,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.026379484444287952,
+          "gradient_percent": 0.05481448055647952,
+          "energy_percent": 0.047218254890130075,
+          "flux_L2_percent": 0.04150967866302564,
+          "error_sine_low_fraction_percent": 96.92729328084629,
+          "error_sine_mid_fraction_percent": 2.9820807535326983,
+          "error_sine_high_fraction_percent": 0.09062596562101273,
+          "total_ms": 23.63268518820405
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.013543911737086965,
+          "gradient_percent": 0.027075583258828924,
+          "energy_percent": 0.02288357916757846,
+          "flux_L2_percent": 0.019087110798506342,
+          "error_sine_low_fraction_percent": 96.03638529602947,
+          "error_sine_mid_fraction_percent": 3.887739948121439,
+          "error_sine_high_fraction_percent": 0.07587475584910083,
+          "total_ms": 24.57244088873267
+        }
+      },
+      "profile": {
+        "FNO": 1.8172101117670536,
+        "fine_build": 0.4588118754327297,
+        "prefilter": 4.279999062418938,
+        "features": 0.5878061056137085,
+        "neural_modes_and_calibration": 5.259866360574961,
+        "mode_apply": 0.22375676780939102,
+        "postfilter": 0.618217047303915
+      }
+    },
+    {
+      "index": 19,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.023002023678580938,
+          "gradient_percent": 0.04466455452765925,
+          "energy_percent": 0.046903804012278644,
+          "flux_L2_percent": 0.04691199992272841,
+          "error_sine_low_fraction_percent": 98.0731105899869,
+          "error_sine_mid_fraction_percent": 1.8600050453129389,
+          "error_sine_high_fraction_percent": 0.06688436470015309,
+          "total_ms": 27.37663872539997
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.006945525967883211,
+          "gradient_percent": 0.014327739304548587,
+          "energy_percent": 0.013167613130310802,
+          "flux_L2_percent": 0.012620134504287025,
+          "error_sine_low_fraction_percent": 96.17241396795937,
+          "error_sine_mid_fraction_percent": 3.742475953083554,
+          "error_sine_high_fraction_percent": 0.08511007895707969,
+          "total_ms": 24.254892952740192
+        }
+      },
+      "profile": {
+        "FNO": 1.4706999063491821,
+        "fine_build": 0.4580328240990639,
+        "prefilter": 3.7297429516911507,
+        "features": 0.38994988426566124,
+        "neural_modes_and_calibration": 5.08743105456233,
+        "mode_apply": 0.18435483798384666,
+        "postfilter": 0.45472290366888046
+      }
+    },
+    {
+      "index": 20,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.033956548576209354,
+          "gradient_percent": 0.054324786581054475,
+          "energy_percent": 0.04741898255941965,
+          "flux_L2_percent": 0.040745068962223685,
+          "error_sine_low_fraction_percent": 98.23704220813325,
+          "error_sine_mid_fraction_percent": 1.7066779521532394,
+          "error_sine_high_fraction_percent": 0.05627983971354455,
+          "total_ms": 22.157974075526
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.00912375925933326,
+          "gradient_percent": 0.016652215151166414,
+          "energy_percent": 0.014235095233994615,
+          "flux_L2_percent": 0.01242854732400419,
+          "error_sine_low_fraction_percent": 96.61957861062919,
+          "error_sine_mid_fraction_percent": 3.296758539090452,
+          "error_sine_high_fraction_percent": 0.08366285028036351,
+          "total_ms": 27.13593188673258
+        }
+      },
+      "profile": {
+        "FNO": 1.5136217698454857,
+        "fine_build": 0.4560118541121483,
+        "prefilter": 3.565749153494835,
+        "features": 0.3544599749147892,
+        "neural_modes_and_calibration": 5.186283960938454,
+        "mode_apply": 0.23096706718206406,
+        "postfilter": 0.5605458281934261
+      }
+    },
+    {
+      "index": 21,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.023218808226537564,
+          "gradient_percent": 0.04319525638013517,
+          "energy_percent": 0.03704705937395093,
+          "flux_L2_percent": 0.03140670882581284,
+          "error_sine_low_fraction_percent": 97.8779774179922,
+          "error_sine_mid_fraction_percent": 2.047427833045953,
+          "error_sine_high_fraction_percent": 0.07459474896183317,
+          "total_ms": 24.785517249256372
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.01464253620164758,
+          "gradient_percent": 0.02390292134494408,
+          "energy_percent": 0.020873136117528886,
+          "flux_L2_percent": 0.018253226654465604,
+          "error_sine_low_fraction_percent": 98.02930453882162,
+          "error_sine_mid_fraction_percent": 1.9092141002041745,
+          "error_sine_high_fraction_percent": 0.06148136097425466,
+          "total_ms": 24.6638641692698
+        }
+      },
+      "profile": {
+        "FNO": 2.7093752287328243,
+        "fine_build": 0.45623211190104485,
+        "prefilter": 3.479236736893654,
+        "features": 0.3563598729670048,
+        "neural_modes_and_calibration": 5.069840233772993,
+        "mode_apply": 0.18352456390857697,
+        "postfilter": 0.45501207932829857
+      }
+    },
+    {
+      "index": 22,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.046181032145952775,
+          "gradient_percent": 0.07861970302220507,
+          "energy_percent": 0.06613624334167209,
+          "flux_L2_percent": 0.05334827484624215,
+          "error_sine_low_fraction_percent": 97.88020102255388,
+          "error_sine_mid_fraction_percent": 2.0353721575036947,
+          "error_sine_high_fraction_percent": 0.08442681994242794,
+          "total_ms": 22.177184000611305
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.018472362999273937,
+          "gradient_percent": 0.03854291446830956,
+          "energy_percent": 0.029552073327208574,
+          "flux_L2_percent": 0.023700088430908182,
+          "error_sine_low_fraction_percent": 95.6608641788122,
+          "error_sine_mid_fraction_percent": 4.178301144293071,
+          "error_sine_high_fraction_percent": 0.16083467689469066,
+          "total_ms": 22.34960999339819
+        }
+      },
+      "profile": {
+        "FNO": 1.7074071802198887,
+        "fine_build": 0.4779333248734474,
+        "prefilter": 3.5821599885821342,
+        "features": 0.441043172031641,
+        "neural_modes_and_calibration": 5.232266150414944,
+        "mode_apply": 0.1787850633263588,
+        "postfilter": 0.4514330066740513
+      }
+    },
+    {
+      "index": 23,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.024148551652344273,
+          "gradient_percent": 0.04442360492867434,
+          "energy_percent": 0.039244293690626354,
+          "flux_L2_percent": 0.0322218152718817,
+          "error_sine_low_fraction_percent": 98.15608319054316,
+          "error_sine_mid_fraction_percent": 1.7603261023871362,
+          "error_sine_high_fraction_percent": 0.0835907070697041,
+          "total_ms": 22.243455983698368
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.011986006237772384,
+          "gradient_percent": 0.018774428910722122,
+          "energy_percent": 0.01640076033784382,
+          "flux_L2_percent": 0.014479650078813583,
+          "error_sine_low_fraction_percent": 98.12464826045083,
+          "error_sine_mid_fraction_percent": 1.8045504510823887,
+          "error_sine_high_fraction_percent": 0.07080128846677076,
+          "total_ms": 24.90292116999626
+        }
+      },
+      "profile": {
+        "FNO": 1.4425003901124,
+        "fine_build": 0.4497431218624115,
+        "prefilter": 4.462102893739939,
+        "features": 0.4333122633397579,
+        "neural_modes_and_calibration": 7.0581259205937386,
+        "mode_apply": 0.2390868030488491,
+        "postfilter": 0.656438060104847
+      }
+    },
+    {
+      "index": 24,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.026218293355350367,
+          "gradient_percent": 0.0538871170534337,
+          "energy_percent": 0.05128465515393366,
+          "flux_L2_percent": 0.05043606784278411,
+          "error_sine_low_fraction_percent": 97.78866086117837,
+          "error_sine_mid_fraction_percent": 2.073993102156743,
+          "error_sine_high_fraction_percent": 0.137346036664852,
+          "total_ms": 22.96814601868391
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.013345302093317973,
+          "gradient_percent": 0.020858551795264545,
+          "energy_percent": 0.018164966158676146,
+          "flux_L2_percent": 0.015869064900038504,
+          "error_sine_low_fraction_percent": 98.17488075436346,
+          "error_sine_mid_fraction_percent": 1.7491474658574913,
+          "error_sine_high_fraction_percent": 0.07597177977905506,
+          "total_ms": 23.53806234896183
+        }
+      },
+      "profile": {
+        "FNO": 1.6065440140664577,
+        "fine_build": 0.4560733214020729,
+        "prefilter": 4.894135985523462,
+        "features": 0.3500985912978649,
+        "neural_modes_and_calibration": 5.2285040728747845,
+        "mode_apply": 0.1839245669543743,
+        "postfilter": 0.44727325439453125
+      }
+    },
+    {
+      "index": 25,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.01517393491560664,
+          "gradient_percent": 0.03979049468143067,
+          "energy_percent": 0.03373064177385557,
+          "flux_L2_percent": 0.0298878435255533,
+          "error_sine_low_fraction_percent": 95.41716449710731,
+          "error_sine_mid_fraction_percent": 4.444842649000093,
+          "error_sine_high_fraction_percent": 0.13799285389265023,
+          "total_ms": 22.160183638334274
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.007845411423353854,
+          "gradient_percent": 0.016516748583143195,
+          "energy_percent": 0.013783280110637333,
+          "flux_L2_percent": 0.011769852991580277,
+          "error_sine_low_fraction_percent": 95.34835224444608,
+          "error_sine_mid_fraction_percent": 4.54670178982051,
+          "error_sine_high_fraction_percent": 0.10494596573341883,
+          "total_ms": 22.644407115876675
+        }
+      },
+      "profile": {
+        "FNO": 1.4569712802767754,
+        "fine_build": 0.5804658867418766,
+        "prefilter": 3.7500327453017235,
+        "features": 0.3535500727593899,
+        "neural_modes_and_calibration": 5.121171940118074,
+        "mode_apply": 0.17847539857029915,
+        "postfilter": 0.588705763220787
+      }
+    },
+    {
+      "index": 26,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.018232223665258396,
+          "gradient_percent": 0.03155876037213116,
+          "energy_percent": 0.027720037742670678,
+          "flux_L2_percent": 0.023933520613607713,
+          "error_sine_low_fraction_percent": 97.75816192678265,
+          "error_sine_mid_fraction_percent": 2.1640834774932127,
+          "error_sine_high_fraction_percent": 0.07775459572415881,
+          "total_ms": 23.32314709201455
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.013245262985657317,
+          "gradient_percent": 0.02278009352721947,
+          "energy_percent": 0.018342802385920693,
+          "flux_L2_percent": 0.014840367717043192,
+          "error_sine_low_fraction_percent": 96.98856667332386,
+          "error_sine_mid_fraction_percent": 2.928056307460959,
+          "error_sine_high_fraction_percent": 0.08337701921520758,
+          "total_ms": 22.498102858662605
+        }
+      },
+      "profile": {
+        "FNO": 1.4704912900924683,
+        "fine_build": 0.4565529525279999,
+        "prefilter": 3.864188212901354,
+        "features": 0.35063037648797035,
+        "neural_modes_and_calibration": 5.1025808788836,
+        "mode_apply": 0.18025515601038933,
+        "postfilter": 0.4469528794288635
+      }
+    },
+    {
+      "index": 27,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.026621504991761337,
+          "gradient_percent": 0.04628354764773733,
+          "energy_percent": 0.040055880816112464,
+          "flux_L2_percent": 0.034653666614424476,
+          "error_sine_low_fraction_percent": 98.04737583507675,
+          "error_sine_mid_fraction_percent": 1.8877215172039787,
+          "error_sine_high_fraction_percent": 0.06490264771919625,
+          "total_ms": 22.38447032868862
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.011118003850838542,
+          "gradient_percent": 0.018270433612111198,
+          "energy_percent": 0.015686968492674234,
+          "flux_L2_percent": 0.013743828371920133,
+          "error_sine_low_fraction_percent": 97.87548744344151,
+          "error_sine_mid_fraction_percent": 2.0618446617377306,
+          "error_sine_high_fraction_percent": 0.06266789482074948,
+          "total_ms": 21.994559094309807
+        }
+      },
+      "profile": {
+        "FNO": 1.5651830472052097,
+        "fine_build": 0.4438217729330063,
+        "prefilter": 3.501106984913349,
+        "features": 0.35136984661221504,
+        "neural_modes_and_calibration": 5.148491822183132,
+        "mode_apply": 0.22137584164738655,
+        "postfilter": 0.44792285189032555
+      }
+    },
+    {
+      "index": 28,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.020116821662765152,
+          "gradient_percent": 0.029957000331795755,
+          "energy_percent": 0.02674942443111339,
+          "flux_L2_percent": 0.023522652688621463,
+          "error_sine_low_fraction_percent": 98.53822006799506,
+          "error_sine_mid_fraction_percent": 1.4183595427476365,
+          "error_sine_high_fraction_percent": 0.04342038925732202,
+          "total_ms": 26.995067950338125
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.008993173164849403,
+          "gradient_percent": 0.01416691335559326,
+          "energy_percent": 0.01262030337394228,
+          "flux_L2_percent": 0.011756676863658572,
+          "error_sine_low_fraction_percent": 97.88228539107567,
+          "error_sine_mid_fraction_percent": 2.0661472507747285,
+          "error_sine_high_fraction_percent": 0.05156735814961912,
+          "total_ms": 22.006290033459663
+        }
+      },
+      "profile": {
+        "FNO": 1.44089013338089,
+        "fine_build": 0.45155221596360207,
+        "prefilter": 3.5110870376229286,
+        "features": 0.3536101430654526,
+        "neural_modes_and_calibration": 5.266326013952494,
+        "mode_apply": 0.19368622452020645,
+        "postfilter": 0.45496225357055664
+      }
+    },
+    {
+      "index": 29,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.022417174230051875,
+          "gradient_percent": 0.05215015624159201,
+          "energy_percent": 0.046773878766541245,
+          "flux_L2_percent": 0.039875849388414965,
+          "error_sine_low_fraction_percent": 96.40947287180411,
+          "error_sine_mid_fraction_percent": 3.4151222821543312,
+          "error_sine_high_fraction_percent": 0.17540484604152942,
+          "total_ms": 21.36177197098732
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.015109792792080952,
+          "gradient_percent": 0.0342743936572854,
+          "energy_percent": 0.029973056820353637,
+          "flux_L2_percent": 0.026010740257325672,
+          "error_sine_low_fraction_percent": 94.98806479535327,
+          "error_sine_mid_fraction_percent": 4.831695895864666,
+          "error_sine_high_fraction_percent": 0.18023930878207023,
+          "total_ms": 22.12946256622672
+        }
+      },
+      "profile": {
+        "FNO": 1.4879107475280762,
+        "fine_build": 0.45037316158413887,
+        "prefilter": 4.941756371408701,
+        "features": 0.3933906555175781,
+        "neural_modes_and_calibration": 5.124052055180073,
+        "mode_apply": 0.18467474728822708,
+        "postfilter": 0.4523228853940964
+      }
+    },
+    {
+      "index": 30,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.049664985086294515,
+          "gradient_percent": 0.10606738508231017,
+          "energy_percent": 0.09022157961271988,
+          "flux_L2_percent": 0.07433755402576911,
+          "error_sine_low_fraction_percent": 97.30115737377211,
+          "error_sine_mid_fraction_percent": 2.575213320986728,
+          "error_sine_high_fraction_percent": 0.12362930524113314,
+          "total_ms": 21.760771982371807
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.03220683697602584,
+          "gradient_percent": 0.05650559110655242,
+          "energy_percent": 0.04752063405798661,
+          "flux_L2_percent": 0.03745522456813623,
+          "error_sine_low_fraction_percent": 97.31063635257048,
+          "error_sine_mid_fraction_percent": 2.6194246342832006,
+          "error_sine_high_fraction_percent": 0.06993901314636708,
+          "total_ms": 22.423590999096632
+        }
+      },
+      "profile": {
+        "FNO": 1.5280717052519321,
+        "fine_build": 0.4511019214987755,
+        "prefilter": 3.6649308167397976,
+        "features": 0.3520096652209759,
+        "neural_modes_and_calibration": 5.760499741882086,
+        "mode_apply": 0.22674677893519402,
+        "postfilter": 0.6111073307693005
+      }
+    },
+    {
+      "index": 31,
+      "methods": {
+        "POD_response_K4": {
+          "L2_percent": 0.01785255802014744,
+          "gradient_percent": 0.03545504145736546,
+          "energy_percent": 0.0292169267305521,
+          "flux_L2_percent": 0.02488751231555486,
+          "error_sine_low_fraction_percent": 97.19463981905515,
+          "error_sine_mid_fraction_percent": 2.6563216144540336,
+          "error_sine_high_fraction_percent": 0.1490385664908201,
+          "total_ms": 23.981913924217224
+        },
+        "geometric_response_K4": {
+          "L2_percent": 0.014528542071762948,
+          "gradient_percent": 0.026599554363785926,
+          "energy_percent": 0.020605155782359157,
+          "flux_L2_percent": 0.01676005599359019,
+          "error_sine_low_fraction_percent": 96.90405641987742,
+          "error_sine_mid_fraction_percent": 2.9503768774637966,
+          "error_sine_high_fraction_percent": 0.14556670265879293,
+          "total_ms": 22.690387908369303
+        }
+      },
+      "profile": {
+        "FNO": 1.443179789930582,
+        "fine_build": 0.45534269884228706,
+        "prefilter": 3.564089071005583,
+        "features": 0.35519013181328773,
+        "neural_modes_and_calibration": 5.225745029747486,
+        "mode_apply": 0.1787850633263588,
+        "postfilter": 0.4443516954779625
+      }
+    }
+  ],
+  "options": {
+    "pre": 64,
+    "post": 8,
+    "lower": 0.001,
+    "post_lower": 0.05,
+    "harmonic_steps": 2,
+    "partition_grid": 3
+  },
+  "checkpoint": "CDMC/experiments/multiscale_elliptic_v1/results/n257_s20261023/regional_response_train_20261027/model.pt",
+  "test_count": 32,
+  "offset": 0,
+  "split": "test",
+  "device": "NVIDIA GeForce RTX 4090",
+  "mesh_plan_ms_once": 5752.094228286296,
+  "fine_assembly_plan_ms_once": 1558.8734191842377,
+  "timing": "Batch 1 synchronized wall clock; fresh FNO (omitted for zero-initialized numerical controls), material assembly, setup and correction per call; mesh-only plans separate. Independent stage timings do not define E2E.",
+  "model_parameters": 1912
+}

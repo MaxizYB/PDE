@@ -1,0 +1,56 @@
+{
+  "pde": "2D heterogeneous linear elasticity, plane strain",
+  "resolution": 65,
+  "nodes": 4225,
+  "free_dofs": 7938,
+  "triangles": 8192,
+  "poisson_ratio": 0.3,
+  "boundary": "Full-boundary prescribed displacement (0.01*x, 0); zero body force",
+  "unknown": "interleaved two-component displacement fluctuation about affine lift",
+  "material": "1-3 randomly rotated stiff elliptical inclusions; piecewise constant per triangle",
+  "id_contrast": [
+    2,
+    20
+  ],
+  "ood_contrast": [
+    20,
+    60
+  ],
+  "counts": {
+    "train": 128,
+    "val": 16,
+    "test": 16,
+    "ood": 16
+  },
+  "seed": 20261028,
+  "reference": "scikit-fem P1 vector elasticity + SciPy SuperLU, float64",
+  "checks": [
+    {
+      "split": "train",
+      "matrix_relative": 1.4937606151054243e-16,
+      "reference_relative_residual": 1.1425590506569306e-13,
+      "stored_coefficient_residual": 1.5056266798274368e-13
+    },
+    {
+      "split": "val",
+      "matrix_relative": 1.280060016831632e-16,
+      "reference_relative_residual": 3.013780545020122e-14,
+      "stored_coefficient_residual": 3.8328352108561485e-14
+    },
+    {
+      "split": "test",
+      "matrix_relative": 1.4443645212982015e-16,
+      "reference_relative_residual": 9.915821781994634e-14,
+      "stored_coefficient_residual": 1.3671371227099431e-13
+    },
+    {
+      "split": "ood",
+      "matrix_relative": 1.2928925108215124e-16,
+      "reference_relative_residual": 3.3659439474015365e-14,
+      "stored_coefficient_residual": 4.631339351057547e-14
+    }
+  ],
+  "homogeneous_affine_patch_max_error": 8.638922910364499e-16,
+  "generation_seconds": 14.200269040185958,
+  "target_alignment": "Same stored float32 modulus is used for labels and online assembly"
+}

@@ -1,0 +1,214 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_percent": [
+        1.5925507545471191
+      ],
+      "val_percent": [
+        1.8041021823883057
+      ],
+      "seconds": 5.783382148947567
+    },
+    {
+      "epoch": 2,
+      "train_percent": [
+        1.3970619440078735
+      ],
+      "val_percent": [
+        1.7359458208084106
+      ],
+      "seconds": 5.630186168011278
+    },
+    {
+      "epoch": 3,
+      "train_percent": [
+        1.3280603885650635
+      ],
+      "val_percent": [
+        1.6954725980758667
+      ],
+      "seconds": 5.577019265852869
+    },
+    {
+      "epoch": 4,
+      "train_percent": [
+        1.2838302850723267
+      ],
+      "val_percent": [
+        1.7050485610961914
+      ],
+      "seconds": 5.538979015313089
+    },
+    {
+      "epoch": 5,
+      "train_percent": [
+        1.2644715309143066
+      ],
+      "val_percent": [
+        1.5842769145965576
+      ],
+      "seconds": 5.61988316103816
+    },
+    {
+      "epoch": 6,
+      "train_percent": [
+        1.1881165504455566
+      ],
+      "val_percent": [
+        1.5505595207214355
+      ],
+      "seconds": 5.558723537251353
+    },
+    {
+      "epoch": 7,
+      "train_percent": [
+        1.1606311798095703
+      ],
+      "val_percent": [
+        1.407632827758789
+      ],
+      "seconds": 5.334526810795069
+    },
+    {
+      "epoch": 8,
+      "train_percent": [
+        1.160047173500061
+      ],
+      "val_percent": [
+        1.4116281270980835
+      ],
+      "seconds": 5.407930882181972
+    },
+    {
+      "epoch": 9,
+      "train_percent": [
+        1.0665819644927979
+      ],
+      "val_percent": [
+        1.3228641748428345
+      ],
+      "seconds": 5.588446232955903
+    },
+    {
+      "epoch": 10,
+      "train_percent": [
+        1.0729684829711914
+      ],
+      "val_percent": [
+        1.4957537651062012
+      ],
+      "seconds": 5.592012855689973
+    },
+    {
+      "epoch": 11,
+      "train_percent": [
+        1.0669207572937012
+      ],
+      "val_percent": [
+        1.3430973291397095
+      ],
+      "seconds": 5.5961369150318205
+    },
+    {
+      "epoch": 12,
+      "train_percent": [
+        1.0506210327148438
+      ],
+      "val_percent": [
+        1.3116706609725952
+      ],
+      "seconds": 5.117934258189052
+    },
+    {
+      "epoch": 13,
+      "train_percent": [
+        0.9910043478012085
+      ],
+      "val_percent": [
+        1.25574791431427
+      ],
+      "seconds": 2.6722830710932612
+    },
+    {
+      "epoch": 14,
+      "train_percent": [
+        0.9822227954864502
+      ],
+      "val_percent": [
+        1.2432258129119873
+      ],
+      "seconds": 2.720169658306986
+    },
+    {
+      "epoch": 15,
+      "train_percent": [
+        0.9899678826332092
+      ],
+      "val_percent": [
+        1.2294303178787231
+      ],
+      "seconds": 2.683548650238663
+    },
+    {
+      "epoch": 16,
+      "train_percent": [
+        0.9633491039276123
+      ],
+      "val_percent": [
+        1.2137562036514282
+      ],
+      "seconds": 2.6657002926804125
+    },
+    {
+      "epoch": 17,
+      "train_percent": [
+        0.9605581760406494
+      ],
+      "val_percent": [
+        1.2205981016159058
+      ],
+      "seconds": 2.6732699521817267
+    },
+    {
+      "epoch": 18,
+      "train_percent": [
+        0.9560242295265198
+      ],
+      "val_percent": [
+        1.2065138816833496
+      ],
+      "seconds": 2.6785331116989255
+    },
+    {
+      "epoch": 19,
+      "train_percent": [
+        0.9536495208740234
+      ],
+      "val_percent": [
+        1.2106178998947144
+      ],
+      "seconds": 2.7032342199236155
+    },
+    {
+      "epoch": 20,
+      "train_percent": [
+        0.9494026899337769
+      ],
+      "val_percent": [
+        1.207815170288086
+      ],
+      "seconds": 2.6683533121831715
+    }
+  ],
+  "parameters": 1912,
+  "seconds": 89.34311119094491,
+  "best": 1.2065138816833496,
+  "task": "actual",
+  "prefix_cycles": [
+    0
+  ],
+  "mesh_plan_ms_once": 5266.748822759837,
+  "graph_context_ms_once": 634.7942198626697,
+  "training": "Frozen FNO; mean final field loss at explicitly recorded fixed prefix cycles; generic probes use training/validation truth offline, inference never uses truth."
+}

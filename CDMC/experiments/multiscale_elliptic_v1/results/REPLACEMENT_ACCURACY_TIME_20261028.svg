@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470"><rect width="1200" height="470" fill="white"/><g font-family="Arial, sans-serif" fill="#17212b">
+<text x="36" y="31" font-size="20" font-weight="bold">Held-out accuracy vs. online latency: 32 samples, 257 x 257 P1 Darcy</text><text x="36" y="53" font-size="12">Same frozen FNO; fresh material setup included. Mesh-only cold setup excluded. Y axes: log scale, relative error (%).</text>
+<text x="226.5" y="83" text-anchor="middle" font-size="16" font-weight="bold">Field error</text>
+<path d="M64 369H389" stroke="#e0e5e9"/><text x="57" y="373" text-anchor="end" font-size="11">0.001</text>
+<path d="M64 315H389" stroke="#e0e5e9"/><text x="57" y="319" text-anchor="end" font-size="11">0.01</text>
+<path d="M64 261H389" stroke="#e0e5e9"/><text x="57" y="265" text-anchor="end" font-size="11">0.1</text>
+<path d="M64 207H389" stroke="#e0e5e9"/><text x="57" y="211" text-anchor="end" font-size="11">1</text>
+<path d="M64 153H389" stroke="#e0e5e9"/><text x="57" y="157" text-anchor="end" font-size="11">10</text>
+<path d="M64 99H389" stroke="#e0e5e9"/><text x="57" y="103" text-anchor="end" font-size="11">100</text>
+<path d="M64 99V369" stroke="#edf0f3"/><text x="64" y="388" text-anchor="middle" font-size="11">0</text>
+<path d="M145.25 99V369" stroke="#edf0f3"/><text x="145.25" y="388" text-anchor="middle" font-size="11">15</text>
+<path d="M226.5 99V369" stroke="#edf0f3"/><text x="226.5" y="388" text-anchor="middle" font-size="11">30</text>
+<path d="M307.75 99V369" stroke="#edf0f3"/><text x="307.75" y="388" text-anchor="middle" font-size="11">45</text>
+<path d="M389 99V369" stroke="#edf0f3"/><text x="389" y="388" text-anchor="middle" font-size="11">60</text>
+<path d="M64 99V369H389" fill="none" stroke="#778390"/><text x="226.5" y="410" text-anchor="middle" font-size="12">Online latency (ms)</text>
+<polyline points="72.34925296051854,191.0857036688491 218.80345087780734,234.71101986988847 347.4805778002192,296.71287740114013" fill="none" stroke="#2463a6" stroke-width="2.2"/>
+<circle cx="72.34925296051854" cy="191.0857036688491" r="4" fill="#2463a6"/>
+<circle cx="218.80345087780734" cy="234.71101986988847" r="4" fill="#2463a6"/>
+<text x="224.80345087780734" y="227.71101986988847" fill="#2463a6" font-size="10">K2</text>
+<circle cx="347.4805778002192" cy="296.71287740114013" r="4" fill="#2463a6"/>
+<text x="353.4805778002192" y="289.71287740114013" fill="#2463a6" font-size="10">K4</text>
+<polyline points="72.34925296051854,191.0857036688491 131.46628261680598,247.9277242350077 157.6612765872269,278.1278704968795 203.5538172922291,321.7095338221352" fill="none" stroke="#c83737" stroke-width="2.2"/>
+<circle cx="72.34925296051854" cy="191.0857036688491" r="4" fill="#c83737"/>
+<circle cx="131.46628261680598" cy="247.9277242350077" r="4" fill="#c83737"/>
+<text x="137.46628261680598" y="240.9277242350077" fill="#c83737" font-size="10">K1</text>
+<circle cx="157.6612765872269" cy="278.1278704968795" r="4" fill="#c83737"/>
+<text x="163.6612765872269" y="271.1278704968795" fill="#c83737" font-size="10">K2</text>
+<circle cx="203.5538172922291" cy="321.7095338221352" r="4" fill="#c83737"/>
+<text x="209.5538172922291" y="314.7095338221352" fill="#c83737" font-size="10">K4</text>
+<polyline points="72.34925296051854,191.0857036688491 139.08244611623618,252.8500772351946 190.67564909255208,306.15312979881116" fill="none" stroke="#19805a" stroke-width="2.2"/>
+<circle cx="72.34925296051854" cy="191.0857036688491" r="4" fill="#19805a"/>
+<circle cx="139.08244611623618" cy="252.8500772351946" r="4" fill="#19805a"/>
+<circle cx="190.67564909255208" cy="306.15312979881116" r="4" fill="#19805a"/>
+<text x="621.5" y="83" text-anchor="middle" font-size="16" font-weight="bold">Gradient error</text>
+<path d="M459 369H784" stroke="#e0e5e9"/><text x="452" y="373" text-anchor="end" font-size="11">0.001</text>
+<path d="M459 315H784" stroke="#e0e5e9"/><text x="452" y="319" text-anchor="end" font-size="11">0.01</text>
+<path d="M459 261H784" stroke="#e0e5e9"/><text x="452" y="265" text-anchor="end" font-size="11">0.1</text>
+<path d="M459 207H784" stroke="#e0e5e9"/><text x="452" y="211" text-anchor="end" font-size="11">1</text>
+<path d="M459 153H784" stroke="#e0e5e9"/><text x="452" y="157" text-anchor="end" font-size="11">10</text>
+<path d="M459 99H784" stroke="#e0e5e9"/><text x="452" y="103" text-anchor="end" font-size="11">100</text>
+<path d="M459 99V369" stroke="#edf0f3"/><text x="459" y="388" text-anchor="middle" font-size="11">0</text>
+<path d="M540.25 99V369" stroke="#edf0f3"/><text x="540.25" y="388" text-anchor="middle" font-size="11">15</text>
+<path d="M621.5 99V369" stroke="#edf0f3"/><text x="621.5" y="388" text-anchor="middle" font-size="11">30</text>
+<path d="M702.75 99V369" stroke="#edf0f3"/><text x="702.75" y="388" text-anchor="middle" font-size="11">45</text>
+<path d="M784 99V369" stroke="#edf0f3"/><text x="784" y="388" text-anchor="middle" font-size="11">60</text>
+<path d="M459 99V369H784" fill="none" stroke="#778390"/><text x="621.5" y="410" text-anchor="middle" font-size="12">Online latency (ms)</text>
+<polyline points="467.3492529605185,118.08063507836812 613.8034508778073,223.2785306305722 742.4805778002192,288.21961728521995" fill="none" stroke="#2463a6" stroke-width="2.2"/>
+<circle cx="467.3492529605185" cy="118.08063507836812" r="4" fill="#2463a6"/>
+<circle cx="613.8034508778073" cy="223.2785306305722" r="4" fill="#2463a6"/>
+<circle cx="742.4805778002192" cy="288.21961728521995" r="4" fill="#2463a6"/>
+<polyline points="467.3492529605185,118.08063507836812 526.466282616806,217.72285597173214 552.6612765872269,252.6249227394664 598.553817292229,296.8154504957862" fill="none" stroke="#c83737" stroke-width="2.2"/>
+<circle cx="467.3492529605185" cy="118.08063507836812" r="4" fill="#c83737"/>
+<circle cx="526.466282616806" cy="217.72285597173214" r="4" fill="#c83737"/>
+<circle cx="552.6612765872269" cy="252.6249227394664" r="4" fill="#c83737"/>
+<circle cx="598.553817292229" cy="296.8154504957862" r="4" fill="#c83737"/>
+<polyline points="467.3492529605185,118.08063507836812 534.0824461162362,238.54549290969717 585.6756490925521,291.93834466454257" fill="none" stroke="#19805a" stroke-width="2.2"/>
+<circle cx="467.3492529605185" cy="118.08063507836812" r="4" fill="#19805a"/>
+<circle cx="534.0824461162362" cy="238.54549290969717" r="4" fill="#19805a"/>
+<circle cx="585.6756490925521" cy="291.93834466454257" r="4" fill="#19805a"/>
+<text x="1016.5" y="83" text-anchor="middle" font-size="16" font-weight="bold">Flux error</text>
+<path d="M854 369H1179" stroke="#e0e5e9"/><text x="847" y="373" text-anchor="end" font-size="11">0.001</text>
+<path d="M854 315H1179" stroke="#e0e5e9"/><text x="847" y="319" text-anchor="end" font-size="11">0.01</text>
+<path d="M854 261H1179" stroke="#e0e5e9"/><text x="847" y="265" text-anchor="end" font-size="11">0.1</text>
+<path d="M854 207H1179" stroke="#e0e5e9"/><text x="847" y="211" text-anchor="end" font-size="11">1</text>
+<path d="M854 153H1179" stroke="#e0e5e9"/><text x="847" y="157" text-anchor="end" font-size="11">10</text>
+<path d="M854 99H1179" stroke="#e0e5e9"/><text x="847" y="103" text-anchor="end" font-size="11">100</text>
+<path d="M854 99V369" stroke="#edf0f3"/><text x="854" y="388" text-anchor="middle" font-size="11">0</text>
+<path d="M935.25 99V369" stroke="#edf0f3"/><text x="935.25" y="388" text-anchor="middle" font-size="11">15</text>
+<path d="M1016.5 99V369" stroke="#edf0f3"/><text x="1016.5" y="388" text-anchor="middle" font-size="11">30</text>
+<path d="M1097.75 99V369" stroke="#edf0f3"/><text x="1097.75" y="388" text-anchor="middle" font-size="11">45</text>
+<path d="M1179 99V369" stroke="#edf0f3"/><text x="1179" y="388" text-anchor="middle" font-size="11">60</text>
+<path d="M854 99V369H1179" fill="none" stroke="#778390"/><text x="1016.5" y="410" text-anchor="middle" font-size="12">Online latency (ms)</text>
+<polyline points="862.3492529605186,105.28092525429514 1008.8034508778073,223.47483043742847 1137.4805778002192,288.23440658207403" fill="none" stroke="#2463a6" stroke-width="2.2"/>
+<circle cx="862.3492529605186" cy="105.28092525429514" r="4" fill="#2463a6"/>
+<circle cx="1008.8034508778073" cy="223.47483043742847" r="4" fill="#2463a6"/>
+<circle cx="1137.4805778002192" cy="288.23440658207403" r="4" fill="#2463a6"/>
+<polyline points="862.3492529605186,105.28092525429514 921.466282616806,214.79310510371428 947.6612765872269,253.08695666744154 993.553817292229,298.495297508462" fill="none" stroke="#c83737" stroke-width="2.2"/>
+<circle cx="862.3492529605186" cy="105.28092525429514" r="4" fill="#c83737"/>
+<circle cx="921.466282616806" cy="214.79310510371428" r="4" fill="#c83737"/>
+<circle cx="947.6612765872269" cy="253.08695666744154" r="4" fill="#c83737"/>
+<circle cx="993.553817292229" cy="298.495297508462" r="4" fill="#c83737"/>
+<polyline points="862.3492529605186,105.28092525429514 929.0824461162362,246.7225209754309 980.6756490925521,300.51309510737883" fill="none" stroke="#19805a" stroke-width="2.2"/>
+<circle cx="862.3492529605186" cy="105.28092525429514" r="4" fill="#19805a"/>
+<circle cx="929.0824461162362" cy="246.7225209754309" r="4" fill="#19805a"/>
+<circle cx="980.6756490925521" cy="300.51309510737883" r="4" fill="#19805a"/>
+<path d="M80 445h26" stroke="#2463a6" stroke-width="3"/><text x="114" y="449" font-size="13">Optimized MG</text>
+<path d="M435 445h26" stroke="#c83737" stroke-width="3"/><text x="469" y="449" font-size="13">Learned regional response</text>
+<path d="M790 445h26" stroke="#19805a" stroke-width="3"/><text x="824" y="449" font-size="13">Fixed sine regional response</text>
+</g></svg>
+

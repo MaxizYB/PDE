@@ -1,0 +1,189 @@
+{
+  "status": "pilot; newly generated data, not an official-paper comparison",
+  "dataset": {
+    "version": 1,
+    "equation": "-div(a grad u)=1",
+    "discretization": "P1 FEM",
+    "boundary_type": "Dirichlet",
+    "kind": "irregular",
+    "nodes": 268,
+    "triangles": 469,
+    "boundary_nodes": 65,
+    "splits": {
+      "train": 8,
+      "val": 2,
+      "test": 2
+    },
+    "seed": 20260927,
+    "coefficient_sampling": {
+      "parent_grid": 129,
+      "tau": 9.0,
+      "covariance": "proportional to (-Delta_N+tau I)^-2",
+      "threshold": 0.0,
+      "a_low": 3.0,
+      "a_high": 12.0
+    },
+    "boundary": "smooth",
+    "resolution": 85,
+    "max_area": 0.003,
+    "notch_width": 0.16,
+    "notch_depth": 0.68,
+    "refine_factor": 1,
+    "max_relative_discrete_residual": 4.174165001322364e-14,
+    "primary_target": "solution; exactly matches saved mesh and P1-FEM operator",
+    "secondary_target": "fine_reference_on_mesh, only when refine-factor > 1"
+  },
+  "proposal": "Geo-FNO geometry Fourier transform + latent FFT",
+  "corrector": "same Galerkin V-cycle for fixed MG and learned CDMC setup",
+  "device": "cuda",
+  "evaluated_samples": 2,
+  "summary": {
+    "NO": {
+      "field_error_percent": {
+        "mean": 13.808489590883255,
+        "p95": 19.81854148209095,
+        "median": 13.808489590883255
+      },
+      "apply_ms_sample": {
+        "mean": 2.545008435845375,
+        "p95": 2.5521862786263227,
+        "median": 2.545008435845375
+      },
+      "end_to_end_ms_sample": {
+        "mean": 2.545008435845375,
+        "p95": 2.5521862786263227,
+        "median": 2.545008435845375
+      }
+    },
+    "MG_zero_K1": {
+      "field_error_percent": {
+        "mean": 1.0357374791055918,
+        "p95": 1.0711539955809712,
+        "median": 1.0357374791055918
+      },
+      "apply_ms_sample": {
+        "mean": 3.124908311292529,
+        "p95": 3.479354898445308,
+        "median": 3.124908311292529
+      },
+      "end_to_end_ms_sample": {
+        "mean": 14.627415919676423,
+        "p95": 15.834741690196097,
+        "median": 14.627415919676423
+      }
+    },
+    "MG_zero_K2": {
+      "field_error_percent": {
+        "mean": 0.013737763947574422,
+        "p95": 0.014873113032081164,
+        "median": 0.013737763947574422
+      },
+      "apply_ms_sample": {
+        "mean": 5.328083410859108,
+        "p95": 5.955867003649473,
+        "median": 5.328083410859108
+      },
+      "end_to_end_ms_sample": {
+        "mean": 16.830591019243002,
+        "p95": 18.311253795400262,
+        "median": 16.830591019243002
+      }
+    },
+    "MG_NO_K1": {
+      "field_error_percent": {
+        "mean": 0.12051710218656808,
+        "p95": 0.17185609933221713,
+        "median": 0.12051710218656808
+      },
+      "apply_ms_sample": {
+        "mean": 3.0703621450811625,
+        "p95": 3.429448534734547,
+        "median": 3.0703621450811625
+      },
+      "end_to_end_ms_sample": {
+        "mean": 17.11787818931043,
+        "p95": 18.33702160511166,
+        "median": 17.11787818931043
+      }
+    },
+    "MG_NO_K2": {
+      "field_error_percent": {
+        "mean": 0.0039042009120748844,
+        "p95": 0.005790874411104596,
+        "median": 0.0039042009120748844
+      },
+      "apply_ms_sample": {
+        "mean": 5.3005877416580915,
+        "p95": 5.913678905926645,
+        "median": 5.3005877416580915
+      },
+      "end_to_end_ms_sample": {
+        "mean": 19.34810378588736,
+        "p95": 20.821251976303756,
+        "median": 19.34810378588736
+      }
+    },
+    "CDMC_NO_K1": {
+      "field_error_percent": {
+        "mean": 0.09987888333853334,
+        "p95": 0.14205258892616257,
+        "median": 0.09987888333853334
+      },
+      "apply_ms_sample": {
+        "mean": 3.7663946859538555,
+        "p95": 4.124819114804268,
+        "median": 3.7663946859538555
+      },
+      "end_to_end_ms_sample": {
+        "mean": 17.813910730183125,
+        "p95": 19.03239218518138,
+        "median": 17.813910730183125
+      }
+    },
+    "CDMC_NO_K2": {
+      "field_error_percent": {
+        "mean": 0.004429743057698943,
+        "p95": 0.006448822059610393,
+        "median": 0.004429743057698943
+      },
+      "apply_ms_sample": {
+        "mean": 6.013370584696531,
+        "p95": 6.626285519450903,
+        "median": 6.013370584696531
+      },
+      "end_to_end_ms_sample": {
+        "mean": 20.0608866289258,
+        "p95": 21.533858589828014,
+        "median": 20.0608866289258
+      }
+    },
+    "assembly_hierarchy_ms_sample": {
+      "mean": 11.502507608383894,
+      "p95": 12.355386791750789,
+      "median": 11.502507608383894
+    }
+  },
+  "per_sample": [
+    {
+      "sample_index": 10,
+      "NO_error_percent": 20.48632502555847,
+      "MG_zero_K1_error_percent": 1.0750891640782356,
+      "MG_zero_K2_error_percent": 0.014999262930359691,
+      "MG_NO_K1_error_percent": 0.17756043234840035,
+      "MG_NO_K2_error_percent": 0.006000504799885675,
+      "CDMC_NO_K1_error_percent": 0.14673855621367693,
+      "CDMC_NO_K2_error_percent": 0.006673164170933887
+    },
+    {
+      "sample_index": 11,
+      "NO_error_percent": 7.130654156208038,
+      "MG_zero_K1_error_percent": 0.9963857941329479,
+      "MG_zero_K2_error_percent": 0.012476264964789152,
+      "MG_NO_K1_error_percent": 0.06347377202473581,
+      "MG_NO_K2_error_percent": 0.0018078970242640935,
+      "CDMC_NO_K1_error_percent": 0.053019210463389754,
+      "CDMC_NO_K2_error_percent": 0.002186321944463998
+    }
+  ],
+  "timing_note": "NO and apply separately timed on GPU; assembly/hierarchy is shared and measured separately. End-to-end equals assembly + relevant NO + apply."
+}
